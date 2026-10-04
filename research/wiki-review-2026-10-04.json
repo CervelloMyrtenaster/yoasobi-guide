@@ -1,0 +1,745 @@
+{
+  "asOf": "2026-10-04",
+  "candidateSources": [
+    "wiki-ja",
+    "wiki-en-discography",
+    "wiki-en-live",
+    "wiki-zh"
+  ],
+  "sources": [
+    {
+      "id": "ototoy-encore",
+      "title": "アンコール 獨立配信商品：2021-07-02",
+      "url": "https://ototoy.jp/_/default/p/812801",
+      "publisher": "OTOTOY 商品目錄",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "ototoy-firsttake",
+      "title": "夜に駆ける - From THE FIRST TAKE 商品原始發行日",
+      "url": "https://ototoy.jp/_/default/p/1822049",
+      "publisher": "OTOTOY 商品目錄",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "hitc-2023-report",
+      "title": "Head In The Clouds LA 2023：8月6日演出報告",
+      "url": "https://lp.p.pia.jp/article/news/284424/index.html",
+      "publisher": "音樂 Natalie／ぴあ音楽",
+      "language": "ja",
+      "kind": "secondary"
+    },
+    {
+      "id": "rijf-history",
+      "title": "ROCK IN JAPAN 官方歷屆日期、場館及出演名單",
+      "url": "https://rijfes.jp/2025/history/",
+      "publisher": "ROCK IN JAPAN FESTIVAL",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "rijf-2021-cancel",
+      "title": "ROCK IN JAPAN 2021 取消公告",
+      "url": "https://rijfes.jp/2021/info/",
+      "publisher": "ROCK IN JAPAN FESTIVAL",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "rijf-2021-lineup",
+      "title": "ROCK IN JAPAN 2021 日割：YOASOBI 原排定8月8日",
+      "url": "https://www.billboard-japan.com/d_news/detail/101436/2",
+      "publisher": "Billboard JAPAN",
+      "language": "ja",
+      "kind": "secondary"
+    },
+    {
+      "id": "shrine-venue",
+      "title": "Shrine Auditorium & Expo Hall 官方場館名稱與地址",
+      "url": "https://www.shrineauditorium.com/the-venue/",
+      "publisher": "Shrine / Goldenvoice",
+      "language": "en",
+      "kind": "primary"
+    },
+    {
+      "id": "tianjin-official-announcement",
+      "title": "YOASOBI 天津出演當日公告（2024-05-02）",
+      "url": "https://x.com/YOASOBI_staff/status/1785976334797426830",
+      "publisher": "YOASOBI official X",
+      "language": "ja",
+      "kind": "primary",
+      "auditUrl": "https://publish.twitter.com/oembed?url=https%3A%2F%2Ftwitter.com%2FYOASOBI_staff%2Fstatus%2F1785976334797426830",
+      "retrieval": "已讀取 X 官方 oEmbed 回應正文與日期；本機保存 raw/tweet-1785976334797426830.json"
+    },
+    {
+      "id": "tianjin-official-report",
+      "title": "YOASOBI 天津演出後致謝（2024-05-02）",
+      "url": "https://x.com/YOASOBI_staff/status/1786033379923910928",
+      "publisher": "YOASOBI official X",
+      "language": "ja/zh",
+      "kind": "primary",
+      "auditUrl": "https://publish.twitter.com/oembed?url=https%3A%2F%2Ftwitter.com%2FYOASOBI_staff%2Fstatus%2F1786033379923910928",
+      "retrieval": "已讀取 X 官方 oEmbed 回應正文與日期；本機保存 raw/tweet-1786033379923910928.json"
+    },
+    {
+      "id": "tianjin-ticket-lineup",
+      "title": "天津泡泡島2024日割與場地",
+      "url": "https://www.dahepiao.com/news1/yanchu/20240328454425.html",
+      "publisher": "大河票務網",
+      "language": "zh-Hans",
+      "kind": "secondary"
+    },
+    {
+      "id": "hangzhou-newspaper",
+      "title": "余杭時報2024-03-20第4版：閃千手日割與場館",
+      "url": "https://yhcb.eyh.cn/resfile/2024-03-20/04/yhcb-20240320-004.pdf",
+      "publisher": "余杭時報",
+      "language": "zh-Hans",
+      "kind": "secondary",
+      "retrieval": "已讀取原報 PDF 第4版正文與日割；本機保存 raw/hangzhou-20240320.pdf 及文字擷取"
+    },
+    {
+      "id": "bangkok-ticket",
+      "title": "SUMMER SONIC BANGKOK 2024 官方售票資訊",
+      "url": "https://www.thaiticketmajor.com/concert/summer-sonic-bangkok-2024.html?direct=true",
+      "publisher": "ThaiTicketMajor",
+      "language": "th/en",
+      "kind": "primary"
+    },
+    {
+      "id": "bangkok-day",
+      "title": "2024-08-25 Summer Sonic Bangkok 出演名單",
+      "url": "https://www.pollstar.com/events/-8687181",
+      "publisher": "Pollstar",
+      "language": "en",
+      "kind": "secondary"
+    },
+    {
+      "id": "bangkok-report",
+      "title": "Summer Sonic Bangkok 2024 現場報告與場地",
+      "url": "https://realsound.jp/2024/09/post-1773512.html",
+      "publisher": "Real Sound",
+      "language": "ja",
+      "kind": "secondary"
+    },
+    {
+      "id": "bangkok-report-2",
+      "title": "Summer Sonic Bangkok 2024 現場報告：YOASOBI 出演",
+      "url": "https://realsound.jp/2024/09/post-1773512_2.html",
+      "publisher": "Real Sound",
+      "language": "ja",
+      "kind": "secondary"
+    },
+    {
+      "id": "mma-unext",
+      "title": "MMA2024 轉播方公告日期、INSPIRE ARENA 及 YOASOBI 出演",
+      "url": "https://prtimes.jp/main/html/rd/p/000002088.000031998.html",
+      "publisher": "U-NEXT",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "matsuri-wowow",
+      "title": "matsuri '25 洛杉磯演出與收錄日期、場館",
+      "url": "https://prtimes.jp/main/html/rd/p/000008183.000001355.html",
+      "publisher": "WOWOW",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "maj-2025-announcement",
+      "title": "MUSIC AWARDS JAPAN 2025 Grand Ceremony 日程、出演與場館",
+      "url": "https://www.ceipa.net/newsletter/pdf/340/detail/19",
+      "publisher": "CEIPA / MUSIC AWARDS JAPAN",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "maj-2025-report",
+      "title": "MUSIC AWARDS JAPAN 官方當日演出影像公告",
+      "url": "https://www.ceipa.net/newsletter/pdf/340/detail/30",
+      "publisher": "CEIPA / MUSIC AWARDS JAPAN",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "europe-wowow",
+      "title": "YOASOBI 歐洲演出：Primavera 6月6日及 Wembley 6月8、9日",
+      "url": "https://prtimes.jp/main/html/rd/p/000008273.000001355.html",
+      "publisher": "WOWOW",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "primavera-los40",
+      "title": "Primavera Sound 2025 6月6日日割與 Parc del Forum 場地",
+      "url": "https://los40.com/2025/06/06/primavera-sound-2025-a-que-hora-actuan-sabrina-carpenter-y-carolina-durante-hoy-viernes-6-de-junio/",
+      "publisher": "LOS40",
+      "language": "es",
+      "kind": "secondary"
+    },
+    {
+      "id": "milan-idol",
+      "title": "Milan Records：Idol 國際黑膠版官方預購公告",
+      "url": "https://milanrecords.com/pre-order-now-yoasobi-idol-opening-theme-song-for-tv-anime-oshi-no-ko-on-vinyl/",
+      "publisher": "Milan Records / Sony Music Masterworks",
+      "language": "en",
+      "kind": "primary"
+    },
+    {
+      "id": "milan-idol-date",
+      "title": "Milan Idol 黑膠發行公告：2024年11月15日",
+      "url": "https://www.anitrendz.com/news/2024/09/06/oshi-no-ko-opening-idol-by-yoasobi-gets-vinyl-release-treatment",
+      "publisher": "Anime Trending",
+      "language": "en",
+      "kind": "secondary"
+    },
+    {
+      "id": "milan-idol-catalog",
+      "title": "Idol 國際版黑膠海外購買商品發行日",
+      "url": "https://www.yes24.com/product/goods/133251255",
+      "publisher": "YES24 海外購買商品目錄",
+      "language": "ko",
+      "kind": "secondary"
+    },
+    {
+      "id": "bsr-book",
+      "title": "THE BOOK 國際黑膠商品（未明載首版發行日）",
+      "url": "https://blackscreenrecords.com/products/the-book",
+      "publisher": "Black Screen Records",
+      "language": "en",
+      "kind": "primary"
+    },
+    {
+      "id": "rijf-2021-home",
+      "title": "ROCK IN JAPAN 2021 原排定日期與場館地址",
+      "url": "https://rijfes.jp/2021/",
+      "publisher": "ROCK IN JAPAN FESTIVAL",
+      "language": "ja",
+      "kind": "primary"
+    },
+    {
+      "id": "oricon-tokyo-dome-2024-setlist",
+      "title": "ORICON NEWS：超現實東京巨蛋公演與 11 月 10 日歌單",
+      "url": "https://www.oricon.co.jp/news/2353583/full/",
+      "kind": "media",
+      "language": "ja",
+      "accessedAt": "2026-10-04",
+      "publisher": "ORICON NEWS"
+    }
+  ],
+  "patches": [
+    {
+      "id": "history-0247",
+      "category": "correction",
+      "expect": {
+        "type": "one_man_concert"
+      },
+      "set": {
+        "type": "festival",
+        "verificationScope": "官方演出索引核對8月28日；官方影像公告確認曾出演 SWEET LOVE SHOWER 2022。"
+      },
+      "reason": "音樂祭誤分類為單獨演出。"
+    },
+    {
+      "id": "history-0230",
+      "category": "correction",
+      "expect": {
+        "type": "one_man_concert"
+      },
+      "set": {
+        "type": "festival",
+        "title": "ROCK IN JAPAN FESTIVAL 2023",
+        "status": "performed",
+        "description": "主辦方歷屆出演名單記載8月13日 LOTUS STAGE 的 YOASOBI 演出。",
+        "verificationScope": "官方歷屆出演紀錄與藝人排定日程交叉核對。"
+      },
+      "addSources": [
+        "rijf-history"
+      ],
+      "reason": "音樂祭誤分類為單獨演出；補主辦事後紀錄。"
+    },
+    {
+      "id": "history-0249",
+      "category": "correction",
+      "expect": {
+        "title": "RISING SUN ROCK FESTIVEL 2022 in EZO"
+      },
+      "set": {
+        "title": "RISING SUN ROCK FESTIVAL 2022 in EZO",
+        "sourceTitleRaw": "RISING SUN ROCK FESTIVEL 2022 in EZO",
+        "description": "官方 live 索引活動名稱的 FESTIVEL 依官方影像公告校正為 FESTIVAL。",
+        "verificationScope": "日期由官方日程確認；活動名稱及曾出演由官方影像公告確認。"
+      },
+      "reason": "修正官方索引活動名稱錯字，保留原字串。"
+    },
+    {
+      "id": "history-0124",
+      "category": "correction",
+      "expect": {
+        "type": "tour_show"
+      },
+      "set": {
+        "type": "festival",
+        "title": "OSHEAGA 2026",
+        "location": "Montréal, Canada",
+        "venue": "Parc Jean-Drapeau",
+        "description": "北美巡演行程中的 OSHEAGA 音樂祭出演；巡演群組保留關聯，不計作單獨演唱會。"
+      },
+      "reason": "Live Nation 明示此日為 Festival Date。"
+    },
+    {
+      "id": "history-0125",
+      "category": "correction",
+      "expect": {
+        "type": "tour_show"
+      },
+      "set": {
+        "type": "festival",
+        "title": "Lollapalooza 2026",
+        "location": "Chicago, USA",
+        "venue": "Grant Park",
+        "description": "北美巡演行程中的 Lollapalooza 音樂祭出演；巡演群組保留關聯，不計作單獨演唱會。"
+      },
+      "reason": "Live Nation 明示此日為 Festival Date。"
+    },
+    {
+      "id": "history-0275",
+      "category": "correction",
+      "expect": {
+        "type": "tour"
+      },
+      "set": {
+        "description": "官方行程共8筆，含6場單獨公演與2場音樂祭出演；本筆僅為巡演群組，不重複計算場次。"
+      },
+      "reason": "區分音樂祭與巡演單獨公演。"
+    },
+    {
+      "id": "history-0200",
+      "category": "correction",
+      "expect": {
+        "venue": "SHRINE EXPE HALL"
+      },
+      "set": {
+        "location": "Los Angeles",
+        "venue": "Shrine Expo Hall",
+        "sourceVenueRaw": "SHRINE EXPE HALL",
+        "description": "藝人與發行商公告原排定4月18日洛杉磯公演；場館名稱 EXPE 依場館官網校正為 Expo。",
+        "conflictIds": [
+          "C19"
+        ],
+        "verificationScope": "日期與城市採發行商公告；場館名稱採場館官方名稱；仍僅確認排定資料。"
+      },
+      "addSources": [
+        "orchard-947",
+        "shrine-venue"
+      ],
+      "reason": "修正來源場館拼字錯誤並補城市。"
+    },
+    {
+      "id": "history-0201",
+      "category": "correction",
+      "expect": {
+        "location": null
+      },
+      "set": {
+        "location": "San Francisco",
+        "verificationScope": "日期、城市與場館由藝人日程及發行商公告交叉核對；未逐場核對事後演出。"
+      },
+      "addSources": [
+        "orchard-947"
+      ],
+      "reason": "補已明載的城市。"
+    },
+    {
+      "id": "history-0176",
+      "category": "correction",
+      "expect": {
+        "status": "listed_past"
+      },
+      "set": {
+        "location": "London, UK",
+        "venue": "OVO Arena Wembley",
+        "status": "performed",
+        "description": "WOWOW 明載2025年6月8、9日倫敦公演的收錄日期與場館。",
+        "verificationScope": "轉播方事後收錄資料確認日期、倫敦及 OVO Arena Wembley。"
+      },
+      "addSources": [
+        "europe-wowow"
+      ],
+      "reason": "補事後演出與完整場館名稱。"
+    },
+    {
+      "id": "history-0177",
+      "category": "correction",
+      "expect": {
+        "status": "listed_past"
+      },
+      "set": {
+        "location": "London, UK",
+        "venue": "OVO Arena Wembley",
+        "status": "performed",
+        "description": "WOWOW 明載2025年6月8、9日倫敦公演的收錄日期與場館。",
+        "verificationScope": "轉播方事後收錄資料確認日期、倫敦及 OVO Arena Wembley。"
+      },
+      "addSources": [
+        "europe-wowow"
+      ],
+      "reason": "補事後演出與完整場館名稱。"
+    },
+    {
+      "id": "history-0277",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "date": "2021-07-02",
+        "dateBasis": "product_release",
+        "status": "released",
+        "description": "THE BOOK 收錄曲於7月2日另行獨立單曲配信；首次EP收錄仍記為1月6日。",
+        "verificationScope": "OTOTOY 獨立商品明載發行日期及 single cut 說明。",
+        "sources": [
+          "ototoy-encore"
+        ]
+      },
+      "reason": "候選取得商品正文日期。"
+    },
+    {
+      "id": "history-0279",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "date": "2023-09-21",
+        "dateBasis": "product_release",
+        "status": "released",
+        "description": "THE HOME TAKE 公開的特別編曲錄音，以 From THE FIRST TAKE 名稱獨立配信；與2019原版及2020影片分開。",
+        "verificationScope": "OTOTOY 商品明載 Original release date 與此錄音版本說明。",
+        "sources": [
+          "ototoy-firsttake"
+        ]
+      },
+      "reason": "候選取得商品正文日期。"
+    },
+    {
+      "id": "history-0231",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "date": "2023-08-06",
+        "location": "Los Angeles（報導地區名稱）",
+        "venue": "Rose Bowl in Pasadena",
+        "status": "performed",
+        "dateBasis": "performance_report",
+        "description": "事後報導明載8月6日出演，為 YOASOBI 首次美國演出。官方索引僅列音樂祭全期，現以個別出演日建檔；場館保留官方原文，未細分園區舞台。",
+        "verificationScope": "Natalie 事後報告核對個別出演日期及洛杉磯報導地區；場館採 Sony live 索引原字串，未獨立核對行政位置與園區細節。",
+        "sources": [
+          "live-50712",
+          "hitc-2023-report"
+        ]
+      },
+      "reason": "音樂祭期間與個別出演日分開。"
+    },
+    {
+      "id": "history-0281",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "date": "2024-05-02",
+        "location": "天津",
+        "venue": null,
+        "status": "performed",
+        "dateBasis": "artist_same_day_report",
+        "description": "YOASOBI 官方當日公告與演出後致謝均為5月2日；百科存在5月1日候選，差異保留於 C16。場地尚未取得主辦原始佐證，保留空值。",
+        "verificationScope": "X 官方 oEmbed 回應確認藝人當日出演公告、演後致謝正文及日期；不以貼文摘要推論場館。",
+        "conflictIds": [
+          "C16"
+        ],
+        "sources": [
+          "tianjin-official-announcement",
+          "tianjin-official-report"
+        ]
+      },
+      "reason": "以藝人原始公告與事後正文解決百科日期差異。"
+    },
+    {
+      "id": "history-0282",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "title": "夢想未來・閃千手音樂節",
+        "date": "2024-05-04",
+        "location": "杭州",
+        "venue": "杭州未来科技城学术交流中心大草坪",
+        "status": "listed_past",
+        "dateBasis": "published_day_lineup",
+        "description": "余杭時報3月20日第4版明列 YOASOBI 於5月4日的日割與杭州場地；目前核對的是事前日程。",
+        "verificationScope": "已讀原報 PDF 正文日割與場館；尚未核對藝人或主辦事後演出報告。",
+        "sources": [
+          "hangzhou-newspaper"
+        ]
+      },
+      "reason": "取得地方報紙原版的日割與場館；不用活動全期猜單日。"
+    },
+    {
+      "id": "history-0283",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "title": "SUMMER SONIC BANGKOK 2024",
+        "date": "2024-08-25",
+        "location": "Bangkok 周邊（活動市場名稱）",
+        "venue": "IMPACT Challenger",
+        "status": "performed",
+        "dateBasis": "day_lineup_and_report",
+        "description": "Pollstar 8月25日出演名單含 YOASOBI；官方售票資料確認場地，Real Sound 現場報告確認曾出演。Bangkok 為活動市場名稱，未當作精確行政位置。",
+        "verificationScope": "個別日期由 Pollstar 日割確認；場地由官方售票頁與現場報告確認；事後出演由 Real Sound 次頁正文確認。",
+        "sources": [
+          "bangkok-ticket",
+          "bangkok-day",
+          "bangkok-report",
+          "bangkok-report-2"
+        ]
+      },
+      "reason": "補單日出演證據與事後報告。"
+    },
+    {
+      "id": "history-0284",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "title": "MMA2024（第16屆 Melon Music Awards）",
+        "type": "special_performance",
+        "date": "2024-11-30",
+        "location": null,
+        "venue": "INSPIRE ARENA",
+        "status": "listed_past",
+        "dateBasis": "official_broadcast_announcement",
+        "description": "轉播方 U-NEXT 明列11月30日、INSPIRE ARENA 及 YOASOBI 出演；本筆為頒獎典禮特別演出，尚僅核對排定資料。",
+        "verificationScope": "轉播單位正文確認日程、場館與出演名單；未由音樂祭候選推論實際完場或行政城市。",
+        "sources": [
+          "mma-unext"
+        ]
+      },
+      "reason": "補轉播官方日程並修正頒獎典禮分類。"
+    },
+    {
+      "id": "history-0285",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "title": "matsuri '25: Japanese Music Experience LOS ANGELES",
+        "type": "joint_concert",
+        "date": "2025-03-16",
+        "location": "Los Angeles",
+        "venue": "Peacock Theater",
+        "status": "performed",
+        "dateBasis": "official_recording_report",
+        "description": "Ado、新しい学校のリーダーズ、YOASOBI 三組聯合演出；WOWOW 明載當地3月16日與 Peacock Theater 收錄資料。",
+        "verificationScope": "轉播方事後正文及收錄欄確認當地演出日期、城市、場館及三組出演。",
+        "sources": [
+          "matsuri-wowow"
+        ]
+      },
+      "reason": "補官方事後紀錄與聯合演出分類。"
+    },
+    {
+      "id": "history-0286",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "title": "MUSIC AWARDS JAPAN 2025 Grand Ceremony",
+        "type": "special_performance",
+        "date": "2025-05-22",
+        "location": "京都",
+        "venue": "ロームシアター京都",
+        "status": "performed",
+        "dateBasis": "official_schedule_and_report",
+        "description": "主辦方確認5月22日 Grand Ceremony 的 YOASOBI 演出，並公開當日 PLAYERS 演出影像；屬頒獎典禮特別演出。",
+        "verificationScope": "CEIPA 事前正文核對日期及場館，事後官方影像公告核對 YOASOBI 當日演出。",
+        "sources": [
+          "maj-2025-announcement",
+          "maj-2025-report"
+        ]
+      },
+      "reason": "補主辦原始日程及事後紀錄。"
+    },
+    {
+      "id": "history-0287",
+      "category": "verification",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "verified": true,
+        "date": "2025-06-06",
+        "location": "Barcelona, Spain",
+        "venue": "Parc del Fòrum",
+        "status": "performed",
+        "dateBasis": "official_report_and_day_lineup",
+        "description": "WOWOW 事後公告明列6月6日 Primavera Sound Barcelona 出演；LOS40 当日日割與場地報導交叉核對。",
+        "verificationScope": "轉播方事後正文確認單日出演；場館與城市由 LOS40 當日報導核對。",
+        "sources": [
+          "europe-wowow",
+          "primavera-los40"
+        ]
+      },
+      "reason": "補出演日及事後演出證據。"
+    },
+    {
+      "id": "history-0280",
+      "category": "open_gap",
+      "expect": {
+        "verified": false
+      },
+      "set": {
+        "description": "海外商品頁可確認 THE BOOK 國際黑膠版存在，但未明載首版發行日期；百科7月26日與其他商品資料7月29日的差異仍未裁定，見 C17。",
+        "conflictIds": [
+          "C17"
+        ]
+      },
+      "addSources": [
+        "bsr-book"
+      ],
+      "reason": "保留日期矛盾，不把商品存在當成已驗證發行日。"
+    },
+    {
+      "id": "history-0195",
+      "expect": {
+        "date": "2024-11-10",
+        "venue": "東京ドーム",
+        "status": "listed_past"
+      },
+      "set": {
+        "status": "performed",
+        "description": "五週年巨蛋專場東京場；事後報導刊載 11 月 10 日全 25 首曲序，包含安可兩首。",
+        "verificationScope": "官方日程確認日期與場館，ORICON 事後報導確認本場完成及刊載歌單。",
+        "sources": [
+          "live-51958",
+          "oricon-tokyo-dome-2024-setlist"
+        ],
+        "setlistIds": [
+          "chogenjitsu-tokyo-2024-11-10"
+        ]
+      }
+    }
+  ],
+  "additions": [
+    {
+      "id": "history-0301",
+      "title": "アイドル：日本7inch黑膠版",
+      "type": "vinyl_release",
+      "date": "2023-07-26",
+      "description": "數量限定7inch黑膠 XSKL-2；與6月21日 CD 及4月數位配信分開。",
+      "sources": [
+        "news-553579"
+      ],
+      "status": "released",
+      "dateBasis": "product_release",
+      "verificationScope": "YOASOBI 官方商品公告明載7月26日、規格及品番。"
+    },
+    {
+      "id": "history-0302",
+      "title": "Biri-Biri：日本12inch黑膠版",
+      "type": "vinyl_release",
+      "date": "2024-03-13",
+      "description": "スカーレット盤 XSJL-1、バイオレット盤 XSJL-2 兩種12inch LP；與同日 CD 為不同商品格式。",
+      "sources": [
+        "news-560558"
+      ],
+      "status": "released",
+      "dateBasis": "product_release",
+      "verificationScope": "YOASOBI 官方商品公告分列 CD 與 LP，均明載3月13日。"
+    },
+    {
+      "id": "history-0303",
+      "title": "Idol：Milan Records 國際12inch黑膠版",
+      "type": "vinyl_release",
+      "date": "2024-11-15",
+      "description": "Milan 國際12inch商品，收錄 Idol 與 Tabun 多個版本；不同於2023日本7inch。國際公告及商品目錄採11月15日，另有韓國通路11月14日差異，見 C18。",
+      "sources": [
+        "milan-idol",
+        "milan-idol-date",
+        "milan-idol-catalog"
+      ],
+      "status": "released",
+      "dateBasis": "international_product_release",
+      "conflictIds": [
+        "C18"
+      ],
+      "verificationScope": "發行商正文確認版本；發行預告報導及海外購買商品目錄共同確認11月15日國際公告日期。另有進口通路11月14日差異，尚無發行商解釋。"
+    },
+    {
+      "id": "history-0304",
+      "title": "ROCK IN JAPAN FESTIVAL 2021（原排定出演，活動取消）",
+      "type": "festival",
+      "date": "2021-08-08",
+      "location": "茨城県ひたちなか市",
+      "venue": "国営ひたち海浜公園",
+      "description": "原排定8月8日壓軸出演，主辦於7月7日宣布全活動取消；不列為實際演出或首次有觀眾演出。",
+      "sources": [
+        "rijf-2021-lineup",
+        "rijf-2021-cancel",
+        "rijf-history",
+        "rijf-2021-home"
+      ],
+      "status": "cancelled",
+      "dateBasis": "cancelled_scheduled_date",
+      "verificationScope": "Billboard 日割明列 YOASOBI 8月8日，主辦公告與歷史頁確認取消；地點採當年官方首頁。"
+    },
+    {
+      "id": "history-0305",
+      "title": "YOASOBI LIVE IN THE USA 2024",
+      "type": "tour",
+      "date": "2024-04-18",
+      "endDate": "2024-08-08",
+      "location": "USA",
+      "description": "既有洛杉磯、舊金山、紐約及波士頓4筆公演的巡演群組；沒有增加新場次，亦不重複計算 Coachella。",
+      "sources": [
+        "orchard-947",
+        "orchard-1056",
+        "live-51960"
+      ],
+      "status": "documented",
+      "dateBasis": "documented_show_range",
+      "showIds": [
+        "history-0200",
+        "history-0201",
+        "history-0257",
+        "history-0258"
+      ],
+      "verificationScope": "發行商4月公告與8月事後報告確認四筆公演日期；群組不是額外演出。"
+    }
+  ],
+  "officialNewsSources": [
+    553579
+  ],
+  "notes": "資料修訂保持 history-0001 至 history-0300 的 ID；確認資料透過既有 Content Collections 匯入，不在 UI 寫入史實。"
+}

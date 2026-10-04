@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { loadContent } from '../../lib/content';
+import { path } from '../../lib/paths';
+import { loadHistory } from '../../lib/history';
+import { liveStats } from '../../lib/live-stats';
+import SourceList from '../../components/SourceList.astro';
+const { listeningPaths,songs,concerts }=await loadContent();
+const history=new Map((await loadHistory()).map(e=>[e.id,e]));
+const routes=[...listeningPaths].sort((a,b)=>Number(b.data.purpose==='concert')-Number(a.data.purpose==='concert')||a.data.songs.length-b.data.songs.length);
+const priorityCount=routes.find(p=>p.data.purpose==='concert')?.data.songs.length??0;
+const concertRoutes=routes.filter(p=>p.data.purpose==='concert');
+---
+<BaseLayout title="演唱會惡補：30／60／90 分鐘路線" description="先學會辨認五首，再依時間延伸十首與十五首。配合官方現場影片、完整歌單與樣本限制準備第一次 YOASOBI 演出。">
+<div class="page-head"><span class="eyebrow">BEFORE YOUR FIRST LIVE</span><h1>先會認出，<br/>再一起唱。</h1><p class="lead">時間有限，先熟悉 {priorityCount} 首的前奏與副歌；有餘裕再延伸。準備程度不必用背完多少歌詞衡量。</p><a class="button" href="#priority-list">直接看第一條優先路線 ↓</a></div>
+<article class="prose"><nav aria-label="選擇準備路線">{concertRoutes.map((p,i)=><a href={i===0?'#priority-list':`#${p.id}`}>{p.data.title} ↓</a>)}</nav><p>下面的時間包含聆聽與短閱讀，為可調整的編輯規劃。先聽錄音室版，再挑一支官方現場片段；不熟日文也可先哼副歌、辨認段落與換氣。本站沒有將特定曲目標成下一場必演。</p>
+{routes.map((p,i)=><section id={i===0?'priority-list':p.id}>
+<h2>{p.data.title}</h2><p>{p.data.summary}</p>{p.data.purpose==='concert'&&p.data.songs.length>priorityCount&&<p class="muted">此清單包含前面的路線。若前 {priorityCount} 首已熟悉，可從第 {priorityCount+1} 首接著聽。</p>}
+<ol class="listening-list">{p.data.songs.map(item=>{
+ const record=item.historyId?history.get(item.historyId):undefined;
+ const song=songs.find(s=>item.songId?s.id===item.songId:s.data.titleJa===record?.data.title&&s.data.releaseDate===record?.data.date);
+ const stats=song?liveStats(concerts.map(c=>c.data),song.id,{eventType:'solo',releasedOn:song.data.releaseDate}):undefined;
+ return <li><h3 lang="ja">{song?.data.titleJa??record!.data.title}</h3>{song&&<p class="romaji">{song.data.titleRomaji} · {song.data.titleZh.text}</p>}<p>{item.reason}</p>{stats&&stats.total>0&&<p class="muted">本站發行後專場樣本：{stats.appearances}／{stats.total} 場列有本曲；樣本有限，非必演保證。</p>}<a href={song?path(`songs/${song.id}/`):path(`history/${record!.id}/`)}>閱讀背景與官方影片 →</a>{song?.data.videos.some(v=>v.kind==='live')&&<a href={path(`songs/${song.id}/`)+'#live-videos'}>看官方演唱片段 →</a>}{item.listenUrl&&<a href={item.listenUrl} target="_blank" rel="noopener noreferrer">直接聽官方作品 ↗<span class="sr-only">（另開分頁）</span></a>}</li>;
+})}</ol>{p.data.sourcePerformanceId&&<p><a href={path(`history/${p.data.sourcePerformanceId}/`)}>閱讀演出查核紀錄 →</a></p>}{p.data.purpose==='concert'&&<details class="clip-details"><summary>這條路線參考的演出與官方來源</summary><SourceList sources={p.data.sources} updatedAt={p.data.updatedAt}/></details>}
+</section>)}
+<div class="callout"><h2>出發前，留下三個容易用上的記憶</h2><ol><li>聽見前奏時知道是哪首，不用等到最後一句才認出。</li><li>副歌跟不上字也能跟著旋律，換氣時留一點空間。</li><li>把一支現場片段與一份完整歌單放在一起看，認識整場的轉折。</li></ol><p>應援方式、錄影規則與入場資訊請依你參加場次的主辦方公告。過往片段的觀眾行為不等於所有場次都允許。</p><a href={path('live/videos/')}>挑一支官方現場片段 →</a><p><a href={path('live/stats/')}>查看專場與音樂祭樣本 →</a></p><a href={path('live/')}>查找巡演、音樂祭與海外活動 →</a></div>
+</article></BaseLayout>

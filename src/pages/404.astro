@@ -1,0 +1,5 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { path } from '../lib/paths';
+---
+<BaseLayout title="找不到頁面" noindex><div class="page-head"><span class="eyebrow">404</span><h1>這段故事，尚未找到。</h1><p class="lead">網址可能已變更，回到首頁繼續探索。</p><a class="button" href={path()}>回到首頁 →</a></div></BaseLayout>

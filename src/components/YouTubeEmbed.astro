@@ -1,0 +1,19 @@
+---
+interface Props { id: string; title: string; kind?: 'mv'|'audio'|'live'; externalOnly?: boolean; restrictionNote?: string; headingLevel?: 2 | 3 | 4 }
+const { id, title, kind = 'mv', externalOnly = false, restrictionNote, headingLevel=2 } = Astro.props;
+const Heading = `h${headingLevel}`;
+const label=kind==='audio'?'聆聽官方音源':kind==='live'?'觀看公開演出影片':'觀看官方 MV／合作影片';
+---
+<section class="video-section"><Heading>{label}</Heading>{externalOnly ? <><p class="muted">{restrictionNote}</p><a class="button" href={`https://www.youtube.com/watch?v=${id}`} target="_blank" rel="noopener noreferrer">前往 YouTube ↗<span class="sr-only">（另開分頁）</span></a></> : <><div class="video" data-video={id} data-title={title}><button type="button" class="video-button"><span aria-hidden="true">▶</span><strong>{title}</strong><small>點擊載入 YouTube 播放器</small></button></div><p class="muted">若播放器無法播放，可<a href={`https://www.youtube.com/watch?v=${id}`} target="_blank" rel="noopener noreferrer">在 YouTube 開啟 ↗<span class="sr-only">（另開分頁）</span></a>。</p></>}</section>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-video]').forEach(container => {
+    container.querySelector('button')?.addEventListener('click', () => {
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${container.dataset.video}`;
+      frame.title = container.dataset.title || 'YouTube MV';
+      frame.referrerPolicy = 'strict-origin-when-cross-origin';
+      frame.allow = 'accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+      frame.allowFullscreen = true; container.replaceChildren(frame); frame.focus();
+    }, { once: true });
+  });
+</script>

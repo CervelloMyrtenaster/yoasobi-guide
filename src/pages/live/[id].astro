@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SourceList from '../../components/SourceList.astro';
+import { loadContent } from '../../lib/content';
+import { path } from '../../lib/paths';
+export async function getStaticPaths(){const {concerts}=await loadContent();return concerts.map(concert=>({params:{id:concert.id},props:{concert}}));}
+const {concert}=Astro.props;
+const {songs}=await loadContent();const d=concert.data;
+const names={full:'完整演唱',excerpt:'節選',medley:'組曲',listed:'未區分演唱形式'};
+---
+<BaseLayout title={d.title} description={`${d.date} ${d.venue} 的已刊載歌單與歌曲介紹。`}>
+  <div class="page-head"><a class="eyebrow" href={path('live/')}>← LIVE 演出歷史</a><h1>{d.title}</h1><p class="lead"><time datetime={d.date}>{d.date}</time> · {d.city} · <span lang="ja">{d.venue}</span></p></div>
+  <article class="prose">
+    <p>依據來源刊載的曲序閱讀，每首可連至歌曲背景、官方影片與日語學習入口。</p>{d.notes.length>0 && <details class="clip-details" open><summary>曲序與資料說明</summary><ul>{d.notes.map(note=><li>{note}</li>)}</ul></details>}
+    <p class="callout">這份歌單屬於本場演出。來源未區分完整演唱、節選與組曲時，保留「未區分演唱形式」，不自行推定，也不作為未來演出的歌單預測。</p>
+    {(['main','encore'] as const).map(section=><section><h2>{section==='main'?'本篇':'安可'}</h2><ol class="release-tracklist" start={section==='main'?1:d.setlist.filter(t=>t.section==='main').length+1}>{d.setlist.filter(t=>t.section===section).map(t=>{const s=songs.find(s=>s.id===t.songId)!;return <li><a lang={s.data.language==='ja'?'ja':undefined} href={path(`songs/${s.id}/`)}>{s.data.titleJa}</a><p class="muted">{s.data.titleZh.text} · {names[t.performance]}{s.data.releaseDate>d.date && ' · 早於正式音源發行的演出'}</p></li>;})}</ol></section>)}
+    <p><a href={path('live/prepare/')}>回到不同時間的演唱會惡補路線 →</a></p>
+    <SourceList sources={d.sources} updatedAt={d.verifiedAt}/>
+  </article>
+</BaseLayout>

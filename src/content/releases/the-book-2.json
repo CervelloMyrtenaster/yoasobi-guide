@@ -1,0 +1,71 @@
+{
+  "id": "the-book-2",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "THE BOOK 2",
+  "kind": "ep",
+  "date": "2021-12-01",
+  "summary": "從兒童節目、小說投稿、廣告到動畫與舞台劇，這八首展現了多種故事與合作形式。",
+  "tracklistComplete": true,
+  "tracks": [
+    {
+      "songId": "tsubame",
+      "position": 1
+    },
+    {
+      "songId": "sangenshoku",
+      "position": 2
+    },
+    {
+      "songId": "taisho-roman",
+      "position": 3
+    },
+    {
+      "songId": "mou-sukoshi-dake",
+      "position": 4
+    },
+    {
+      "songId": "yasashii-suisei",
+      "position": 5
+    },
+    {
+      "songId": "kaibutsu",
+      "position": 6
+    },
+    {
+      "songId": "moshimo-inochi-ga-egaketara",
+      "position": 7
+    },
+    {
+      "songId": "love-letter",
+      "position": 8
+    }
+  ],
+  "sources": [
+    {
+      "title": "10月に迎える結成5周年を記念して、EP『THE BOOK』シリーズ3作品のアナログ盤を10/23(水)に発売決定！国内外で活躍するイラストレーター3名による描き下ろしイラストジャケットデザイン＆カラーバイナル仕様。本日より予約開始！",
+      "url": "https://www.yoasobi-music.jp/news/566407",
+      "scope": "官方發行資訊、曲目表與創作背景；正文已查核。"
+    },
+    {
+      "title": "YOASOBIと電話が繋がるかも?好評の施策が復活！＆2nd EP『THE BOOK 2』のクロスフェード映像公開！",
+      "url": "https://www.yoasobi-music.jp/news/535375",
+      "scope": "官方發行資訊、曲目表與創作背景；正文已查核。"
+    },
+    {
+      "title": "THE BOOK 系列全四作及配信日期",
+      "url": "https://prtimes.jp/main/html/rd/p/000001811.000055377.html",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "12月1日(水)発売 YOASOBI『THE BOOK 2』 リリース記念店頭キャンペーン決定！!",
+      "url": "https://www.yoasobi-music.jp/news/535542",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ],
+  "listeningNotes": [
+    "ツバメ、三原色、大正浪漫等作品，讓兒童共同演唱、重逢與跨時代通信在同一冊相遇。曲序同樣不是單曲發行年表。",
+    "怪物與優しい彗星在此連續排列，適合比較同一動畫世界的片頭與片尾，兩篇原作各自的說話者與情緒距離。",
+    "末段もしも命が描けたら接到ラブレター，可用生命、創作與感謝的問題重聽；這是編輯聆聽角度，不宣稱所有故事屬於同一世界。"
+  ]
+}

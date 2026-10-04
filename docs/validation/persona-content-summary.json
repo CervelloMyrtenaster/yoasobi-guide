@@ -1,0 +1,154 @@
+{
+  "asOf": "2026-10-04",
+  "method": "Expert scenario walkthrough; not real participant user testing",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "productionModified": false,
+  "scores": {
+    "crammer": {
+      "completeness": 5,
+      "engagement": 5,
+      "taskFit": 5
+    },
+    "beginner": {
+      "completeness": 6,
+      "engagement": 5,
+      "taskFit": 6
+    },
+    "expert": {
+      "completeness": 3,
+      "engagement": 3,
+      "taskFit": 3
+    }
+  },
+  "inventory": {
+    "songs": 79,
+    "japaneseOriginals": 35,
+    "liveVideoEntries": [
+      {
+        "song": "kaishin-no-ichigeki",
+        "title": "YOASOBI「会心の一撃」〈RADWIMPS Cover〉 from 『RADWIMPS 20th ANNIVERSARY LIVE TOUR』2025.11.24 @ 横浜アリーナ"
+      },
+      {
+        "song": "yoru-from-the-first-take",
+        "title": "YOASOBI - 夜に駆ける / THE HOME TAKE"
+      }
+    ],
+    "originalPagesWithLiveVideos": 0,
+    "songBodiesWithResults": [],
+    "memberBodyLengths": [
+      {
+        "id": "ayase",
+        "headings": [
+          "創作分工",
+          "從作品理解他的角色",
+          "延伸聆聽"
+        ],
+        "chars": 293
+      },
+      {
+        "id": "ikura",
+        "headings": [
+          "演唱分工",
+          "從版本理解演唱",
+          "一個人與多人一起唱"
+        ],
+        "chars": 308
+      }
+    ],
+    "originalBodyLengths": {
+      "min": 257,
+      "max": 354,
+      "average": 278.1142857142857,
+      "median": 276
+    }
+  },
+  "searchTests": [
+    {
+      "step": "中文／日文入口搜尋",
+      "query": "我推的孩子",
+      "visible": 0,
+      "titles": []
+    },
+    {
+      "step": "中文／日文入口搜尋",
+      "query": "葬送的芙莉蓮",
+      "visible": 0,
+      "titles": []
+    },
+    {
+      "step": "中文／日文入口搜尋",
+      "query": "水星的魔女",
+      "visible": 0,
+      "titles": []
+    },
+    {
+      "step": "中文／日文入口搜尋",
+      "query": "寶可夢",
+      "visible": 0,
+      "titles": []
+    },
+    {
+      "step": "中文／日文入口搜尋",
+      "query": "推しの子",
+      "visible": 2,
+      "titles": [
+        "アイドル",
+        "Idol"
+      ]
+    },
+    {
+      "step": "中文／日文入口搜尋",
+      "query": "偶像",
+      "visible": 2,
+      "titles": [
+        "アイドル",
+        "Idol"
+      ]
+    },
+    {
+      "step": "中文／日文入口搜尋",
+      "query": "怪物",
+      "visible": 2,
+      "titles": [
+        "怪物",
+        "Monster"
+      ]
+    }
+  ],
+  "concertPriority": [
+    "夜に駆ける",
+    "群青",
+    "怪物",
+    "祝福",
+    "アイドル"
+  ],
+  "liveSample": {
+    "step": "統計證據",
+    "callout": "目前樣本有限。這是已記錄的演出曲目，不足以代表歷年常演排行。來源未區分演唱形式時，不顯示完整演唱率。",
+    "recordedSongs": 25,
+    "sampleLinks": [
+      "2024-11-10 · YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “超現実” — 東京巨蛋"
+    ]
+  },
+  "expertHistorySearch": {
+    "step": "另外搜尋歌曲歷史",
+    "visible": 5,
+    "matches": [
+      "アイドル",
+      "Idol",
+      "アイドル",
+      "アイドル：日本7inch黑膠版",
+      "アイドル：Oricon 累計10億串流"
+    ]
+  },
+  "browserErrors": []
+}

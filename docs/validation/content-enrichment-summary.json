@@ -1,0 +1,100 @@
+{
+  "asOf": "2026-10-04",
+  "productionBuild": {
+    "success": true,
+    "staticHtmlPages": 408,
+    "sitemapUrls": 407,
+    "base": "/yoasobi-guide/"
+  },
+  "typeCheck": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "tests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "browser": {
+    "viewports": [
+      320,
+      375,
+      390,
+      430,
+      768,
+      1024,
+      1280,
+      1440,
+      1920
+    ],
+    "representativeRenders": 352,
+    "allGeneratedPagesAt320": true,
+    "brokenInternalLinks": 0,
+    "overflowingPages": 0,
+    "axeRuns": 93,
+    "axeRunsWithViolations": 0,
+    "maxObservedCLS": 0,
+    "unexpectedConsole": 0,
+    "expected404ProbeRequests": 9,
+    "flowPageErrors": 0,
+    "flowNetworkFailures": 0,
+    "search": [
+      {
+        "query": "我推的孩子",
+        "visible": 2
+      },
+      {
+        "query": "葬送的芙莉蓮",
+        "visible": 2
+      },
+      {
+        "query": "水星的魔女",
+        "visible": 2
+      },
+      {
+        "query": "寶可夢",
+        "visible": 2
+      },
+      {
+        "query": "花樣少年少女",
+        "visible": 4
+      },
+      {
+        "query": "魔女守護者",
+        "visible": 2
+      }
+    ],
+    "flows": [
+      "Homepage → 30/60/90 minute routes → priority five",
+      "Concert route → song context and official live section",
+      "Chinese anime search → Japanese original → preserved search context",
+      "Nested reload, award/nomination separation, date precision and no initial third-party requests",
+      "EP narrative and complete tracklist",
+      "Five solo setlists and one festival, with separate denominators and no guessed full-performance rates",
+      "Distinct WANDARA dates and setlists",
+      "23 official clips; expanding disclosure does not load YouTube",
+      "No-JavaScript complete catalog and native disclosure with official fallback",
+      "407 indexable sitemap URLs under the repository base"
+    ],
+    "playerWidths": 9,
+    "thirdPartyRequestsBeforePlayback": 0
+  },
+  "coverage": {
+    "works": 79,
+    "japaneseOriginals": 35,
+    "englishVersions": 34,
+    "epGuides": 9,
+    "completeSetlists": 6,
+    "soloSamples": 5,
+    "festivalSamples": 1,
+    "originalsWithPublicPerformance": 18,
+    "uniquePublicPerformanceClips": 23,
+    "achievementRecords": 24
+  },
+  "limitations": [
+    "Scenario walkthrough, not participant testing",
+    "Setlist sample is uneven and cannot predict future shows",
+    "YouTube structure tested with controlled iframe; production playback varies by restrictions",
+    "Award and critical-review records cover only individually verified sources"
+  ]
+}

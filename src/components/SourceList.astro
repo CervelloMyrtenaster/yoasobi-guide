@@ -1,0 +1,7 @@
+---
+import type { z } from 'astro/zod';
+import { source } from '../schemas/content';
+interface Props { sources: z.infer<typeof source>[]; updatedAt?: string }
+const { sources, updatedAt } = Astro.props;
+---
+<section class="sources"><h2>資料來源</h2>{updatedAt && <p class="muted">最後更新：<time datetime={updatedAt}>{updatedAt}</time></p>}<ul>{sources.map(s => <li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.title} ↗<span class="sr-only">（另開分頁）</span></a><span class="muted"> — {s.scope}</span></li>)}</ul></section>

@@ -1,0 +1,57 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { path } from '../lib/paths';
+import { songKinds, songLanguages } from '../lib/songs';
+interface Props { songs: CollectionEntry<'songs'>[] }
+const { songs } = Astro.props;
+const years = [...new Set(songs.map(s=>s.data.releaseDate.slice(0,4)))].sort();
+const kinds = [...new Set(songs.map(s=>s.data.kind))];
+---
+<div data-song-catalog>
+  <form class="archive-filter" data-song-filter hidden role="search" aria-label="查找歌曲介紹">
+    <div><label for="song-query">歌名、中文、Romaji、原作或合作作品</label><input id="song-query" name="q" type="search" placeholder="例如：我推的孩子、葬送的芙莉蓮"/></div>
+    <div><label for="song-language">演唱語言</label><select id="song-language" name="language"><option value="">全部語言</option>{Object.entries(songLanguages).map(([value,label])=><option value={value}>{label}</option>)}</select></div>
+    <div><label for="song-kind">作品類型</label><select id="song-kind" name="kind"><option value="">全部類型</option>{kinds.map(value=><option value={value}>{songKinds[value]}</option>)}</select></div>
+    <div><label for="song-year">首次發行年份</label><select id="song-year" name="year"><option value="">全部年份</option>{years.map(value=><option value={value}>{value}</option>)}</select></div>
+    <button type="button" data-clear>清除篩選</button><p class="muted" role="status" aria-live="polite" data-song-results>共 {songs.length} 篇作品介紹</p>
+  </form>
+  <nav class="archive-years" aria-label="跳至歌曲發行年份">{years.map(year=><a href={`#year-${year}`} data-song-year-link={year}>{year}</a>)}</nav>
+  <p class="empty" data-song-empty hidden>沒有符合的作品。試試其他關鍵字，或清除篩選。</p>
+  {years.map(year=><section class="section" id={`year-${year}`} data-song-year={year} aria-labelledby={`song-year-${year}`}>
+    <h2 id={`song-year-${year}`}>{year}</h2>
+    <div class="catalog-list">{songs.filter(s=>s.data.releaseDate.startsWith(year)).map(song=>{
+      const d=song.data;
+      return <article class="catalog-row" id={`song-${song.id}`} data-song-item data-language={d.language} data-kind={d.kind} data-search={[d.titleJa,d.titleRomaji,d.titleZh.text,d.summary,...d.tags,...d.aliases,...d.sourceWorks.items.map(w=>`${w.title} ${w.author??''}`),...d.tieIns.items.map(t=>t.title)].join(' ')}>
+        <div class="catalog-date"><time datetime={d.releaseDate}>{d.releaseDate}</time><span>{songKinds[d.kind]}</span></div>
+        <div><h3><a href={path(`songs/${song.id}/`)} data-song-detail lang={d.language==='ja'?'ja':d.language==='en'?'en':undefined}>{d.titleJa}</a></h3><p class="romaji">{d.titleRomaji} · {d.titleZh.text}</p><p class="muted">{d.summary}</p></div>
+        <a class="catalog-open" href={path(`songs/${song.id}/`)} data-song-detail aria-label={`閱讀 ${d.titleJa} 的介紹`}>閱讀 →</a>
+      </article>;
+    })}</div>
+  </section>)}
+</div>
+<script>
+  const catalog=document.querySelector<HTMLElement>('[data-song-catalog]');
+  if(catalog){
+    const form=catalog.querySelector<HTMLFormElement>('form')!;
+    const controls=['q','language','kind','year'].map(name=>form.elements.namedItem(name) as HTMLInputElement|HTMLSelectElement);
+    const rows=[...catalog.querySelectorAll<HTMLElement>('[data-song-item]')];
+    const sections=[...catalog.querySelectorAll<HTMLElement>('[data-song-year]')];
+    const normalize=(value:string)=>value.normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase();
+    const texts=new Map(rows.map(row=>[row,normalize(row.dataset.search??'')]));
+    const restore=()=>{const params=new URLSearchParams(location.search);controls.forEach(c=>c.value=params.get(c.name)??'');};
+    const filter=(update=true)=>{
+      const [q,language,kind,year]=controls.map(c=>c.value.trim());
+      rows.forEach(row=>row.hidden=!texts.get(row)?.includes(normalize(q))||!!language&&row.dataset.language!==language||!!kind&&row.dataset.kind!==kind||!!year&&row.closest<HTMLElement>('[data-song-year]')?.dataset.songYear!==year);
+      sections.forEach(section=>{section.hidden=!section.querySelector('[data-song-item]:not([hidden])');catalog.querySelector<HTMLElement>(`[data-song-year-link="${section.dataset.songYear}"]`)!.hidden=section.hidden;});
+      const count=rows.filter(r=>!r.hidden).length;
+      catalog.querySelector('[data-song-results]')!.textContent=`找到 ${count} 篇作品介紹（共 ${rows.length} 篇）`;
+      catalog.querySelector<HTMLElement>('[data-song-empty]')!.hidden=count!==0;
+      const url=new URL(location.href);
+      if(update){controls.forEach(c=>c.value.trim()?url.searchParams.set(c.name,c.value.trim()):url.searchParams.delete(c.name));if(document.getElementById(url.hash.slice(1))?.hidden)url.hash='';history.replaceState(null,'',url);}
+      rows.forEach(row=>row.querySelectorAll<HTMLAnchorElement>('[data-song-detail]').forEach(link=>{const target=new URL(link.href);target.searchParams.set('from',url.pathname+url.search+'#'+row.id);link.href=target.pathname+target.search;}));
+    };
+    form.addEventListener('submit',e=>{e.preventDefault();filter();});controls.forEach(c=>c.addEventListener(c.name==='q'?'input':'change',()=>filter()));
+    form.querySelector('[data-clear]')!.addEventListener('click',()=>{form.reset();filter();controls[0].focus();});
+    window.addEventListener('popstate',()=>{restore();filter(false);});restore();filter(false);form.hidden=false;
+  }
+</script>

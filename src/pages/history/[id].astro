@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SourceList from '../../components/SourceList.astro';
+import { loadHistory, historyTypes, historyStatuses, liveTypes, releaseTypes } from '../../lib/history';
+import { path } from '../../lib/paths';
+import { loadContent } from '../../lib/content';
+export async function getStaticPaths() {
+  return (await loadHistory()).map(entry=>({params:{id:entry.id},props:{entry}}));
+}
+const { entry } = Astro.props;
+const { data } = entry;
+const all = await loadHistory();
+const shows = all.filter(e=>data.showIds.includes(e.id));
+const content=await loadContent();
+const relatedSongs=content.songs.filter(s=>s.data.historyIds.includes(entry.id));
+const setlists=content.concerts.filter(c=>data.setlistIds.includes(c.id));
+const archive = liveTypes.has(data.type) ? 'live/' : releaseTypes.has(data.type) ? 'releases/' : 'history/';
+const archiveLabel = archive === 'live/' ? 'LIVE 演出' : archive === 'releases/' ? '發行作品' : '歷史時間軸';
+---
+<BaseLayout title={`${historyTypes[data.type] ?? data.type}：${data.title} · ${data.date}`} description={data.description}>
+  <div class="page-head"><span class="eyebrow">{historyTypes[data.type] ?? data.type}</span><h1>{data.title}</h1></div>
+  <article class="prose">
+    <dl class="metadata">
+      <dt>日期</dt><dd><time datetime={data.date}>{data.date}</time>{data.endDate && <> — <time datetime={data.endDate}>{data.endDate}</time></>}{data.datePrecision!=='day' && <>（僅知{data.datePrecision==='year'?'年份':'年月'}）</>}</dd>
+      <dt>狀態</dt><dd>{historyStatuses[data.status]}</dd>
+      {data.location && <><dt>地點</dt><dd>{data.location}</dd></>}
+      {data.venue && <><dt>場館</dt><dd>{data.venue}</dd></>}
+    </dl>
+    <p>{data.description}</p>
+    {setlists.length>0 && <section class="callout"><h2>已刊載歌單</h2>{setlists.map(c=><p><a href={path(`live/${c.id}/`)}>閱讀本場 {c.data.setlist.length} 首曲序與歌曲介紹 →</a></p>)}</section>}
+    {relatedSongs.length>0 && <section class="callout"><h2>閱讀歌曲介紹</h2>{relatedSongs.map(song=><p><a href={path(`songs/${song.id}/`)}>{song.data.titleJa}：原作、聆聽筆記與官方播放入口 →</a></p>)}</section>}
+    {shows.length>0 && <section><h2>已收錄場次</h2><p>巡演與場次分開保存；巡演本身不另外計算為一場演出。</p><ul>{shows.map(show=><li><time datetime={show.data.date}>{show.data.date}</time> · <a href={path(`history/${show.id}/`)}>{show.data.venue ?? show.data.title}</a> · {historyStatuses[show.data.status]}</li>)}</ul></section>}
+    <section><h2>查核範圍</h2><p>{data.verificationScope}</p>{data.dateBasis==='official_anniversary_inference' && <p>成立年份依官方周年敘述回推；來源並非成立當日公告。</p>}</section>
+    {data.conflictNotes.length>0 && <section class="callout"><h2>來源差異與處理</h2><ul>{data.conflictNotes.map(note=><li>{note}</li>)}</ul></section>}
+    <SourceList sources={data.sources} updatedAt={data.verifiedAt}/>
+    <nav class="archive-return" aria-label="返回資料列表"><a data-archive-return href={`${path(archive)}#year-${data.year}`}>返回{archiveLabel}・{data.year} →</a>{archive !== 'history/' && <a href={`${path('history/')}#year-${data.year}`}>查看同年歷史 →</a>}</nav>
+  </article>
+</BaseLayout>
+<script>
+  import { path } from '../../lib/paths';
+  const from = new URLSearchParams(location.search).get('from');
+  const back = document.querySelector<HTMLAnchorElement>('[data-archive-return]');
+  if (from && back) {
+    try {
+      const url = new URL(from,location.origin);
+      const archives = new Map([['history/','歷史時間軸'],['songs/','歌曲目錄'],['releases/','發行作品'],['live/','LIVE 演出']].map(([route,label])=>[path(route),label]));
+      if (url.origin === location.origin && archives.has(url.pathname) && (!url.hash || /^#year-\d{4}$/.test(url.hash))) {
+        back.href = `${url.pathname}${url.search}${url.hash}`;
+        back.textContent = `返回${archives.get(url.pathname)}・保留查找條件 →`;
+      }
+    } catch { /* Keep the static return link when a supplied URL is malformed. */ }
+  }
+</script>

@@ -1,0 +1,22 @@
+---
+import '../styles/global.css';
+import '../styles/song.css';
+import { path } from '../lib/paths';
+import catalogMetadata from '../content/catalog-metadata.json';
+interface Props { title: string; description?: string; noindex?: boolean }
+const { title, description = '從故事、歌曲與現場，開始認識 YOASOBI。', noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const shareImage = new URL(path('social-card.png'),Astro.site);
+const fullTitle = `${title} · YOASOBI 入門指南`;
+const links = [['start/', '開始入門'], ['about/', '認識 YOASOBI'], ['history/', '歷史'], ['songs/', '歌曲'], ['releases/', '發行作品'], ['live/', 'LIVE']];
+---
+<!doctype html>
+<html lang="zh-Hant">
+  <head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width"/><title>{fullTitle}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/><link rel="icon" type="image/svg+xml" href={path('favicon.svg')}/><meta property="og:title" content={fullTitle}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><meta property="og:url" content={canonical}/><meta property="og:locale" content="zh_TW"/><meta property="og:site_name" content="YOASOBI 入門指南"/><meta property="og:image" content={shareImage}/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="YOASOBI 繁體中文入門指南：故事、音樂、現場"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={fullTitle}/><meta name="twitter:description" content={description}/><meta name="twitter:image" content={shareImage}/>{noindex && <meta name="robots" content="noindex,follow"/>}<link rel="sitemap" href={path('sitemap.xml')}/></head>
+  <body>
+    <a class="skip" href="#main">跳至主要內容</a>
+    <header class="site-header"><a class="brand" href={path()}>YOASOBI<span>入門指南 / 繁體中文</span></a><nav aria-label="主要導覽">{links.map(([href,label]) => <a href={path(href)} aria-current={Astro.url.pathname.startsWith(path(href)) ? 'page' : undefined}>{label}</a>)}</nav></header>
+    <main id="main"><slot/></main>
+    <footer><a class="brand" href={path()}>YOASOBI GUIDE</a><p>從一首歌，走進一個故事。<br/>非官方繁體中文入門網站 · 資料查核 {catalogMetadata.asOf}</p><nav aria-label="延伸閱讀"><a href={path('deep-listening/')}>深度聆聽</a><a href={path('japanese-learning/')}>唱歌學日語</a><a href={path('sources/')}>資料與編輯原則 ↗</a></nav></footer>
+  </body>
+</html>

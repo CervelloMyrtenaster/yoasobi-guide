@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { loadContent } from '../../lib/content';
+import { path } from '../../lib/paths';
+import HistoryArchive from '../../components/HistoryArchive.astro';
+import HistoryNotice from '../../components/HistoryNotice.astro';
+import { loadHistory, releaseTypes } from '../../lib/history';
+const { releases } = await loadContent();
+releases.sort((a,b)=>a.data.date.localeCompare(b.data.date));
+const entries = (await loadHistory()).filter(e=>releaseTypes.has(e.data.type));
+---
+<BaseLayout title="發行作品"><div class="page-head"><span class="eyebrow">RELEASES</span><h1>將故事，收藏成冊。</h1><p class="lead">依年份認識配信單曲、EP、實體單曲與演出影像。不同語言、版本與首次收錄分開呈現。</p></div><HistoryNotice/><section class="section"><h2>EP 與完整曲目</h2><div class="route-grid">{releases.map(r => <a class="route-card" href={path(`releases/${r.id}/`)}><span class="eyebrow">{r.data.kind.toUpperCase()} · {r.data.date}</span><h3>{r.data.title} ↗</h3><p>{r.data.summary}</p></a>)}</div></section><HistoryArchive entries={entries} context="releases"/></BaseLayout>
+

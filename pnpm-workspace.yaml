@@ -1,0 +1,6 @@
+packages:
+  - '.'
+
+# Astro/Vite use esbuild's platform binary. Keep other dependency scripts blocked.
+allowBuilds:
+  esbuild: true

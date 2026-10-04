@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SourceList from '../../components/SourceList.astro';
+import { loadContent } from '../../lib/content';
+import { path } from '../../lib/paths';
+export async function getStaticPaths() { const { releases } = await loadContent(); return releases.map(entry => ({ params: { id: entry.id }, props: { entry } })); }
+const { entry } = Astro.props; const { songs } = await loadContent();
+---
+<BaseLayout title={entry.data.title} description={entry.data.summary??`${entry.data.title} 的發行資料、收錄曲序與歌曲介紹。`}><div class="page-head"><a class="eyebrow" href={path('releases/')}>← 返回發行作品</a><p class="eyebrow">{entry.data.kind.toUpperCase()} / <time datetime={entry.data.date}>{entry.data.date}</time></p><h1>{entry.data.title}</h1><p class="lead">{entry.data.summary}</p></div><article class="prose">{entry.data.listeningNotes.length>0 && <section><h2>這一冊，怎麼聽？</h2>{entry.data.listeningNotes.map(note=><p>{note}</p>)}</section>}<h2>{entry.data.tracklistComplete?'完整曲目表':'本站已收錄曲目'}</h2><p class="muted">按官方曲序排列。點選曲名可閱讀原作、聆聽筆記與官方播放入口。</p><ol class="release-tracks">{entry.data.tracks.sort((a,b) => a.position-b.position).map(t => {
+ const song=songs.find(s=>s.id===t.songId)!;
+ return <li value={t.position}><a href={path(`songs/${t.songId}/`)} lang={song.data.language==='ja'?'ja':song.data.language==='en'?'en':undefined}>{song.data.titleJa}</a><br/><small class="muted">{song.data.titleZh.text} · 首次音源發行 {song.data.releaseDate}</small></li>;
+})}</ol><p><a href={path('songs/')}>探索其他歌曲與版本 →</a></p><SourceList sources={entry.data.sources} updatedAt={entry.data.updatedAt}/></article></BaseLayout>

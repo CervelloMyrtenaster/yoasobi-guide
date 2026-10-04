@@ -1,0 +1,77 @@
+{
+  "id": "the-book-for",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "THE BOOK for,",
+  "kind": "ep",
+  "date": "2026-06-26",
+  "summary": "十二首作品涵蓋遊戲、動畫、電影、體育、廣告與電視劇合作，並以新曲〈オリオン〉開啟曲目表。",
+  "tracklistComplete": true,
+  "tracks": [
+    {
+      "songId": "orion",
+      "position": 1
+    },
+    {
+      "songId": "adrena",
+      "position": 2
+    },
+    {
+      "songId": "undead",
+      "position": 3
+    },
+    {
+      "songId": "players",
+      "position": 4
+    },
+    {
+      "songId": "monotone",
+      "position": 5
+    },
+    {
+      "songId": "baby",
+      "position": 6
+    },
+    {
+      "songId": "watch-me",
+      "position": 7
+    },
+    {
+      "songId": "biri-biri",
+      "position": 8
+    },
+    {
+      "songId": "new-me",
+      "position": 9
+    },
+    {
+      "songId": "heart-beat",
+      "position": 10
+    },
+    {
+      "songId": "butai-ni-tatte",
+      "position": 11
+    },
+    {
+      "songId": "gekijo",
+      "position": 12
+    }
+  ],
+  "sources": [
+    {
+      "title": "6/26(金)リリース 4th EP『THE BOOK for,』 収録曲&店舗別購入者特典 絵柄解禁！",
+      "url": "https://www.yoasobi-music.jp/news/584407",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "THE BOOK 系列全四作及配信日期",
+      "url": "https://prtimes.jp/main/html/rd/p/000001811.000055377.html",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ],
+  "listeningNotes": [
+    "從オリオン到劇上，官方完整曲序串起動畫、電影、日劇、遊戲與群體訊息等不同素材。原作關係逐曲列在介紹，不把它們全部標成獨立小說。",
+    "アドレナ與BABY來自同一動畫，Biri-Biri與オリオン各有遊戲短篇，PLAYERS則來自玩家回憶；比較相近類型中的差別，比只看合作作品名稱更有用。",
+    "先選最熟的一首，再依曲序聽完整冊。英文版、Remix、翻唱有自己的日期，並未因這張 EP 收錄而重新成為原創單曲。"
+  ]
+}

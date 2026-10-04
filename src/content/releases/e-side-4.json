@@ -1,0 +1,60 @@
+{
+  "id": "e-side-4",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "E-SIDE 4",
+  "kind": "ep",
+  "date": "2026-04-24",
+  "summary": "第四張英文 EP，共九首。官方確認 Konnie Aoki 負責譯詞，〈ADRENA〉、〈BABY〉與〈HEART BEAT〉英文版隨 EP 發行。",
+  "tracklistComplete": true,
+  "tracks": [
+    {
+      "songId": "adrena-en",
+      "position": 1
+    },
+    {
+      "songId": "undead-en",
+      "position": 2
+    },
+    {
+      "songId": "watch-me-en",
+      "position": 3
+    },
+    {
+      "songId": "baby-en",
+      "position": 4
+    },
+    {
+      "songId": "new-me-en",
+      "position": 5
+    },
+    {
+      "songId": "monotone-en",
+      "position": 6
+    },
+    {
+      "songId": "on-the-stage",
+      "position": 7
+    },
+    {
+      "songId": "players-en",
+      "position": 8
+    },
+    {
+      "songId": "heart-beat-en",
+      "position": 9
+    }
+  ],
+  "sources": [
+    {
+      "title": "自身4作目の英語版EP『E-SIDE 4』を本日配信リリース！\r\nさらに、本日22時より3夜連続で英語版Music VideoをYouTubeプレミア公開決定！",
+      "url": "https://www.yoasobi-music.jp/news/582923",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ],
+  "listeningNotes": [
+    "這份英文曲序從 Adrena 到 HEART BEAT，讓動畫、電影、運動與玩家回憶的日文作品進入另一種語言安排。每一曲都可連回原作頁。",
+    "英文題名與英文演唱是兩件事：New me、PLAYERS 等原曲本來就有英文題名，不能只看標題判斷語言。目錄另外提供演唱語言篩選。",
+    "熟悉故事後再選一段比較英日版，可以聽出同一情緒如何用不同音節承載。版本的榜單、獎項與影片仍需獨立查證。"
+  ]
+}

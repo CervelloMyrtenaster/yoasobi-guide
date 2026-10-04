@@ -1,0 +1,61 @@
+{
+  "id": "e-side",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "E-SIDE",
+  "kind": "ep",
+  "date": "2021-11-12",
+  "summary": "第一張英文 EP，包含八首早期作品的英文演唱版本；四首首次隨 EP 推出。",
+  "tracklistComplete": true,
+  "tracks": [
+    {
+      "songId": "into-the-night",
+      "position": 1
+    },
+    {
+      "songId": "havent",
+      "position": 2
+    },
+    {
+      "songId": "monster",
+      "position": 3
+    },
+    {
+      "songId": "comet",
+      "position": 4
+    },
+    {
+      "songId": "rgb",
+      "position": 5
+    },
+    {
+      "songId": "encore-en",
+      "position": 6
+    },
+    {
+      "songId": "blue",
+      "position": 7
+    },
+    {
+      "songId": "tracing-a-dream",
+      "position": 8
+    }
+  ],
+  "sources": [
+    {
+      "title": "11月12(金)配信リリース英語版第一弾EP『E-SIDE』のクロスフェード映像を公開！",
+      "url": "https://www.yoasobi-music.jp/news/534978",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "初の英語版第一弾EP『E-SIDE』が11/12(金)に配信リリース決定！",
+      "url": "https://www.yoasobi-music.jp/news/535007",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ],
+  "listeningNotes": [
+    "THE BOOK 系列的日文作品在英語裡重新安排重音、子音與押韻。本張從 Into The Night 開始，不是把 THE BOOK 曲序原封不動翻成英文。",
+    "先選一首熟悉的日文原曲，再聽對應英文版，注意哪些聲音還能讓你立刻辨認同一首歌，哪些詞因語言而落在不同拍點。",
+    "原作、日語學習與原曲成績集中在日文介紹；英文版有獨立發行紀錄，不能自動繼承原版榜單數字。"
+  ]
+}

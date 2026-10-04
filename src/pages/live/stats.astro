@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { loadContent } from '../../lib/content';
+import { liveStats } from '../../lib/live-stats';
+import { path } from '../../lib/paths';
+const { songs, concerts } = await loadContent();
+const data = concerts.map(c=>c.data);
+const scopes = (['solo','festival'] as const).map(eventType=>{
+  const ranked=songs.filter(s=>s.data.kind!=='interlude').map(song=>({song,all:liveStats(data,song.id,{eventType}),after:liveStats(data,song.id,{eventType,releasedOn:song.data.releaseDate})})).filter(r=>r.all.appearances>0).sort((a,b)=>b.all.appearances-a.all.appearances||a.song.data.releaseDate.localeCompare(b.song.data.releaseDate));
+  return {eventType,label:eventType==='solo'?'專場':'音樂祭',ranked,scope:ranked[0]?.all,records:concerts.filter(c=>c.data.eventType===eventType&&c.data.eventStatus==='completed'&&c.data.setlistStatus==='complete').sort((a,b)=>a.data.date.localeCompare(b.data.date))};
+});
+---
+<BaseLayout title="LIVE 歌單樣本與曲目" description="分開查看專場與音樂祭的已核對歌單、出現場次及發行後樣本，了解演唱會準備的資料依據。">
+<div class="page-head"><span class="eyebrow">LIVE / THE NUMBERS</span><h1>從歌單，認識現場的選曲。</h1><p class="lead">專場與音樂祭分開閱讀；這是有來源的樣本，不是所有演出的總排行。</p><div class="actions"><a class="button" href={path('live/prepare/')}>先看惡補路線 →</a><a href="#festival">看音樂祭樣本 ↓</a></div></div>
+<article class="prose"><p class="callout">年份與巡演的樣本分布不均，連續兩日同一巡演也會各計一場。資料僅描述已收錄歌單，不能預測你要參加的場次。來源沒區分演唱長度時，出現一次不等於完整唱完。</p>
+{scopes.map(({eventType,label,ranked,scope,records})=><section id={eventType}><h2>{label}樣本</h2>{scope?.total ? <><p>{scope.from} 至 {scope.to} · <strong>{scope.total} 場</strong>刊載完整歌單。{scope.total<3&&'樣本非常少，請以單場記錄閱讀。'}</p><h3>收錄場次</h3><ul>{records.map(c=><li><a href={path(`live/${c.id}/`)}>{c.data.date} · {c.data.title}</a></li>)}</ul><h3>歌曲出現紀錄</h3><div class="table-wrap" tabindex="0" role="region" aria-label={`${label}歌曲出現場次表，可橫向捲動`}><table><caption>依樣本內出現場次排列；序曲與間奏仍保留在各場歌單，這裡不列入歌曲比較。</caption><thead><tr><th scope="col">歌曲</th><th scope="col">全部樣本<br/>出現／場次</th><th scope="col">發行後樣本<br/>出現／場次</th></tr></thead><tbody>{ranked.map(r=><tr><th scope="row"><a lang={r.song.data.language==='ja'?'ja':undefined} href={path(`songs/${r.song.id}/`)}>{r.song.data.titleJa}</a></th><td>{r.all.appearances}／{r.all.total}</td><td>{r.after.total?`${r.after.appearances}／${r.after.total}`:'尚無樣本'}</td></tr>)}</tbody></table></div></> : <p class="empty">尚未收錄符合條件的完整歌單。</p>}</section>)}
+<h2>為什麼要看兩個分母？</h2><p>全部樣本讓你看整份收藏中哪些歌出現；發行後樣本排除歌曲尚未公開的時期，避免新歌因年代較短顯得不常演。正式發行前就有演出時，會保留在全部樣本與該場歌單，不改寫發行日期。</p><p>同曲同場最多計一次。節選、組曲與完整演唱僅在來源明確說明時分別記錄。棚內公開演唱與單曲影片不混進專場樣本。這份資料有選樣限制，亦不能代表所有海外演出。</p><a href={path('sources/')}>閱讀查核與統計口徑 →</a></article>
+</BaseLayout>

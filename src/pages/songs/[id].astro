@@ -1,0 +1,58 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SourceList from '../../components/SourceList.astro';
+import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
+import JapaneseLearningLink from '../../components/JapaneseLearningLink.astro';
+import LiveStats from '../../components/LiveStats.astro';
+import LiveClips from '../../components/LiveClips.astro';
+import SongAchievements from '../../components/SongAchievements.astro';
+import { loadContent } from '../../lib/content';
+import { loadHistory } from '../../lib/history';
+import { path } from '../../lib/paths';
+import { songKinds } from '../../lib/songs';
+export async function getStaticPaths() { const { songs } = await loadContent(); return songs.map(song => ({ params: { id: song.id }, props: { song } })); }
+const { song } = Astro.props; const { Content } = await render(song); const { releases, concerts, songs } = await loadContent(); const d = song.data;
+const original = d.versionOf ? songs.find(s=>s.id===d.versionOf) : undefined;
+const versions = songs.filter(s=>s.data.versionOf === (d.versionOf??song.id) && s.id!==song.id);
+const albumSongs = [...new Map(releases.filter(r=>d.releaseIds.includes(r.id)).flatMap(r=>r.data.tracks.map(t=>songs.find(s=>s.id===t.songId))).filter(s=>s && s.id!==song.id && s.data.kind!=='interlude').map(s=>[s!.id,s!])).values()].slice(0,4);
+const names = { official: '官方譯名', editorial: '編輯譯名', common: '通稱' };
+const liveVideos = d.videos.filter(v=>v.kind==='live');
+const primaryVideos = d.videos.filter(v=>v.kind!=='live');
+const relatedSongs = d.relatedSongIds.map(id=>songs.find(s=>s.id===id)!);
+const history = new Map((await loadHistory()).map(e=>[e.id,e]));
+const setlists = concerts.filter(c=>c.data.setlist.some(t=>t.songId===song.id)).sort((a,b)=>a.data.date.localeCompare(b.data.date));
+---
+<BaseLayout title={`${d.titleJa}${d.kind==='english'?'（英文版）':''}`} description={d.summary}>
+  <div class="page-head">
+    <a class="eyebrow" data-catalog-return href={path('songs/')}>← 返回歌曲目錄</a><p class="eyebrow">{songKinds[d.kind]}</p>
+    <h1 lang={d.language==='ja'?'ja':d.language==='en'?'en':undefined}>{d.titleJa}</h1><p class="romaji" lang="en">{d.titleRomaji}</p>
+    <p class="lead">{d.titleZh.text} <small>（{names[d.titleZh.kind]}）</small></p><p>{d.summary}</p>
+  </div>
+  <dl class="metadata song-metadata">
+    <dt>發行日期</dt><dd><time datetime={d.releaseDate}>{d.releaseDate}</time></dd>
+    <dt>收錄 EP</dt><dd>{d.releaseIds.length ? d.releaseIds.map(id => <a href={path(`releases/${id}/`)}>{releases.find(r => r.id === id)?.data.title}</a>) : 'EP 系列之外的發行；詳見本頁背景與發行紀錄。'}</dd>
+    <dt>原作／創作素材</dt><dd>{d.sourceWorks.state === 'known' ? d.sourceWorks.items.map(w => <p>{w.url ? <a href={w.url} target="_blank" rel="noopener noreferrer"><span lang="ja">{w.title}</span> ↗<span class="sr-only">（另開分頁）</span></a> : <span lang="ja">{w.title}</span>} {w.author && `／${w.author}`} <small>（{w.kind}）</small></p>) : d.sourceWorks.state === 'none' ? '翻唱／取樣既有歌曲，沒有另列小說原作。' : '官方資料未列獨立原作。'}</dd>
+    <dt>Tie-in</dt><dd>{d.tieIns.state === 'known' ? d.tieIns.items.map(t => `${t.title}（${t.kind}）`).join('、') : d.tieIns.state === 'none' ? '無' : '目前來源未列合作資訊。'}</dd>
+  </dl>
+  {d.dateNotes && <p class="muted">日期說明：{d.dateNotes}</p>}
+  <nav class="song-toc" aria-label="歌曲頁段落"><a href="#song-notes">閱讀背景 ↓</a>{d.achievements.length>0 && <a href="#achievements">成績與獎項 ↓</a>}{d.kind!=='interlude' && <a href="#learning">日語學習 ↓</a>}{liveVideos.length>0 && <a href="#live-videos">現場影片 ↓</a>}<a href="#live-stats">LIVE 資料 ↓</a><a href="#related">相關作品 ↓</a></nav>
+  <div class="song-layout">
+    <aside>{primaryVideos.map(v => <YouTubeEmbed id={v.youtubeId} title={v.title} kind={v.kind} externalOnly={v.externalOnly} restrictionNote={v.restrictionNote}/>)}{!primaryVideos.length && <p class="callout">{liveVideos.length?'本曲的官方演唱片段在下方現場區，可由段落導覽直接前往。':'本曲尚未確認可嵌入的官方影片。可由下方來源的官方作品入口繼續聆聽。'}</p>}</aside>
+    <article class="prose" id="song-notes">
+      <Content/>
+      {d.achievements.length>0 && <SongAchievements achievements={d.achievements}/>}
+      {d.kind!=='interlude' && <div id="learning">{d.language==='en' && original ? <section class="callout"><h2>唱歌學日語：回到日文原曲</h2><p>本頁是英文演唱。請從日文原曲的對應學習入口繼續。</p><a class="button" href={path(`songs/${original.id}/`)}>閱讀〈{original.data.titleJa}〉與日語學習 →</a></section> : <JapaneseLearningLink link={d.japaneseLearning}/>}</div>}
+      {liveVideos.length>0 && <LiveClips videos={liveVideos}/>}
+      <div id="live-stats"><LiveStats concerts={concerts.map(c => c.data)} songId={song.id} releasedOn={d.releaseDate}/>{setlists.length>0 && <section><h3>出現在這些已刊載歌單</h3><ul>{setlists.map(c=><li><a href={path(`live/${c.id}/`)}>{c.data.date} · {c.data.title}</a>{c.data.date<d.releaseDate && '（早於正式音源發行）'}</li>)}</ul></section>}</div>
+      <section class="song-related" id="related"><h2>繼續探索</h2>{original && <p>原曲：<a href={path(`songs/${original.id}/`)}>{original.data.titleJa} →</a></p>}{versions.length>0 && <><h3>其他版本</h3>{versions.map(s=><a href={path(`songs/${s.id}/`)}>{s.data.titleJa} →</a>)}</>}{relatedSongs.length>0 && <><h3>延伸主題與創作關係</h3>{relatedSongs.map(s=><a href={path(`songs/${s.id}/`)}>{s.data.titleJa} →</a>)}</>}{albumSongs.length>0 && <><h3>同張 EP 的作品</h3>{albumSongs.map(s=><a href={path(`songs/${s.id}/`)}>{s.data.titleJa} →</a>)}</>}{d.historyIds.length>0 && <><h3>發行與重要紀錄</h3>{d.historyIds.map(id=><a href={path(`history/${id}/`)}>{history.get(id)!.data.date} · {history.get(id)!.data.title} →</a>)}</>}<p><a href={path('deep-listening/')}>進一步深讀作品 →</a></p><p><a href={path('live/prepare/')}>準備參加演唱會 →</a></p></section>
+      <SourceList sources={d.sources} updatedAt={d.updatedAt}/>
+    </article>
+  </div>
+</BaseLayout>
+<script>
+  import { path } from '../../lib/paths';
+  const from=new URLSearchParams(location.search).get('from');
+  const back=document.querySelector<HTMLAnchorElement>('[data-catalog-return]');
+  if(from&&back){try{const url=new URL(from,location.origin);if(url.origin===location.origin&&url.pathname===path('songs/')&&(!url.hash||/^#(?:song-[a-z0-9-]+|year-\d{4})$/.test(url.hash))){back.href=url.pathname+url.search+url.hash;back.textContent='← 返回歌曲目錄・保留查找條件';}}catch{}}
+</script>

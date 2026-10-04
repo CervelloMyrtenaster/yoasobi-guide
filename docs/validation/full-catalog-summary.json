@@ -1,0 +1,138 @@
+{
+  "asOf": "2026-10-04",
+  "htmlPages": 399,
+  "linkedPages": 398,
+  "brokenLinks": 0,
+  "narrowViewportOverflows": 0,
+  "responsiveCases": 235,
+  "axeChecks": 54,
+  "axeFailures": 0,
+  "unexpectedNetwork": 0,
+  "unexpectedConsole": 0,
+  "duplicateTitles": [],
+  "flows": [
+    {
+      "test": "79 static song pages exposed",
+      "passed": true
+    },
+    {
+      "test": "Romaji without macron, context return",
+      "passed": true
+    },
+    {
+      "test": "tie-in query includes Japanese originals and English versions",
+      "passed": true
+    },
+    {
+      "test": "combined filters survive refresh",
+      "passed": true
+    },
+    {
+      "test": "empty state and reset",
+      "passed": true
+    },
+    {
+      "test": "browser Back retains language and version filters",
+      "passed": true
+    },
+    {
+      "test": "EP → English audio → Japanese learning",
+      "passed": true
+    },
+    {
+      "test": "five concert priority songs have full articles",
+      "passed": true
+    },
+    {
+      "test": "25-song published setlist without guessed percentages",
+      "passed": true
+    },
+    {
+      "test": "no-JavaScript complete catalog and listening fallback",
+      "passed": true
+    },
+    {
+      "test": "click-to-load player at nine widths",
+      "players": [
+        {
+          "width": 320,
+          "aspectRatio": true,
+          "noResize": true,
+          "titleAndFocus": true
+        },
+        {
+          "width": 375,
+          "aspectRatio": true,
+          "noResize": true,
+          "titleAndFocus": true
+        },
+        {
+          "width": 390,
+          "aspectRatio": true,
+          "noResize": true,
+          "titleAndFocus": true
+        },
+        {
+          "width": 430,
+          "aspectRatio": true,
+          "noResize": true,
+          "titleAndFocus": true
+        },
+        {
+          "width": 768,
+          "aspectRatio": true,
+          "noResize": true,
+          "titleAndFocus": true
+        },
+        {
+          "width": 1024,
+          "aspectRatio": true,
+          "noResize": true,
+          "titleAndFocus": true
+        },
+        {
+          "width": 1280,
+          "aspectRatio": true,
+          "noResize": true,
+          "titleAndFocus": true
+        },
+        {
+          "width": 1440,
+          "aspectRatio": true,
+          "noResize": true,
+          "titleAndFocus": true
+        },
+        {
+          "width": 1920,
+          "aspectRatio": true,
+          "noResize": true,
+          "titleAndFocus": true
+        }
+      ]
+    },
+    {
+      "test": "real YouTube iframe smoke test",
+      "body": [
+        "無法播放這部影片\n無法播放這部影片\n在 YouTube 上觀看"
+      ],
+      "source": "https://www.youtube-nocookie.com/embed/ZRtdQ81jPUQ"
+    },
+    {
+      "test": "sitemap coverage and robots absolute URLs",
+      "passed": true
+    }
+  ],
+  "production": {
+    "checkedAt": "2026-10-04T03:18:33.888Z",
+    "repository": {
+      "url": "https://github.com/CervelloMyrtenaster/yoasobi-guide",
+      "hasPages": false,
+      "defaultBranch": "main",
+      "size": 0
+    },
+    "production": {
+      "url": "https://cervellomyrtenaster.github.io/yoasobi-guide/",
+      "status": 404
+    }
+  }
+}

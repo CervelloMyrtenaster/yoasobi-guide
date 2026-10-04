@@ -1,0 +1,356 @@
+{
+  "auditDate": "2026-10-04",
+  "production": {
+    "url": "https://cervellomyrtenaster.github.io/yoasobi-guide/",
+    "httpStatus": 404,
+    "title": "Site not found · GitHub Pages",
+    "available": false,
+    "priority": "P0",
+    "successfulPersonas": 0
+  },
+  "testedEnvironment": {
+    "mode": "Astro static production build",
+    "framework": "Astro 7.3.5",
+    "base": "/yoasobi-guide/",
+    "url": "http://127.0.0.1:4321/yoasobi-guide/",
+    "buildSucceeded": true,
+    "generatedPages": 408,
+    "publicDeploymentVerified": false
+  },
+  "method": {
+    "independentBrowserContexts": true,
+    "initialStorage": [
+      {
+        "persona": "concert-crammer",
+        "localStorage": [],
+        "sessionStorage": []
+      },
+      {
+        "persona": "beginner",
+        "localStorage": [],
+        "sessionStorage": []
+      },
+      {
+        "persona": "intermediate",
+        "localStorage": [],
+        "sessionStorage": []
+      },
+      {
+        "persona": "expert",
+        "localStorage": [],
+        "sessionStorage": []
+      }
+    ],
+    "recordedJourneyStates": 98,
+    "renderedWorks": 79,
+    "viewportWidths": [
+      320,
+      375,
+      390,
+      430,
+      768,
+      1024,
+      1280,
+      1440,
+      1920
+    ],
+    "representativeVisualCases": 81,
+    "landscape": {
+      "width": 844,
+      "height": 390,
+      "overflow": 0,
+      "scrollY": 712
+    },
+    "realParticipantStudy": false,
+    "physicalDeviceTesting": false,
+    "oneMinuteClaim": "Heuristic judgement from clicks, scrolling and content; not a measured human completion time"
+  },
+  "scorecardBasis": "Conditional usefulness of the local production build; not a published-site acceptance score",
+  "scorecard": {
+    "concertCrammer": {
+      "Discoverability": 8,
+      "Content completeness": 5.5,
+      "Appropriate depth": 6,
+      "Navigation flow": 5.5,
+      "Information hierarchy": 6,
+      "Credibility": 7,
+      "Discovery value": 6,
+      "Mobile usability": 6,
+      "Overall usefulness": 6
+    },
+    "beginner": {
+      "Discoverability": 8,
+      "Content completeness": 8,
+      "Appropriate depth": 7.5,
+      "Navigation flow": 6.5,
+      "Information hierarchy": 7,
+      "Credibility": 7,
+      "Discovery value": 8,
+      "Mobile usability": 7,
+      "Overall usefulness": 7.5
+    },
+    "intermediate": {
+      "Discoverability": 7,
+      "Content completeness": 5,
+      "Appropriate depth": 5.5,
+      "Navigation flow": 6.5,
+      "Information hierarchy": 6.5,
+      "Credibility": 7,
+      "Discovery value": 5.5,
+      "Mobile usability": 6.5,
+      "Overall usefulness": 6
+    },
+    "expert": {
+      "Discoverability": 5.5,
+      "Content completeness": 3.5,
+      "Appropriate depth": 4,
+      "Navigation flow": 5,
+      "Information hierarchy": 5.5,
+      "Credibility": 6.5,
+      "Discovery value": 4,
+      "Mobile usability": 5.5,
+      "Overall usefulness": 4.5
+    }
+  },
+  "bestServed": "beginner",
+  "worstServed": "expert",
+  "coverage": {
+    "publishedWorks": 79,
+    "japaneseOriginals": 35,
+    "types": {
+      "english": 34,
+      "original": 35,
+      "arrangement": 1,
+      "collaboration": 3,
+      "interlude": 4,
+      "remix": 1,
+      "live-version": 1
+    },
+    "structuredEPs": 9,
+    "publishedHistory": 296,
+    "completeSetlists": 6,
+    "setlistTypes": {
+      "solo": 5,
+      "festival": 1
+    },
+    "latestCompleteSetlist": "2025-11-30",
+    "renderedAchievementPages": 16,
+    "achievementRecords": 24,
+    "achievementTypes": {
+      "chart": 19,
+      "award": 4,
+      "nomination": 1
+    },
+    "originalsWithAwards": [
+      "idol",
+      "yoru-ni-kakeru"
+    ],
+    "officialLiveLibraryClips": 23,
+    "officialLiveLibraryWorks": 19,
+    "renderedLiveClipPages": 20,
+    "liveClipReferences": 24,
+    "verifiedMarumaruLinks": 38
+  },
+  "browserChecks": {
+    "sitePageErrors": [],
+    "rootHorizontalOverflow": [],
+    "songHorizontalOverflow": [],
+    "embeddedPlayback": "Gunjo and Idol displayed unavailable in local preview; production embed remains unverified",
+    "officialExternalPlayback": [
+      {
+        "song": "Gunjo",
+        "status": 200,
+        "title": "YOASOBI「群青」Official Music Video - YouTube",
+        "before": [
+          {
+            "paused": false,
+            "time": 0.103711,
+            "ready": 4,
+            "duration": 262.161
+          }
+        ],
+        "after": [
+          {
+            "paused": false,
+            "time": 4.122183,
+            "ready": 4,
+            "duration": 262.161
+          }
+        ],
+        "playerText": "暫停\nK\n0:04 / 4:22"
+      },
+      {
+        "song": "Idol",
+        "status": 200,
+        "title": "YOASOBI「アイドル」 Official Music Video - YouTube",
+        "before": [
+          {
+            "paused": false,
+            "time": 0.042157,
+            "ready": 4,
+            "duration": 225.781
+          }
+        ],
+        "after": [
+          {
+            "paused": false,
+            "time": 4.057785,
+            "ready": 4,
+            "duration": 225.781
+          }
+        ],
+        "playerText": "暫停\nK\n0:04 / 3:45\n這部影片中"
+      }
+    ],
+    "table": {
+      "before": {
+        "rect": {
+          "left": 24,
+          "right": 504
+        },
+        "parents": [
+          {
+            "tag": "DIV",
+            "role": "region",
+            "label": "專場歌曲出現場次表，可橫向捲動",
+            "tabIndex": 0,
+            "clientWidth": 272,
+            "scrollWidth": 480,
+            "scrollLeft": 0,
+            "overflowX": "auto"
+          },
+          {
+            "tag": "SECTION",
+            "role": null,
+            "label": null,
+            "tabIndex": -1,
+            "clientWidth": 272,
+            "scrollWidth": 272,
+            "scrollLeft": 0,
+            "overflowX": "visible"
+          }
+        ],
+        "firstCell": {
+          "position": "static",
+          "left": "auto"
+        }
+      },
+      "after": {
+        "parentScroll": 208,
+        "firstCellLeft": -184
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "A01",
+      "priority": "P0",
+      "title": "Public GitHub Pages returns 404"
+    },
+    {
+      "id": "A02",
+      "priority": "P1",
+      "title": "Performance status and verification scope conflict with complete setlist evidence",
+      "historyIds": [
+        "history-0174",
+        "history-0175",
+        "history-0244",
+        "history-0252"
+      ]
+    },
+    {
+      "id": "A03",
+      "priority": "P1",
+      "title": "Song return loses guided-path, EP and concert context"
+    },
+    {
+      "id": "A04",
+      "priority": "P1",
+      "title": "Missing two-hour and multi-day concert routes and explicit recent-performance rationale"
+    },
+    {
+      "id": "A05",
+      "priority": "P1",
+      "title": "Insufficient representative setlists for recent, overseas, frequent or rare performance analysis"
+    },
+    {
+      "id": "A06",
+      "priority": "P1",
+      "title": "Uneven song research depth and missing creation, MV, certification and reception evidence"
+    },
+    {
+      "id": "A07",
+      "priority": "P1",
+      "title": "Disconnected work, release, source, video, performance and award relationships"
+    },
+    {
+      "id": "A08",
+      "priority": "P1",
+      "title": "Production embedded playback must be validated; external fallback works"
+    },
+    {
+      "id": "A09",
+      "priority": "P2",
+      "title": "Cumulative concert lists repeat entries and create excessive scrolling"
+    },
+    {
+      "id": "A10",
+      "priority": "P2",
+      "title": "Beginner week lacks actionable links and mobile entry table is dense"
+    },
+    {
+      "id": "A11",
+      "priority": "P2",
+      "title": "Related works lack specific recommendation reasons"
+    },
+    {
+      "id": "A12",
+      "priority": "P2",
+      "title": "Mobile statistics lose song names after horizontal scrolling"
+    },
+    {
+      "id": "A13",
+      "priority": "P2",
+      "title": "Archive and video filters lack research facets"
+    },
+    {
+      "id": "A14",
+      "priority": "P2",
+      "title": "Claim provenance and research-completeness states need clearer scope"
+    },
+    {
+      "id": "A15",
+      "priority": "P2",
+      "title": "Version pages need more documented differences"
+    },
+    {
+      "id": "A16",
+      "priority": "P3",
+      "title": "Optional local route progress and bookmarks"
+    },
+    {
+      "id": "A17",
+      "priority": "P3",
+      "title": "Cross-work archival essays after data coverage improves"
+    }
+  ],
+  "topFiveAfterDeployment": [
+    "Representative sourced setlists and comparisons",
+    "Thirty-minute, two-hour and multi-day concert paths",
+    "Consistent source-backed song research minimum",
+    "Shared work relationships and chronology",
+    "Context-preserving navigation"
+  ],
+  "noProductionChanges": {
+    "verified": true,
+    "filesCompared": 252,
+    "changedFiles": [],
+    "productionCodeEdited": false,
+    "contentDataEdited": false,
+    "committed": false,
+    "pushed": false,
+    "deployed": false
+  },
+  "evidenceDirectory": ".qa/persona-audit/",
+  "report": "docs/persona-ux-content-audit.md"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "the-book-3",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "THE BOOK 3",
+  "kind": "ep",
+  "date": "2023-10-04",
+  "summary": "動畫主題歌與「はじめての」四部作品共同收錄，兩段 Interlude 放在〈祝福〉與〈アイドル〉之前。",
+  "tracklistComplete": true,
+  "tracks": [
+    {
+      "songId": "yuusha",
+      "position": 1
+    },
+    {
+      "songId": "interlude-awakening",
+      "position": 2
+    },
+    {
+      "songId": "shukufuku",
+      "position": 3
+    },
+    {
+      "songId": "umi-no-manimani",
+      "position": 4
+    },
+    {
+      "songId": "mister",
+      "position": 5
+    },
+    {
+      "songId": "interlude-worship",
+      "position": 6
+    },
+    {
+      "songId": "idol",
+      "position": 7
+    },
+    {
+      "songId": "seventeen",
+      "position": 8
+    },
+    {
+      "songId": "adventure",
+      "position": 9
+    },
+    {
+      "songId": "sukida",
+      "position": 10
+    }
+  ],
+  "sources": [
+    {
+      "title": "本日結成4周年！2024年1月から国内6カ所12公演を回る自身初のZeppツアー開催決定！10月4日発売3rd EP『THE BOOK 3』にFC限定チケット最速先行シリアル封入決定＆全曲トレーラーが公開！さらに、タワーレコード全店にて、期間中に対象商品をお買い上げのお客様に、直筆メッセージが印字された特別レシートのお渡しが決定",
+      "url": "https://www.yoasobi-music.jp/news/556528",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "THE BOOK 系列全四作及配信日期",
+      "url": "https://prtimes.jp/main/html/rd/p/000001811.000055377.html",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "杉浦美恵：THE BOOK 3 評論",
+      "url": "https://rockinon.com/disc/detail/207567",
+      "scope": "曲序與間奏的具名評論觀點。"
+    }
+  ],
+  "listeningNotes": [
+    "勇者接 Interlude \"Awakening\" 與祝福，讓兩個合作世界在專輯裡形成一次轉換；Worship 則在ミスター與アイドル之間調節段落。",
+    "四首はじめての作品分散在曲序中，與動畫合作與アドベンチャー交織。若想先理解四位作家的企劃，可改從同名四曲 EP 閱讀。",
+    "杉浦美恵的具名評論把這份曲序理解為一冊短篇集，並注意到相遇與生命主題。可以對照實際曲序，保留自己的同意或不同意。"
+  ]
+}

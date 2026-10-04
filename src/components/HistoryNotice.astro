@@ -1,0 +1,7 @@
+---
+import { historyMetadata } from '../lib/history';
+---
+<aside class="callout" aria-label="資料範圍">
+  <p>資料查核截至 <time datetime={historyMetadata.asOf}>{historyMetadata.asOf}</time>，已收錄 {historyMetadata.verifiedCount} 筆有來源支持的資料；另有 {historyMetadata.pendingCount} 筆候選尚未發布。</p>
+  <p>「官方排定」只確認日程；「有事後演出紀錄」另有演出證據。取消、延期與未來預定分開標示。年表仍有缺口，未建立完整歌單或演出頻率。</p>
+</aside>

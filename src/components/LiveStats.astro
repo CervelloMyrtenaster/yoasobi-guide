@@ -1,0 +1,12 @@
+---
+import { liveStats } from '../lib/live-stats';
+import { path } from '../lib/paths';
+import type { Concert } from '../schemas/content';
+interface Props { concerts: Concert[]; songId: string; releasedOn: string }
+const { concerts, songId, releasedOn } = Astro.props;
+const scopes = (['solo','festival'] as const).map(eventType=>({label:eventType==='solo'?'專場':'音樂祭',stats:liveStats(concerts,songId,{eventType,releasedOn})}));
+---
+<section><h2>LIVE 演出統計</h2>
+  {scopes.map(({label,stats})=><div class="live-scope"><h3>{label}：發行後的已收錄樣本</h3>{stats.total ? <><p><strong>{stats.appearances}／{stats.total} 場</strong>刊載歌單列有本曲。</p><p class="muted">{stats.from} 至 {stats.to}；同曲同場最多計一次。{stats.rate===null?'來源未區分演唱長度，因此不顯示完整演唱率。':`樣本內完整演唱率 ${Math.round(stats.rate*100)}%。`}</p></> : <p class="muted">目前尚無符合日期條件的完整歌單；未收錄不代表未演出。</p>}</div>)}
+  <p class="muted">僅計歌曲正式音源發行後、已完成且刊載歌單完整的場次。年份分布不均，同一巡演可能有連續場次，不能據此推定歷年常演排名或下一場歌單。</p><a href={path('live/stats/')}>查看樣本、曲目與統計方式 →</a>
+</section>

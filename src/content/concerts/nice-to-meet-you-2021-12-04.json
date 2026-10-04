@@ -1,0 +1,133 @@
+{
+  "id": "nice-to-meet-you-2021-12-04",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "NICE TO MEET YOU · 武道館 Day1",
+  "date": "2021-12-04",
+  "country": "日本",
+  "city": "東京都",
+  "venue": "日本武道館",
+  "eventType": "solo",
+  "eventStatus": "completed",
+  "setlistStatus": "complete",
+  "setlist": [
+    {
+      "songId": "ano-yume-wo-nazotte",
+      "section": "main",
+      "position": 1,
+      "performance": "listed"
+    },
+    {
+      "songId": "taisho-roman",
+      "section": "main",
+      "position": 2,
+      "performance": "listed"
+    },
+    {
+      "songId": "halzion",
+      "section": "main",
+      "position": 3,
+      "performance": "listed"
+    },
+    {
+      "songId": "sangenshoku",
+      "section": "main",
+      "position": 4,
+      "performance": "listed"
+    },
+    {
+      "songId": "mou-sukoshi-dake",
+      "section": "main",
+      "position": 5,
+      "performance": "listed"
+    },
+    {
+      "songId": "haruka",
+      "section": "main",
+      "position": 6,
+      "performance": "listed"
+    },
+    {
+      "songId": "tabun",
+      "section": "main",
+      "position": 7,
+      "performance": "listed"
+    },
+    {
+      "songId": "moshimo-inochi-ga-egaketara",
+      "section": "main",
+      "position": 8,
+      "performance": "listed"
+    },
+    {
+      "songId": "yoru-ni-kakeru",
+      "section": "main",
+      "position": 9,
+      "performance": "listed"
+    },
+    {
+      "songId": "kaibutsu",
+      "section": "main",
+      "position": 10,
+      "performance": "listed"
+    },
+    {
+      "songId": "yasashii-suisei",
+      "section": "main",
+      "position": 11,
+      "performance": "listed"
+    },
+    {
+      "songId": "epilogue",
+      "section": "main",
+      "position": 12,
+      "performance": "listed"
+    },
+    {
+      "songId": "encore",
+      "section": "main",
+      "position": 13,
+      "performance": "listed"
+    },
+    {
+      "songId": "tsubame",
+      "section": "main",
+      "position": 14,
+      "performance": "listed"
+    },
+    {
+      "songId": "gunjo",
+      "section": "main",
+      "position": 15,
+      "performance": "listed"
+    },
+    {
+      "songId": "love-letter",
+      "section": "encore",
+      "position": 16,
+      "performance": "listed"
+    }
+  ],
+  "verifiedAt": "2026-10-04",
+  "sources": [
+    {
+      "title": "YOASOBI 官方：NICE TO MEET YOU Day1 報告",
+      "url": "https://note.com/yoasobi_staff/n/n0984127c059e",
+      "scope": "2021-12-04 歌單與穿插的 Epilogue；不推定每首演唱長度。"
+    },
+    {
+      "title": "YOASOBI『NICE TO MEET YOU』",
+      "url": "https://www.yoasobi-music.jp/live/48609",
+      "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+    },
+    {
+      "title": "初のライブ映像作品集『THE FILM』3/23(水)リリース＆ジャケ写・収録内容解禁！",
+      "url": "https://www.yoasobi-music.jp/news/537383",
+      "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+    }
+  ],
+  "notes": [
+    "官方報告的 M1–M15 正式編號不包含文中明載的 Epilogue。本站將該穿插曲列入，使用連續閱讀曲序，共 16 項。",
+    "本篇為 2021-12-04 Day1，不套用到隔日；來源不區分完整或節選，演唱形式保留未區分。"
+  ]
+}

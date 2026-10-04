@@ -1,0 +1,36 @@
+{
+  "id": "first-listen",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "五首，五種故事入口",
+  "summary": "每天讀一篇、聽一首。這是編輯入門順序，不是人氣或演出頻率排名。",
+  "songs": [
+    {
+      "songId": "yoru-ni-kakeru",
+      "reason": "從出道作品理解小說、演唱與動畫的關係。"
+    },
+    {
+      "songId": "gunjo",
+      "reason": "認識概念故事、漫畫靈感與合唱的結合。"
+    },
+    {
+      "songId": "kaibutsu",
+      "reason": "從動畫主題歌進入專為歌曲創作的短篇。"
+    },
+    {
+      "songId": "shukufuku",
+      "reason": "把動畫、歌曲小說與 MV 放在一起閱讀。"
+    },
+    {
+      "songId": "idol",
+      "reason": "熟悉作品背景後，再探索英文版本。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "歌曲與原作關係；推薦順序由本站編輯選擇。"
+    }
+  ]
+}

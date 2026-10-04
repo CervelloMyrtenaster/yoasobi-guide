@@ -1,0 +1,61 @@
+{
+  "id": "e-side-2",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "E-SIDE 2",
+  "kind": "ep",
+  "date": "2022-11-18",
+  "summary": "第二張英文 EP，從〈祝福〉到〈ラブレター〉，共八首英文演唱版本。來源正文與資料欄日期有誤植，採正文及其他官方資料一致的 2022-11-18。",
+  "tracklistComplete": true,
+  "tracks": [
+    {
+      "songId": "the-blessing",
+      "position": 1
+    },
+    {
+      "songId": "if-i-could-draw-life",
+      "position": 2
+    },
+    {
+      "songId": "romance",
+      "position": 3
+    },
+    {
+      "songId": "the-swallow",
+      "position": 4
+    },
+    {
+      "songId": "halzion-en",
+      "position": 5
+    },
+    {
+      "songId": "just-a-little-step",
+      "position": 6
+    },
+    {
+      "songId": "haruka-en",
+      "position": 7
+    },
+    {
+      "songId": "love-letter-en",
+      "position": 8
+    }
+  ],
+  "sources": [
+    {
+      "title": "本日『祝福』CDリリース！「The Blessing」(「祝福」英語版)のMV公開＆配信開始！そして英語版EP第2弾となる『E-SIDE 2』の配信リリースも決定！",
+      "url": "https://www.yoasobi-music.jp/news/546801",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "首次海外演出事後報告及 E-SIDE 2 配信日期",
+      "url": "https://prtimes.jp/main/html/rd/p/000000521.000055377.html",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ],
+  "listeningNotes": [
+    "從 The Blessing 開始，本張把動畫合作、童聲企劃、日常與信件等作品轉為英文演唱。這些背景在對應日文頁可繼續讀原作。",
+    "Romance、The Swallow、Just a Little Step 等題名有不同翻譯策略，不必逐字和日文標題對齐；先聽演唱，再看敘事與語氣。",
+    "用一段副歌做雙語比較即可，不必一次把整張變成對照教材。想學日語時，回到每頁的日文原曲入口。"
+  ]
+}

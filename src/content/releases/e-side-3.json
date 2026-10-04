@@ -1,0 +1,56 @@
+{
+  "id": "e-side-3",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "E-SIDE 3",
+  "kind": "ep",
+  "date": "2024-04-12",
+  "summary": "第三張英文 EP，將「はじめての」四部作品與動畫、遊戲、USJ 合作曲放在同一張唱片中。",
+  "tracklistComplete": true,
+  "tracks": [
+    {
+      "songId": "biri-biri-en",
+      "position": 1
+    },
+    {
+      "songId": "idol-en",
+      "position": 2
+    },
+    {
+      "songId": "mister-en",
+      "position": 3
+    },
+    {
+      "songId": "manimani",
+      "position": 4
+    },
+    {
+      "songId": "the-brave",
+      "position": 5
+    },
+    {
+      "songId": "seventeen-en",
+      "position": 6
+    },
+    {
+      "songId": "loving-you",
+      "position": 7
+    },
+    {
+      "songId": "adventure-en",
+      "position": 8
+    }
+  ],
+  "sources": [
+    {
+      "title": "E-SIDE 3 及 Coachella 三場演出公告",
+      "url": "https://prtimes.jp/main/html/rd/p/000000947.000055377.html",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ],
+  "listeningNotes": [
+    "Biri-Biri、Idol、The Brave 與はじめての四作在同張英文 EP 相遇。遊戲、動畫與文學企劃保留各自來源，並非新的一組小說。",
+    "題名 Manimani、Loving You 等與日文原曲不是逐字對譯。比較同一段旋律，聽語言如何改變重音與句尾，比只列翻譯差異更能理解英文演唱。",
+    "日文原曲與英文版各有影片和發行日期；查 MV 發布與音源發行時，也不要把兩個事件合成一天。"
+  ]
+}

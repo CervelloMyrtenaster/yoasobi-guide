@@ -1,0 +1,65 @@
+{
+  "id": "the-book",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "THE BOOK",
+  "kind": "ep",
+  "date": "2021-01-06",
+  "summary": "YOASOBI 第一張實體 EP，將早期單曲與首次收錄的〈アンコール〉串成一冊。從 Epilogue 開始、以 Prologue 結尾，也可按曲序體會故事的銜接。",
+  "tracklistComplete": true,
+  "tracks": [
+    {
+      "songId": "epilogue",
+      "position": 1
+    },
+    {
+      "songId": "encore",
+      "position": 2
+    },
+    {
+      "songId": "halzion",
+      "position": 3
+    },
+    {
+      "songId": "ano-yume-wo-nazotte",
+      "position": 4
+    },
+    {
+      "songId": "tabun",
+      "position": 5
+    },
+    {
+      "songId": "gunjo",
+      "position": 6
+    },
+    {
+      "songId": "haruka",
+      "position": 7
+    },
+    {
+      "songId": "yoru-ni-kakeru",
+      "position": 8
+    },
+    {
+      "songId": "prologue",
+      "position": 9
+    }
+  ],
+  "sources": [
+    {
+      "title": "10月に迎える結成5周年を記念して、EP『THE BOOK』シリーズ3作品のアナログ盤を10/23(水)に発売決定！国内外で活躍するイラストレーター3名による描き下ろしイラストジャケットデザイン＆カラーバイナル仕様。本日より予約開始！",
+      "url": "https://www.yoasobi-music.jp/news/566407",
+      "scope": "官方發行資訊、曲目表與創作背景；正文已查核。"
+    },
+    {
+      "title": "THE BOOK 系列全四作及配信日期",
+      "url": "https://prtimes.jp/main/html/rd/p/000001811.000055377.html",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ],
+  "listeningNotes": [
+    "這份曲序從 Epilogue 開始、以 Prologue 結束，並非依發行日期排序。把熟悉的單曲重新放回頭尾，能聽見「成冊」與逐首播放的差別。",
+    "先聽アンコール的故事，再經失去與青春、群青的合唱、ハルカ的陪伴，走到夜に駆ける。這是本站的曲序閱讀，不把不同原作說成同一條連續劇情。",
+    "初學者可先聽有印象的一首，再完整播放；老聽者可留意短曲如何改變前後作品的空間與情緒。"
+  ]
+}

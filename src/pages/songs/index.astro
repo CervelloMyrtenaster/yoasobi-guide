@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SongCatalog from '../../components/SongCatalog.astro';
+import { loadContent } from '../../lib/content';
+import { path } from '../../lib/paths';
+const { songs } = await loadContent();
+const originals=songs.filter(s=>s.data.kind==='original').length;
+const english=songs.filter(s=>s.data.kind==='english').length;
+---
+<BaseLayout title="完整歌曲介紹與作品目錄" description="依年份探索 YOASOBI 日文原曲、英文版、合作曲與不同版本；閱讀原作、tie-in、官方 MV 與日語學習入口。">
+  <div class="page-head"><span class="eyebrow">SONG NOTES / COMPLETE CATALOG</span><h1>一首歌，一個世界。</h1><p class="lead">{songs.length} 篇作品介紹，包含 {originals} 首日文原曲、{english} 首英文版，以及合作曲、重新編曲與專輯短曲。</p><p>發行日期依首次音源推出排列；MV 公開、實體單曲與再次發行另存於歷史紀錄。</p><div class="actions"><a href={path('start/')}>不知道先聽哪首？從入門路線開始 →</a><a href={path('releases/')}>查看完整 EP 曲目 →</a><a href={path('new-works/')}>新作與相關發行資訊 →</a></div></div>
+  <SongCatalog songs={songs}/>
+</BaseLayout>

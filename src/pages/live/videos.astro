@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LiveClips from '../../components/LiveClips.astro';
+import { loadContent } from '../../lib/content';
+import { path } from '../../lib/paths';
+const { songs } = await loadContent();
+const entries = songs.filter(s=>!s.data.versionOf&&s.data.videos.some(v=>v.kind==='live'));
+const count = entries.reduce((n,s)=>n+s.data.videos.filter(v=>v.kind==='live').length,0);
+---
+<BaseLayout title="官方現場影片與公開演唱" description="從 YOASOBI 與 THE FIRST TAKE 官方公開片段，觀看演唱會、音樂祭、節目與棚內演唱，連回歌曲背景與完整歌單。">
+<div class="page-head"><span class="eyebrow">LIVE / WATCH AND LISTEN</span><h1>從一段現場，<br/>再認識一首歌。</h1><p class="lead">{entries.length} 首作品、{count} 支已核對的官方公開演唱片段。依歌曲首次發行順序閱讀，演出日期與場景保留在原影片標題。</p><div class="actions"><a class="button" href={path('live/prepare/')}>先挑惡補路線 →</a><a href={path('live/stats/')}>查看完整歌單樣本 →</a></div></div>
+<article class="prose"><p>演唱會、戶外音樂祭、電視節目與 THE FIRST TAKE 棚內演唱，可以呈現不同聲音距離。片段不必等於完整表演，也不取代整場歌單。未找到官方公開片段的作品沒有因此被判定「未曾演出」。</p><nav aria-label="選擇現場影片歌曲">{entries.map(s=><a lang={s.data.language==='ja'?'ja':undefined} href={`#clip-${s.id}`}>{s.data.titleJa}</a>)}</nav>
+{entries.map(s=><section id={`clip-${s.id}`}><h2 lang={s.data.language==='ja'?'ja':undefined}>{s.data.titleJa}</h2><p>{s.data.summary}</p><a href={path(`songs/${s.id}/`)}>閱讀原作、聆聽解析與 LIVE 資料 →</a><LiveClips sectionId={`videos-${s.id}`} headingLevel={3} videos={s.data.videos.filter(v=>v.kind==='live')}/></section>)}
+<p class="muted">公開發布者核對日期：{entries.map(s=>s.data.updatedAt).sort().at(-1)}。點選播放後才向 YouTube 請求播放器；所有影片保留官方外部入口。影片可播地區、年齡或嵌入限制由發布者與 YouTube 控制。</p></article>
+</BaseLayout>

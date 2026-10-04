@@ -1,0 +1,88 @@
+{
+  "id": "concert-first-five",
+  "status": "published",
+  "purpose": "concert",
+  "updatedAt": "2026-10-04",
+  "title": "約 30 分鐘：先能認出這五首",
+  "summary": "適合今天就要出發的人：每首先聽一次、認出前奏或副歌，再挑一段官方現場。時間包含短閱讀，為編輯規劃，非歌曲精確總長。 這五首也見於 2023-08-06 Head In The Clouds Los Angeles 已刊載歌單；不是跨年演出頻率排行。",
+  "songs": [
+    {
+      "historyId": "history-0003",
+      "reason": "先認出鋼琴與副歌；官方 MV 有年齡限制，可用 THE HOME TAKE 片段建立聲音記憶。",
+      "listenUrl": "https://www.youtube.com/watch?v=x8VYWazR5mE"
+    },
+    {
+      "historyId": "history-0007",
+      "reason": "先熟悉副歌與合唱段的拍子，感受主唱走向集體聲音；不需先背整首。",
+      "listenUrl": "https://www.youtube.com/watch?v=Y4nEEZwckuU"
+    },
+    {
+      "historyId": "history-0010",
+      "reason": "把快速主歌與副歌分開聽，先抓住低音、節奏與最容易辨識的段落。",
+      "listenUrl": "https://www.youtube.com/watch?v=dy90tA3TT1c"
+    },
+    {
+      "historyId": "history-0029",
+      "reason": "先辨認開場的動能與副歌；它在本站音樂祭樣本為開場，不代表下一場固定開場。",
+      "listenUrl": "https://www.youtube.com/watch?v=3eytpBOkOFA"
+    },
+    {
+      "historyId": "history-0037",
+      "reason": "先記住段落切換與副歌，之後再練快速語句；片段與完整 MV 可以交替看。",
+      "listenUrl": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Head In The Clouds Los Angeles 演出報導與歌曲清單",
+      "url": "https://lp.p.pia.jp/article/news/284424/index.html",
+      "scope": "支持上述五首出現在 2023-08-06 演出，以及〈祝福〉為開場曲；推薦順序與練習提示是本站編輯選擇，不是頻率排名。"
+    },
+    {
+      "title": "YOASOBI「夜に駆ける」 Official Music Video",
+      "url": "https://www.youtube.com/watch?v=x8VYWazR5mE",
+      "scope": "官方 MV 入口；2026-10-04 已核對 YouTube 回傳的影片名稱與官方頻道。"
+    },
+    {
+      "title": "YOASOBI「群青」Official Music Video",
+      "url": "https://www.youtube.com/watch?v=Y4nEEZwckuU",
+      "scope": "官方 MV 入口；2026-10-04 已核對 YouTube 回傳的影片名稱與官方頻道。"
+    },
+    {
+      "title": "YOASOBI「怪物」Official Music Video　(YOASOBI - Monster)",
+      "url": "https://www.youtube.com/watch?v=dy90tA3TT1c",
+      "scope": "官方 MV 入口；2026-10-04 已核對 YouTube 回傳的影片名稱與官方頻道。"
+    },
+    {
+      "title": "YOASOBI「祝福」Official Music Video (『機動戦士ガンダム 水星の魔女』オープニングテーマ)",
+      "url": "https://www.youtube.com/watch?v=3eytpBOkOFA",
+      "scope": "官方 MV 入口；2026-10-04 已核對 YouTube 回傳的影片名稱與官方頻道。"
+    },
+    {
+      "title": "YOASOBI「アイドル」 Official Music Video",
+      "url": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ",
+      "scope": "官方 MV 入口；2026-10-04 已核對 YouTube 回傳的影片名稱與官方頻道。"
+    },
+    {
+      "title": "YOASOBI 官方：NICE TO MEET YOU Day1 報告",
+      "url": "https://note.com/yoasobi_staff/n/n0984127c059e",
+      "scope": "2021-12-04 歌單與穿插的 Epilogue；不推定每首演唱長度。"
+    },
+    {
+      "title": "YOASOBI 官方：電光石火神奈川追加 Day1 報告",
+      "url": "https://note.com/yoasobi_staff/n/ndf8314ce9867",
+      "scope": "2023-06-23 ぴあアリーナ MM 曲序與安可。"
+    },
+    {
+      "title": "ROCK IN JAPAN FESTIVAL 2023：主辦方現場報告",
+      "url": "https://rockinon.com/quick/rijfes2023/detail/207051",
+      "scope": "2023-08-13 LOTUS 舞台正式刊載歌單。"
+    },
+    {
+      "title": "THE FIRST TIMES：WANDARA 千秋樂兩日報告",
+      "url": "https://www.thefirsttimes.jp/report/0000727549/",
+      "scope": "2025-11-29、11-30 沖縄コンベンションセンター展示棟；兩日曲序與安可分列。"
+    }
+  ],
+  "sourcePerformanceId": "history-0231"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "wandara-okinawa-2025-11-30",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "WANDARA · 沖繩 Day2",
+  "date": "2025-11-30",
+  "country": "日本",
+  "city": "沖縄県",
+  "venue": "沖縄コンベンションセンター展示棟",
+  "tourId": "wandara",
+  "eventType": "solo",
+  "eventStatus": "completed",
+  "setlistStatus": "complete",
+  "setlist": [
+    {
+      "songId": "idol",
+      "section": "main",
+      "position": 1,
+      "performance": "listed"
+    },
+    {
+      "songId": "shukufuku",
+      "section": "main",
+      "position": 2,
+      "performance": "listed"
+    },
+    {
+      "songId": "undead",
+      "section": "main",
+      "position": 3,
+      "performance": "listed"
+    },
+    {
+      "songId": "watch-me",
+      "section": "main",
+      "position": 4,
+      "performance": "listed"
+    },
+    {
+      "songId": "halzion",
+      "section": "main",
+      "position": 5,
+      "performance": "listed"
+    },
+    {
+      "songId": "ano-yume-wo-nazotte",
+      "section": "main",
+      "position": 6,
+      "performance": "listed"
+    },
+    {
+      "songId": "love-letter",
+      "section": "main",
+      "position": 7,
+      "performance": "listed"
+    },
+    {
+      "songId": "monotone",
+      "section": "main",
+      "position": 8,
+      "performance": "listed"
+    },
+    {
+      "songId": "yasashii-suisei",
+      "section": "main",
+      "position": 9,
+      "performance": "listed"
+    },
+    {
+      "songId": "yuusha",
+      "section": "main",
+      "position": 10,
+      "performance": "listed"
+    },
+    {
+      "songId": "butai-ni-tatte",
+      "section": "main",
+      "position": 11,
+      "performance": "listed"
+    },
+    {
+      "songId": "kaibutsu",
+      "section": "main",
+      "position": 12,
+      "performance": "listed"
+    },
+    {
+      "songId": "seventeen",
+      "section": "main",
+      "position": 13,
+      "performance": "listed"
+    },
+    {
+      "songId": "gunjo",
+      "section": "main",
+      "position": 14,
+      "performance": "listed"
+    },
+    {
+      "songId": "players",
+      "section": "main",
+      "position": 15,
+      "performance": "listed"
+    },
+    {
+      "songId": "gekijo",
+      "section": "encore",
+      "position": 16,
+      "performance": "listed"
+    },
+    {
+      "songId": "yoru-ni-kakeru",
+      "section": "encore",
+      "position": 17,
+      "performance": "listed"
+    }
+  ],
+  "verifiedAt": "2026-10-04",
+  "sources": [
+    {
+      "title": "THE FIRST TIMES：WANDARA 千秋樂兩日報告",
+      "url": "https://www.thefirsttimes.jp/report/0000727549/",
+      "scope": "2025-11-29、11-30 沖縄コンベンションセンター展示棟；兩日曲序與安可分列。"
+    },
+    {
+      "title": "YOASOBI HALL TOUR 2025 WANDARA",
+      "url": "https://www.yoasobi-music.jp/live/53094",
+      "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+    }
+  ],
+  "notes": [
+    "acoustic session 的順序為あの夢をなぞって／ラブレター，與第一天相反。拆為兩首後共 17 曲，演唱長度不作推定。",
+    "本場與前一天來自同一巡演、同一場館，統計時應留意樣本集中。"
+  ]
+}

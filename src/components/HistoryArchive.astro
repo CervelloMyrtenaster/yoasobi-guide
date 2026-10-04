@@ -1,0 +1,88 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { historyTypes, historyStatuses } from '../lib/history';
+import { path } from '../lib/paths';
+interface Props {
+  entries: CollectionEntry<'history'>[];
+  context?: string;
+  songLinks?: Record<string, { href: string; keywords: string }>;
+}
+const { entries, context = 'history', songLinks = {} } = Astro.props;
+const years = [...new Set(entries.map(e=>e.data.year))].sort((a,b)=>a-b);
+const types = [...new Set(entries.map(e=>e.data.type))];
+---
+<div data-archive>
+<form class="archive-filter" data-archive-filter hidden role="search" aria-label="查找已查核紀錄">
+  <div><label for={`${context}-query`}>查找作品、活動或地點</label><input id={`${context}-query`} name="q" type="search" placeholder="輸入名稱、日期或地點"/></div>
+  <div><label for={`${context}-type`}>資料類型</label><select id={`${context}-type`} name="type"><option value="">全部類型</option>{types.map(type=><option value={type}>{historyTypes[type] ?? type}</option>)}</select></div>
+  <div><label for={`${context}-year`}>年份</label><select id={`${context}-year`} name="year"><option value="">全部年份</option>{years.map(year=><option value={year}>{year}</option>)}</select></div>
+  <button type="button" data-clear>清除篩選</button>
+  <p class="muted" data-archive-results role="status" aria-live="polite" aria-atomic="true">共 {entries.length} 筆已查核紀錄</p>
+</form>
+<nav class="archive-years" aria-label="跳至年份">{years.map(year=><a href={`#year-${year}`} data-year-link={year}>{year}</a>)}</nav>
+<p class="empty" data-archive-empty hidden>沒有符合的紀錄。試試其他關鍵字，或清除篩選。</p>
+{years.map(year=><section class="section" id={`year-${year}`} data-year-section={year} aria-labelledby={`heading-${year}`}>
+  <h2 id={`heading-${year}`}>{year}</h2>
+  <div class="route-grid">{entries.filter(e=>e.data.year===year).map(({id,data})=><article class="route-card" data-archive-item data-year={year} data-type={data.type} data-search={[data.title,data.description,data.date,data.location,data.venue,songLinks[id]?.keywords].filter(Boolean).join(' ')}>
+    <span class="eyebrow">{historyTypes[data.type] ?? data.type}</span>
+    <p><time datetime={data.date}>{data.date}</time>{data.endDate && <> — <time datetime={data.endDate}>{data.endDate}</time></>}{data.datePrecision!=='day' && <span>（僅知{data.datePrecision==='year'?'年份':'年月'}）</span>}</p>
+    <h3><a href={path(`history/${id}/`)} data-archive-detail>{data.title}</a></h3>
+    <p class="archive-status">{historyStatuses[data.status]}</p>
+    {(data.location || data.venue) && <p>{[data.location,data.venue].filter(Boolean).join(' · ')}</p>}
+    <p>{data.description}</p>
+    {data.conflictNotes.length>0 && <p class="muted">來源有差異，詳情頁附核對說明。</p>}
+    {songLinks[id] && <p><a href={songLinks[id].href}>閱讀歌曲介紹與 MV →</a></p>}
+  </article>)}</div>
+</section>)}
+</div>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-archive]').forEach(archive => {
+    const form = archive.querySelector<HTMLFormElement>('form')!;
+    const query = form.querySelector<HTMLInputElement>('[name=q]')!;
+    const type = form.querySelector<HTMLSelectElement>('[name=type]')!;
+    const year = form.querySelector<HTMLSelectElement>('[name=year]')!;
+    const cards = [...archive.querySelectorAll<HTMLElement>('[data-archive-item]')];
+    const sections = [...archive.querySelectorAll<HTMLElement>('[data-year-section]')];
+    const normalize = (value: string) => value.normalize('NFKC').toLowerCase();
+    const searchable = new Map(cards.map(card => [card, normalize(card.dataset.search ?? '')]));
+    const restore = () => {
+      const params = new URLSearchParams(location.search);
+      query.value = params.get('q') ?? '';
+      type.value = params.get('type') ?? '';
+      year.value = params.get('year') ?? '';
+    };
+    const filter = (updateURL = true) => {
+      const needle = normalize(query.value.trim());
+      cards.forEach(card => card.hidden = !searchable.get(card)?.includes(needle) || (!!type.value && card.dataset.type !== type.value) || (!!year.value && card.dataset.year !== year.value));
+      sections.forEach(section => {
+        section.hidden = !section.querySelector('[data-archive-item]:not([hidden])');
+        archive.querySelector<HTMLElement>(`[data-year-link="${section.dataset.yearSection}"]`)!.hidden = section.hidden;
+      });
+      const count = cards.filter(card => !card.hidden).length;
+      form.querySelector('[data-archive-results]')!.textContent = `找到 ${count} 筆紀錄（共 ${cards.length} 筆）`;
+      archive.querySelector<HTMLElement>('[data-archive-empty]')!.hidden = count !== 0;
+      const url = new URL(location.href);
+      if (updateURL) {
+        for (const [key, value] of [['q',query.value.trim()],['type',type.value],['year',year.value]]) {
+          if (value) url.searchParams.set(key,value); else url.searchParams.delete(key);
+        }
+        const target = document.getElementById(url.hash.slice(1));
+        if (target?.hidden) url.hash = '';
+        history.replaceState(null,'',url);
+      }
+      cards.forEach(card => {
+        const link = card.querySelector<HTMLAnchorElement>('[data-archive-detail]')!;
+        const detail = new URL(link.href);
+        detail.searchParams.set('from',`${url.pathname}${url.search}#year-${card.dataset.year}`);
+        link.href = `${detail.pathname}${detail.search}`;
+      });
+    };
+    const submit = (event: SubmitEvent) => { event.preventDefault(); filter(); };
+    form.addEventListener('submit',submit);
+    query.addEventListener('input',() => filter());
+    type.addEventListener('change',() => filter()); year.addEventListener('change',() => filter());
+    form.querySelector('[data-clear]')!.addEventListener('click',() => { form.reset(); filter(); query.focus(); });
+    window.addEventListener('popstate',() => { restore(); filter(false); });
+    restore(); filter(false); form.hidden = false;
+  });
+</script>

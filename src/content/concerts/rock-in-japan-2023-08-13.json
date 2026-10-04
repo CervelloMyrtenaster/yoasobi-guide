@@ -1,0 +1,108 @@
+{
+  "id": "rock-in-japan-2023-08-13",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "ROCK IN JAPAN FESTIVAL 2023 · LOTUS",
+  "date": "2023-08-13",
+  "country": "日本",
+  "city": "千葉県",
+  "venue": "千葉市蘇我スポーツ公園（千葉市中央区）",
+  "eventType": "festival",
+  "eventStatus": "completed",
+  "setlistStatus": "complete",
+  "setlist": [
+    {
+      "songId": "shukufuku",
+      "section": "main",
+      "position": 1,
+      "performance": "listed"
+    },
+    {
+      "songId": "yoru-ni-kakeru",
+      "section": "main",
+      "position": 2,
+      "performance": "listed"
+    },
+    {
+      "songId": "sangenshoku",
+      "section": "main",
+      "position": 3,
+      "performance": "listed"
+    },
+    {
+      "songId": "seventeen",
+      "section": "main",
+      "position": 4,
+      "performance": "listed"
+    },
+    {
+      "songId": "mister",
+      "section": "main",
+      "position": 5,
+      "performance": "listed"
+    },
+    {
+      "songId": "tabun",
+      "section": "main",
+      "position": 6,
+      "performance": "listed"
+    },
+    {
+      "songId": "halzion",
+      "section": "main",
+      "position": 7,
+      "performance": "listed"
+    },
+    {
+      "songId": "tsubame",
+      "section": "main",
+      "position": 8,
+      "performance": "listed"
+    },
+    {
+      "songId": "kaibutsu",
+      "section": "main",
+      "position": 9,
+      "performance": "listed"
+    },
+    {
+      "songId": "gunjo",
+      "section": "main",
+      "position": 10,
+      "performance": "listed"
+    },
+    {
+      "songId": "adventure",
+      "section": "main",
+      "position": 11,
+      "performance": "listed"
+    },
+    {
+      "songId": "idol",
+      "section": "encore",
+      "position": 12,
+      "performance": "listed"
+    }
+  ],
+  "verifiedAt": "2026-10-04",
+  "sources": [
+    {
+      "title": "ROCK IN JAPAN FESTIVAL 2023：主辦方現場報告",
+      "url": "https://rockinon.com/quick/rijfes2023/detail/207051",
+      "scope": "2023-08-13 LOTUS 舞台正式刊載歌單。"
+    },
+    {
+      "title": "ROCK IN JAPAN FES.2023",
+      "url": "https://www.yoasobi-music.jp/live/50779",
+      "scope": "官方歷屆出演紀錄與藝人排定日程交叉核對。"
+    },
+    {
+      "title": "ROCK IN JAPAN 官方歷屆日期、場館及出演名單",
+      "url": "https://rijfes.jp/2025/history/",
+      "scope": "官方歷屆出演紀錄與藝人排定日程交叉核對。"
+    }
+  ],
+  "notes": [
+    "採主辦方刊載的曲序，不採與其不同的群眾回報。音樂祭與專場分開統計；單場不足以代表音樂祭常演排行。"
+  ]
+}

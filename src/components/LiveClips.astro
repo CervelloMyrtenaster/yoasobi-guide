@@ -1,0 +1,11 @@
+---
+import YouTubeEmbed from './YouTubeEmbed.astro';
+import type { CollectionEntry } from 'astro:content';
+interface Props { videos: CollectionEntry<'songs'>['data']['videos']; sectionId?: string; headingLevel?: 2 | 3 }
+const { videos, sectionId='live-videos', headingLevel=2 } = Astro.props;
+const Heading = `h${headingLevel}`;
+---
+<section id={sectionId}><Heading>官方現場與公開演唱片段</Heading>
+  <p class="muted">演唱會、節目與棚內演唱依影片原標題區分。未明載日期的片段不補日期；公開片段不等於完整歌單。展開後仍需點選播放才載入 YouTube。</p>
+  {videos.map(v=><details class="clip-details"><summary>{v.title}</summary><YouTubeEmbed id={v.youtubeId} title={v.title} kind={v.kind} headingLevel={headingLevel===2?3:4} externalOnly={v.externalOnly} restrictionNote={v.restrictionNote}/></details>)}
+</section>
