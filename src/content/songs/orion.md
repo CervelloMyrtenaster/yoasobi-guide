@@ -60,7 +60,9 @@
       "youtubeId": "67dqkyZXwd4",
       "title": "YOASOBI「オリオン / Orion」 from TBS系 『CDTVライブ！ライブ！』 @ TOYOTA ARENA TOKYO",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=67dqkyZXwd4"
+      "sourceUrl": "https://www.youtube.com/watch?v=67dqkyZXwd4",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "tv"
     }
   ],
   "sources": [
@@ -98,7 +100,8 @@
     "biri-biri",
     "players",
     "orion-psyqui-remix"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -120,7 +123,7 @@
 
 「オリオン」是 Orion 的片假名，中文常譯獵戶座。原作日英文題名可以協助理解故事入口，但英文版歌曲仍是為演唱安排的文字，不等於小說譯文。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

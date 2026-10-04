@@ -1,0 +1,135 @@
+{
+  "id": "chogenjitsu-singapore-2025-02-23",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "超現実 IN SINGAPORE",
+  "date": "2025-02-23",
+  "country": "新加坡",
+  "city": "新加坡",
+  "venue": "Singapore Indoor Stadium",
+  "tourId": "asia-2024-2025",
+  "eventType": "solo",
+  "eventStatus": "completed",
+  "setlistStatus": "complete",
+  "setlist": [
+    {
+      "position": 1,
+      "songId": "seventeen",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 2,
+      "songId": "shukufuku",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 3,
+      "songId": "undead",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 4,
+      "songId": "new-me",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 5,
+      "songId": "sukida",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 6,
+      "songId": "mou-sukoshi-dake",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 7,
+      "songId": "halzion",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 8,
+      "songId": "tabun",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 9,
+      "songId": "monotone",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 10,
+      "songId": "yasashii-suisei",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 11,
+      "songId": "kaibutsu",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 12,
+      "songId": "yuusha",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 13,
+      "songId": "ano-yume-wo-nazotte",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 14,
+      "songId": "idol",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 15,
+      "songId": "heart-beat",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 16,
+      "songId": "gunjo",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 17,
+      "songId": "butai-ni-tatte",
+      "section": "encore",
+      "performance": "listed"
+    },
+    {
+      "position": 18,
+      "songId": "yoru-ni-kakeru",
+      "section": "encore",
+      "performance": "listed"
+    }
+  ],
+  "verifiedAt": "2026-10-04",
+  "notes": [
+    "使用官方影像商品說明中標為セットリスト的曲序，未將收錄影像視為未剪輯全場，也不自行判定 full／excerpt。"
+  ],
+  "sources": [
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/577052",
+      "scope": "2025-02-23、Singapore Indoor Stadium 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+    }
+  ]
+}

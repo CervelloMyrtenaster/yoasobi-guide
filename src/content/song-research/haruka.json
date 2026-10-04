@@ -1,0 +1,76 @@
+{
+  "id": "haruka",
+  "songId": "haruka",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《月王子》（鈴木おさむ）：小說。合作用途為 Takara Tomy「ぷにるんず」（廣告歌曲）。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "楽曲「ハルカ」がマイナビ新WEBムービー『キミの信じるものは？』に起用！\r\n稲垣来泉、陣野小和 W主演。門脇麦が姉役で出演する、高校生のエモーショナルな葛藤を描いた作品。\r\n",
+          "url": "https://www.yoasobi-music.jp/news/587242",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "2021年11月度串流認證及配信開始日",
+          "url": "https://prtimes.jp/a/?c=10908&f=d10908-418-ee751c6a8c9b1fd47c70daa8955d6753.pdf&r=418",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "圖像作者與小說作者是不同角色",
+      "text": "Sony Creative Products 的公開製作說明確認伊豆見香苗製作 MV。鈴木おさむ提供《月王子》的文字原作；讀這首歌時可把文學敘事、角色圖像和音樂製作三個職務分開，避免把影像一併歸給小說作者。",
+      "sources": [
+        {
+          "title": "Sony Creative Products：ハルカ MV 製作公告",
+          "url": "https://newscast.jp/news/8100662",
+          "scope": "MV 製作者與公開資訊。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "MV 製作",
+      "name": "伊豆見香苗",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "Sony Creative Products：ハルカ MV 製作公告",
+        "url": "https://newscast.jp/news/8100662",
+        "scope": "MV 製作者與公開資訊。"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "楽曲「ハルカ」がマイナビ新WEBムービー『キミの信じるものは？』に起用！\r\n稲垣来泉、陣野小和 W主演。門脇麦が姉役で出演する、高校生のエモーショナルな葛藤を描いた作品。\r\n",
+      "url": "https://www.yoasobi-music.jp/news/587242",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "2021年11月度串流認證及配信開始日",
+      "url": "https://prtimes.jp/a/?c=10908&f=d10908-418-ee751c6a8c9b1fd47c70daa8955d6753.pdf&r=418",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "Sony Creative Products：ハルカ MV 製作公告",
+      "url": "https://newscast.jp/news/8100662",
+      "scope": "MV 製作者與公開資訊。"
+    }
+  ]
+}

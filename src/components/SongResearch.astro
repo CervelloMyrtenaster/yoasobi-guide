@@ -1,0 +1,11 @@
+---
+import type {CollectionEntry} from 'astro:content';
+interface Props { research: CollectionEntry<'songResearch'> }
+const {research}=Astro.props;
+const labels={creation:'創作背景',narrative:'敘事構思',mv:'MV 製作',reception:'評論與回應',version:'版本研究'};
+---
+<section id="song-research"><h2>作品研究與製作紀錄</h2><p class="muted">逐項附來源；創作者的說明、製作署名與本站閱讀方法分開標示。</p>
+{research.data.notes.map(note=><details class="clip-details"><summary>{labels[note.area]} · {note.title}</summary><p>{note.text}</p><ul class="claim-sources">{note.sources.map(s=><li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.title} ↗<span class="sr-only">（另開分頁）</span></a><br/><small>{s.scope}</small></li>)}</ul></details>)}
+{research.data.credits.length>0&&<details class="clip-details"><summary>已核對的製作職務</summary><dl class="metadata">{research.data.credits.map(c=><><dt>{c.role}</dt><dd>{c.name}<br/><small>{c.scope} <a href={c.source.url} target="_blank" rel="noopener noreferrer">製作來源 ↗<span class="sr-only">（另開分頁）</span></a></small></dd></>)}</dl></details>}
+{research.data.gaps.length>0&&<details class="clip-details"><summary>資料覆蓋與待查項目</summary><p>本頁有介紹不等於所有史料已收集。以下保留尚未核對的範圍，不用「沒有紀錄」推定「從未發生」。</p><ul>{research.data.gaps.map(g=><li>{g.note}</li>)}</ul></details>}
+</section>

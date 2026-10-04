@@ -8,6 +8,7 @@ export const historyTypes: Record<string, string> = {
   release_announcement:'發行預告', tour:'巡演', tour_show:'巡演場次', one_man_concert:'單獨演出',
   festival:'音樂祭／活動', online_concert:'線上演出', broadcast_performance:'電視演出',
   guest_performance:'嘉賓演出', special_performance:'特別演出', joint_concert:'聯合演出', talk_event:'對談活動',
+  chart:'榜單／成績',certification:'認證',award:'獲獎',nomination:'提名',
 };
 export const historyStatuses: Record<string,string> = {
   documented:'資料有正文支持', released:'已發行', performed:'有事後演出紀錄',

@@ -1,0 +1,120 @@
+{
+  "id": "taisho-roman",
+  "songId": "taisho-roman",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《大正ロマンス》（NATSUMI）：小說。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "2021年11月度串流認證及配信開始日",
+          "url": "https://prtimes.jp/a/?c=10908&f=d10908-418-ee751c6a8c9b1fd47c70daa8955d6753.pdf&r=418",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "YOASOBI 官方 SONGS / NOVELS",
+          "url": "https://www.yoasobi-music.jp/songs",
+          "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "文字設計也參與跨時代敘事",
+      "text": "前田定則的製作紀錄說明，字幕、題名與片中文字依大正／令和及兩名角色的對比設計。職務表列高瀬裕介為導演、分鏡及世界觀設計，木村真二為美術監督，SHAFT 製作動畫；這些職務不能互換。",
+      "sources": [
+        {
+          "title": "前田定則：大正浪漫 製作紀錄",
+          "url": "https://maedasadanori.com/works/taishoroman_mv/",
+          "scope": "文字設計與完整職務署名；與把木村真二稱為導演的二級摘要分開。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "MV 導演／分鏡／世界觀設計",
+      "name": "高瀬裕介",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "前田定則：大正浪漫 製作紀錄",
+        "url": "https://maedasadanori.com/works/taishoroman_mv/",
+        "scope": "文字設計與完整職務署名；與把木村真二稱為導演的二級摘要分開。"
+      }
+    },
+    {
+      "role": "美術監督",
+      "name": "木村真二",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "前田定則：大正浪漫 製作紀錄",
+        "url": "https://maedasadanori.com/works/taishoroman_mv/",
+        "scope": "文字設計與完整職務署名；與把木村真二稱為導演的二級摘要分開。"
+      }
+    },
+    {
+      "role": "角色設計",
+      "name": "窪之内英策",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "前田定則：大正浪漫 製作紀錄",
+        "url": "https://maedasadanori.com/works/taishoroman_mv/",
+        "scope": "文字設計與完整職務署名；與把木村真二稱為導演的二級摘要分開。"
+      }
+    },
+    {
+      "role": "文字設計",
+      "name": "前田定則",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "前田定則：大正浪漫 製作紀錄",
+        "url": "https://maedasadanori.com/works/taishoroman_mv/",
+        "scope": "文字設計與完整職務署名；與把木村真二稱為導演的二級摘要分開。"
+      }
+    },
+    {
+      "role": "動畫製作",
+      "name": "SHAFT",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "前田定則：大正浪漫 製作紀錄",
+        "url": "https://maedasadanori.com/works/taishoroman_mv/",
+        "scope": "文字設計與完整職務署名；與把木村真二稱為導演的二級摘要分開。"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "2021年11月度串流認證及配信開始日",
+      "url": "https://prtimes.jp/a/?c=10908&f=d10908-418-ee751c6a8c9b1fd47c70daa8955d6753.pdf&r=418",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    },
+    {
+      "title": "前田定則：大正浪漫 製作紀錄",
+      "url": "https://maedasadanori.com/works/taishoroman_mv/",
+      "scope": "文字設計與完整職務署名；與把木村真二稱為導演的二級摘要分開。"
+    }
+  ]
+}

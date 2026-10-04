@@ -2011,6 +2011,60 @@
       "language": "ja",
       "accessedAt": "2026-10-04",
       "publisher": "ORICON NEWS"
+    },
+    "audit-budokan-day1": {
+      "id": "audit-budokan-day1",
+      "title": "YOASOBI：NICE TO MEET YOU Day1 官方事後報告",
+      "url": "https://note.com/yoasobi_staff/n/n0984127c059e",
+      "publisher": "YOASOBI official note",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-04"
+    },
+    "audit-denko-day1": {
+      "id": "audit-denko-day1",
+      "title": "YOASOBI：電光石火神奈川追加 Day1 官方事後報告",
+      "url": "https://note.com/yoasobi_staff/n/ndf8314ce9867",
+      "publisher": "YOASOBI official note",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-04"
+    },
+    "audit-wandara-finale": {
+      "id": "audit-wandara-finale",
+      "title": "WANDARA 沖繩兩日完走報告及歌單",
+      "url": "https://www.thefirsttimes.jp/report/0000727549/",
+      "publisher": "THE FIRST TIMES",
+      "language": "ja",
+      "kind": "secondary",
+      "accessedAt": "2026-10-04"
+    },
+    "audit-film-561709": {
+      "id": "audit-film-561709",
+      "title": "YOASOBI 官方新聞 561709",
+      "url": "https://www.yoasobi-music.jp/news/561709",
+      "publisher": "YOASOBI official / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-04"
+    },
+    "audit-film-577052": {
+      "id": "audit-film-577052",
+      "title": "YOASOBI 官方新聞 577052",
+      "url": "https://www.yoasobi-music.jp/news/577052",
+      "publisher": "YOASOBI official / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-04"
+    },
+    "audit-hitc-la": {
+      "id": "audit-hitc-la",
+      "title": "Natalie / ぴあ：Head In The Clouds 事後報導",
+      "url": "https://lp.p.pia.jp/article/news/284424/index.html",
+      "publisher": "Natalie / ぴあ",
+      "language": "ja",
+      "kind": "secondary",
+      "accessedAt": "2026-10-04"
     }
   },
   "records": [
@@ -2721,22 +2775,27 @@
       "year": 2021,
       "location": "東京都",
       "venue": "日本武道館",
-      "description": "官方演出清單所列場次。",
+      "description": "NICE TO MEET YOU 首日；官方事後報告逐曲記錄武道館演出，本站另保存本日刊載歌單。",
       "sources": [
         "live-48609",
-        "news-537383"
+        "news-537383",
+        "audit-budokan-day1"
       ],
       "verified": true,
       "datePrecision": "day",
-      "dateBasis": "official_schedule",
+      "dateBasis": "performance_report",
       "status": "performed",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "verificationScope": "官方日程核對 2021-12-04 與日本武道館；官方 Day1 事後報告支持演出完成及曲序，不推定各曲演唱長度。",
       "parentEvent": "48609",
       "sourceLocation": "東京都",
       "marketLabel": null,
       "setlistIds": [
         "nice-to-meet-you-2021-12-04"
-      ]
+      ],
+      "reviewedAt": "2026-10-04",
+      "sourceScopes": {
+        "audit-budokan-day1": "官方日程核對 2021-12-04 與日本武道館；官方 Day1 事後報告支持演出完成及曲序，不推定各曲演唱長度。"
+      }
     },
     {
       "id": "history-0253",
@@ -3724,18 +3783,26 @@
       "year": 2023,
       "location": "埼玉県",
       "venue": "さいたまスーパーアリーナ",
-      "description": "官方演出清單所列場次。",
+      "description": "電光石火 埼玉 Day2；事後公開資料確認演出與刊載歌單。",
       "sources": [
-        "live-49695"
+        "live-49695",
+        "audit-film-561709"
       ],
       "verified": true,
       "datePrecision": "day",
-      "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "dateBasis": "performance_report",
+      "status": "performed",
+      "verificationScope": "2023-06-04、さいたまスーパーアリーナ 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
       "parentEvent": "49695",
       "sourceLocation": "埼玉県",
-      "marketLabel": null
+      "marketLabel": null,
+      "setlistIds": [
+        "denko-sekka-saitama-2023-06-04"
+      ],
+      "reviewedAt": "2026-10-04",
+      "sourceScopes": {
+        "audit-film-561709": "2023-06-04、さいたまスーパーアリーナ 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      }
     },
     {
       "id": "history-0294",
@@ -3783,21 +3850,26 @@
       "year": 2023,
       "location": "神奈川県",
       "venue": "ぴあアリーナMM",
-      "description": "官方演出清單所列場次。",
+      "description": "電光石火神奈川追加公演首日；官方事後報告支持已演出，另連結本場刊載曲序。",
       "sources": [
-        "live-49695"
+        "live-49695",
+        "audit-denko-day1"
       ],
       "verified": true,
       "datePrecision": "day",
-      "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "dateBasis": "performance_report",
+      "status": "performed",
+      "verificationScope": "官方日程與 Day1 事後報告共同核對 2023-06-23、ぴあアリーナ MM 及實際演出；刊載曲名不等於已區分演唱長度。",
       "parentEvent": "49695",
       "sourceLocation": "神奈川県",
       "marketLabel": null,
       "setlistIds": [
         "denko-sekka-yokohama-2023-06-23"
-      ]
+      ],
+      "reviewedAt": "2026-10-04",
+      "sourceScopes": {
+        "audit-denko-day1": "官方日程與 Day1 事後報告共同核對 2023-06-23、ぴあアリーナ MM 及實際演出；刊載曲名不等於已區分演唱長度。"
+      }
     },
     {
       "id": "history-0245",
@@ -3847,20 +3919,27 @@
       "year": 2023,
       "location": "Los Angeles（報導地區名稱）",
       "venue": "Rose Bowl in Pasadena",
-      "description": "事後報導明載8月6日出演，為 YOASOBI 首次美國演出。官方索引僅列音樂祭全期，現以個別出演日建檔；場館保留官方原文，未細分園區舞台。",
+      "description": "Head In The Clouds Los Angeles；事後公開資料確認演出與刊載歌單。",
       "sources": [
         "live-50712",
-        "hitc-2023-report"
+        "hitc-2023-report",
+        "audit-hitc-la"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "performance_report",
       "status": "performed",
-      "verificationScope": "Natalie 事後報告核對個別出演日期及洛杉磯報導地區；場館採 Sony live 索引原字串，未獨立核對行政位置與園區細節。",
+      "verificationScope": "2023-08-06 YOASOBI 正式時段八首歌單；不把全場壓軸的合作再加入本時段。",
       "parentEvent": "50712",
       "sourceLocation": "その他",
       "marketLabel": null,
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-04",
+      "setlistIds": [
+        "head-in-the-clouds-la-2023-08-06"
+      ],
+      "sourceScopes": {
+        "audit-hitc-la": "2023-08-06 YOASOBI 正式時段八首歌單；不把全場壓軸的合作再加入本時段。"
+      }
     },
     {
       "id": "history-0230",
@@ -4321,19 +4400,27 @@
       "year": 2023,
       "location": "首爾（來源名稱）",
       "venue": "KOREA UNIV. TIGER DOME",
-      "description": "THE FILM 2 正文明載12/17演出；官方live索引目前只列12/16。",
+      "description": "LIVE IN SEOUL KOREA Day2；事後公開資料確認演出與刊載歌單。",
       "sources": [
-        "news-561709"
+        "news-561709",
+        "audit-film-561709"
       ],
       "verified": true,
       "datePrecision": "day",
-      "dateBasis": "activity",
+      "dateBasis": "performance_report",
       "status": "performed",
-      "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
+      "verificationScope": "2023-12-17、KOREA UNIV. TIGER DOME 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
       "parentEvent": "51265",
       "conflictIds": [
         "C07"
-      ]
+      ],
+      "setlistIds": [
+        "asia-seoul-2023-12-17"
+      ],
+      "reviewedAt": "2026-10-04",
+      "sourceScopes": {
+        "audit-film-561709": "2023-12-17、KOREA UNIV. TIGER DOME 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      }
     },
     {
       "id": "history-0047",
@@ -4537,18 +4624,26 @@
       "year": 2024,
       "location": "東京都",
       "venue": "Zepp Haneda(TOKYO)",
-      "description": "官方演出清單所列場次。",
+      "description": "POP OUT 東京 Day2；事後公開資料確認演出與刊載歌單。",
       "sources": [
-        "live-51262"
+        "live-51262",
+        "audit-film-561709"
       ],
       "verified": true,
       "datePrecision": "day",
-      "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "dateBasis": "performance_report",
+      "status": "performed",
+      "verificationScope": "2024-01-26、Zepp Haneda(TOKYO) 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
       "parentEvent": "51262",
       "sourceLocation": "東京都",
-      "marketLabel": null
+      "marketLabel": null,
+      "setlistIds": [
+        "pop-out-haneda-2024-01-26"
+      ],
+      "reviewedAt": "2026-10-04",
+      "sourceScopes": {
+        "audit-film-561709": "2024-01-26、Zepp Haneda(TOKYO) 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      }
     },
     {
       "id": "history-0206",
@@ -5873,18 +5968,26 @@
       "year": 2025,
       "location": null,
       "venue": "Singapore Indoor Stadium",
-      "description": "官方演出清單所列場次。",
+      "description": "超現実 IN SINGAPORE；事後公開資料確認演出與刊載歌單。",
       "sources": [
-        "live-52768"
+        "live-52768",
+        "audit-film-577052"
       ],
       "verified": true,
       "datePrecision": "day",
-      "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "dateBasis": "performance_report",
+      "status": "performed",
+      "verificationScope": "2025-02-23、Singapore Indoor Stadium 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
       "parentEvent": "52768",
       "sourceLocation": "その他",
-      "marketLabel": null
+      "marketLabel": null,
+      "setlistIds": [
+        "chogenjitsu-singapore-2025-02-23"
+      ],
+      "reviewedAt": "2026-10-04",
+      "sourceScopes": {
+        "audit-film-577052": "2025-02-23、Singapore Indoor Stadium 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      }
     },
     {
       "id": "history-0178",
@@ -6203,20 +6306,27 @@
       "year": 2025,
       "location": "London, UK",
       "venue": "OVO Arena Wembley",
-      "description": "WOWOW 明載2025年6月8、9日倫敦公演的收錄日期與場館。",
+      "description": "LIVE AT OVO ARENA WEMBLEY Day2；事後公開資料確認演出與刊載歌單。",
       "sources": [
         "live-53399",
-        "europe-wowow"
+        "europe-wowow",
+        "audit-film-577052"
       ],
       "verified": true,
       "datePrecision": "day",
-      "dateBasis": "official_schedule",
+      "dateBasis": "performance_report",
       "status": "performed",
-      "verificationScope": "轉播方事後收錄資料確認日期、倫敦及 OVO Arena Wembley。",
+      "verificationScope": "2025-06-09、OVO ARENA WEMBLEY 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
       "parentEvent": "53399",
       "sourceLocation": "その他",
       "marketLabel": null,
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-04",
+      "setlistIds": [
+        "wembley-2025-06-09"
+      ],
+      "sourceScopes": {
+        "audit-film-577052": "2025-06-09、OVO ARENA WEMBLEY 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      }
     },
     {
       "id": "history-0064",
@@ -7317,21 +7427,26 @@
       "year": 2025,
       "location": "沖縄県",
       "venue": "沖縄コンベンションセンター展示棟",
-      "description": "官方演出清單所列場次。",
+      "description": "WANDARA 沖繩 Day1 已完成。完走報告分列兩日 acoustic 曲序及安可，本日有 RADWIMPS 翻唱〈会心の一撃〉。",
       "sources": [
-        "live-53094"
+        "live-53094",
+        "audit-wandara-finale"
       ],
       "verified": true,
       "datePrecision": "day",
-      "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "dateBasis": "performance_report",
+      "status": "performed",
+      "verificationScope": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序及 Day1 專屬安可，不推定每首演唱長度。",
       "parentEvent": "53094",
       "sourceLocation": "沖縄県",
       "marketLabel": null,
       "setlistIds": [
         "wandara-okinawa-2025-11-29"
-      ]
+      ],
+      "reviewedAt": "2026-10-04",
+      "sourceScopes": {
+        "audit-wandara-finale": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序及 Day1 專屬安可，不推定每首演唱長度。"
+      }
     },
     {
       "id": "history-0175",
@@ -7341,21 +7456,26 @@
       "year": 2025,
       "location": "沖縄県",
       "venue": "沖縄コンベンションセンター展示棟",
-      "description": "官方演出清單所列場次。",
+      "description": "WANDARA 沖繩 Day2、巡演千秋樂已完成。完走報告分列本日 acoustic 曲序及兩首安可。",
       "sources": [
-        "live-53094"
+        "live-53094",
+        "audit-wandara-finale"
       ],
       "verified": true,
       "datePrecision": "day",
-      "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "dateBasis": "performance_report",
+      "status": "performed",
+      "verificationScope": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序與安可，不把 Day1 的額外翻唱移入 Day2。",
       "parentEvent": "53094",
       "sourceLocation": "沖縄県",
       "marketLabel": null,
       "setlistIds": [
         "wandara-okinawa-2025-11-30"
-      ]
+      ],
+      "reviewedAt": "2026-10-04",
+      "sourceScopes": {
+        "audit-wandara-finale": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序與安可，不把 Day1 的額外翻唱移入 Day2。"
+      }
     },
     {
       "id": "history-0078",

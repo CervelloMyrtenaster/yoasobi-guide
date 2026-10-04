@@ -66,7 +66,11 @@
       "youtubeId": "8ZN40f8R7eg",
       "title": "YOASOBI「UNDEAD」 from 『YOASOBI 5th ANNIVERSARY DOME LIVE 2024 \"超現実\"』2024.11.10@東京ドーム",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=8ZN40f8R7eg"
+      "sourceUrl": "https://www.youtube.com/watch?v=8ZN40f8R7eg",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "concert",
+      "performedOn": "2024-11-10",
+      "concertId": "chogenjitsu-tokyo-2024-11-10"
     }
   ],
   "sources": [
@@ -126,7 +130,8 @@
         "title": "Billboard Japan：16 首歌曲串流累計門檻（2025-02-19）",
         "url": "https://www.billboard-japan.com/d_news/detail/146458/2",
         "scope": "日本榜單串流累計的歷史快照；不是目前全球數字、MV 點閱或 RIAJ 認證。"
-      }
+      },
+      "institution": "Billboard JAPAN"
     }
   ]
 }
@@ -150,7 +155,7 @@ Ayase 在五周年訪談談到自己身為《物語》粉絲的創作立場，�
 
 UNDEAD 是英文題名；兩篇原作的 パスト 與 フューチャー 是 past、future 的片假名。可先練習辨認外來語，不把「過去／未來」的簡單翻譯當成角色故事的完整答案。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

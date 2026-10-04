@@ -260,6 +260,7 @@ for(const item of review.additions){
  row.reviewedAt=cutoff;
 }
 const announcements=news.map(r=>({id:'announcement-'+r.id,title:r.title,type:'official_news_entry',date:r.date.replaceAll('.','-'),year:Number(r.date.slice(0,4)),location:null,venue:null,description:'官方新聞索引條目；date為文章發布日，不能當成標題所提活動或發行日期。',sources:[{title:r.title,url:`https://www.yoasobi-music.jp/news/${r.id}`,publisher:'YOASOBI / Sony Music'}],verified:true,dateBasis:'publication',verificationScope:'僅確認官方索引及正文存在；本條目的事件內容未全部完成人工史實核對。'}));
+require('./audit-improvements/apply-history-review.cjs')(records,sources);
 records.sort((a,b)=>(a.date??a.candidateDate??'9999').localeCompare(b.date??b.candidateDate??'9999')||a.id.localeCompare(b.id));
 fs.writeFileSync('research/history-data.json',JSON.stringify({schemaVersion:1,asOf:cutoff,status:'research_inventory_with_open_gaps',scope:'YOASOBI組合；個人單獨作品不默認列為組合作品。',verificationPolicy:'verified=true表示本筆描述及指定核對範圍有正文支持；過去的事前公告保持listed_past，不能計入實際演出。',sources,records},null,2)+'\n');
 fs.writeFileSync('research/official-news-index.json',JSON.stringify({asOf:cutoff,note:'425則官方文章索引，date均為文章發布日；不是425個已驗證歷史事件。',records:announcements},null,2)+'\n');

@@ -1,0 +1,76 @@
+{
+  "id": "monotone",
+  "songId": "monotone",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《ふれる。の、前夜。》（岡田麿里）：小說。合作用途為 ふれる。（動畫電影主題曲）。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "結成5周年記念日となる本日、オリジナル長編アニメーション映画『ふれる。』主題歌「モノトーン」を配信リリース＆20時にMV公開決定！",
+          "url": "https://www.yoasobi-music.jp/news/567367",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "オリジナル長編アニメーション映画『ふれる。』主題歌「モノトーン」が、YOASOBI結成5周年記念日となる10/1(火)に、英語版「Monotone」が10/2(水)に2日連続配信リリース決定！さらにJK写が公開！",
+          "url": "https://www.yoasobi-music.jp/news/567172",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "MV 畫出電影沒有呈現的時刻",
+      "text": "電影團隊另外製作幼馴染三人與「ふれる」的新動畫，與岡田麿里前傳小說互相對照；並非只把電影預告接在歌曲上。",
+      "sources": [
+        {
+          "title": "YOASOBI 官方製作與發行公告",
+          "url": "https://www.yoasobi-music.jp/news/567367",
+          "scope": "MV 新製作畫面、原作與電影關係。"
+        }
+      ]
+    },
+    {
+      "area": "version",
+      "title": "電影版、日文原版與英文版的差異",
+      "text": "官方 CD 說明列出英文版 Monotone，以及新增段落的 Movie Edit；英文版由 Konnie Aoki 譯詞。電影剪輯版新增段落的資訊不應套用到所有串流版本。",
+      "sources": [
+        {
+          "title": "YOASOBI 官方製作與發行公告",
+          "url": "https://www.yoasobi-music.jp/news/567367",
+          "scope": "單曲三種版本與英文譯詞署名。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/567367",
+      "scope": "單曲三種版本與英文譯詞署名。"
+    },
+    {
+      "title": "オリジナル長編アニメーション映画『ふれる。』主題歌「モノトーン」が、YOASOBI結成5周年記念日となる10/1(火)に、英語版「Monotone」が10/2(水)に2日連続配信リリース決定！さらにJK写が公開！",
+      "url": "https://www.yoasobi-music.jp/news/567172",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ]
+}

@@ -80,7 +80,8 @@
   "versionOf": "seventeen",
   "relatedSongIds": [
     "seventeen"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

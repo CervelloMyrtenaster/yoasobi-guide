@@ -13,13 +13,10 @@ const records = research.records.filter(r => r.verified === true).map(r => {
   const sources = r.sources.map(id => {
     const s = research.sources[id];
     assert.ok(s && s.kind !== 'candidate', `${r.id}: candidate-only source ${id}`);
-    return {title: s.title, url: s.url, scope: r.verificationScope};
+    return {title: s.title, url: s.url, scope: r.sourceScopes?.[id] ?? r.verificationScope};
   });
   // Keep documented conflicts alongside the published fact, rather than hide them in research files.
-  const linked = Object.keys(conflicts).filter(id => {
-    const row = audit.split('\n').find(line => line.startsWith(`| ${id} |`));
-    return r.conflictIds?.includes(id) || sources.some(s => row?.includes(s.url));
-  });
+  const linked = Object.keys(conflicts).filter(id => r.conflictIds?.includes(id));
   return {
     id:r.id, title:r.title, type:r.type, date:r.date, year:r.year, datePrecision:r.datePrecision,
     ...(r.endDate ? {endDate:r.endDate} : {}), location:r.location, venue:r.venue,

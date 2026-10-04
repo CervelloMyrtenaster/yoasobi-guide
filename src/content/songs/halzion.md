@@ -100,6 +100,21 @@
         "title": "Billboard Japan：16 首歌曲串流累計門檻（2025-02-19）",
         "url": "https://www.billboard-japan.com/d_news/detail/146458/2",
         "scope": "日本榜單串流累計的歷史快照；不是目前全球數字、MV 點閱或 RIAJ 認證。"
+      },
+      "institution": "Billboard JAPAN"
+    },
+    {
+      "type": "chart",
+      "date": "2021-03-01",
+      "dateBasis": "ORICON 榜單付日（不是新聞發布日）",
+      "title": "ORICON 累計串流突破一億次",
+      "institution": "ORICON",
+      "metric": "日本週間串流榜累計",
+      "description": "此為 ORICON 公布的歷史達成日期，供觀察發行後的累積過程；不與 Billboard、RIAJ 或 MV 點閱相加。",
+      "source": {
+        "title": "ORICON：2023-06-26 付串流榜與十四首累計里程碑",
+        "url": "https://www.oricon.co.jp/news/2283718/full/",
+        "scope": "正文註 8 明列各曲累計一億次的榜單付日；它不是 RIAJ 認證或全球播放量。"
       }
     }
   ]
@@ -124,7 +139,7 @@
 
 題名以片假名寫花名。練習 harujion 時保留 ji 與 o 的音，不要直接套中文「紫菀」的音節；也可從原作題名辨認 それでも 的「即使如此」。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

@@ -1,0 +1,56 @@
+{
+  "id": "kaishin-no-ichigeki",
+  "songId": "kaishin-no-ichigeki",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "YOASOBI 為 RADWIMPS 二十週年致敬專輯《Dear Jubilee -RADWIMPS TRIBUTE-》演唱的翻唱作品。 目前官方未列獨立小說素材；作品用途與製作背景見本頁已核對資料。",
+      "sources": [
+        {
+          "title": "RADWIMPSのトリビュートアルバム「Dear Jubilee -RADWIMPS TRIBUTE-」の参加を発表！",
+          "url": "https://www.yoasobi-music.jp/news/578869",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "YOASOBI「会心の一撃」〈RADWIMPS Cover〉 from 『RADWIMPS 20th ANNIVERSARY LIVE TOUR』2025.11.24 @ 横浜アリーナ",
+          "url": "https://www.youtube.com/watch?v=ayuIpotBXNk",
+          "scope": "官方公開合作／演出影片與製作署名。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "mv",
+      "note": "尚未核對獨立歌曲 MV；不以 audio 或現場片段冒充。"
+    },
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "RADWIMPSのトリビュートアルバム「Dear Jubilee -RADWIMPS TRIBUTE-」の参加を発表！",
+      "url": "https://www.yoasobi-music.jp/news/578869",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI「会心の一撃」〈RADWIMPS Cover〉 from 『RADWIMPS 20th ANNIVERSARY LIVE TOUR』2025.11.24 @ 横浜アリーナ",
+      "url": "https://www.youtube.com/watch?v=ayuIpotBXNk",
+      "scope": "官方公開合作／演出影片與製作署名。"
+    }
+  ]
+}

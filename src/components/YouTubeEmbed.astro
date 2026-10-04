@@ -13,7 +13,7 @@ const label=kind==='audio'?'聆聽官方音源':kind==='live'?'觀看公開演�
       frame.title = container.dataset.title || 'YouTube MV';
       frame.referrerPolicy = 'strict-origin-when-cross-origin';
       frame.allow = 'accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen';
-      frame.allowFullscreen = true; container.replaceChildren(frame); frame.focus();
+      container.replaceChildren(frame); frame.focus();
     }, { once: true });
   });
 </script>

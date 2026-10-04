@@ -9,27 +9,32 @@
     {
       "historyId": "history-0003",
       "reason": "先認出鋼琴與副歌；官方 MV 有年齡限制，可用 THE HOME TAKE 片段建立聲音記憶。",
-      "listenUrl": "https://www.youtube.com/watch?v=x8VYWazR5mE"
+      "listenUrl": "https://www.youtube.com/watch?v=x8VYWazR5mE",
+      "goal": "聽一次，能把前奏與副歌對上歌名。"
     },
     {
       "historyId": "history-0007",
       "reason": "先熟悉副歌與合唱段的拍子，感受主唱走向集體聲音；不需先背整首。",
-      "listenUrl": "https://www.youtube.com/watch?v=Y4nEEZwckuU"
+      "listenUrl": "https://www.youtube.com/watch?v=Y4nEEZwckuU",
+      "goal": "聽一次，能把前奏與副歌對上歌名。"
     },
     {
       "historyId": "history-0010",
       "reason": "把快速主歌與副歌分開聽，先抓住低音、節奏與最容易辨識的段落。",
-      "listenUrl": "https://www.youtube.com/watch?v=dy90tA3TT1c"
+      "listenUrl": "https://www.youtube.com/watch?v=dy90tA3TT1c",
+      "goal": "聽一次，能把前奏與副歌對上歌名。"
     },
     {
       "historyId": "history-0029",
       "reason": "先辨認開場的動能與副歌；它在本站音樂祭樣本為開場，不代表下一場固定開場。",
-      "listenUrl": "https://www.youtube.com/watch?v=3eytpBOkOFA"
+      "listenUrl": "https://www.youtube.com/watch?v=3eytpBOkOFA",
+      "goal": "聽一次，能把前奏與副歌對上歌名。"
     },
     {
       "historyId": "history-0037",
       "reason": "先記住段落切換與副歌，之後再練快速語句；片段與完整 MV 可以交替看。",
-      "listenUrl": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ"
+      "listenUrl": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ",
+      "goal": "聽一次，能把前奏與副歌對上歌名。"
     }
   ],
   "sources": [
@@ -84,5 +89,16 @@
       "scope": "2025-11-29、11-30 沖縄コンベンションセンター展示棟；兩日曲序與安可分列。"
     }
   ],
-  "sourcePerformanceId": "history-0231"
+  "sourcePerformanceId": "history-0231",
+  "minutes": 30,
+  "order": 1,
+  "selectionNotes": [
+    "五首同見於 2023-08-06 海外音樂祭；順序兼顧出道、合唱與動畫入口，是編輯策展而非跨年頻率排行。",
+    "先能認出前奏與副歌，再練呼吸；夜に駆ける MV 有年齡限制，可改看官方演唱片段。"
+  ],
+  "evidenceConcertIds": [
+    "head-in-the-clouds-la-2023-08-06",
+    "wembley-2025-06-09",
+    "wandara-okinawa-2025-11-30"
+  ]
 }

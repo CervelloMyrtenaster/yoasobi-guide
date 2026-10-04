@@ -39,7 +39,10 @@
       "youtubeId": "ayuIpotBXNk",
       "title": "YOASOBI「会心の一撃」〈RADWIMPS Cover〉 from 『RADWIMPS 20th ANNIVERSARY LIVE TOUR』2025.11.24 @ 横浜アリーナ",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=ayuIpotBXNk"
+      "sourceUrl": "https://www.youtube.com/watch?v=ayuIpotBXNk",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "concert",
+      "performedOn": "2025-11-24"
     }
   ],
   "japaneseLearning": {
@@ -58,7 +61,8 @@
       "scope": "官方公開合作／演出影片與製作署名。"
     }
   ],
-  "dateNotes": ""
+  "dateNotes": "",
+  "achievements": []
 }
 ---
 

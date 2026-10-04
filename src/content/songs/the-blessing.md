@@ -96,7 +96,8 @@
   "versionOf": "shukufuku",
   "relatedSongIds": [
     "shukufuku"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

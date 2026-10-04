@@ -4,6 +4,8 @@ import HistoryArchive from '../components/HistoryArchive.astro';
 import HistoryNotice from '../components/HistoryNotice.astro';
 import { loadHistory } from '../lib/history';
 import { path } from '../lib/paths';
-const entries = await loadHistory();
+import {loadContent} from '../lib/content';import {achievementTimeline} from '../lib/timeline';
+const {songs}=await loadContent();const achievements=achievementTimeline(songs);
+const entries = [...await loadHistory(),...achievements.entries].sort((a,b)=>a.data.date.localeCompare(b.data.date));
 ---
-<BaseLayout title="歷史時間軸"><div class="page-head"><span class="eyebrow">A STORY IN TIME</span><h1>沿著時間，聽見故事。</h1><p class="lead">從成立、作品發行與合作，到巡演與重要里程碑，按年份閱讀已查核的歷史。</p><a class="text-link" href={path('eras/')}>先讀分階段作品導讀 →</a></div><HistoryNotice/><HistoryArchive entries={entries}/></BaseLayout>
+<BaseLayout title="歷史時間軸" description="按年份探索成立、發行、合作、巡演與有來源的成績及獎項，保留日期精度、活動狀態與資料差異。"><div class="page-head"><span class="eyebrow">A STORY IN TIME</span><h1>沿著時間，聽見故事。</h1><p class="lead">從成立、作品發行與合作，到巡演與重要里程碑，按年份閱讀已查核的歷史。</p><div class="actions"><a href={path('eras/')}>先讀分階段導讀 →</a><a href={path('records/')}>查成績與獎項 →</a><a href={path('explore/')}>追查作品關係 →</a></div></div><HistoryNotice/><p class="muted">時間軸另合併 {achievements.entries.length} 項歌曲成績與獎項；直接連回歌曲證據區，與活動資料的筆數分開計算。</p><HistoryArchive entries={entries} detailLinks={achievements.links}/></BaseLayout>

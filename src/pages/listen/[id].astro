@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { loadContent } from '../../lib/content';
+import { loadHistory } from '../../lib/history';
+import { listeningSongs } from '../../lib/listening';
+import { path } from '../../lib/paths';
+import { withContext } from '../../lib/navigation';
+import SourceList from '../../components/SourceList.astro';
+export async function getStaticPaths(){const {listeningPaths}=await loadContent();return listeningPaths.map(route=>({params:{id:route.id},props:{route}}));}
+const {route}=Astro.props;
+const {songs,listeningPaths,concerts}=await loadContent();
+const steps=listeningSongs(route,songs,await loadHistory());
+const next=listeningPaths.filter(p=>p.data.prerequisites.includes(route.id));
+---
+<BaseLayout title={route.data.title} description={route.data.summary}>
+<div class="page-head"><a class="eyebrow" href={path(route.data.purpose==='concert'?'live/prepare/':'start/')}>← {route.data.purpose==='concert'?'演唱會準備':'入門指南'}</a><h1>{route.data.title}</h1><p class="lead">{route.data.summary}</p></div>
+<article class="prose">
+{route.data.prerequisites.length>0&&<section class="callout"><h2>接著前面的路線聽</h2><p>本頁列出新增曲目，不用重複完成前一條清單。</p>{route.data.prerequisites.map(id=><p><a href={path(`listen/${id}/`)}>{listeningPaths.find(p=>p.id===id)!.data.title} →</a></p>)}</section>}
+{route.data.selectionNotes.length>0&&<details class="clip-details"><summary>為什麼選這些歌？</summary><ul>{route.data.selectionNotes.map(note=><li>{note}</li>)}</ul></details>}
+<div data-progress-controls hidden class="progress-controls"><p data-progress-count role="status" aria-live="polite"></p><button type="button" data-progress-clear>清除本路線進度</button><small>只儲存在此瀏覽器；換裝置或清除瀏覽資料後不保留。</small></div>
+<ol class="listening-list" data-listening-progress data-path-id={route.id}>{steps.map(({song,reason,goal,day})=><li id={`song-${song.id}`} data-step-id={song.id}>
+{day&&<span class="eyebrow">第 {day} 天</span>}<h2 lang={song.data.language==='ja'?'ja':'en'}>{song.data.titleJa}</h2><p class="romaji">{song.data.titleRomaji} · {song.data.titleZh.text}</p><p>{reason}</p>{goal&&<p><strong>這一首的任務：</strong>{goal}</p>}
+<a class="button" href={withContext(path(`songs/${song.id}/`),path(`listen/${route.id}/`)+`#song-${song.id}`)}>閱讀背景與官方 MV →</a>{song.data.videos.some(v=>v.kind==='live')&&<a href={withContext(path(`songs/${song.id}/`)+'#live-videos',path(`listen/${route.id}/`)+`#song-${song.id}`)}>看官方現場 →</a>}
+<label class="progress-check" hidden><input type="checkbox" data-progress-check/> 我已聽過，能認出這首</label>
+</li>)}</ol>
+{next.length>0&&<section><h2>還有時間，接著聽</h2>{next.map(p=><p><a href={path(`listen/${p.id}/`)}>{p.data.title} →</a></p>)}</section>}
+{route.data.evidenceConcertIds.length>0&&<section><h2>把這條路線放回現場</h2><ul>{route.data.evidenceConcertIds.map(id=>{const c=concerts.find(c=>c.id===id)!;return <li><a href={path(`live/${id}/`)}>{c.data.date} · {c.data.title}</a></li>;})}</ul><a href={path('live/compare/')}>比較兩場選曲與順序 →</a></section>}
+<SourceList sources={route.data.sources} updatedAt={route.data.updatedAt}/>
+</article></BaseLayout>
+<script>
+ const list=document.querySelector<HTMLElement>('[data-listening-progress]');
+ if(list){
+   const key=`yoasobi-listen-v1:${list.dataset.pathId}`;
+   let saved:string[]=[];let available=true;
+   try{saved=JSON.parse(localStorage.getItem(key)??'[]');if(!Array.isArray(saved))saved=[];localStorage.setItem(key,JSON.stringify(saved));}catch{available=false;}
+   if(available){
+     const checks=[...list.querySelectorAll<HTMLInputElement>('[data-progress-check]')];
+     const controls=document.querySelector<HTMLElement>('[data-progress-controls]')!;controls.hidden=false;
+     const update=()=>{document.querySelector('[data-progress-count]')!.textContent=`已熟悉 ${checks.filter(c=>c.checked).length}／${checks.length} 首`;};
+     for(const check of checks){const id=check.closest<HTMLElement>('[data-step-id]')!.dataset.stepId!;check.closest<HTMLElement>('label')!.hidden=false;check.checked=saved.includes(id);check.addEventListener('change',()=>{try{localStorage.setItem(key,JSON.stringify(checks.filter(c=>c.checked).map(c=>c.closest<HTMLElement>('[data-step-id]')!.dataset.stepId)));}catch{}update();});}
+     document.querySelector('[data-progress-clear]')!.addEventListener('click',()=>{checks.forEach(c=>c.checked=false);try{localStorage.removeItem(key);}catch{}update();});update();
+   }
+ }
+</script>

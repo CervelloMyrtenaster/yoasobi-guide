@@ -86,7 +86,8 @@
   "versionOf": "encore",
   "relatedSongIds": [
     "encore"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

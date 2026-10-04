@@ -1,0 +1,69 @@
+{
+  "id": "shukufuku",
+  "songId": "shukufuku",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《ゆりかごの星》（大河内一楼）：小說。合作用途為 機動戦士ガンダム 水星の魔女（動畫片頭曲）。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "10/1(土)『機動戦士ガンダム 水星の魔女』のオープニングテーマ 新曲「祝福」配信リリース決定！本日25時放送の『YOASOBIのオールナイトニッポン』にて同曲アニメサイズ初解禁＆重大発表あり。",
+          "url": "https://www.yoasobi-music.jp/news/545177",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "YOASOBI 官方 SONGS / NOVELS",
+          "url": "https://www.yoasobi-music.jp/songs",
+          "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    },
+    {
+      "area": "narrative",
+      "title": "先區分敘事者與電視動畫主角",
+      "text": "官方原作《ゆりかごの星》署名大河内一楼，從鋼彈 Aerial 的第一人稱描寫史萊塔在水星長大。這讓歌曲中的陪伴與出發可以從機體視角理解；本站建議先辨認敘事者，再比較動畫片頭如何把兩者放進畫面，而不把歌曲當成主角自述。",
+      "sources": [
+        {
+          "title": "鋼彈官方：ゆりかごの星",
+          "url": "https://gundam-official.com/witch-from-mercury/music/novel/",
+          "scope": "原作署名、敘事者與故事前提；比較方法是本站閱讀建議。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "mv",
+      "note": "已有官方 MV 入口；導演訪談與完整製作職務尚待逐項查核。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "10/1(土)『機動戦士ガンダム 水星の魔女』のオープニングテーマ 新曲「祝福」配信リリース決定！本日25時放送の『YOASOBIのオールナイトニッポン』にて同曲アニメサイズ初解禁＆重大発表あり。",
+      "url": "https://www.yoasobi-music.jp/news/545177",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    },
+    {
+      "title": "鋼彈官方：ゆりかごの星",
+      "url": "https://gundam-official.com/witch-from-mercury/music/novel/",
+      "scope": "原作署名、敘事者與故事前提；比較方法是本站閱讀建議。"
+    }
+  ]
+}

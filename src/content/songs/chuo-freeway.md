@@ -57,7 +57,8 @@
       "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
     }
   ],
-  "dateNotes": ""
+  "dateNotes": "",
+  "achievements": []
 }
 ---
 

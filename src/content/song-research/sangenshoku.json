@@ -1,0 +1,52 @@
+{
+  "id": "sangenshoku",
+  "songId": "sangenshoku",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《RGB》（小御門優一郎）：小說。合作用途為 NTT docomo「ahamo」（廣告歌曲）。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "NTTドコモ「ahamo」CMソングの新曲「三原色」7/2(金)リリース決定！同日、英語版リリース第1弾として「Into The Night」(夜に駆ける English Ver.)リリース！6/29(火)「YOASOBIのANN X」にて初フルオンエア解禁決定。",
+          "url": "https://www.yoasobi-music.jp/news/530677",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "YOASOBI 官方 SONGS / NOVELS",
+          "url": "https://www.yoasobi-music.jp/songs",
+          "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "mv",
+      "note": "已有官方 MV 入口；導演訪談與完整製作職務尚待逐項查核。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NTTドコモ「ahamo」CMソングの新曲「三原色」7/2(金)リリース決定！同日、英語版リリース第1弾として「Into The Night」(夜に駆ける English Ver.)リリース！6/29(火)「YOASOBIのANN X」にて初フルオンエア解禁決定。",
+      "url": "https://www.yoasobi-music.jp/news/530677",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    }
+  ]
+}

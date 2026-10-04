@@ -1,0 +1,56 @@
+{
+  "id": "new-me",
+  "songId": "new-me",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《白山通り炎上の件》（有手窓）：小說。合作用途為 Recruit「わからないまま、それでも」篇（TVCM 歌曲）。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "リクルート新TVCM「わからないまま、それでも」篇に起用の新曲「New me」が、11/11(月)に配信リリース決定、さらにJK写が公開！ ",
+          "url": "https://www.yoasobi-music.jp/news/568611",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "YOASOBI 官方 SONGS / NOVELS",
+          "url": "https://www.yoasobi-music.jp/songs",
+          "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "mv",
+      "note": "已有官方 MV 入口；導演訪談與完整製作職務尚待逐項查核。"
+    },
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "リクルート新TVCM「わからないまま、それでも」篇に起用の新曲「New me」が、11/11(月)に配信リリース決定、さらにJK写が公開！ ",
+      "url": "https://www.yoasobi-music.jp/news/568611",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    }
+  ]
+}

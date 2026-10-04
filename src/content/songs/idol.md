@@ -61,7 +61,9 @@
       "youtubeId": "IvMFMA89Yi8",
       "title": "YOASOBI「アイドル」from『劇場版YOASOBI 5th ANNIVERSARY DOME LIVE 2024 \"超現実\"』",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=IvMFMA89Yi8"
+      "sourceUrl": "https://www.youtube.com/watch?v=IvMFMA89Yi8",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "concert"
     }
   ],
   "sources": [
@@ -141,7 +143,8 @@
         "title": "Billboard Japan：16 首歌曲串流累計門檻（2025-02-19）",
         "url": "https://www.billboard-japan.com/d_news/detail/146458/2",
         "scope": "日本榜單串流累計的歷史快照；不是目前全球數字、MV 點閱或 RIAJ 認證。"
-      }
+      },
+      "institution": "Billboard JAPAN"
     },
     {
       "type": "chart",
@@ -153,7 +156,8 @@
         "title": "Billboard JAPAN 2023 年度 Hot 100 第 1 名",
         "url": "https://www.billboard-japan.com/special/detail/4205",
         "scope": "2023 年度綜合歌曲榜，與單週排名、串流累計與 Artist 100 分開理解。"
-      }
+      },
+      "institution": "Billboard JAPAN"
     },
     {
       "type": "award",
@@ -165,7 +169,8 @@
         "title": "2024 JASRAC 賞：金賞",
         "url": "https://www.jasrac.or.jp/magazine/jasrac-awards/24/240522.html",
         "scope": "作品受獎；列名作者 Ayase 與音樂出版者。衡量著作權使用料分配，與歌曲串流總數不同。"
-      }
+      },
+      "institution": "JASRAC"
     },
     {
       "type": "award",
@@ -177,7 +182,8 @@
         "title": "2025 JASRAC 賞：金賞",
         "url": "https://www.jasrac.or.jp/magazine/jasrac-awards/25/250516.html",
         "scope": "作品連續兩年獲金賞；受獎對象與統計口徑以 JASRAC 公告為準。"
-      }
+      },
+      "institution": "JASRAC"
     },
     {
       "type": "award",
@@ -189,7 +195,8 @@
         "title": "MTV VMAJ 2023：Song of the Year／Best Animation Video",
         "url": "https://prtimes.jp/main/html/rd/p/000000301.000023241.html",
         "scope": "主辦方同篇公告列出最佳歌曲與最佳動畫影片獎。此日期為公告日，並非頒獎典禮日期。"
-      }
+      },
+      "institution": "MTV VMAJ"
     },
     {
       "type": "chart",
@@ -201,7 +208,8 @@
         "title": "2024 JASRAC 賞：金賞",
         "url": "https://www.jasrac.or.jp/magazine/jasrac-awards/24/240522.html",
         "scope": "作品受獎；列名作者 Ayase 與音樂出版者。衡量著作權使用料分配，與歌曲串流總數不同。"
-      }
+      },
+      "institution": "Billboard（全球榜）"
     },
     {
       "type": "chart",
@@ -213,7 +221,8 @@
         "title": "2025 JASRAC 賞：金賞",
         "url": "https://www.jasrac.or.jp/magazine/jasrac-awards/25/250516.html",
         "scope": "作品連續兩年獲金賞；受獎對象與統計口徑以 JASRAC 公告為準。"
-      }
+      },
+      "institution": "Billboard JAPAN"
     },
     {
       "type": "nomination",
@@ -225,6 +234,35 @@
         "title": "偶像 (YOASOBI歌曲) - 維基百科，自由的百科全書",
         "url": "https://zh.wikipedia.org/zh-tw/偶像_(YOASOBI歌曲)",
         "scope": "已讀繁體中文正文：作品背景與原作概述；發行與合作署名以本頁官方來源為準。"
+      },
+      "institution": "MTV VMAJ"
+    },
+    {
+      "type": "chart",
+      "date": "2023-05-22",
+      "dateBasis": "ORICON 榜單付日（不是新聞發布日）",
+      "title": "ORICON 累計串流突破一億次",
+      "institution": "ORICON",
+      "metric": "日本週間串流榜累計",
+      "description": "此為 ORICON 公布的歷史達成日期，供觀察發行後的累積過程；不與 Billboard、RIAJ 或 MV 點閱相加。",
+      "source": {
+        "title": "ORICON：2023-06-26 付串流榜與十四首累計里程碑",
+        "url": "https://www.oricon.co.jp/news/2283718/full/",
+        "scope": "正文註 8 明列各曲累計一億次的榜單付日；它不是 RIAJ 認證或全球播放量。"
+      }
+    },
+    {
+      "type": "certification",
+      "date": "2024-01",
+      "dateBasis": "RIAJ 認證年月",
+      "title": "RIAJ 鑽石串流認證",
+      "description": "門檻五億次。協會於 2024-02-29 公告，認證月為 2024-01，並記錄配信起 295 日為當時最快達成；不改寫為二月認證。",
+      "institution": "日本唱片協會（RIAJ）",
+      "metric": "串流認證",
+      "source": {
+        "title": "日本唱片協會官方發布",
+        "url": "https://prtimes.jp/main/html/rd/p/000000535.000010908.html",
+        "scope": "認證種類、月份、門檻與公告說明；保留年月精度。"
       }
     }
   ]
@@ -249,7 +287,7 @@
 
 「アイドル」是 idol 的外來語。中文「偶像」既可能指藝人也可能指崇拜對象，閱讀時要看說話者站在哪一邊；英文版同樣有自己的押韻與發音安排，不宜當成逐字教材。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

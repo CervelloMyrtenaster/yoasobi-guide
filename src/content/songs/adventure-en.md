@@ -91,7 +91,8 @@
   "versionOf": "adventure",
   "relatedSongIds": [
     "adventure"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

@@ -52,7 +52,8 @@
       "url": "https://www.youtube.com/watch?v=k_Z-mAvkCbM",
       "scope": "YOASOBI - Topic 官方音源與曲名；2026-10-04 核對。"
     }
-  ]
+  ],
+  "achievements": []
 }
 ---
 

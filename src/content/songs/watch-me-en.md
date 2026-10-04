@@ -91,7 +91,8 @@
   "versionOf": "watch-me",
   "relatedSongIds": [
     "watch-me"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

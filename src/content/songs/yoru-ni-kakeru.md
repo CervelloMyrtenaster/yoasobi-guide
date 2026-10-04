@@ -55,7 +55,9 @@
       "youtubeId": "j1hft9Wjq9U",
       "title": "YOASOBI - 夜に駆ける / THE HOME TAKE",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=j1hft9Wjq9U"
+      "sourceUrl": "https://www.youtube.com/watch?v=j1hft9Wjq9U",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "studio"
     }
   ],
   "sources": [
@@ -125,7 +127,8 @@
         "title": "Billboard Japan：16 首歌曲串流累計門檻（2025-02-19）",
         "url": "https://www.billboard-japan.com/d_news/detail/146458/2",
         "scope": "日本榜單串流累計的歷史快照；不是目前全球數字、MV 點閱或 RIAJ 認證。"
-      }
+      },
+      "institution": "Billboard JAPAN"
     },
     {
       "type": "award",
@@ -137,6 +140,35 @@
         "title": "2023 JASRAC 賞：銀賞",
         "url": "https://www.jasrac.or.jp/magazine/jasrac-awards/23/230524.html",
         "scope": "作品受獎；列名作者 Ayase 與音樂出版者。依著作權使用料分配資料衡量，並非銷量或人氣投票。"
+      },
+      "institution": "JASRAC"
+    },
+    {
+      "type": "chart",
+      "date": "2020-08-24",
+      "dateBasis": "ORICON 榜單付日（不是新聞發布日）",
+      "title": "ORICON 累計串流突破一億次",
+      "institution": "ORICON",
+      "metric": "日本週間串流榜累計",
+      "description": "此為 ORICON 公布的歷史達成日期，供觀察發行後的累積過程；不與 Billboard、RIAJ 或 MV 點閱相加。",
+      "source": {
+        "title": "ORICON：2023-06-26 付串流榜與十四首累計里程碑",
+        "url": "https://www.oricon.co.jp/news/2283718/full/",
+        "scope": "正文註 8 明列各曲累計一億次的榜單付日；它不是 RIAJ 認證或全球播放量。"
+      }
+    },
+    {
+      "type": "certification",
+      "date": "2025-03",
+      "dateBasis": "RIAJ 認證年月",
+      "title": "RIAJ 首件雙鑽石串流認證",
+      "description": "認證月為 2025-03，累計門檻十億次；協會於 2025-04-28 公布。認證以協會申請與資料範圍為準，不是所有平台的即時總計。",
+      "institution": "日本唱片協會（RIAJ）",
+      "metric": "串流認證",
+      "source": {
+        "title": "日本唱片協會官方發布",
+        "url": "https://prtimes.jp/main/html/rd/p/000000597.000010908.html",
+        "scope": "認證種類、月份、門檻與公告說明；保留年月精度。"
       }
     }
   ]
@@ -161,7 +193,7 @@ Sony 的製作訪談記錄，團隊為這首歌反覆討論，累積接近 30 �
 
 「夜に」是時間或方向的線索，「駆ける」有奔跑、疾馳的意思。先練 kakeru 的三個拍子，再把 ni 接回去；不要把羅馬拼音的字母數當成日語拍數。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

@@ -1,0 +1,14 @@
+---
+import {loadContent} from '../lib/content';import {loadHistory} from '../lib/history';import {path} from '../lib/paths';import type {CollectionEntry} from 'astro:content';
+interface Props {song:CollectionEntry<'songs'>}
+const {song}=Astro.props;const {releases,concerts}=await loadContent();const history=await loadHistory();
+const events=[
+ {date:song.data.releaseDate,title:'首次音源發行',kind:'發行',href:path(`songs/${song.id}/`),note:song.data.dateNotes??song.data.summary},
+ ...releases.filter(r=>song.data.releaseIds.includes(r.id)).map(r=>({date:r.data.date,title:r.data.title,kind:'收錄 EP',href:path(`releases/${r.id}/`),note:`曲序 ${r.data.tracks.find(t=>t.songId===song.id)?.position}`})),
+ ...history.filter(r=>song.data.historyIds.includes(r.id)&&r.data.date!==song.data.releaseDate).map(r=>({date:r.data.date,title:r.data.title,kind:'歷史紀錄',href:path(`history/${r.id}/`),note:r.data.description})),
+ ...song.data.achievements.map(a=>({date:a.date,title:a.title,kind:a.type==='certification'?'認證':a.type==='chart'?'榜單':'獎項／提名',href:a.source.url,note:a.dateBasis})),
+ ...concerts.filter(c=>c.data.setlist.some(t=>t.songId===song.id)).map(c=>({date:c.data.date,title:c.data.title,kind:'歌單',href:path(`live/${c.id}/`),note:`${c.data.country} · ${c.data.venue}`})),
+ ...song.data.videos.filter(v=>v.kind==='live'&&v.performedOn).map(v=>({date:v.performedOn!,title:v.title,kind:'公開演唱影片',href:v.sourceUrl,note:'日期採影片明載，不當作上傳日。'})),
+].sort((a,b)=>a.date.localeCompare(b.date));
+---
+<section id="song-journey"><h2>這首歌的歷程</h2><details class="clip-details"><summary>{events.length} 筆發行、成績與現場的交叉紀錄</summary><p class="muted">保留年份、年月或完整日期的原精度；此為本站資料之間的連結，不表示窮盡全部活動。</p><ol class="journey-list">{events.map(e=><li><time datetime={e.date}>{e.date}</time><span class="eyebrow">{e.kind}</span><a href={e.href}>{e.title}</a><small>{e.note}</small></li>)}</ol></details><p><a href={path('explore/')}>按原作作者與合作企劃，追查相關作品 →</a></p></section>

@@ -103,6 +103,21 @@
         "title": "Billboard Japan：16 首歌曲串流累計門檻（2025-02-19）",
         "url": "https://www.billboard-japan.com/d_news/detail/146458/2",
         "scope": "日本榜單串流累計的歷史快照；不是目前全球數字、MV 點閱或 RIAJ 認證。"
+      },
+      "institution": "Billboard JAPAN"
+    },
+    {
+      "type": "chart",
+      "date": "2021-12-27",
+      "dateBasis": "ORICON 榜單付日（不是新聞發布日）",
+      "title": "ORICON 累計串流突破一億次",
+      "institution": "ORICON",
+      "metric": "日本週間串流榜累計",
+      "description": "此為 ORICON 公布的歷史達成日期，供觀察發行後的累積過程；不與 Billboard、RIAJ 或 MV 點閱相加。",
+      "source": {
+        "title": "ORICON：2023-06-26 付串流榜與十四首累計里程碑",
+        "url": "https://www.oricon.co.jp/news/2283718/full/",
+        "scope": "正文註 8 明列各曲累計一億次的榜單付日；它不是 RIAJ 認證或全球播放量。"
       }
     }
   ]
@@ -127,7 +142,7 @@
 
 「もう少し」表示再一點、稍微多一些，「だけ」表示只、僅僅。合起來不要只譯成「一點」而漏掉想再多做一些的語氣；題名也能當作入門的副詞練習。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

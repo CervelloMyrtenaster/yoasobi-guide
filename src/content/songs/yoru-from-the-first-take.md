@@ -42,7 +42,9 @@
       "youtubeId": "j1hft9Wjq9U",
       "title": "YOASOBI - 夜に駆ける / THE HOME TAKE",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=j1hft9Wjq9U"
+      "sourceUrl": "https://www.youtube.com/watch?v=j1hft9Wjq9U",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "studio"
     }
   ],
   "sources": [
@@ -77,13 +79,14 @@
       "scope": "官方版本播放入口與發布者。"
     }
   ],
-  "versionOf": "yoru-ni-kakeru"
+  "versionOf": "yoru-ni-kakeru",
+  "achievements": []
 }
 ---
 
 ## 影片公開與音源發行是兩個事件
 
-這份音源來自 2020-05-15 公開的 THE HOME TAKE 演出，獨立音源在 2023-09-21 配信。原作仍是星野舞夜《タナトスの誘惑》，沒有因錄音版本更換而產生另一篇原作。影片系列名稱與音源商品名称也有差異，本頁保留兩者。
+這份音源來自 2020-05-15 公開的 THE HOME TAKE 演出，獨立音源在 2023-09-21 配信。原作仍是星野舞夜《タナトスの誘惑》，沒有因錄音版本更換而產生另一篇原作。影片系列名稱與音源商品名稱也有差異，本頁保留兩者。
 
 ## 音樂特色：比較聆聽
 

@@ -95,7 +95,8 @@
   "versionOf": "sangenshoku",
   "relatedSongIds": [
     "sangenshoku"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

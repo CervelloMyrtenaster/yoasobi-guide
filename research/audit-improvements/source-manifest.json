@@ -1,0 +1,551 @@
+{
+  "reviewedAt": "2026-10-04",
+  "scope": "Only newly reviewed claims and corrective performance evidence; baseline song facts retain their earlier research sources.",
+  "sources": [
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/580136",
+      "scope": "MV 導演、全篇動畫及片頭用途。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "adrena",
+          "area": "mv",
+          "title": "從 PLAYERS 到花樣少年少女"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/580270",
+      "scope": "兩種影像與小說關係。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "baby",
+          "area": "mv",
+          "title": "電視片尾與歌曲 MV 分開公開"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/577827",
+      "scope": "Ayase 演唱、直接原作與創作回應。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "gekijo",
+          "area": "creation",
+          "title": "雙主唱與「演出自己」的構想"
+        },
+        {
+          "songId": "gekijo",
+          "area": "mv",
+          "title": "本人出演與鏡頭中的鏡頭"
+        }
+      ]
+    },
+    {
+      "title": "Sculptors Labo：牧野惇談群青 MV",
+      "url": "https://sculptors.jp/topics/1686",
+      "scope": "本人受訪與公開職務表；訪談刊載日不是歌曲或 MV 發行日。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "gunjo",
+          "area": "mv",
+          "title": "廣告、封面與 MV 的製作者各有分工"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/581541",
+      "scope": "官方逐項列出的用途；不同合作版本不合併為新原創歌曲。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "gunjo",
+          "area": "creation",
+          "title": "一首歌如何走出最初的廣告用途"
+        }
+      ]
+    },
+    {
+      "title": "Sony Creative Products：ハルカ MV 製作公告",
+      "url": "https://newscast.jp/news/8100662",
+      "scope": "MV 製作者與公開資訊。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "haruka",
+          "area": "mv",
+          "title": "圖像作者與小說作者是不同角色"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/551361",
+      "scope": "直接原作與 call part 參與者。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "idol",
+          "area": "creation",
+          "title": "小說、歌曲與觀眾的聲音"
+        },
+        {
+          "songId": "idol",
+          "area": "mv",
+          "title": "歌曲 MV 與動畫團隊的合作"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/541228",
+      "scope": "原作梗概與作者回應；新聞中的星期誤植不作發行日依據。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "mister",
+          "area": "creation",
+          "title": "從機器人的書信，到失去之後的記憶"
+        }
+      ]
+    },
+    {
+      "title": "dotMP：ミスター製作紀錄",
+      "url": "https://dotmp.jp/work/87766",
+      "scope": "製作職務與署名；頁面日期不當作 MV 公開日。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "mister",
+          "area": "mv",
+          "title": "角色、動畫與圖像設計由不同團隊合作"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/567367",
+      "scope": "英文版曲目與譯詞署名；Movie Edit 另列。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "monotone-en",
+          "area": "version",
+          "title": "英文版與電影剪輯版分開辨認"
+        },
+        {
+          "songId": "monotone",
+          "area": "mv",
+          "title": "MV 畫出電影沒有呈現的時刻"
+        },
+        {
+          "songId": "monotone",
+          "area": "version",
+          "title": "電影版、日文原版與英文版的差異"
+        }
+      ]
+    },
+    {
+      "title": "清川あさみ：MV 製作紀錄",
+      "url": "https://www.asamikiyokawa.com/works/produce/732/",
+      "scope": "採用職務與刺繡媒材說明；此頁 EP 名稱有誤，以官方 THE BOOK 2 發行資料為準。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "moshimo-inochi-ga-egaketara",
+          "area": "mv",
+          "title": "舞台視覺與刺繡動畫的延伸"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/575234",
+      "scope": "譯詞、編曲差異、導演與出演者。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "new-me-en",
+          "area": "version",
+          "title": "英語版同時改動編曲與影像"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/573881",
+      "scope": "投稿企劃與創作素材。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "players",
+          "area": "creation",
+          "title": "素材不是一篇小說，而是許多玩家的回憶"
+        },
+        {
+          "songId": "players",
+          "area": "mv",
+          "title": "三十組創作者，讓遊戲記憶成為三十種圖像"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/550910",
+      "scope": "企劃、故事梗概與四首 EP 曲序；該新聞 EP 年份誤植，以已核對 2023-05-10 商品資料為準。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "seventeen",
+          "area": "creation",
+          "title": "小說出版順序與 EP 曲序並不相同"
+        },
+        {
+          "songId": "sukida",
+          "area": "narrative",
+          "title": "告白以前，先試圖刪去過去"
+        }
+      ]
+    },
+    {
+      "title": "鋼彈官方：ゆりかごの星",
+      "url": "https://gundam-official.com/witch-from-mercury/music/novel/",
+      "scope": "原作署名、敘事者與故事前提；比較方法是本站閱讀建議。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "shukufuku",
+          "area": "narrative",
+          "title": "先區分敘事者與電視動畫主角"
+        }
+      ]
+    },
+    {
+      "title": "前田定則：大正浪漫 製作紀錄",
+      "url": "https://maedasadanori.com/works/taishoroman_mv/",
+      "scope": "文字設計與完整職務署名；與把木村真二稱為導演的二級摘要分開。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "taisho-roman",
+          "area": "mv",
+          "title": "文字設計也參與跨時代敘事"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/550542",
+      "scope": "原作梗概、MV 導演與歌曲介紹；聆聽方法為本站觀察。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "umi-no-manimani",
+          "area": "mv",
+          "title": "海邊一夜的空間與心境"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/574444",
+      "scope": "原作與故事時間位置。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "watch-me",
+          "area": "narrative",
+          "title": "先看前傳，再看動畫中的妮可"
+        },
+        {
+          "songId": "watch-me",
+          "area": "mv",
+          "title": "新畫面與動畫片段共同構成 MV"
+        }
+      ]
+    },
+    {
+      "title": "J-WAVE：YOASOBI 與藍にいな對談",
+      "url": "https://news.j-wave.co.jp/2020/09/post-6629.html",
+      "scope": "MV 企劃、原作與畫面留白的本人說明。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "yoru-ni-kakeru",
+          "area": "mv",
+          "title": "保留小說行間，而不是畫出唯一答案"
+        }
+      ]
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/580760",
+      "scope": "MV 製作方式與視覺說明，不以點閱數推定銷量。",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "claims": [
+        {
+          "songId": "yuusha",
+          "area": "mv",
+          "title": "與動畫正篇同公司，另製完整影像"
+        }
+      ]
+    },
+    {
+      "url": "https://www.oricon.co.jp/news/2283718/full/",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "scope": "正文註 8 的十四首榜單付日。"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000597.000010908.html",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "scope": "RIAJ 公告的認證種類、月份與門檻。"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000535.000010908.html",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "scope": "RIAJ 公告的認證種類、月份與門檻。"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000675.000010908.html",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body",
+      "scope": "RIAJ 公告的認證種類、月份與門檻。"
+    },
+    {
+      "id": "audit-budokan-day1",
+      "title": "YOASOBI：NICE TO MEET YOU Day1 官方事後報告",
+      "url": "https://note.com/yoasobi_staff/n/n0984127c059e",
+      "publisher": "YOASOBI official note",
+      "language": "ja",
+      "kind": "primary",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body"
+    },
+    {
+      "id": "audit-denko-day1",
+      "title": "YOASOBI：電光石火神奈川追加 Day1 官方事後報告",
+      "url": "https://note.com/yoasobi_staff/n/ndf8314ce9867",
+      "publisher": "YOASOBI official note",
+      "language": "ja",
+      "kind": "primary",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body"
+    },
+    {
+      "id": "audit-wandara-finale",
+      "title": "WANDARA 沖繩兩日完走報告及歌單",
+      "url": "https://www.thefirsttimes.jp/report/0000727549/",
+      "publisher": "THE FIRST TIMES",
+      "language": "ja",
+      "kind": "secondary",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body"
+    },
+    {
+      "id": "audit-film-561709",
+      "title": "YOASOBI 官方新聞 561709",
+      "url": "https://www.yoasobi-music.jp/news/561709",
+      "publisher": "YOASOBI official / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "sony_music_public_json_body"
+    },
+    {
+      "id": "audit-film-577052",
+      "title": "YOASOBI 官方新聞 577052",
+      "url": "https://www.yoasobi-music.jp/news/577052",
+      "publisher": "YOASOBI official / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "sony_music_public_json_body"
+    },
+    {
+      "id": "audit-hitc-la",
+      "title": "Natalie / ぴあ：Head In The Clouds 事後報導",
+      "url": "https://lp.p.pia.jp/article/news/284424/index.html",
+      "publisher": "Natalie / ぴあ",
+      "language": "ja",
+      "kind": "secondary",
+      "reviewedAt": "2026-10-04",
+      "checkedVia": "read_source_body"
+    }
+  ],
+  "newsSnapshots": [
+    {
+      "id": 541228,
+      "title": "今夜20時、「ミスター」MVをYouTubeにてプレミア公開！原作小説・島本理生 著『私だけの所有者』の電子版配信もスタート。",
+      "publicationDate": "2022-05-22",
+      "url": "https://www.yoasobi-music.jp/news/541228",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/541228/callback/InfoSingleCallcack",
+      "sha256": "4b7ce2c3fea238ff0287ae8cc7aba84bbe3a8db8326c2702ee36541e6948c941"
+    },
+    {
+      "id": 550542,
+      "title": "直木賞作家コラボプロジェクト『はじめての』辻村深月原作楽曲「海のまにまに」のMVティザー映像公開！",
+      "publicationDate": "2023-03-14",
+      "url": "https://www.yoasobi-music.jp/news/550542",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/550542/callback/InfoSingleCallcack",
+      "sha256": "2cfe545c39ceacdc69437935fc4501b9ce4ad560f8ec8f3eeb854ae828a70551"
+    },
+    {
+      "id": 550910,
+      "title": "本日、直木賞作家コラボプロジェクト『はじめての』のラストを飾る宮部みゆき原作の第4弾楽曲「セブンティーン」配信開始！＆MVも20時プレミア公開！そして、5/10(水)には本プロジェクト楽曲4曲と小説をまとめた『はじめての - EP』数量限定CDリリース決定！本日より予約開始！",
+      "publicationDate": "2023-03-27",
+      "url": "https://www.yoasobi-music.jp/news/550910",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/550910/callback/InfoSingleCallcack",
+      "sha256": "0f22a7fa668d10c5ac4a751f1226d75b8b4efa6d022b481ec502581d3295ed28"
+    },
+    {
+      "id": 551361,
+      "title": "本日TVアニメ『【推しの子】』オープニング主題歌「アイドル」配信開始！楽曲のコールパートにはREAL AKIBA BOYZが参加！本日24時半には、動画工房制作のMVプレミア公開＆赤坂アカ書き下ろしの楽曲原作小説「45510」も公開！",
+      "publicationDate": "2023-04-12",
+      "url": "https://www.yoasobi-music.jp/news/551361",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/551361/callback/InfoSingleCallcack",
+      "sha256": "93b2b7147c03e6fd7d0a8372af7eed38d0f21fc4a660805d5c1738fd14c4ba50"
+    },
+    {
+      "id": 561709,
+      "title": "4/10(水)発売ライブ映像作品集『THE FILM 2』商品画像＆店舗別特典内容解禁！YOASOBI ZEPP TOUR 2024 \"POP OUT\"東京公演も収録されたBlu-ray内容も発表。さらに、初のドーム公演のチケット先行受付シリアル封入も決定！",
+      "publicationDate": "2024-03-19",
+      "url": "https://www.yoasobi-music.jp/news/561709",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/561709/callback/InfoSingleCallcack",
+      "sha256": "5d92ad901ebc5018e059971285b05f5a33ae2ab5dace6d9642cdaeb823ac9e96"
+    },
+    {
+      "id": 567367,
+      "title": "結成5周年記念日となる本日、オリジナル長編アニメーション映画『ふれる。』主題歌「モノトーン」を配信リリース＆20時にMV公開決定！",
+      "publicationDate": "2024-10-01",
+      "url": "https://www.yoasobi-music.jp/news/567367",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/567367/callback/InfoSingleCallcack",
+      "sha256": "3bb21d38730d4e35e3731a5d60a9a33addc24a03b745439c58d9b66729fc361f"
+    },
+    {
+      "id": 573881,
+      "title": "PlayStation®の30周年を記念して書き下ろした新曲「PLAYERS」MVが本日PM20:00公開！国内外30組の気鋭のクリエイターが集い、制作された”ゲーム愛”溢れる映像！",
+      "publicationDate": "2025-04-17",
+      "url": "https://www.yoasobi-music.jp/news/573881",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/573881/callback/InfoSingleCallcack",
+      "sha256": "0b07fcafeec1b984a6223658d8676afa3f1fba51b213d1874e50aa1dee9878a7"
+    },
+    {
+      "id": 574444,
+      "title": "TVアニメ『ウィッチウォッチ』オープニングテーマ「Watch me!」を本日配信リリース！さらに、Music Videoが本日5/18(日)PM17:30にYouTubeプレミア公開！",
+      "publicationDate": "2025-05-18",
+      "url": "https://www.yoasobi-music.jp/news/574444",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/574444/callback/InfoSingleCallcack",
+      "sha256": "a917d50c91c92604c2dbae63232ae6f589c65ba67462e5230876b1a4301c8265"
+    },
+    {
+      "id": 575234,
+      "title": "7/11(金)に「New me」英語版の配信リリース決定！同日22時にはミュージックビデオも公開！",
+      "publicationDate": "2025-07-04",
+      "url": "https://www.yoasobi-music.jp/news/575234",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/575234/callback/InfoSingleCallcack",
+      "sha256": "e9510c72f205ff005993672986018ac9d4bcea5dcbd72d4bafd2199b38593a53"
+    },
+    {
+      "id": 577052,
+      "title": "10/1(水)発売のライブ映像作品集『THE FILM 3』ジャケット写真＆店舗別特典内容解禁！結成5周年記念の初ドーム公演も収録されたBlu-ray内容も発表。",
+      "publicationDate": "2025-09-10",
+      "url": "https://www.yoasobi-music.jp/news/577052",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/577052/callback/InfoSingleCallcack",
+      "sha256": "483bc2b6acbee29ee59208fc670bba3944bc5c152cd546e23e065e5f69f30632"
+    },
+    {
+      "id": 577827,
+      "title": "10月期水10ドラマ 『もしもこの世が舞台なら、楽屋はどこにあるのだろう』主題歌となる新曲「劇上」MVを本日10/8(水)23:15にYouTubeプレミア公開決定！自身初となるYOASOBI本人出演の実写MVとなり、ドラマキャストとなる菅田将暉・二階堂ふみも出演！さらに、本日よりYOASOBI LINE公式アカウントがオープン！",
+      "publicationDate": "2025-10-08",
+      "url": "https://www.yoasobi-music.jp/news/577827",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/577827/callback/InfoSingleCallcack",
+      "sha256": "5d4a69f25ee1ea093ad56b388c26b1d8aa1b77af3f8cf27c1fc174d49c0d9f76"
+    },
+    {
+      "id": 580136,
+      "title": "TVアニメ『花ざかりの君たちへ』のオープニングテーマ「アドレナ」Music Videoが、本日20時YouTubeプレミア公開！",
+      "publicationDate": "2026-01-06",
+      "url": "https://www.yoasobi-music.jp/news/580136",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/580136/callback/InfoSingleCallcack",
+      "sha256": "624944bd8628d05dc68f0fe5fad355f3222767eafd46f269e118b43adb025ab3"
+    },
+    {
+      "id": 580270,
+      "title": "本日1/11(日)TVアニメ『花ざかりの君たちへ』第2話放送直後、エンディングテーマ「BABY」のノンクレジットED映像、そしてMVが連続公開決定！\r\n",
+      "publicationDate": "2026-01-11",
+      "url": "https://www.yoasobi-music.jp/news/580270",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/580270/callback/InfoSingleCallcack",
+      "sha256": "3457c69124e26fac323bb9a5533513c0f7f2c19119d5c5d88268a6afd90cc51b"
+    },
+    {
+      "id": 580760,
+      "title": "「勇者」MVがYouTube2億回再生を突破！",
+      "publicationDate": "2026-02-02",
+      "url": "https://www.yoasobi-music.jp/news/580760",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/580760/callback/InfoSingleCallcack",
+      "sha256": "7bc86e696927b0e648d526c321fed13274bafcf7130708591b9b2283a3ae312c"
+    },
+    {
+      "id": 581541,
+      "title": "「群青」がストリーミング累計9億再生突破！",
+      "publicationDate": "2026-03-04",
+      "url": "https://www.yoasobi-music.jp/news/581541",
+      "bodyURL": "https://www.sonymusic.co.jp/json/v2/artist/YOASOBI/information/581541/callback/InfoSingleCallcack",
+      "sha256": "9798bcc9dbddc417fb143a097f56c21c88b9d16ab52967f5436eb714e7af4df1"
+    }
+  ],
+  "conflicts": [
+    {
+      "url": "https://www.asamikiyokawa.com/works/produce/732/",
+      "issue": "MV 製作說明的第二張 EP 名稱省略 2。",
+      "resolution": "採用職務與媒材說明，EP 名稱使用已核對的官方 THE BOOK 2 商品資料。"
+    },
+    {
+      "url": "https://www.yoasobi-music.jp/news/550910",
+      "issue": "2023 年文章中的 EP 發行年份寫為 2022。",
+      "resolution": "保持已由官方商品查核的 2023-05-10；原作梗概與曲序可分別使用。"
+    },
+    {
+      "url": "https://www.yoasobi-music.jp/news/541228",
+      "issue": "發行日旁的星期有誤植。",
+      "resolution": "不使用該星期；保持已查核的 ISO 發行日期。"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "url": "https://calf.jp/works/shukufuku",
+      "reason": "實際瀏覽顯示 404；未以搜尋摘要補入製作職務。"
+    }
+  ],
+  "datePolicy": "Preserve YYYY, YYYY-MM and YYYY-MM-DD precision. News publication, audio release, MV premiere, live performance and certification month are separate facts."
+}

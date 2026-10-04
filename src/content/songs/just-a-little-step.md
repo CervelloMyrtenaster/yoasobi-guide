@@ -89,7 +89,8 @@
   "versionOf": "mou-sukoshi-dake",
   "relatedSongIds": [
     "mou-sukoshi-dake"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

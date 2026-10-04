@@ -1,0 +1,69 @@
+{
+  "id": "baby",
+  "songId": "baby",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《My Dear……》（蒼樹靖子）：小說。合作用途為 花ざかりの君たちへ（動畫片尾曲）。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "TVアニメ『花ざかりの君たちへ』のエンディングテーマとなる新曲「BABY」を、1/11(日)配信リリース決定&ジャケット写真が公開！",
+          "url": "https://www.yoasobi-music.jp/news/580137",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "TVアニメ『花ざかりの君たちへ』エンディングテーマ「BABY」の原作小説『My Dear……』が公開！そして、本日24時楽曲配信リリース！",
+          "url": "https://www.yoasobi-music.jp/news/580248",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "電視片尾與歌曲 MV 分開公開",
+      "text": "官方公告先公開無字幕片尾、再公開 MV。MV 依蒼樹靖子小說《My Dear……》與歌曲製作，描寫瑞稀思念佐野的學生生活。它與〈アドレナ〉的片頭喜劇形成另一個觀看方向。",
+      "sources": [
+        {
+          "title": "YOASOBI 官方製作與發行公告",
+          "url": "https://www.yoasobi-music.jp/news/580270",
+          "scope": "兩種影像與小說關係。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TVアニメ『花ざかりの君たちへ』のエンディングテーマとなる新曲「BABY」を、1/11(日)配信リリース決定&ジャケット写真が公開！",
+      "url": "https://www.yoasobi-music.jp/news/580137",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "TVアニメ『花ざかりの君たちへ』エンディングテーマ「BABY」の原作小説『My Dear……』が公開！そして、本日24時楽曲配信リリース！",
+      "url": "https://www.yoasobi-music.jp/news/580248",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/580270",
+      "scope": "兩種影像與小說關係。"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';import {loadContent} from '../../lib/content';import {path} from '../../lib/paths';import {withContext} from '../../lib/navigation';import {compareSetlists} from '../../lib/setlist-comparison';
+const {concerts,songs,liveGuide}=await loadContent();const samples=concerts.filter(c=>c.data.eventStatus==='completed'&&c.data.setlistStatus==='complete').sort((a,b)=>b.data.date.localeCompare(a.data.date));
+const initial=liveGuide.comparisons.find(c=>c.id===liveGuide.defaultComparison)!;
+const left=samples.find(c=>c.id===initial.leftId)!.data,right=samples.find(c=>c.id===initial.rightId)!.data;const comparison=compareSetlists(left,right);
+const client=samples.map(c=>({id:c.id,title:c.data.title,date:c.data.date,country:c.data.country,eventType:c.data.eventType,setlist:c.data.setlist}));
+---
+<BaseLayout title="比較兩場歌單：選曲、順序與安可" description="把不同年代、巡演、音樂祭與海外場次放在一起，查看共同曲目、單場曲目與曲序變化。">
+<div class="page-head"><a class="eyebrow" href={path('live/stats/')}>← LIVE 樣本統計</a><h1>兩場之間，哪些歌留下了？</h1><p class="lead">從選曲、開場與安可認識演出的結構；不同場次的資料各保留來源。</p></div>
+<section class="prose" aria-labelledby="comparison-starts"><h2 id="comparison-starts">從一個問題開始比較</h2><ul>{liveGuide.comparisons.map(example=><li><a href={path('live/compare/')+`?left=${example.leftId}&right=${example.rightId}#comparison`}>{example.title} →</a><p>{example.description}</p></li>)}</ul></section>
+<article class="prose" id="comparison" data-setlist-compare data-concerts={JSON.stringify(client)} data-songs={JSON.stringify(songs.map(s=>({id:s.id,title:s.data.titleJa})))}>
+<form class="archive-filter" hidden aria-label="選擇比較場次"><div><label for="compare-left">左側場次</label><select id="compare-left" name="left">{samples.map(c=><option value={c.id} selected={c.id===left.id}>{c.data.date} · {c.data.country} · {c.data.title}</option>)}</select></div><div><label for="compare-right">右側場次</label><select id="compare-right" name="right">{samples.map(c=><option value={c.id} selected={c.id===right.id}>{c.data.date} · {c.data.country} · {c.data.title}</option>)}</select></div></form>
+<p data-compare-summary role="status" aria-live="polite">共同 {comparison.filter(r=>r.left.length&&r.right.length).length} 首；左側獨有 {comparison.filter(r=>!r.right.length).length} 首；右側獨有 {comparison.filter(r=>!r.left.length).length} 首。</p>
+<p class="muted">曲名固定在第一欄，可左右捲動。按左側曲序，再列右側新增曲目。曲序變化不等於編曲或演唱長度變化。</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="兩場歌單比較表，可橫向捲動"><table class="sticky-first"><caption>同曲多次出現時列出所有位置；安可保留段落名稱。</caption><thead><tr><th scope="col">歌曲</th><th scope="col" data-left-heading>{left.date} · {left.title}</th><th scope="col" data-right-heading>{right.date} · {right.title}</th></tr></thead><tbody>{comparison.map(r=><tr><th scope="row"><a lang="ja" id={`song-${r.songId}`} href={withContext(path(`songs/${r.songId}/`),path('live/compare/'))}>{songs.find(s=>s.id===r.songId)!.data.titleJa}</a></th>{[r.left,r.right].map(items=><td>{items.length?items.map(t=>`${t.position}${t.section==='encore'?'（安可）':''}`).join('、'):'此場未列'}</td>)}</tr>)}</tbody></table></div>
+<p><a data-left-source href={path(`live/${left.id}/`)}>左側完整歌單與來源 →</a></p><p><a data-right-source href={path(`live/${right.id}/`)}>右側完整歌單與來源 →</a></p>
+<p class="callout">這裡比較已收錄的歷史樣本，不推定下一場曲序。編曲、節選與演唱長度需另讀各場來源，不能只由曲名或位置判斷。</p>
+</article></BaseLayout>
+<script>
+ import {path} from '../../lib/paths';import {withContext} from '../../lib/navigation';import {compareSetlists} from '../../lib/setlist-comparison';import type {LiveSample} from '../../lib/live-stats';
+ const root=document.querySelector<HTMLElement>('[data-setlist-compare]');if(root){
+ const concerts:(LiveSample&{title:string})[]=JSON.parse(root.dataset.concerts!);const songs:{id:string;title:string}[]=JSON.parse(root.dataset.songs!);const form=root.querySelector<HTMLFormElement>('form')!;const left=form.elements.namedItem('left') as HTMLSelectElement,right=form.elements.namedItem('right') as HTMLSelectElement;
+ const restore=()=>{const params=new URLSearchParams(location.search);for(const [name,select] of [['left',left],['right',right]] as const){const id=params.get(name);if(concerts.some(c=>c.id===id))select.value=id!;}};
+ const update=(save=true)=>{const a=concerts.find(c=>c.id===left.value)!,b=concerts.find(c=>c.id===right.value)!;const rows=compareSetlists(a,b);const url=new URL(location.href);url.searchParams.set('left',a.id);url.searchParams.set('right',b.id);if(save)history.replaceState(null,'',url);
+ root.querySelector('[data-compare-summary]')!.textContent=`共同 ${rows.filter(r=>r.left.length&&r.right.length).length} 首；左側獨有 ${rows.filter(r=>!r.right.length).length} 首；右側獨有 ${rows.filter(r=>!r.left.length).length} 首。`;
+ root.querySelector('[data-left-heading]')!.textContent=`${a.date} · ${a.title}`;root.querySelector('[data-right-heading]')!.textContent=`${b.date} · ${b.title}`;const body=root.querySelector('tbody')!;body.replaceChildren();
+ for(const row of rows){const tr=document.createElement('tr');const th=document.createElement('th');th.scope='row';const link=document.createElement('a');link.textContent=songs.find(s=>s.id===row.songId)!.title;link.lang='ja';link.href=withContext(path(`songs/${row.songId}/`),url.pathname+url.search+`#song-${row.songId}`);link.id=`song-${row.songId}`;th.append(link);tr.append(th);for(const items of [row.left,row.right]){const td=document.createElement('td');td.textContent=items.length?items.map(t=>`${t.position}${t.section==='encore'?'（安可）':''}`).join('、'):'此場未列';tr.append(td);}body.append(tr);}
+ for(const [key,c] of [['left',a],['right',b]] as const)root.querySelector<HTMLAnchorElement>(`[data-${key}-source]`)!.href=path(`live/${c.id}/`);
+ };form.hidden=false;form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('change',()=>update());window.addEventListener('popstate',()=>{restore();update(false);});restore();update(false);
+ }
+</script>

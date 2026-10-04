@@ -97,7 +97,8 @@
   "versionOf": "love-letter",
   "relatedSongIds": [
     "love-letter"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

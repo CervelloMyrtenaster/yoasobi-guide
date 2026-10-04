@@ -1,0 +1,74 @@
+{
+  "id": "monotone-en",
+  "songId": "monotone-en",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "version",
+      "title": "與原曲分開記錄的發行",
+      "text": "本作品的音源首次發行為 2024-10-02；日文原曲〈モノトーン〉為 2024-10-01。故事素材沿用原曲的 《ふれる。の、前夜。》（岡田麿里）：小說；本頁不繼承原曲的榜單或獎項。",
+      "sources": [
+        {
+          "title": "オリジナル長編アニメーション映画『ふれる。』主題歌「モノトーン」が、YOASOBI結成5周年記念日となる10/1(火)に、英語版「Monotone」が10/2(水)に2日連続配信リリース決定！さらにJK写が公開！",
+          "url": "https://www.yoasobi-music.jp/news/567172",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        }
+      ]
+    },
+    {
+      "area": "version",
+      "title": "英文版與電影剪輯版分開辨認",
+      "text": "官方單曲商品介紹列出英文版 Monotone，譯詞署名為 Konnie Aoki；同一商品另有增加段落的 Movie Edit。英文改寫和電影剪輯是兩種不同處理，不能把 Movie Edit 的新增段落套用到英文版。",
+      "sources": [
+        {
+          "title": "YOASOBI 官方製作與發行公告",
+          "url": "https://www.yoasobi-music.jp/news/567367",
+          "scope": "英文版曲目與譯詞署名；Movie Edit 另列。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "英語譯詞",
+      "name": "Konnie Aoki",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "YOASOBI 官方製作與發行公告",
+        "url": "https://www.yoasobi-music.jp/news/567367",
+        "scope": "英文版曲目與譯詞署名；Movie Edit 另列。"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "area": "mv",
+      "note": "尚未核對獨立歌曲 MV；不以 audio 或現場片段冒充。"
+    },
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "オリジナル長編アニメーション映画『ふれる。』主題歌「モノトーン」が、YOASOBI結成5周年記念日となる10/1(火)に、英語版「Monotone」が10/2(水)に2日連続配信リリース決定！さらにJK写が公開！",
+      "url": "https://www.yoasobi-music.jp/news/567172",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/567367",
+      "scope": "英文版曲目與譯詞署名；Movie Edit 另列。"
+    }
+  ]
+}

@@ -92,7 +92,8 @@
   "versionOf": "haruka",
   "relatedSongIds": [
     "haruka"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

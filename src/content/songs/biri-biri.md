@@ -60,13 +60,18 @@
       "youtubeId": "27kuWS21j0c",
       "title": "YOASOBI「Biri-Biri」 Special Guest：NewJeans『YOASOBI ASIA TOUR 2024-2025 “超現実｜cho-genjitsu” in SEOUL』",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=27kuWS21j0c"
+      "sourceUrl": "https://www.youtube.com/watch?v=27kuWS21j0c",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "concert"
     },
     {
       "youtubeId": "hTi3eMbDt2Q",
       "title": "YOASOBI「Biri-Biri」from『Clockenflap』2023.12.01@Central Harbourfront in Hong Kong",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=hTi3eMbDt2Q"
+      "sourceUrl": "https://www.youtube.com/watch?v=hTi3eMbDt2Q",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "festival",
+      "performedOn": "2023-12-01"
     }
   ],
   "sources": [
@@ -109,7 +114,8 @@
     "players",
     "orion",
     "sangenshoku"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -131,7 +137,7 @@
 
 biri-biri 是日語擬態詞，可描述電流、震動等感覺；實際意思依情境而變。適合從題名認識重複型擬態詞，再到外部學習頁分辨聲音、感覺與動作的詞。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

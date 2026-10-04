@@ -92,7 +92,8 @@
   "versionOf": "biri-biri",
   "relatedSongIds": [
     "biri-biri"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

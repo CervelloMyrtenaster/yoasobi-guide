@@ -58,13 +58,17 @@
       "youtubeId": "ng08QQvjV0U",
       "title": "YOASOBI「群青」(with 大阪桐蔭高等学校吹奏楽部) from UT × YOASOBI『SING YOUR WORLD』",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=ng08QQvjV0U"
+      "sourceUrl": "https://www.youtube.com/watch?v=ng08QQvjV0U",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "online"
     },
     {
       "youtubeId": "NyUTYwZe_l4",
       "title": "YOASOBI - 群青  / THE FIRST TAKE",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=NyUTYwZe_l4"
+      "sourceUrl": "https://www.youtube.com/watch?v=NyUTYwZe_l4",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "studio"
     }
   ],
   "sources": [
@@ -129,6 +133,35 @@
         "title": "Billboard Japan：16 首歌曲串流累計門檻（2025-02-19）",
         "url": "https://www.billboard-japan.com/d_news/detail/146458/2",
         "scope": "日本榜單串流累計的歷史快照；不是目前全球數字、MV 點閱或 RIAJ 認證。"
+      },
+      "institution": "Billboard JAPAN"
+    },
+    {
+      "type": "chart",
+      "date": "2021-03-29",
+      "dateBasis": "ORICON 榜單付日（不是新聞發布日）",
+      "title": "ORICON 累計串流突破一億次",
+      "institution": "ORICON",
+      "metric": "日本週間串流榜累計",
+      "description": "此為 ORICON 公布的歷史達成日期，供觀察發行後的累積過程；不與 Billboard、RIAJ 或 MV 點閱相加。",
+      "source": {
+        "title": "ORICON：2023-06-26 付串流榜與十四首累計里程碑",
+        "url": "https://www.oricon.co.jp/news/2283718/full/",
+        "scope": "正文註 8 明列各曲累計一億次的榜單付日；它不是 RIAJ 認證或全球播放量。"
+      }
+    },
+    {
+      "type": "chart",
+      "date": "2026-03-04",
+      "dateBasis": "Billboard JAPAN 公開日；統計期間 2026-02-23 至 2026-03-01",
+      "title": "Billboard JAPAN 累計串流突破九億次",
+      "institution": "Billboard JAPAN",
+      "metric": "日本串流榜累計",
+      "description": "官方依該週 Billboard JAPAN 集計確認九億次，與較早 ORICON 一億次里程碑分列；不同機構不相加，也不當作 RIAJ 認證。",
+      "source": {
+        "title": "YOASOBI 官方製作與發行公告",
+        "url": "https://www.yoasobi-music.jp/news/581541",
+        "scope": "九億次里程碑、公開日與集計期間；已讀 Sony Music 同一官方新聞正文。"
       }
     }
   ]
@@ -153,7 +186,7 @@
 
 「群青」讀作 gunjō，是深藍色的名稱；長音 ō 需要留拍。原作題名的「味方」是同伴或支持的一方，不是中文的「味道」。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

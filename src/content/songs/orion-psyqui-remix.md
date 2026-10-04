@@ -80,7 +80,8 @@
       "scope": "官方版本播放入口與發布者。"
     }
   ],
-  "versionOf": "orion"
+  "versionOf": "orion",
+  "achievements": []
 }
 ---
 

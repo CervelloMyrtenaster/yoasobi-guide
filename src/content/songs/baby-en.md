@@ -90,7 +90,8 @@
   "versionOf": "baby",
   "relatedSongIds": [
     "baby"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

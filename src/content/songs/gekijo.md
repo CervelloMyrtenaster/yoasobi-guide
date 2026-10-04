@@ -59,13 +59,18 @@
       "youtubeId": "SmPePOjIBVo",
       "title": "YOASOBI「劇上」 from TBS系 『CDTVライブ！ライブ！』 @ TOYOTA ARENA TOKYO",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=SmPePOjIBVo"
+      "sourceUrl": "https://www.youtube.com/watch?v=SmPePOjIBVo",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "tv"
     },
     {
       "youtubeId": "Id73ldMVW34",
       "title": "YOASOBI「劇上」from『ZOZOFES』2025.10.13@ Kアリーナ横浜",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=Id73ldMVW34"
+      "sourceUrl": "https://www.youtube.com/watch?v=Id73ldMVW34",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "festival",
+      "performedOn": "2025-10-13"
     }
   ],
   "sources": [
@@ -108,7 +113,8 @@
     "idol",
     "undead",
     "butai-ni-tatte"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -130,7 +136,7 @@
 
 「劇上」讀 gekijō，末尾是長音。日劇題名中的 もしも 引出假設，どこ 是「哪裡」；可以先從這些結構理解舞台與後台的提問。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

@@ -1,18 +1,50 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { loadContent } from '../../lib/content';
-import { liveStats } from '../../lib/live-stats';
+import { liveStats, includedSamples } from '../../lib/live-stats';
 import { path } from '../../lib/paths';
+import { withContext } from '../../lib/navigation';
 const { songs, concerts } = await loadContent();
-const data = concerts.map(c=>c.data);
-const scopes = (['solo','festival'] as const).map(eventType=>{
-  const ranked=songs.filter(s=>s.data.kind!=='interlude').map(song=>({song,all:liveStats(data,song.id,{eventType}),after:liveStats(data,song.id,{eventType,releasedOn:song.data.releaseDate})})).filter(r=>r.all.appearances>0).sort((a,b)=>b.all.appearances-a.all.appearances||a.song.data.releaseDate.localeCompare(b.song.data.releaseDate));
-  return {eventType,label:eventType==='solo'?'專場':'音樂祭',ranked,scope:ranked[0]?.all,records:concerts.filter(c=>c.data.eventType===eventType&&c.data.eventStatus==='completed'&&c.data.setlistStatus==='complete').sort((a,b)=>a.data.date.localeCompare(b.data.date))};
-});
+const data=concerts.map(c=>c.data);const sample=includedSamples(data);
+const rows=songs.filter(s=>s.data.kind!=='interlude').map(s=>({id:s.id,title:s.data.titleJa,language:s.data.language,releaseDate:s.data.releaseDate,all:liveStats(data,s.id),after:liveStats(data,s.id,{releasedOn:s.data.releaseDate})})).sort((a,b)=>b.all.appearances-a.all.appearances||a.releaseDate.localeCompare(b.releaseDate));
+const clientSamples=sample.map(({id,status,eventStatus,setlistStatus,date,country,tourId,eventType,setlist})=>({id,status,eventStatus,setlistStatus,date,country,tourId,eventType,setlist}));
+const countries=[...new Set(sample.map(c=>c.country))];const tours=[...new Set(sample.flatMap(c=>c.tourId?[c.tourId]:[]))];
 ---
-<BaseLayout title="LIVE 歌單樣本與曲目" description="分開查看專場與音樂祭的已核對歌單、出現場次及發行後樣本，了解演唱會準備的資料依據。">
-<div class="page-head"><span class="eyebrow">LIVE / THE NUMBERS</span><h1>從歌單，認識現場的選曲。</h1><p class="lead">專場與音樂祭分開閱讀；這是有來源的樣本，不是所有演出的總排行。</p><div class="actions"><a class="button" href={path('live/prepare/')}>先看惡補路線 →</a><a href="#festival">看音樂祭樣本 ↓</a></div></div>
-<article class="prose"><p class="callout">年份與巡演的樣本分布不均，連續兩日同一巡演也會各計一場。資料僅描述已收錄歌單，不能預測你要參加的場次。來源沒區分演唱長度時，出現一次不等於完整唱完。</p>
-{scopes.map(({eventType,label,ranked,scope,records})=><section id={eventType}><h2>{label}樣本</h2>{scope?.total ? <><p>{scope.from} 至 {scope.to} · <strong>{scope.total} 場</strong>刊載完整歌單。{scope.total<3&&'樣本非常少，請以單場記錄閱讀。'}</p><h3>收錄場次</h3><ul>{records.map(c=><li><a href={path(`live/${c.id}/`)}>{c.data.date} · {c.data.title}</a></li>)}</ul><h3>歌曲出現紀錄</h3><div class="table-wrap" tabindex="0" role="region" aria-label={`${label}歌曲出現場次表，可橫向捲動`}><table><caption>依樣本內出現場次排列；序曲與間奏仍保留在各場歌單，這裡不列入歌曲比較。</caption><thead><tr><th scope="col">歌曲</th><th scope="col">全部樣本<br/>出現／場次</th><th scope="col">發行後樣本<br/>出現／場次</th></tr></thead><tbody>{ranked.map(r=><tr><th scope="row"><a lang={r.song.data.language==='ja'?'ja':undefined} href={path(`songs/${r.song.id}/`)}>{r.song.data.titleJa}</a></th><td>{r.all.appearances}／{r.all.total}</td><td>{r.after.total?`${r.after.appearances}／${r.after.total}`:'尚無樣本'}</td></tr>)}</tbody></table></div></> : <p class="empty">尚未收錄符合條件的完整歌單。</p>}</section>)}
-<h2>為什麼要看兩個分母？</h2><p>全部樣本讓你看整份收藏中哪些歌出現；發行後樣本排除歌曲尚未公開的時期，避免新歌因年代較短顯得不常演。正式發行前就有演出時，會保留在全部樣本與該場歌單，不改寫發行日期。</p><p>同曲同場最多計一次。節選、組曲與完整演唱僅在來源明確說明時分別記錄。棚內公開演唱與單曲影片不混進專場樣本。這份資料有選樣限制，亦不能代表所有海外演出。</p><a href={path('sources/')}>閱讀查核與統計口徑 →</a></article>
-</BaseLayout>
+<BaseLayout title="LIVE 曲目統計：年代、巡演與海外樣本" description="以有來源的完整歌單比較歌曲出現、發行後機會與巡演分布，包含零次紀錄；可依日期、專場、音樂祭和海外篩選。">
+<div class="page-head"><span class="eyebrow">LIVE / THE NUMBERS</span><h1>從歌單，認識現場的選曲。</h1><p class="lead">先選你關心的年代與演出類型，再比較歌曲。零次紀錄也保留，讓樣本中的差異可見。</p><div class="actions"><a class="button" href={path('live/prepare/')}>先看惡補路線 →</a><a href={path('live/compare/')}>比較兩場歌單 →</a></div></div>
+<article class="prose" data-live-statistics data-samples={JSON.stringify(clientSamples)}>
+<p class="callout">這是已核對歌單的收藏，不是所有歷年演出的總排行。日本與海外、年份與巡演的樣本仍不均；同一巡演的兩日會各計一場。僅列曲名時不判定演唱長度，也不保證下一場演出。</p>
+<form class="archive-filter" data-live-filter hidden role="search" aria-label="篩選歌單樣本">
+<div><label for="live-query">找歌曲</label><input id="live-query" type="search" name="q"/></div>
+<div><label for="live-type">演出類型</label><select id="live-type" name="type"><option value="">全部</option><option value="solo">專場</option><option value="festival">音樂祭</option></select></div>
+<div><label for="live-region">地區</label><select id="live-region" name="region"><option value="">全部地區</option><option value="japan">日本</option><option value="overseas">海外</option></select></div>
+<div><label for="live-country">國家／地區</label><select id="live-country" name="country"><option value="">全部</option>{countries.map(c=><option>{c}</option>)}</select></div>
+<div><label for="live-tour">巡演／系列</label><select id="live-tour" name="tour"><option value="">全部</option>{tours.map(id=><option value={id}>{concerts.find(c=>c.data.tourId===id)!.data.title.replace(/ Day\d+$/,'')}</option>)}</select></div>
+<div><label for="live-from">起日</label><input id="live-from" name="fromDate" type="date"/></div><div><label for="live-to">迄日</label><input id="live-to" name="toDate" type="date"/></div>
+<div><label for="live-language">歌曲語言</label><select id="live-language" name="language"><option value="ja">日文</option><option value="">全部</option><option value="en">英文</option><option value="other">其他</option></select></div>
+<button type="button" data-clear>清除篩選</button></form>
+<p data-sample-summary role="status" aria-live="polite">{sample.length} 場 · {new Set(sample.map(c=>c.tourId??c.id)).size} 個巡演／活動系列 · {sample.map(c=>c.date).sort()[0]} 至 {sample.map(c=>c.date).sort().at(-1)}</p>
+<p data-range-error hidden class="callout">起日不能晚於迄日。請調整日期。</p>
+<details class="clip-details"><summary>查看納入的場次與來源</summary><ul>{concerts.filter(c=>sample.some(s=>s.id===c.id)).sort((a,b)=>a.data.date.localeCompare(b.data.date)).map(c=><li data-sample-id={c.id}><a href={path(`live/${c.id}/`)}>{c.data.date} · {c.data.country} · {c.data.title}</a></li>)}</ul></details>
+<p class="muted">窄螢幕可左右捲動表格；曲名固定在第一欄。預設列出日文歌曲，按目前樣本出現次數排列。</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="歌曲出現統計，可橫向捲動"><table class="sticky-first"><caption>全部樣本與發行後樣本使用不同分母；沒有發行後場次時顯示尚無樣本。</caption><thead><tr><th scope="col">歌曲</th><th scope="col">全部樣本<br/>出現／場次</th><th scope="col">發行後樣本<br/>出現／場次</th><th scope="col">樣本內觀察</th></tr></thead><tbody>{rows.map(r=><tr data-song-row data-song-id={r.id} data-language={r.language} data-title={r.title} data-release={r.releaseDate} hidden={r.language!=='ja'}><th scope="row"><a lang={r.language==='ja'?'ja':'en'} href={withContext(path(`songs/${r.id}/`),path('live/stats/')+`#song-${r.id}`)} id={`song-${r.id}`}>{r.title}</a></th><td data-all>{r.all.appearances}／{r.all.total}</td><td data-after>{r.after.total?`${r.after.appearances}／${r.after.total}`:'尚無樣本'}</td><td data-observation>{!r.all.appearances?'此樣本未列；不代表從未演出':r.all.unspecified?'已刊載；演唱長度未全確認':'依來源區分演唱形式'}</td></tr>)}</tbody></table></div>
+<p class="empty" data-no-rows hidden>沒有符合的歌曲；可清除關鍵字或改變語言。</p>
+<h2>如何讀這些數字？</h2><p>全部樣本描述整份收藏；發行後樣本排除音源尚未發行的時期。同曲同場最多計一次，發行前的現場仍在全部樣本中保留。零次或少次只適用這些歌單，無法據此認定「從未演過」或全世界最少演的曲目。</p><p>巡演／活動系列數讓你看見分母中有多少同一企劃的連續場次。棚內影片不混入專場；英文版也不繼承日文原曲的出現次數。</p><a href={path('sources/')}>查核與統計口徑 →</a>
+</article></BaseLayout>
+<script>
+ import { includedSamples, liveStats, type LiveSample, type LiveScope } from '../../lib/live-stats';
+ import { path } from '../../lib/paths';import { withContext } from '../../lib/navigation';
+ const root=document.querySelector<HTMLElement>('[data-live-statistics]');
+ if(root){const samples:LiveSample[]=JSON.parse(root.dataset.samples!);const form=root.querySelector<HTMLFormElement>('form')!;const rows=[...root.querySelectorAll<HTMLElement>('[data-song-row]')];const names=['q','type','region','country','tour','fromDate','toDate','language'];
+ const field=(name:string)=>form.elements.namedItem(name) as HTMLInputElement|HTMLSelectElement;
+ const restore=()=>{const params=new URLSearchParams(location.search);for(const name of names)field(name).value=params.get(name)??(name==='language'?'ja':'');};
+ const update=(save=true)=>{const scope:LiveScope={eventType:field('type').value as LiveScope['eventType'],region:field('region').value as LiveScope['region'],country:field('country').value,tourId:field('tour').value,from:field('fromDate').value,to:field('toDate').value};const invalid=Boolean(scope.from&&scope.to&&scope.from>scope.to);root.querySelector<HTMLElement>('[data-range-error]')!.hidden=!invalid;
+ const selected=invalid?[]:includedSamples(samples,scope);const dates=selected.map(c=>c.date).sort();root.querySelector('[data-sample-summary]')!.textContent=`${selected.length} 場 · ${new Set(selected.map(c=>c.tourId??c.id)).size} 個巡演／活動系列${dates.length?` · ${dates[0]} 至 ${dates.at(-1)}`:' · 尚無符合樣本'}`;
+ for(const item of root.querySelectorAll<HTMLElement>('[data-sample-id]'))item.hidden=!selected.some(c=>c.id===item.dataset.sampleId);
+ const counts=new Map<HTMLElement,number>();const needle=field('q').value.normalize('NFKC').toLowerCase();
+ for(const row of rows){const all=liveStats(selected,row.dataset.songId!);const after=liveStats(selected,row.dataset.songId!,{releasedOn:row.dataset.release});counts.set(row,all.appearances);row.querySelector('[data-all]')!.textContent=`${all.appearances}／${all.total}`;row.querySelector('[data-after]')!.textContent=after.total?`${after.appearances}／${after.total}`:'尚無樣本';row.querySelector('[data-observation]')!.textContent=!all.total?'此範圍無歌單':!all.appearances?'此樣本未列；不代表從未演出':all.unspecified?'已刊載；演唱長度未全確認':'依來源區分演唱形式';row.hidden=Boolean(field('language').value&&row.dataset.language!==field('language').value)||!row.dataset.title!.normalize('NFKC').toLowerCase().includes(needle);}
+ rows.sort((a,b)=>counts.get(b)!-counts.get(a)!||a.dataset.release!.localeCompare(b.dataset.release!)).forEach(row=>row.parentElement!.append(row));root.querySelector<HTMLElement>('[data-no-rows]')!.hidden=rows.some(r=>!r.hidden);
+ const url=new URL(location.href);if(save){for(const name of names){if(field(name).value)url.searchParams.set(name,field(name).value);else url.searchParams.delete(name);}history.replaceState(null,'',url);}
+ for(const row of rows)row.querySelector<HTMLAnchorElement>('a')!.href=withContext(path(`songs/${row.dataset.songId}/`),url.pathname+url.search+`#song-${row.dataset.songId}`);
+ };form.hidden=false;form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',()=>update());form.addEventListener('change',()=>update());form.querySelector('[data-clear]')!.addEventListener('click',()=>{for(const name of names)field(name).value=name==='language'?'ja':'';update();});window.addEventListener('popstate',()=>{restore();update(false);});restore();update(false);}
+</script>

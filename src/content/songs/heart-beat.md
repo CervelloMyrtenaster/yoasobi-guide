@@ -58,7 +58,9 @@
       "youtubeId": "vuEl3u-va-k",
       "title": "YOASOBI「HEART BEAT」 from 『YOASOBI ASIA TOUR 2024-2025 “超現実｜cho-genjitsu” in Singapore』2025.2.22-23",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=vuEl3u-va-k"
+      "sourceUrl": "https://www.youtube.com/watch?v=vuEl3u-va-k",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "concert"
     }
   ],
   "sources": [
@@ -91,7 +93,8 @@
     "gunjo",
     "tsubame",
     "butai-ni-tatte"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -113,7 +116,7 @@
 
 英文題名指心跳；學日語時可先從 18祭 的「祭」與年齡說法入手。跟唱也可先練穩定節拍與換氣，不必把多人一起唱的所有層次都由自己一次完成。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

@@ -1,0 +1,52 @@
+{
+  "id": "prologue",
+  "songId": "prologue",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "在完整曲序中的位置",
+      "text": "《THE BOOK》第 9 首，放回專輯曲序理解的短曲。 此類曲目以 EP 曲序與前後歌曲理解，不另編造小說情節。",
+      "sources": [
+        {
+          "title": "10月に迎える結成5周年を記念して、EP『THE BOOK』シリーズ3作品のアナログ盤を10/23(水)に発売決定！国内外で活躍するイラストレーター3名による描き下ろしイラストジャケットデザイン＆カラーバイナル仕様。本日より予約開始！",
+          "url": "https://www.yoasobi-music.jp/news/566407",
+          "scope": "官方發行資訊、曲目表與創作背景；正文已查核。"
+        },
+        {
+          "title": "THE BOOK 系列全四作及配信日期",
+          "url": "https://prtimes.jp/main/html/rd/p/000001811.000055377.html",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "10月に迎える結成5周年を記念して、EP『THE BOOK』シリーズ3作品のアナログ盤を10/23(水)に発売決定！国内外で活躍するイラストレーター3名による描き下ろしイラストジャケットデザイン＆カラーバイナル仕様。本日より予約開始！",
+      "url": "https://www.yoasobi-music.jp/news/566407",
+      "scope": "官方發行資訊、曲目表與創作背景；正文已查核。"
+    },
+    {
+      "title": "THE BOOK 系列全四作及配信日期",
+      "url": "https://prtimes.jp/main/html/rd/p/000001811.000055377.html",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ]
+}

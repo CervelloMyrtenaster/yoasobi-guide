@@ -62,7 +62,10 @@
       "youtubeId": "qtQmuFuifzs",
       "title": "YOASOBI「好きだ」 from 『ROCK IN JAPAN FESTIVAL 2022』2022.8.06@千葉市蘇我スポーツ公園",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=qtQmuFuifzs"
+      "sourceUrl": "https://www.youtube.com/watch?v=qtQmuFuifzs",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "festival",
+      "performedOn": "2022-08-06"
     }
   ],
   "sources": [
@@ -105,7 +108,8 @@
     "mister",
     "umi-no-manimani",
     "seventeen"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -127,7 +131,7 @@
 
 「好き」是な形容詞，「好きだ」的 だ 是普通體判斷助動詞。題名短，適合先練 su-ki-da 的拍子；中文「喜歡你」加了對象，日文題名本身省略了對象。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

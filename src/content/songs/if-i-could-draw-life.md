@@ -86,7 +86,8 @@
   "versionOf": "moshimo-inochi-ga-egaketara",
   "relatedSongIds": [
     "moshimo-inochi-ga-egaketara"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

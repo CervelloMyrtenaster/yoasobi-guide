@@ -88,7 +88,8 @@
   "versionOf": "yasashii-suisei",
   "relatedSongIds": [
     "yasashii-suisei"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

@@ -1,0 +1,68 @@
+{
+  "id": "seventeen",
+  "songId": "seventeen",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《色違いのトランプ》（宮部みゆき）：小說。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "本日、直木賞作家コラボプロジェクト『はじめての』のラストを飾る宮部みゆき原作の第4弾楽曲「セブンティーン」配信開始！＆MVも20時プレミア公開！そして、5/10(水)には本プロジェクト楽曲4曲と小説をまとめた『はじめての - EP』数量限定CDリリース決定！本日より予約開始！",
+          "url": "https://www.yoasobi-music.jp/news/550910",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "YOASOBI 官方 SONGS / NOVELS",
+          "url": "https://www.yoasobi-music.jp/songs",
+          "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    },
+    {
+      "area": "creation",
+      "title": "小說出版順序與 EP 曲序並不相同",
+      "text": "《はじめての》四篇小說對應四首歌曲；〈セブンティーン〉最後公布，卻在 EP 排第一。原作介紹由父親救女兒的行動開啟，聆聽時應分開辨認書籍梗概與歌曲敘事，不能依出版或發行順序推定歌中人稱。",
+      "sources": [
+        {
+          "title": "YOASOBI 官方製作與發行公告",
+          "url": "https://www.yoasobi-music.jp/news/550910",
+          "scope": "企劃、故事梗概與四首 EP 曲序；該新聞 EP 年份誤植，以已核對 2023-05-10 商品資料為準。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "mv",
+      "note": "已有官方 MV 入口；導演訪談與完整製作職務尚待逐項查核。"
+    },
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/550910",
+      "scope": "企劃、故事梗概與四首 EP 曲序；該新聞 EP 年份誤植，以已核對 2023-05-10 商品資料為準。"
+    },
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    }
+  ]
+}

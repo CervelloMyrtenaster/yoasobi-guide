@@ -47,7 +47,8 @@
       "url": "https://prtimes.jp/main/html/rd/p/000001811.000055377.html",
       "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
     }
-  ]
+  ],
+  "achievements": []
 }
 ---
 

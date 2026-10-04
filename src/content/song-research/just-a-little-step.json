@@ -1,0 +1,50 @@
+{
+  "id": "just-a-little-step",
+  "songId": "just-a-little-step",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "version",
+      "title": "與原曲分開記錄的發行",
+      "text": "本作品的音源首次發行為 2022-11-18；日文原曲〈もう少しだけ〉為 2021-05-10。故事素材沿用原曲的 《めぐる。》（千春）：小說；本頁不繼承原曲的榜單或獎項。",
+      "sources": [
+        {
+          "title": "本日『祝福』CDリリース！「The Blessing」(「祝福」英語版)のMV公開＆配信開始！そして英語版EP第2弾となる『E-SIDE 2』の配信リリースも決定！",
+          "url": "https://www.yoasobi-music.jp/news/546801",
+          "scope": "官方發行資訊、曲目表與創作背景；正文已查核。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "mv",
+      "note": "已有官方 MV 入口；導演訪談與完整製作職務尚待逐項查核。"
+    },
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    },
+    {
+      "area": "version",
+      "note": "此英文版的譯詞／製作署名需另核對，不由其他英文版推定。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "本日『祝福』CDリリース！「The Blessing」(「祝福」英語版)のMV公開＆配信開始！そして英語版EP第2弾となる『E-SIDE 2』の配信リリースも決定！",
+      "url": "https://www.yoasobi-music.jp/news/546801",
+      "scope": "官方發行資訊、曲目表與創作背景；正文已查核。"
+    }
+  ]
+}

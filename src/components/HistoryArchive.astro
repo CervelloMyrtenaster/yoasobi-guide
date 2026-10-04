@@ -6,16 +6,24 @@ interface Props {
   entries: CollectionEntry<'history'>[];
   context?: string;
   songLinks?: Record<string, { href: string; keywords: string }>;
+  detailLinks?: Record<string,string>;
 }
-const { entries, context = 'history', songLinks = {} } = Astro.props;
+const { entries, context = 'history', songLinks = {}, detailLinks={} } = Astro.props;
 const years = [...new Set(entries.map(e=>e.data.year))].sort((a,b)=>a-b);
 const types = [...new Set(entries.map(e=>e.data.type))];
+const statuses = [...new Set(entries.map(e=>e.data.status))];
+const places = [...new Set(entries.flatMap(e=>e.data.location?[e.data.location]:[]))].sort();
+const tours = entries.filter(e=>e.data.type==='tour');
+const memberships = new Map(entries.map(e=>[e.id,tours.filter(t=>t.id===e.id||t.data.showIds.includes(e.id)).map(t=>t.id)]));
 ---
 <div data-archive>
 <form class="archive-filter" data-archive-filter hidden role="search" aria-label="查找已查核紀錄">
   <div><label for={`${context}-query`}>查找作品、活動或地點</label><input id={`${context}-query`} name="q" type="search" placeholder="輸入名稱、日期或地點"/></div>
   <div><label for={`${context}-type`}>資料類型</label><select id={`${context}-type`} name="type"><option value="">全部類型</option>{types.map(type=><option value={type}>{historyTypes[type] ?? type}</option>)}</select></div>
   <div><label for={`${context}-year`}>年份</label><select id={`${context}-year`} name="year"><option value="">全部年份</option>{years.map(year=><option value={year}>{year}</option>)}</select></div>
+  <div><label for={`${context}-status`}>紀錄狀態</label><select id={`${context}-status`} name="status"><option value="">全部狀態</option>{statuses.map(status=><option value={status}>{historyStatuses[status]}</option>)}</select></div>
+  <div><label for={`${context}-place`}>地點（來源名稱）</label><select id={`${context}-place`} name="place"><option value="">全部地點</option>{places.map(place=><option>{place}</option>)}</select></div>
+  {tours.length>0 && <div><label for={`${context}-tour`}>巡演與所屬場次</label><select id={`${context}-tour`} name="tour"><option value="">全部巡演</option>{tours.map(t=><option value={t.id}>{t.data.title}</option>)}</select></div>}
   <button type="button" data-clear>清除篩選</button>
   <p class="muted" data-archive-results role="status" aria-live="polite" aria-atomic="true">共 {entries.length} 筆已查核紀錄</p>
 </form>
@@ -23,24 +31,23 @@ const types = [...new Set(entries.map(e=>e.data.type))];
 <p class="empty" data-archive-empty hidden>沒有符合的紀錄。試試其他關鍵字，或清除篩選。</p>
 {years.map(year=><section class="section" id={`year-${year}`} data-year-section={year} aria-labelledby={`heading-${year}`}>
   <h2 id={`heading-${year}`}>{year}</h2>
-  <div class="route-grid">{entries.filter(e=>e.data.year===year).map(({id,data})=><article class="route-card" data-archive-item data-year={year} data-type={data.type} data-search={[data.title,data.description,data.date,data.location,data.venue,songLinks[id]?.keywords].filter(Boolean).join(' ')}>
+  <details class="archive-year-details" open={year===years.at(-1)}><summary>{entries.filter(e=>e.data.year===year).length} 筆紀錄 · 展開／收合 {year}</summary><div class="route-grid">{entries.filter(e=>e.data.year===year).map(({id,data})=><article class="route-card" data-archive-item data-year={year} data-type={data.type} data-status={data.status} data-place={data.location??''} data-tours={memberships.get(id)?.join(' ')} data-search={[data.title,data.description,data.date,data.location,data.venue,songLinks[id]?.keywords].filter(Boolean).join(' ')}>
     <span class="eyebrow">{historyTypes[data.type] ?? data.type}</span>
     <p><time datetime={data.date}>{data.date}</time>{data.endDate && <> — <time datetime={data.endDate}>{data.endDate}</time></>}{data.datePrecision!=='day' && <span>（僅知{data.datePrecision==='year'?'年份':'年月'}）</span>}</p>
-    <h3><a href={path(`history/${id}/`)} data-archive-detail>{data.title}</a></h3>
+    <h3><a href={detailLinks[id]??path(`history/${id}/`)} data-archive-detail>{data.title}</a></h3>
     <p class="archive-status">{historyStatuses[data.status]}</p>
     {(data.location || data.venue) && <p>{[data.location,data.venue].filter(Boolean).join(' · ')}</p>}
     <p>{data.description}</p>
     {data.conflictNotes.length>0 && <p class="muted">來源有差異，詳情頁附核對說明。</p>}
     {songLinks[id] && <p><a href={songLinks[id].href}>閱讀歌曲介紹與 MV →</a></p>}
-  </article>)}</div>
+  </article>)}</div></details>
 </section>)}
 </div>
 <script>
   document.querySelectorAll<HTMLElement>('[data-archive]').forEach(archive => {
     const form = archive.querySelector<HTMLFormElement>('form')!;
     const query = form.querySelector<HTMLInputElement>('[name=q]')!;
-    const type = form.querySelector<HTMLSelectElement>('[name=type]')!;
-    const year = form.querySelector<HTMLSelectElement>('[name=year]')!;
+    const facets = ['type','year','status','place','tour'].flatMap(name=>{const input=form.querySelector<HTMLSelectElement>(`[name=${name}]`);return input?[input]:[];});
     const cards = [...archive.querySelectorAll<HTMLElement>('[data-archive-item]')];
     const sections = [...archive.querySelectorAll<HTMLElement>('[data-year-section]')];
     const normalize = (value: string) => value.normalize('NFKC').toLowerCase();
@@ -48,22 +55,23 @@ const types = [...new Set(entries.map(e=>e.data.type))];
     const restore = () => {
       const params = new URLSearchParams(location.search);
       query.value = params.get('q') ?? '';
-      type.value = params.get('type') ?? '';
-      year.value = params.get('year') ?? '';
+      facets.forEach(input=>input.value=params.get(input.name)??'');
     };
     const filter = (updateURL = true) => {
       const needle = normalize(query.value.trim());
-      cards.forEach(card => card.hidden = !searchable.get(card)?.includes(needle) || (!!type.value && card.dataset.type !== type.value) || (!!year.value && card.dataset.year !== year.value));
+      cards.forEach(card => card.hidden = !searchable.get(card)?.includes(needle) || facets.some(input=>input.value && (input.name==='tour'?!card.dataset.tours?.split(' ').includes(input.value):card.dataset[input.name]!==input.value)));
       sections.forEach(section => {
         section.hidden = !section.querySelector('[data-archive-item]:not([hidden])');
         archive.querySelector<HTMLElement>(`[data-year-link="${section.dataset.yearSection}"]`)!.hidden = section.hidden;
+        const details=section.querySelector<HTMLDetailsElement>('details')!;
+        details.open=Boolean(needle||facets.some(input=>input.value)||location.hash===`#year-${section.dataset.yearSection}`||section===sections.at(-1));
       });
       const count = cards.filter(card => !card.hidden).length;
       form.querySelector('[data-archive-results]')!.textContent = `找到 ${count} 筆紀錄（共 ${cards.length} 筆）`;
       archive.querySelector<HTMLElement>('[data-archive-empty]')!.hidden = count !== 0;
       const url = new URL(location.href);
       if (updateURL) {
-        for (const [key, value] of [['q',query.value.trim()],['type',type.value],['year',year.value]]) {
+        for (const [key, value] of [['q',query.value.trim()],...facets.map(input=>[input.name,input.value])]) {
           if (value) url.searchParams.set(key,value); else url.searchParams.delete(key);
         }
         const target = document.getElementById(url.hash.slice(1));
@@ -74,15 +82,16 @@ const types = [...new Set(entries.map(e=>e.data.type))];
         const link = card.querySelector<HTMLAnchorElement>('[data-archive-detail]')!;
         const detail = new URL(link.href);
         detail.searchParams.set('from',`${url.pathname}${url.search}#year-${card.dataset.year}`);
-        link.href = `${detail.pathname}${detail.search}`;
+        link.href = `${detail.pathname}${detail.search}${detail.hash}`;
       });
     };
     const submit = (event: SubmitEvent) => { event.preventDefault(); filter(); };
     form.addEventListener('submit',submit);
     query.addEventListener('input',() => filter());
-    type.addEventListener('change',() => filter()); year.addEventListener('change',() => filter());
+    facets.forEach(input=>input.addEventListener('change',()=>filter()));
     form.querySelector('[data-clear]')!.addEventListener('click',() => { form.reset(); filter(); query.focus(); });
     window.addEventListener('popstate',() => { restore(); filter(false); });
+    window.addEventListener('hashchange',()=>{const section=document.getElementById(location.hash.slice(1));const details=section?.querySelector<HTMLDetailsElement>('details');if(details)details.open=true;});
     restore(); filter(false); form.hidden = false;
   });
 </script>

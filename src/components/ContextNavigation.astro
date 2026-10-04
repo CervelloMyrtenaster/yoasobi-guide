@@ -1,0 +1,44 @@
+---
+import { loadContent } from '../lib/content';
+import { loadHistory } from '../lib/history';
+import { listeningSongs } from '../lib/listening';
+import { path } from '../lib/paths';
+interface Props { songId: string }
+const { songId } = Astro.props;
+const { songs, releases, concerts, listeningPaths } = await loadContent();
+const history = await loadHistory();
+const currentSong=songs.find(s=>s.id===songId)!;
+const pageLabels:Record<string,string>={songs:'歌曲目錄',start:'入門指南','live/prepare':'演唱會準備','live/stats':'LIVE 曲目統計','live/compare':'歌單比較','live/videos':'官方現場影片',records:'成績與獎項索引',explore:'作品關係',history:'歷史時間軸','deep-listening':'深度聆聽',about:'認識 YOASOBI',eras:'分階段導讀','new-works':'近期作品','japanese-learning':'唱歌學日語',sources:'資料與編輯原則',releases:'發行作品',live:'演出歷史','members/ayase':'Ayase 介紹','members/ikura':'ikura 介紹'};
+const destinations = [
+  {url:path(),label:'首頁',ids:[] as string[]},
+  ...songs.filter(s=>s.id!==songId).map(s=>({url:path(`songs/${s.id}/`),label:`〈${s.data.titleJa}〉`,ids:[] as string[]})),
+  ...Object.entries(pageLabels).map(([id,label])=>({url:path(`${id}/`),label,ids:[] as string[]})),
+  ...releases.filter(r=>r.data.tracks.some(t=>t.songId===songId)).map(r=>({url:path(`releases/${r.id}/`),label:r.data.title,ids:r.data.tracks.map(t=>t.songId)})),
+  ...concerts.filter(c=>c.data.setlist.some(t=>t.songId===songId)).map(c=>({url:path(`live/${c.id}/`),label:`${c.data.date} 歌單`,ids:c.data.setlist.map(t=>t.songId)})),
+  ...listeningPaths.map(p=>({url:path(`listen/${p.id}/`),label:p.data.title,ids:listeningSongs(p,songs,history).map(i=>i.song.id)})).filter(p=>p.ids.includes(songId)),
+  ...history.filter(r=>currentSong.data.historyIds.includes(r.id)||r.data.title===currentSong.data.titleJa).map(r=>({url:path(`history/${r.id}/`),label:r.data.title,ids:[]})),
+];
+---
+<nav class="context-navigation" aria-label="返回與連續聆聽" data-context-navigation data-song-id={songId} data-destinations={JSON.stringify(destinations)}>
+  <a data-context-back href={path('songs/')}>← 返回歌曲目錄</a>
+  <span data-context-sequence hidden><a data-context-previous hidden>← 上一首</a><a data-context-next hidden>下一首 →</a></span>
+</nav>
+<script>
+  import { path } from '../lib/paths';
+  import { returnContext, withContext } from '../lib/navigation';
+  for(const root of document.querySelectorAll<HTMLElement>('[data-context-navigation]')) {
+    const destinations: {url:string;label:string;ids:string[]}[]=JSON.parse(root.dataset.destinations!);
+    const from=returnContext(new URLSearchParams(location.search).get('from'),location.origin,path(),destinations.map(d=>d.url));
+    if(!from) continue;
+    const destination=destinations.find(d=>d.url===new URL(from,location.origin).pathname)!;
+    const back=root.querySelector<HTMLAnchorElement>('[data-context-back]')!;
+    back.href=from; back.textContent=`← 返回${destination.label}`;
+    const index=destination.ids.indexOf(root.dataset.songId!);
+    if(index<0) continue;
+    for(const [selector,offset] of [['previous',-1],['next',1]] as const) {
+      const id=destination.ids[index+offset]; const link=root.querySelector<HTMLAnchorElement>(`[data-context-${selector}]`)!;
+      if(id) { link.href=withContext(path(`songs/${id}/`),destination.url+`#song-${id}`);link.hidden=false; }
+    }
+    root.querySelector<HTMLElement>('[data-context-sequence]')!.hidden=false;
+  }
+</script>

@@ -82,7 +82,8 @@
   "versionOf": "tabun",
   "relatedSongIds": [
     "tabun"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

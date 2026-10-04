@@ -92,7 +92,8 @@
   "versionOf": "yuusha",
   "relatedSongIds": [
     "yuusha"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

@@ -91,7 +91,8 @@
   "versionOf": "new-me",
   "relatedSongIds": [
     "new-me"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

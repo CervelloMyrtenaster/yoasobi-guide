@@ -1,0 +1,56 @@
+{
+  "id": "the-noise",
+  "songId": "the-noise",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "LE SSERAFIM with YOASOBI 為 ZOZOTOWN 二十週年推出的合作歌曲。 目前官方未列獨立小說素材；作品用途與製作背景見本頁已核對資料。",
+      "sources": [
+        {
+          "title": "ZOZOTOWN20周年を記念して、LE SSERAFIM with YOASOBI「the NOISE (Contains a Samples of 夜に駆ける)」を9⽉26⽇にリリース︕",
+          "url": "https://www.yoasobi-music.jp/news/577358",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "ZOZOTOWN20周年を記念して、Tokyo Coffee Breakが「夜に駆ける」をサンプリングした楽曲、LE SSERAFIM with YOASOBI 「the NOISE (Contains a Samples of 夜に駆ける)」が本日配信リリース！さらに、結成6周年となる10/1(水)に生配信トーク番組実施決定！",
+          "url": "https://www.yoasobi-music.jp/news/577534",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        }
+      ]
+    }
+  ],
+  "credits": [],
+  "gaps": [
+    {
+      "area": "mv",
+      "note": "已有官方 MV 入口；導演訪談與完整製作職務尚待逐項查核。"
+    },
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ZOZOTOWN20周年を記念して、LE SSERAFIM with YOASOBI「the NOISE (Contains a Samples of 夜に駆ける)」を9⽉26⽇にリリース︕",
+      "url": "https://www.yoasobi-music.jp/news/577358",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "ZOZOTOWN20周年を記念して、Tokyo Coffee Breakが「夜に駆ける」をサンプリングした楽曲、LE SSERAFIM with YOASOBI 「the NOISE (Contains a Samples of 夜に駆ける)」が本日配信リリース！さらに、結成6周年となる10/1(水)に生配信トーク番組実施決定！",
+      "url": "https://www.yoasobi-music.jp/news/577534",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    }
+  ]
+}

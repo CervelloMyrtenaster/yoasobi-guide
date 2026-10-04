@@ -85,7 +85,8 @@
   "versionOf": "umi-no-manimani",
   "relatedSongIds": [
     "umi-no-manimani"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

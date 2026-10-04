@@ -83,7 +83,8 @@
   "versionOf": "heart-beat",
   "relatedSongIds": [
     "heart-beat"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

@@ -1,0 +1,67 @@
+{
+  "id": "yoru-ni-kakeru",
+  "songId": "yoru-ni-kakeru",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《タナトスの誘惑》（星野舞夜）：小說。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "「夜に駆ける」がオリコン週間ストリーミングランキング、オリコン史上初の累積再生数11億回突破!\r\n\r\n",
+          "url": "https://www.yoasobi-music.jp/news/587094",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "2021年11月度串流認證及配信開始日",
+          "url": "https://prtimes.jp/a/?c=10908&f=d10908-418-ee751c6a8c9b1fd47c70daa8955d6753.pdf&r=418",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "保留小說行間，而不是畫出唯一答案",
+      "text": "藍にいな在 J-WAVE 與團體對談時說明，MV 先以小說建立構成，卻避免過度具體，讓影像保留讀者解釋的餘地。Ayase 回憶選擇她，是希望嚴肅故事仍以易接近的流行色彩呈現。這是創作者的說明，不以本站對鏡頭的猜測代替。",
+      "sources": [
+        {
+          "title": "J-WAVE：YOASOBI 與藍にいな對談",
+          "url": "https://news.j-wave.co.jp/2020/09/post-6629.html",
+          "scope": "MV 企劃、原作與畫面留白的本人說明。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "MV 動畫",
+      "name": "藍にいな",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "J-WAVE：YOASOBI 與藍にいな對談",
+        "url": "https://news.j-wave.co.jp/2020/09/post-6629.html",
+        "scope": "MV 企劃、原作與畫面留白的本人說明。"
+      }
+    }
+  ],
+  "gaps": [],
+  "sources": [
+    {
+      "title": "「夜に駆ける」がオリコン週間ストリーミングランキング、オリコン史上初の累積再生数11億回突破!\r\n\r\n",
+      "url": "https://www.yoasobi-music.jp/news/587094",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "2021年11月度串流認證及配信開始日",
+      "url": "https://prtimes.jp/a/?c=10908&f=d10908-418-ee751c6a8c9b1fd47c70daa8955d6753.pdf&r=418",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "J-WAVE：YOASOBI 與藍にいな對談",
+      "url": "https://news.j-wave.co.jp/2020/09/post-6629.html",
+      "scope": "MV 企劃、原作與畫面留白的本人說明。"
+    }
+  ]
+}

@@ -90,7 +90,8 @@
   "versionOf": "players",
   "relatedSongIds": [
     "players"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

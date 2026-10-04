@@ -59,7 +59,11 @@
       "youtubeId": "BybOGhyJO5M",
       "title": "YOASOBI「モノトーン」 from 『YOASOBI LIVE AT OVO ARENA WEMBLEY』2025.6.9 @OVO ARENA WEMBLEY",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=BybOGhyJO5M"
+      "sourceUrl": "https://www.youtube.com/watch?v=BybOGhyJO5M",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "concert",
+      "performedOn": "2025-06-09",
+      "concertId": "wembley-2025-06-09"
     }
   ],
   "sources": [
@@ -97,7 +101,8 @@
     "tabun",
     "yasashii-suisei",
     "sangenshoku"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -119,7 +124,7 @@
 
 「モノトーン」是外來語，可指單色或單一色調。原作的「前夜」是事件發生之前的晚上，也可指前夕；題名先標出時間位置，不保證小說只有一晚。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

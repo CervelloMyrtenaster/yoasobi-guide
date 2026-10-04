@@ -97,7 +97,8 @@
   "versionOf": "undead",
   "relatedSongIds": [
     "undead"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

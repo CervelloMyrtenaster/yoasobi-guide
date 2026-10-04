@@ -86,7 +86,8 @@
   "versionOf": "halzion",
   "relatedSongIds": [
     "halzion"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

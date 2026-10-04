@@ -59,7 +59,10 @@
       "youtubeId": "Vj0XVqc3bvE",
       "title": "YOASOBI「ツバメ」 from 初有観客ライブ『NICE TO MEET YOU』2021.12.05@日本武道館",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=Vj0XVqc3bvE"
+      "sourceUrl": "https://www.youtube.com/watch?v=Vj0XVqc3bvE",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "concert",
+      "performedOn": "2021-12-05"
     }
   ],
   "sources": [
@@ -97,7 +100,8 @@
     "heart-beat",
     "mou-sukoshi-dake",
     "gunjo"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -119,7 +123,7 @@ SDGs 合作提供環境與共存的閱讀背景，但歌中的小生命並非單
 
 「ツバメ」是燕子。原作題名的 小さな 和 大きな 都可以接名詞，對照「小さな夢」與「大きな夢」的語感，不必先背完整歌詞。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

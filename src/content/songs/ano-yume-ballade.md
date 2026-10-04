@@ -88,7 +88,8 @@
   "japaneseLearning": {
     "url": "https://www.marumaru-x.com/japanese-song/play-wzrv42y4r3",
     "verifiedAt": "2026-10-04"
-  }
+  },
+  "achievements": []
 }
 ---
 

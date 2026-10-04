@@ -92,7 +92,8 @@
   "versionOf": "idol",
   "relatedSongIds": [
     "idol"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

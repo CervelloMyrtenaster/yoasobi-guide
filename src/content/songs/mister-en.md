@@ -79,7 +79,8 @@
   "versionOf": "mister",
   "relatedSongIds": [
     "mister"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

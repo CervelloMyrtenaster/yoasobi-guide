@@ -100,7 +100,8 @@
   "versionOf": "gunjo",
   "relatedSongIds": [
     "gunjo"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

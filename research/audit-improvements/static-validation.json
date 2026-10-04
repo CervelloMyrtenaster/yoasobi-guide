@@ -1,0 +1,26 @@
+{
+  "htmlPages": 423,
+  "indexablePages": 422,
+  "localReferences": 12931,
+  "fragmentReferences": 1648,
+  "unresolved": 0,
+  "javascriptFiles": 9,
+  "javascriptBytes": 10928,
+  "javascriptGzipBytes": 5760,
+  "largestHTML": [
+    {
+      "file": "history/index.html",
+      "bytes": 238703
+    },
+    {
+      "file": "live/index.html",
+      "bytes": 142719
+    },
+    {
+      "file": "songs/index.html",
+      "bytes": 81129
+    }
+  ],
+  "noJekyll": true,
+  "custom404": true
+}

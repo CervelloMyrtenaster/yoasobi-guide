@@ -90,7 +90,8 @@
   "versionOf": "adrena",
   "relatedSongIds": [
     "adrena"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

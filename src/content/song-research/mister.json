@@ -1,0 +1,127 @@
+{
+  "id": "mister",
+  "songId": "mister",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《私だけの所有者》（島本理生）：小說。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "2/16(水)直木賞作家コラボプロジェクト第1弾・新曲「ミスター」配信リリース決定！今夜の『YOASOBIのオールナイトニッポンX(クロス)』にて初フルオンエア！",
+          "url": "https://www.yoasobi-music.jp/news/537832",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "YOASOBI 官方 SONGS / NOVELS",
+          "url": "https://www.yoasobi-music.jp/songs",
+          "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    },
+    {
+      "area": "creation",
+      "title": "從機器人的書信，到失去之後的記憶",
+      "text": "官方介紹的敘事者是受保護的 android，向「先生」寫信回想所有者。島本理生的回應著重再也見不到的人與記憶，而不是把「所有者」等同一般戀愛中的佔有欲。",
+      "sources": [
+        {
+          "title": "YOASOBI 官方製作與發行公告",
+          "url": "https://www.yoasobi-music.jp/news/541228",
+          "scope": "原作梗概與作者回應；新聞中的星期誤植不作發行日依據。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "角色、動畫與圖像設計由不同團隊合作",
+      "text": "製作公司公開完整職務表：篠田利隆負責 MV 導演，pomodorosa 提供角色原案，Liberty Animation Studio 製作動畫，.MP 負責美術指導與設計。這些是不同職務，不應把全支動畫歸給一位作者。",
+      "sources": [
+        {
+          "title": "dotMP：ミスター製作紀錄",
+          "url": "https://dotmp.jp/work/87766",
+          "scope": "製作職務與署名；頁面日期不當作 MV 公開日。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "MV 導演",
+      "name": "篠田利隆（異次元TOKYO）",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "dotMP：ミスター製作紀錄",
+        "url": "https://dotmp.jp/work/87766",
+        "scope": "製作職務與署名；頁面日期不當作 MV 公開日。"
+      }
+    },
+    {
+      "role": "角色原案",
+      "name": "pomodorosa",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "dotMP：ミスター製作紀錄",
+        "url": "https://dotmp.jp/work/87766",
+        "scope": "製作職務與署名；頁面日期不當作 MV 公開日。"
+      }
+    },
+    {
+      "role": "動畫製作",
+      "name": "Liberty Animation Studio",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "dotMP：ミスター製作紀錄",
+        "url": "https://dotmp.jp/work/87766",
+        "scope": "製作職務與署名；頁面日期不當作 MV 公開日。"
+      }
+    },
+    {
+      "role": "美術指導",
+      "name": "堀内秀（.MP）",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "dotMP：ミスター製作紀錄",
+        "url": "https://dotmp.jp/work/87766",
+        "scope": "製作職務與署名；頁面日期不當作 MV 公開日。"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "2/16(水)直木賞作家コラボプロジェクト第1弾・新曲「ミスター」配信リリース決定！今夜の『YOASOBIのオールナイトニッポンX(クロス)』にて初フルオンエア！",
+      "url": "https://www.yoasobi-music.jp/news/537832",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/541228",
+      "scope": "原作梗概與作者回應；新聞中的星期誤植不作發行日依據。"
+    },
+    {
+      "title": "dotMP：ミスター製作紀錄",
+      "url": "https://dotmp.jp/work/87766",
+      "scope": "製作職務與署名；頁面日期不當作 MV 公開日。"
+    }
+  ]
+}

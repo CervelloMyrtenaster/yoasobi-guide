@@ -26,10 +26,7 @@
     "status": "documented",
     "dateBasis": "official_anniversary_inference",
     "verificationScope": "紀念日及7周年由官方直接陳述；2019年為明示的周年回推，非獨立成立當日公告。",
-    "conflictNotes": [
-      "C05：2026官方回顧称「はじめての」2023開始，較早官方資料為2022。分開2021-12-01企畫預告、2022-02啟動與2023 EP；預告、企畫專頁、2026回顧並列。2023可能指EP，不能把它默默替換為企畫起點",
-      "C09：MV、配信、錄製與播出日期混用；午夜時刻跨日。夜に駆けるMV日期來源為2019-11-16，數位發行為12/15；アイドル官方4/12 24:30為4/13；HEART BEAT配信12/26，18祭錄製候選11/19、播出12/25各自分開。不使用YouTube因時區顯示的日期推翻日本正式配信日；18祭錄製日期仍待驗證"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -55,9 +52,7 @@
     "status": "documented",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C09：MV、配信、錄製與播出日期混用；午夜時刻跨日。夜に駆けるMV日期來源為2019-11-16，數位發行為12/15；アイドル官方4/12 24:30為4/13；HEART BEAT配信12/26，18祭錄製候選11/19、播出12/25各自分開。不使用YouTube因時區顯示的日期推翻日本正式配信日；18祭錄製日期仍待驗證"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -923,9 +918,7 @@
     "status": "documented",
     "dateBasis": "campaign_start",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C15：CalorieMate廣告名稱有異譯／異寫。官方用「Midnight Train」，CDJournal Ballade報導用「Midnight Express」；目前保留官方名稱，並揭露差異。補大塚製藥原始廣告頁核定名稱；不影響2022-03-30配信日期核對"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1008,9 +1001,7 @@
     "status": "documented",
     "dateBasis": "announcement",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C05：2026官方回顧称「はじめての」2023開始，較早官方資料為2022。分開2021-12-01企畫預告、2022-02啟動與2023 EP；預告、企畫專頁、2026回顧並列。2023可能指EP，不能把它默默替換為企畫起點"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1023,24 +1014,29 @@
     "datePrecision": "day",
     "location": "東京都",
     "venue": "日本武道館",
-    "description": "官方演出清單所列場次。",
+    "description": "NICE TO MEET YOU 首日；官方事後報告逐曲記錄武道館演出，本站另保存本日刊載歌單。",
     "sources": [
       {
         "title": "YOASOBI『NICE TO MEET YOU』",
         "url": "https://www.yoasobi-music.jp/live/48609",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "官方日程核對 2021-12-04 與日本武道館；官方 Day1 事後報告支持演出完成及曲序，不推定各曲演唱長度。"
       },
       {
         "title": "初のライブ映像作品集『THE FILM』3/23(水)リリース＆ジャケ写・収録内容解禁！",
         "url": "https://www.yoasobi-music.jp/news/537383",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "官方日程核對 2021-12-04 與日本武道館；官方 Day1 事後報告支持演出完成及曲序，不推定各曲演唱長度。"
+      },
+      {
+        "title": "YOASOBI：NICE TO MEET YOU Day1 官方事後報告",
+        "url": "https://note.com/yoasobi_staff/n/n0984127c059e",
+        "scope": "官方日程核對 2021-12-04 與日本武道館；官方 Day1 事後報告支持演出完成及曲序，不推定各曲演唱長度。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
     "status": "performed",
-    "dateBasis": "official_schedule",
-    "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+    "dateBasis": "performance_report",
+    "verificationScope": "官方日程核對 2021-12-04 與日本武道館；官方 Day1 事後報告支持演出完成及曲序，不推定各曲演唱長度。",
     "conflictNotes": [],
     "showIds": [],
     "setlistIds": [
@@ -1157,9 +1153,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C15：CalorieMate廣告名稱有異譯／異寫。官方用「Midnight Train」，CDJournal Ballade報導用「Midnight Express」；目前保留官方名稱，並揭露差異。補大塚製藥原始廣告頁核定名稱；不影響2022-03-30配信日期核對"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1242,9 +1236,7 @@
     "status": "cancelled",
     "dateBasis": "official_schedule",
     "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
-    "conflictNotes": [
-      "C08：官方live標「終了」仍含取消／辭退活動。Fuji Rock 2022-07-29見辭退通知；Summer Sonic大阪2022-08-21見辭退通知；WILD BUNCH 2022-09-19見主辦歷史取消18、19日。三筆標cancelled，不計實際演出"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1436,9 +1428,7 @@
     "status": "postponed",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C08：官方live標「終了」仍含取消／辭退活動。Fuji Rock 2022-07-29見辭退通知；Summer Sonic大阪2022-08-21見辭退通知；WILD BUNCH 2022-09-19見主辦歷史取消18、19日。三筆標cancelled，不計實際演出"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1469,9 +1459,7 @@
     "status": "cancelled",
     "dateBasis": "official_schedule",
     "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
-    "conflictNotes": [
-      "C08：官方live標「終了」仍含取消／辭退活動。Fuji Rock 2022-07-29見辭退通知；Summer Sonic大阪2022-08-21見辭退通知；WILD BUNCH 2022-09-19見主辦歷史取消18、19日。三筆標cancelled，不計實際演出"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1502,9 +1490,7 @@
     "status": "performed",
     "dateBasis": "official_schedule",
     "verificationScope": "官方演出索引核對8月28日；官方影像公告確認曾出演 SWEET LOVE SHOWER 2022。",
-    "conflictNotes": [
-      "C04：はじめての EP 官方商品欄將年份寫成2022，文章預告在2023。官方2023公告及Oricon 商品目錄 XSCL-70/2支持2023-05-10。保留原始錯字說明"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1561,9 +1547,7 @@
     "status": "cancelled",
     "dateBasis": "official_schedule",
     "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
-    "conflictNotes": [
-      "C08：官方live標「終了」仍含取消／辭退活動。Fuji Rock 2022-07-29見辭退通知；Summer Sonic大阪2022-08-21見辭退通知；WILD BUNCH 2022-09-19見主辦歷史取消18、19日。三筆標cancelled，不計實際演出"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1698,9 +1682,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C03：E-SIDE 2 官方同一文內出現2022-11-18及2021-11-12。官方文章主要預告為2022-11-18，商品欄似沿用前作日期；另有發行商正文直接確認2022-11-18，因此採此日。不把錯置商品欄當第二次發行"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1726,9 +1708,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C03：E-SIDE 2 官方同一文內出現2022-11-18及2021-11-12。官方文章主要預告為2022-11-18，商品欄似沿用前作日期；另有發行商正文直接確認2022-11-18，因此採此日。不把錯置商品欄當第二次發行"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1759,10 +1739,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C03：E-SIDE 2 官方同一文內出現2022-11-18及2021-11-12。官方文章主要預告為2022-11-18，商品欄似沿用前作日期；另有發行商正文直接確認2022-11-18，因此採此日。不把錯置商品欄當第二次發行",
-      "C14：首次海外演出官方報告自身星期及相隔日數矛盾。發行商報告明列Jakarta 12/4、Manila 12/9，且正文再次寫12/4；但開頭將12/9寫成土曜日、後段寫相隔6日。資料採重複明列的日期，明示保留內部矛盾；venue未由百科候選填入。需要88rising當年日割交叉驗證；不由「6日後」倒推出12/3"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -1815,7 +1792,6 @@
     "dateBasis": "activity",
     "verificationScope": "正文直接列明日期與城市且有演出報告；未核對場館。",
     "conflictNotes": [
-      "C03：E-SIDE 2 官方同一文內出現2022-11-18及2021-11-12。官方文章主要預告為2022-11-18，商品欄似沿用前作日期；另有發行商正文直接確認2022-11-18，因此採此日。不把錯置商品欄當第二次發行",
       "C14：首次海外演出官方報告自身星期及相隔日數矛盾。發行商報告明列Jakarta 12/4、Manila 12/9，且正文再次寫12/4；但開頭將12/9寫成土曜日、後段寫相隔6日。資料採重複明列的日期，明示保留內部矛盾；venue未由百科候選填入。需要88rising當年日割交叉驗證；不由「6日後」倒推出12/3"
     ],
     "showIds": [],
@@ -1844,7 +1820,6 @@
     "dateBasis": "activity",
     "verificationScope": "正文直接列明日期與城市且有演出報告；未核對場館。",
     "conflictNotes": [
-      "C03：E-SIDE 2 官方同一文內出現2022-11-18及2021-11-12。官方文章主要預告為2022-11-18，商品欄似沿用前作日期；另有發行商正文直接確認2022-11-18，因此採此日。不把錯置商品欄當第二次發行",
       "C14：首次海外演出官方報告自身星期及相隔日數矛盾。發行商報告明列Jakarta 12/4、Manila 12/9，且正文再次寫12/4；但開頭將12/9寫成土曜日、後段寫相隔6日。資料採重複明列的日期，明示保留內部矛盾；venue未由百科候選填入。需要88rising當年日割交叉驗證；不由「6日後」倒推出12/3"
     ],
     "showIds": [],
@@ -1950,9 +1925,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C04：はじめての EP 官方商品欄將年份寫成2022，文章預告在2023。官方2023公告及Oricon 商品目錄 XSCL-70/2支持2023-05-10。保留原始錯字說明"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -2124,9 +2097,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C09：MV、配信、錄製與播出日期混用；午夜時刻跨日。夜に駆けるMV日期來源為2019-11-16，數位發行為12/15；アイドル官方4/12 24:30為4/13；HEART BEAT配信12/26，18祭錄製候選11/19、播出12/25各自分開。不使用YouTube因時區顯示的日期推翻日本正式配信日；18祭錄製日期仍待驗證"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -2292,9 +2263,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C04：はじめての EP 官方商品欄將年份寫成2022，文章預告在2023。官方2023公告及Oricon 商品目錄 XSCL-70/2支持2023-05-10。保留原始錯字說明"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -2411,22 +2380,29 @@
     "datePrecision": "day",
     "location": "埼玉県",
     "venue": "さいたまスーパーアリーナ",
-    "description": "官方演出清單所列場次。",
+    "description": "電光石火 埼玉 Day2；事後公開資料確認演出與刊載歌單。",
     "sources": [
       {
         "title": "YOASOBI ARENA TOUR 2023 “電光石火”",
         "url": "https://www.yoasobi-music.jp/live/49695",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "2023-06-04、さいたまスーパーアリーナ 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      },
+      {
+        "title": "YOASOBI 官方新聞 561709",
+        "url": "https://www.yoasobi-music.jp/news/561709",
+        "scope": "2023-06-04、さいたまスーパーアリーナ 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
-    "status": "listed_past",
-    "dateBasis": "official_schedule",
-    "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+    "status": "performed",
+    "dateBasis": "performance_report",
+    "verificationScope": "2023-06-04、さいたまスーパーアリーナ 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
     "conflictNotes": [],
     "showIds": [],
-    "setlistIds": []
+    "setlistIds": [
+      "denko-sekka-saitama-2023-06-04"
+    ]
   },
   {
     "id": "history-0040",
@@ -2463,19 +2439,24 @@
     "datePrecision": "day",
     "location": "神奈川県",
     "venue": "ぴあアリーナMM",
-    "description": "官方演出清單所列場次。",
+    "description": "電光石火神奈川追加公演首日；官方事後報告支持已演出，另連結本場刊載曲序。",
     "sources": [
       {
         "title": "YOASOBI ARENA TOUR 2023 “電光石火”",
         "url": "https://www.yoasobi-music.jp/live/49695",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "官方日程與 Day1 事後報告共同核對 2023-06-23、ぴあアリーナ MM 及實際演出；刊載曲名不等於已區分演唱長度。"
+      },
+      {
+        "title": "YOASOBI：電光石火神奈川追加 Day1 官方事後報告",
+        "url": "https://note.com/yoasobi_staff/n/ndf8314ce9867",
+        "scope": "官方日程與 Day1 事後報告共同核對 2023-06-23、ぴあアリーナ MM 及實際演出；刊載曲名不等於已區分演唱長度。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
-    "status": "listed_past",
-    "dateBasis": "official_schedule",
-    "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+    "status": "performed",
+    "dateBasis": "performance_report",
+    "verificationScope": "官方日程與 Day1 事後報告共同核對 2023-06-23、ぴあアリーナ MM 及實際演出；刊載曲名不等於已區分演唱長度。",
     "conflictNotes": [],
     "showIds": [],
     "setlistIds": [
@@ -2543,27 +2524,34 @@
     "datePrecision": "day",
     "location": "Los Angeles（報導地區名稱）",
     "venue": "Rose Bowl in Pasadena",
-    "description": "事後報導明載8月6日出演，為 YOASOBI 首次美國演出。官方索引僅列音樂祭全期，現以個別出演日建檔；場館保留官方原文，未細分園區舞台。",
+    "description": "Head In The Clouds Los Angeles；事後公開資料確認演出與刊載歌單。",
     "sources": [
       {
         "title": "Head In The Clouds Los Angeles",
         "url": "https://www.yoasobi-music.jp/live/50712",
-        "scope": "Natalie 事後報告核對個別出演日期及洛杉磯報導地區；場館採 Sony live 索引原字串，未獨立核對行政位置與園區細節。"
+        "scope": "2023-08-06 YOASOBI 正式時段八首歌單；不把全場壓軸的合作再加入本時段。"
       },
       {
         "title": "Head In The Clouds LA 2023：8月6日演出報告",
         "url": "https://lp.p.pia.jp/article/news/284424/index.html",
-        "scope": "Natalie 事後報告核對個別出演日期及洛杉磯報導地區；場館採 Sony live 索引原字串，未獨立核對行政位置與園區細節。"
+        "scope": "2023-08-06 YOASOBI 正式時段八首歌單；不把全場壓軸的合作再加入本時段。"
+      },
+      {
+        "title": "Natalie / ぴあ：Head In The Clouds 事後報導",
+        "url": "https://lp.p.pia.jp/article/news/284424/index.html",
+        "scope": "2023-08-06 YOASOBI 正式時段八首歌單；不把全場壓軸的合作再加入本時段。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
     "status": "performed",
     "dateBasis": "performance_report",
-    "verificationScope": "Natalie 事後報告核對個別出演日期及洛杉磯報導地區；場館採 Sony live 索引原字串，未獨立核對行政位置與園區細節。",
+    "verificationScope": "2023-08-06 YOASOBI 正式時段八首歌單；不把全場壓軸的合作再加入本時段。",
     "conflictNotes": [],
     "showIds": [],
-    "setlistIds": []
+    "setlistIds": [
+      "head-in-the-clouds-la-2023-08-06"
+    ]
   },
   {
     "id": "history-0230",
@@ -3027,9 +3015,7 @@
     "status": "documented",
     "dateBasis": "official_schedule_range",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C07：2023首爾官方live索引只有12/16，但影像商品公告記載12/17演出。THE FILM 2 官方正文支持12/17第2場，另建紀錄；不由巡演總數猜補。索引不是完整事後演出名冊"
-    ],
+    "conflictNotes": [],
     "showIds": [
       "history-0216",
       "history-0217",
@@ -3129,24 +3115,31 @@
     "datePrecision": "day",
     "location": "首爾（來源名稱）",
     "venue": "KOREA UNIV. TIGER DOME",
-    "description": "THE FILM 2 正文明載12/17演出；官方live索引目前只列12/16。",
+    "description": "LIVE IN SEOUL KOREA Day2；事後公開資料確認演出與刊載歌單。",
     "sources": [
       {
         "title": "4/10(水)発売ライブ映像作品集『THE FILM 2』商品画像＆店舗別特典内容解禁！YOASOBI ZEPP TOUR 2024 \"POP OUT\"東京公演も収録されたBlu-ray内容も発表。さらに、初のドーム公演のチケット先行受付シリアル封入も決定！",
         "url": "https://www.yoasobi-music.jp/news/561709",
-        "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        "scope": "2023-12-17、KOREA UNIV. TIGER DOME 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      },
+      {
+        "title": "YOASOBI 官方新聞 561709",
+        "url": "https://www.yoasobi-music.jp/news/561709",
+        "scope": "2023-12-17、KOREA UNIV. TIGER DOME 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
     "status": "performed",
-    "dateBasis": "activity",
-    "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
+    "dateBasis": "performance_report",
+    "verificationScope": "2023-12-17、KOREA UNIV. TIGER DOME 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
     "conflictNotes": [
       "C07：2023首爾官方live索引只有12/16，但影像商品公告記載12/17演出。THE FILM 2 官方正文支持12/17第2場，另建紀錄；不由巡演總數猜補。索引不是完整事後演出名冊"
     ],
     "showIds": [],
-    "setlistIds": []
+    "setlistIds": [
+      "asia-seoul-2023-12-17"
+    ]
   },
   {
     "id": "history-0047",
@@ -3384,22 +3377,29 @@
     "datePrecision": "day",
     "location": "東京都",
     "venue": "Zepp Haneda(TOKYO)",
-    "description": "官方演出清單所列場次。",
+    "description": "POP OUT 東京 Day2；事後公開資料確認演出與刊載歌單。",
     "sources": [
       {
         "title": "YOASOBI ZEPP TOUR 2024 “POP OUT”",
         "url": "https://www.yoasobi-music.jp/live/51262",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "2024-01-26、Zepp Haneda(TOKYO) 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      },
+      {
+        "title": "YOASOBI 官方新聞 561709",
+        "url": "https://www.yoasobi-music.jp/news/561709",
+        "scope": "2024-01-26、Zepp Haneda(TOKYO) 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
-    "status": "listed_past",
-    "dateBasis": "official_schedule",
-    "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+    "status": "performed",
+    "dateBasis": "performance_report",
+    "verificationScope": "2024-01-26、Zepp Haneda(TOKYO) 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
     "conflictNotes": [],
     "showIds": [],
-    "setlistIds": []
+    "setlistIds": [
+      "pop-out-haneda-2024-01-26"
+    ]
   },
   {
     "id": "history-0206",
@@ -3761,9 +3761,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C07：2023首爾官方live索引只有12/16，但影像商品公告記載12/17演出。THE FILM 2 官方正文支持12/17第2場，另建紀錄；不由巡演總數猜補。索引不是完整事後演出名冊"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -3789,9 +3787,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C19：洛杉磯場館官方索引及發行商公告拼為SHRINE EXPE HALL。日期採發行商公告4月18日；名稱依場館官網校正為Shrine Expo Hall，保留sourceVenueRaw與原始來源。場館拼字已校正；這項更正不代表另已取得當日完場證據"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -3843,9 +3839,7 @@
     "status": "listed_past",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C19：洛杉磯場館官方索引及發行商公告拼為SHRINE EXPE HALL。日期採發行商公告4月18日；名稱依場館官網校正為Shrine Expo Hall，保留sourceVenueRaw與原始來源。場館拼字已校正；這項更正不代表另已取得當日完場證據"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -3920,9 +3914,7 @@
     "status": "documented",
     "dateBasis": "documented_show_range",
     "verificationScope": "發行商4月公告與8月事後報告確認四筆公演日期；群組不是額外演出。",
-    "conflictNotes": [
-      "C19：洛杉磯場館官方索引及發行商公告拼為SHRINE EXPE HALL。日期採發行商公告4月18日；名稱依場館官網校正為Shrine Expo Hall，保留sourceVenueRaw與原始來源。場館拼字已校正；這項更正不代表另已取得當日完場證據"
-    ],
+    "conflictNotes": [],
     "showIds": [
       "history-0200",
       "history-0201",
@@ -3984,9 +3976,7 @@
     "status": "listed_past",
     "dateBasis": "official_schedule",
     "verificationScope": "日期、城市與場館由藝人日程及發行商公告交叉核對；未逐場核對事後演出。",
-    "conflictNotes": [
-      "C19：洛杉磯場館官方索引及發行商公告拼為SHRINE EXPE HALL。日期採發行商公告4月18日；名稱依場館官網校正為Shrine Expo Hall，保留sourceVenueRaw與原始來源。場館拼字已校正；這項更正不代表另已取得當日完場證據"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -5090,22 +5080,29 @@
     "datePrecision": "day",
     "location": null,
     "venue": "Singapore Indoor Stadium",
-    "description": "官方演出清單所列場次。",
+    "description": "超現実 IN SINGAPORE；事後公開資料確認演出與刊載歌單。",
     "sources": [
       {
         "title": "YOASOBI ASIA TOUR 2024-2025 “超現実 cho-genjitsu” IN SINGAPORE",
         "url": "https://www.yoasobi-music.jp/live/52768",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "2025-02-23、Singapore Indoor Stadium 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      },
+      {
+        "title": "YOASOBI 官方新聞 577052",
+        "url": "https://www.yoasobi-music.jp/news/577052",
+        "scope": "2025-02-23、Singapore Indoor Stadium 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
-    "status": "listed_past",
-    "dateBasis": "official_schedule",
-    "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+    "status": "performed",
+    "dateBasis": "performance_report",
+    "verificationScope": "2025-02-23、Singapore Indoor Stadium 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
     "conflictNotes": [],
     "showIds": [],
-    "setlistIds": []
+    "setlistIds": [
+      "chogenjitsu-singapore-2025-02-23"
+    ]
   },
   {
     "id": "history-0178",
@@ -5557,27 +5554,34 @@
     "datePrecision": "day",
     "location": "London, UK",
     "venue": "OVO Arena Wembley",
-    "description": "WOWOW 明載2025年6月8、9日倫敦公演的收錄日期與場館。",
+    "description": "LIVE AT OVO ARENA WEMBLEY Day2；事後公開資料確認演出與刊載歌單。",
     "sources": [
       {
         "title": "YOASOBI LIVE AT WEMBLEY ARENA",
         "url": "https://www.yoasobi-music.jp/live/53399",
-        "scope": "轉播方事後收錄資料確認日期、倫敦及 OVO Arena Wembley。"
+        "scope": "2025-06-09、OVO ARENA WEMBLEY 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
       },
       {
         "title": "YOASOBI 歐洲演出：Primavera 6月6日及 Wembley 6月8、9日",
         "url": "https://prtimes.jp/main/html/rd/p/000008273.000001355.html",
-        "scope": "轉播方事後收錄資料確認日期、倫敦及 OVO Arena Wembley。"
+        "scope": "2025-06-09、OVO ARENA WEMBLEY 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
+      },
+      {
+        "title": "YOASOBI 官方新聞 577052",
+        "url": "https://www.yoasobi-music.jp/news/577052",
+        "scope": "2025-06-09、OVO ARENA WEMBLEY 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
     "status": "performed",
-    "dateBasis": "official_schedule",
-    "verificationScope": "轉播方事後收錄資料確認日期、倫敦及 OVO Arena Wembley。",
+    "dateBasis": "performance_report",
+    "verificationScope": "2025-06-09、OVO ARENA WEMBLEY 及官方影像商品刊載曲序；不是完整未剪輯影像或演唱長度的證據。",
     "conflictNotes": [],
     "showIds": [],
-    "setlistIds": []
+    "setlistIds": [
+      "wembley-2025-06-09"
+    ]
   },
   {
     "id": "history-0064",
@@ -6351,8 +6355,7 @@
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
     "conflictNotes": [
-      "C02：the NOISE 公告發布日期與商品發行日期不同。使用明載的 2025-09-26 13:00 配信；預告與後續文章商品欄支持此日，後者文章日期9/28不改寫為配信日。保留文章日期差異，不宣稱文章發布日即發行日",
-      "C06：ZOZOFES live索引地區東京都與Kアリーナ場館不符。官方文章明列横浜市西区地址；location採此行政所在地，保留sourceLocation。Sony live公開索引見來源登錄。官方索引地區欄不能一律當作行政地理"
+      "C02：the NOISE 公告發布日期與商品發行日期不同。使用明載的 2025-09-26 13:00 配信；預告與後續文章商品欄支持此日，後者文章日期9/28不改寫為配信日。保留文章日期差異，不宣稱文章發布日即發行日"
     ],
     "showIds": [],
     "setlistIds": []
@@ -6567,7 +6570,6 @@
     "dateBasis": "official_schedule",
     "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
     "conflictNotes": [
-      "C02：the NOISE 公告發布日期與商品發行日期不同。使用明載的 2025-09-26 13:00 配信；預告與後續文章商品欄支持此日，後者文章日期9/28不改寫為配信日。保留文章日期差異，不宣稱文章發布日即發行日",
       "C06：ZOZOFES live索引地區東京都與Kアリーナ場館不符。官方文章明列横浜市西区地址；location採此行政所在地，保留sourceLocation。Sony live公開索引見來源登錄。官方索引地區欄不能一律當作行政地理"
     ],
     "showIds": [],
@@ -6959,9 +6961,7 @@
     "status": "documented",
     "dateBasis": "chart_announcement",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -6974,19 +6974,24 @@
     "datePrecision": "day",
     "location": "沖縄県",
     "venue": "沖縄コンベンションセンター展示棟",
-    "description": "官方演出清單所列場次。",
+    "description": "WANDARA 沖繩 Day1 已完成。完走報告分列兩日 acoustic 曲序及安可，本日有 RADWIMPS 翻唱〈会心の一撃〉。",
     "sources": [
       {
         "title": "YOASOBI HALL TOUR 2025 WANDARA",
         "url": "https://www.yoasobi-music.jp/live/53094",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序及 Day1 專屬安可，不推定每首演唱長度。"
+      },
+      {
+        "title": "WANDARA 沖繩兩日完走報告及歌單",
+        "url": "https://www.thefirsttimes.jp/report/0000727549/",
+        "scope": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序及 Day1 專屬安可，不推定每首演唱長度。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
-    "status": "listed_past",
-    "dateBasis": "official_schedule",
-    "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+    "status": "performed",
+    "dateBasis": "performance_report",
+    "verificationScope": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序及 Day1 專屬安可，不推定每首演唱長度。",
     "conflictNotes": [],
     "showIds": [],
     "setlistIds": [
@@ -7002,19 +7007,24 @@
     "datePrecision": "day",
     "location": "沖縄県",
     "venue": "沖縄コンベンションセンター展示棟",
-    "description": "官方演出清單所列場次。",
+    "description": "WANDARA 沖繩 Day2、巡演千秋樂已完成。完走報告分列本日 acoustic 曲序及兩首安可。",
     "sources": [
       {
         "title": "YOASOBI HALL TOUR 2025 WANDARA",
         "url": "https://www.yoasobi-music.jp/live/53094",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序與安可，不把 Day1 的額外翻唱移入 Day2。"
+      },
+      {
+        "title": "WANDARA 沖繩兩日完走報告及歌單",
+        "url": "https://www.thefirsttimes.jp/report/0000727549/",
+        "scope": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序與安可，不把 Day1 的額外翻唱移入 Day2。"
       }
     ],
     "verified": true,
     "verifiedAt": "2026-10-04",
-    "status": "listed_past",
-    "dateBasis": "official_schedule",
-    "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+    "status": "performed",
+    "dateBasis": "performance_report",
+    "verificationScope": "官方日程核對日期與場館；THE FIRST TIMES 事後報告支持兩日演出、各日曲序與安可，不把 Day1 的額外翻唱移入 Day2。",
     "conflictNotes": [],
     "showIds": [],
     "setlistIds": [
@@ -7043,9 +7053,7 @@
     "status": "announced",
     "dateBasis": "announced_release_year",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C05：2026官方回顧称「はじめての」2023開始，較早官方資料為2022。分開2021-12-01企畫預告、2022-02啟動與2023 EP；預告、企畫專頁、2026回顧並列。2023可能指EP，不能把它默默替換為企畫起點"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7071,9 +7079,7 @@
     "status": "released",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C01：BABY：日文百科候選日期與官方午夜發行說法不同。使用 2026-01-11；1/6 官方預告及1/10 公告商品資訊與「本日24時」支持翌日日期。日文百科僅作候選來源。日後以正式商品目錄再核對"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7433,9 +7439,7 @@
     "status": "performed",
     "dateBasis": "official_schedule",
     "verificationScope": "官方日程與完走敘述支持巡演；未另逐場核對所有取消／變動通知。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7472,9 +7476,7 @@
     "status": "documented",
     "dateBasis": "official_schedule_range",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [
       "history-0124",
       "history-0125",
@@ -7519,9 +7521,7 @@
     "status": "performed",
     "dateBasis": "official_schedule",
     "verificationScope": "官方日程與完走敘述支持巡演；未另逐場核對所有取消／變動通知。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7557,9 +7557,7 @@
     "status": "performed",
     "dateBasis": "official_schedule",
     "verificationScope": "官方日程與完走敘述支持巡演；未另逐場核對所有取消／變動通知。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7595,9 +7593,7 @@
     "status": "performed",
     "dateBasis": "official_schedule",
     "verificationScope": "官方日程與完走敘述支持巡演；未另逐場核對所有取消／變動通知。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7633,9 +7629,7 @@
     "status": "performed",
     "dateBasis": "official_schedule",
     "verificationScope": "官方日程與完走敘述支持巡演；未另逐場核對所有取消／變動通知。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7671,9 +7665,7 @@
     "status": "performed",
     "dateBasis": "official_schedule",
     "verificationScope": "官方日程與完走敘述支持巡演；未另逐場核對所有取消／變動通知。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7709,9 +7701,7 @@
     "status": "performed",
     "dateBasis": "official_schedule",
     "verificationScope": "官方日程與完走敘述支持巡演；未另逐場核對所有取消／變動通知。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7747,9 +7737,7 @@
     "status": "performed",
     "dateBasis": "official_schedule",
     "verificationScope": "官方日程與完走敘述支持巡演；未另逐場核對所有取消／變動通知。",
-    "conflictNotes": [
-      "C11：アイドル連續Hot100冠軍週數：21與22不同。YOASOBI官方回顧為21週；Live Nation簡介為22週。未裁定連續週數，需Billboard原始逐週榜；不同機構串流累計也不合併"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },
@@ -7988,9 +7976,7 @@
     "status": "documented",
     "dateBasis": "activity",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
-    "conflictNotes": [
-      "C05：2026官方回顧称「はじめての」2023開始，較早官方資料為2022。分開2021-12-01企畫預告、2022-02啟動與2023 EP；預告、企畫專頁、2026回顧並列。2023可能指EP，不能把它默默替換為企畫起點"
-    ],
+    "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
   },

@@ -91,7 +91,8 @@
   "versionOf": "ano-yume-wo-nazotte",
   "relatedSongIds": [
     "ano-yume-wo-nazotte"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

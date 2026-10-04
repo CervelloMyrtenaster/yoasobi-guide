@@ -57,7 +57,10 @@
       "youtubeId": "eNtCc8zOYTA",
       "title": "YOASOBI「もしも命が描けたら」 from 初有観客ライブ『NICE TO MEET YOU』2021.12.05@日本武道館",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=eNtCc8zOYTA"
+      "sourceUrl": "https://www.youtube.com/watch?v=eNtCc8zOYTA",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "concert",
+      "performedOn": "2021-12-05"
     }
   ],
   "sources": [
@@ -96,7 +99,8 @@
     "haruka",
     "encore",
     "new-me"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -118,7 +122,7 @@
 
 「もしも」引出假設，「描けたら」來自 描く 的可能形加假定表達，意為「如果能畫」。從題名先理解可能與假設的差別，再到外部學習頁看它如何放進句子。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

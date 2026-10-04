@@ -1,0 +1,26 @@
+{
+  "defaultComparison": "wandara-two-days",
+  "comparisons": [
+    {
+      "id": "wandara-two-days",
+      "title": "同巡演連續兩日",
+      "leftId": "wandara-okinawa-2025-11-29",
+      "rightId": "wandara-okinawa-2025-11-30",
+      "description": "比較 WANDARA 沖繩兩日的曲序與安可；acoustic session 的編曲註記與拆曲口徑見各場來源。"
+    },
+    {
+      "id": "london-and-tokyo",
+      "title": "海外與日本專場",
+      "leftId": "wembley-2025-06-09",
+      "rightId": "chogenjitsu-tokyo-2024-11-10",
+      "description": "比較倫敦與東京巨蛋的選曲。兩場來自不同年份及巡演，差異不能單獨歸因於地區。"
+    },
+    {
+      "id": "festival-and-tour",
+      "title": "音樂祭與巡演",
+      "leftId": "head-in-the-clouds-la-2023-08-06",
+      "rightId": "denko-sekka-saitama-2023-06-04",
+      "description": "比較海外音樂祭與電光石火的刊載歌單。保留各自場景與來源，不從曲數推定演唱長度。"
+    }
+  ]
+}

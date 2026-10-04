@@ -96,7 +96,8 @@
   "versionOf": "monotone",
   "relatedSongIds": [
     "monotone"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

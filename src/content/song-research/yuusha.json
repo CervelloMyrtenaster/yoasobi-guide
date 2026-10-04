@@ -1,0 +1,72 @@
+{
+  "id": "yuusha",
+  "songId": "yuusha",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《奏送》（木曾次郎（監修：山田鐘人））：小說。合作用途為 葬送のフリーレン（動畫片頭曲）。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "勇者配信與 MV 公開",
+          "url": "https://prtimes.jp/main/html/rd/p/000000773.000055377.html",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "YOASOBI 官方 SONGS / NOVELS",
+          "url": "https://www.yoasobi-music.jp/songs",
+          "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "與動畫正篇同公司，另製完整影像",
+      "text": "官方記錄 MV 由 MADHOUSE 製作，全篇為原創動畫，描寫勇者一行人的旅行與芙莉蓮、欣梅爾的連結，並使用近似剪紙的圖像處理。MV 不是動畫片頭的簡單加長版。",
+      "sources": [
+        {
+          "title": "YOASOBI 官方製作與發行公告",
+          "url": "https://www.yoasobi-music.jp/news/580760",
+          "scope": "MV 製作方式與視覺說明，不以點閱數推定銷量。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "MV 動畫製作",
+      "name": "MADHOUSE",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "YOASOBI 官方製作與發行公告",
+        "url": "https://www.yoasobi-music.jp/news/580760",
+        "scope": "MV 製作方式與視覺說明，不以點閱數推定銷量。"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "勇者配信與 MV 公開",
+      "url": "https://prtimes.jp/main/html/rd/p/000000773.000055377.html",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/580760",
+      "scope": "MV 製作方式與視覺說明，不以點閱數推定銷量。"
+    }
+  ]
+}

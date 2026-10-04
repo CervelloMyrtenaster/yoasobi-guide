@@ -55,7 +55,11 @@
       "youtubeId": "ky8XXmCrdko",
       "title": "YOASOBI「セブンティーン」 from 『YOASOBI 5th ANNIVERSARY DOME LIVE 2024 \"超現実\"』2024.11.10@東京ドーム",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=ky8XXmCrdko"
+      "sourceUrl": "https://www.youtube.com/watch?v=ky8XXmCrdko",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "concert",
+      "performedOn": "2024-11-10",
+      "concertId": "chogenjitsu-tokyo-2024-11-10"
     }
   ],
   "sources": [
@@ -88,7 +92,8 @@
     "mister",
     "sukida",
     "umi-no-manimani"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -110,7 +115,7 @@
 
 「セブンティーン」是 seventeen 的外來語；長音不宜省略。「色違い」指顏色不同的版本，原作題名也能練習名詞接 の，而不需要把完整歌詞搬進網站。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

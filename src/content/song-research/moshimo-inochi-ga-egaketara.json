@@ -1,0 +1,100 @@
+{
+  "id": "moshimo-inochi-ga-egaketara",
+  "songId": "moshimo-inochi-ga-egaketara",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《もしも命が描けたら》（鈴木おさむ）：小說。合作用途為 舞台劇「もしも命が描けたら」（舞台劇主題曲）。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "2nd EP『THE BOOK 2』収録曲「もしも命が描けたら」、テーマ曲となった鈴木おさむ作・演出の舞台「もしも命が描けたら」初演から1年を記念してシングルカットで配信リリース！",
+          "url": "https://www.yoasobi-music.jp/news/543995",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "YOASOBI 官方 SONGS / NOVELS",
+          "url": "https://www.yoasobi-music.jp/songs",
+          "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "舞台視覺與刺繡動畫的延伸",
+      "text": "清川あさみ的製作紀錄確認，她原已參與同名舞台的視覺與美術，後來擔任歌曲 MV 的導演、分鏡及原畫。影像以刺繡圖像為基礎，結合數位與手作；故事中畫出生命的代價，與媒材本身的「製作」形成可比較的關係。",
+      "sources": [
+        {
+          "title": "清川あさみ：MV 製作紀錄",
+          "url": "https://www.asamikiyokawa.com/works/produce/732/",
+          "scope": "採用職務與刺繡媒材說明；此頁 EP 名稱有誤，以官方 THE BOOK 2 發行資料為準。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "MV 導演／分鏡／原畫",
+      "name": "清川あさみ",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "清川あさみ：MV 製作紀錄",
+        "url": "https://www.asamikiyokawa.com/works/produce/732/",
+        "scope": "採用職務與刺繡媒材說明；此頁 EP 名稱有誤，以官方 THE BOOK 2 發行資料為準。"
+      }
+    },
+    {
+      "role": "CG 導演",
+      "name": "HIDEKI INABA",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "清川あさみ：MV 製作紀錄",
+        "url": "https://www.asamikiyokawa.com/works/produce/732/",
+        "scope": "採用職務與刺繡媒材說明；此頁 EP 名稱有誤，以官方 THE BOOK 2 發行資料為準。"
+      }
+    },
+    {
+      "role": "Animation Producer",
+      "name": "松居秀之（P.I.C.S.）",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "清川あさみ：MV 製作紀錄",
+        "url": "https://www.asamikiyokawa.com/works/produce/732/",
+        "scope": "採用職務與刺繡媒材說明；此頁 EP 名稱有誤，以官方 THE BOOK 2 發行資料為準。"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "2nd EP『THE BOOK 2』収録曲「もしも命が描けたら」、テーマ曲となった鈴木おさむ作・演出の舞台「もしも命が描けたら」初演から1年を記念してシングルカットで配信リリース！",
+      "url": "https://www.yoasobi-music.jp/news/543995",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    },
+    {
+      "title": "清川あさみ：MV 製作紀錄",
+      "url": "https://www.asamikiyokawa.com/works/produce/732/",
+      "scope": "採用職務與刺繡媒材說明；此頁 EP 名稱有誤，以官方 THE BOOK 2 發行資料為準。"
+    }
+  ]
+}

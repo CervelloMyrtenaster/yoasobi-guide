@@ -1,0 +1,75 @@
+{
+  "id": "head-in-the-clouds-la-2023-08-06",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "title": "Head In The Clouds Los Angeles",
+  "date": "2023-08-06",
+  "country": "美國",
+  "city": "Los Angeles（報導地區）",
+  "venue": "Rose Bowl in Pasadena",
+  "eventType": "festival",
+  "eventStatus": "completed",
+  "setlistStatus": "complete",
+  "setlist": [
+    {
+      "position": 1,
+      "songId": "shukufuku",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 2,
+      "songId": "yoru-ni-kakeru",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 3,
+      "songId": "mister",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 4,
+      "songId": "tabun",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 5,
+      "songId": "moshimo-inochi-ga-egaketara",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 6,
+      "songId": "kaibutsu",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 7,
+      "songId": "gunjo",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 8,
+      "songId": "idol",
+      "section": "main",
+      "performance": "listed"
+    }
+  ],
+  "verifiedAt": "2026-10-04",
+  "notes": [
+    "報導的洛杉磯地區名稱與 Pasadena 場館分開保留；不推定行政城市或舞台名稱。",
+    "報導另提全場 finale 的合作演唱；它不屬於 YOASOBI 八首正式時段歌單。"
+  ],
+  "sources": [
+    {
+      "title": "Natalie / ぴあ：Head In The Clouds 事後報導",
+      "url": "https://lp.p.pia.jp/article/news/284424/index.html",
+      "scope": "2023-08-06 YOASOBI 正式時段八首歌單；不把全場壓軸的合作再加入本時段。"
+    }
+  ]
+}

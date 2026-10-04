@@ -1,0 +1,89 @@
+{
+  "id": "new-me-en",
+  "songId": "new-me-en",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "version",
+      "title": "與原曲分開記錄的發行",
+      "text": "本作品的音源首次發行為 2025-07-11；日文原曲〈New me〉為 2024-11-11。故事素材沿用原曲的 《白山通り炎上の件》（有手窓）：小說；本頁不繼承原曲的榜單或獎項。",
+      "sources": [
+        {
+          "title": "7/11(金)に「New me」英語版の配信リリース決定！同日22時にはミュージックビデオも公開！",
+          "url": "https://www.yoasobi-music.jp/news/575234",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        }
+      ]
+    },
+    {
+      "area": "version",
+      "title": "英語版同時改動編曲與影像",
+      "text": "官方明說英語演唱之外另施不同編曲；MV 由 Hana Watanabe 執導、Tsugumi 出演。適合比較人聲、伴奏與影像的新處理，不能只視為日文版換語言。",
+      "sources": [
+        {
+          "title": "YOASOBI 官方製作與發行公告",
+          "url": "https://www.yoasobi-music.jp/news/575234",
+          "scope": "譯詞、編曲差異、導演與出演者。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "英語譯詞",
+      "name": "Konnie Aoki",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "YOASOBI 官方製作與發行公告",
+        "url": "https://www.yoasobi-music.jp/news/575234",
+        "scope": "譯詞、編曲差異、導演與出演者。"
+      }
+    },
+    {
+      "role": "MV 導演",
+      "name": "Hana Watanabe",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "YOASOBI 官方製作與發行公告",
+        "url": "https://www.yoasobi-music.jp/news/575234",
+        "scope": "譯詞、編曲差異、導演與出演者。"
+      }
+    },
+    {
+      "role": "MV 出演",
+      "name": "Tsugumi",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "YOASOBI 官方製作與發行公告",
+        "url": "https://www.yoasobi-music.jp/news/575234",
+        "scope": "譯詞、編曲差異、導演與出演者。"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "area": "mv",
+      "note": "已有官方 MV 入口；導演訪談與完整製作職務尚待逐項查核。"
+    },
+    {
+      "area": "charts",
+      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+    },
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/575234",
+      "scope": "譯詞、編曲差異、導演與出演者。"
+    }
+  ]
+}

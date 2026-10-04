@@ -99,7 +99,8 @@
   "versionOf": "kaibutsu",
   "relatedSongIds": [
     "kaibutsu"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

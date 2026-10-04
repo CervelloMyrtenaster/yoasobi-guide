@@ -91,7 +91,8 @@
   "versionOf": "sukida",
   "relatedSongIds": [
     "sukida"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

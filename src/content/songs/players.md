@@ -58,7 +58,10 @@
       "youtubeId": "1fFuHOoWJ5g",
       "title": "YOASOBI「PLAYERS」 from 『Echoes Baa (Day2)』2025.04.06@横浜・赤レンガ倉庫",
       "kind": "live",
-      "sourceUrl": "https://www.youtube.com/watch?v=1fFuHOoWJ5g"
+      "sourceUrl": "https://www.youtube.com/watch?v=1fFuHOoWJ5g",
+      "contextNote": "日期僅採影片標題明載；沒有日期或跨日標題時，不選定某一天。",
+      "scene": "other",
+      "performedOn": "2025-04-06"
     }
   ],
   "sources": [
@@ -91,7 +94,8 @@
     "biri-biri",
     "orion",
     "adventure"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
@@ -113,7 +117,7 @@
 
 PLAYERS 是複數題名，本曲為日文演唱。學習時先分開「題名」「創作素材」「演唱語言」，不要因為英文標題就忽略日語入口。
 
-完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練习，無須一次背完。
+完整日文、羅馬拼音與跟唱練習請由下方對應的 marumaru 入口延伸。先熟悉聲音，再選一小段練習，無須一次背完。
 
 ## 讀完原作再想一想
 

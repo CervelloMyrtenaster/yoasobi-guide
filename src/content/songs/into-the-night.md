@@ -96,7 +96,8 @@
   "versionOf": "yoru-ni-kakeru",
   "relatedSongIds": [
     "yoru-ni-kakeru"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

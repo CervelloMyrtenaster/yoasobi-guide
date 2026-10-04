@@ -1,0 +1,113 @@
+{
+  "id": "gunjo",
+  "songId": "gunjo",
+  "status": "published",
+  "updatedAt": "2026-10-04",
+  "notes": [
+    {
+      "area": "creation",
+      "title": "創作素材與合作的界線",
+      "text": "直接創作素材為 《青を味方に。》（alfort creative team）：概念故事。合作用途為 Bourbon Alfort 迷你巧克力（廣告歌曲）。理解原作作者與合作對象的不同角色，再閱讀正文的故事概述。",
+      "sources": [
+        {
+          "title": "明日10/26(火)24時からの『YOASOBIのオールナイトニッポンX』にて、英語版第4弾となる「Blue」(「群青」英語Ver.)を初オンエア！",
+          "url": "https://www.yoasobi-music.jp/news/535015",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        },
+        {
+          "title": "2021年11月度串流認證及配信開始日",
+          "url": "https://prtimes.jp/a/?c=10908&f=d10908-418-ee751c6a8c9b1fd47c70daa8955d6753.pdf&r=418",
+          "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "廣告、封面與 MV 的製作者各有分工",
+      "text": "牧野惇在具名製作訪談中說明，他先執導 Alfort 廣告，再製作歌曲 MV；女舞者由藍にいな的封面人物發展而來。MV 使用手作人偶、分別拍攝及合成，舞者與隕石的衝突是他另構想的故事，不是漫畫畫面的直接剪輯。",
+      "sources": [
+        {
+          "title": "Sculptors Labo：牧野惇談群青 MV",
+          "url": "https://sculptors.jp/topics/1686",
+          "scope": "本人受訪與公開職務表；訪談刊載日不是歌曲或 MV 發行日。"
+        }
+      ]
+    },
+    {
+      "area": "creation",
+      "title": "一首歌如何走出最初的廣告用途",
+      "text": "官方回顧將 Alfort、DANCE ONE、高校棒球行進曲、青山合唱企劃與麥當勞 mashup 分列。這些是同曲的不同合作使用，不是五個新的 YOASOBI 原創單曲，也不代表動畫改編的藍色時期片頭歌。",
+      "sources": [
+        {
+          "title": "YOASOBI 官方製作與發行公告",
+          "url": "https://www.yoasobi-music.jp/news/581541",
+          "scope": "官方逐項列出的用途；不同合作版本不合併為新原創歌曲。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "MV 導演／人偶操演",
+      "name": "牧野惇",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "Sculptors Labo：牧野惇談群青 MV",
+        "url": "https://sculptors.jp/topics/1686",
+        "scope": "本人受訪與公開職務表；訪談刊載日不是歌曲或 MV 發行日。"
+      }
+    },
+    {
+      "role": "MV 美術",
+      "name": "河野朋美",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "Sculptors Labo：牧野惇談群青 MV",
+        "url": "https://sculptors.jp/topics/1686",
+        "scope": "本人受訪與公開職務表；訪談刊載日不是歌曲或 MV 發行日。"
+      }
+    },
+    {
+      "role": "MV 製作",
+      "name": "太陽企画",
+      "scope": "僅適用此歌曲／此版本的製作紀錄。",
+      "source": {
+        "title": "Sculptors Labo：牧野惇談群青 MV",
+        "url": "https://sculptors.jp/topics/1686",
+        "scope": "本人受訪與公開職務表；訪談刊載日不是歌曲或 MV 發行日。"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "area": "awards",
+      "note": "尚未收入本曲可核對的獎項或提名；團體獎項不自動歸到每首歌。"
+    },
+    {
+      "area": "certification",
+      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "明日10/26(火)24時からの『YOASOBIのオールナイトニッポンX』にて、英語版第4弾となる「Blue」(「群青」英語Ver.)を初オンエア！",
+      "url": "https://www.yoasobi-music.jp/news/535015",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "2021年11月度串流認證及配信開始日",
+      "url": "https://prtimes.jp/a/?c=10908&f=d10908-418-ee751c6a8c9b1fd47c70daa8955d6753.pdf&r=418",
+      "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+    },
+    {
+      "title": "Sculptors Labo：牧野惇談群青 MV",
+      "url": "https://sculptors.jp/topics/1686",
+      "scope": "本人受訪與公開職務表；訪談刊載日不是歌曲或 MV 發行日。"
+    },
+    {
+      "title": "YOASOBI 官方製作與發行公告",
+      "url": "https://www.yoasobi-music.jp/news/581541",
+      "scope": "官方逐項列出的用途；不同合作版本不合併為新原創歌曲。"
+    }
+  ]
+}

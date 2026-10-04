@@ -82,7 +82,8 @@
   "versionOf": "taisho-roman",
   "relatedSongIds": [
     "taisho-roman"
-  ]
+  ],
+  "achievements": []
 }
 ---
 

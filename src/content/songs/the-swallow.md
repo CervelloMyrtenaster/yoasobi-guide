@@ -96,7 +96,8 @@
   "versionOf": "tsubame",
   "relatedSongIds": [
     "tsubame"
-  ]
+  ],
+  "achievements": []
 }
 ---
 
