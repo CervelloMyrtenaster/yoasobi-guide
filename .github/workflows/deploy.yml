@@ -11,6 +11,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -20,7 +23,24 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-      - uses: actions/configure-pages@v5
+      # Enable Pages and select GitHub Actions in repository Settings → Pages first.
+      # The default GITHUB_TOKEN cannot enable Pages or change its publishing source.
+      - name: Read GitHub Pages configuration
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Explain GitHub Pages configuration failure
+        if: failure() && steps.pages.outcome == 'failure'
+        run: |
+          echo "::error::Open $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/settings/pages and set Build and deployment > Source to GitHub Actions. Then run this workflow on the latest main commit."
+      - name: Verify GitHub Pages publishing source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          build_type="$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.build_type')"
+          if [ "$build_type" != "workflow" ]; then
+            echo "::error::GitHub Pages source is '$build_type'. Open $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/settings/pages and select GitHub Actions to stop the legacy Jekyll build."
+            exit 1
+          fi
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
       - run: pnpm test

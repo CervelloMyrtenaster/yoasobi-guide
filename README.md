@@ -62,9 +62,25 @@ LIVE 統計在建置時計算，只納入已完成、已發布且刊載歌單完
 
 目標網址：`https://cervellomyrtenaster.github.io/yoasobi-guide/`。
 
-1. Repository Settings → Pages → Source 設為 GitHub Actions。
-2. 推送到 main 後執行 check、test、build，再部署 dist。
-3. PR 只做驗證，不發布；也可手動執行部署 workflow。
+1. 使用有此 repository 管理權限的帳號開啟 [Settings → Pages](https://github.com/CervelloMyrtenaster/yoasobi-guide/settings/pages)，在 **Build and deployment → Source** 選擇 **GitHub Actions**。若目前是 `Deploy from a branch`，必須切換；不能讓 Jekyll 建置 Astro 原始碼。
+2. 已有 `.github/workflows/deploy.yml`，不需要另外新增 GitHub 建議的 Jekyll 或 Static HTML workflow。
+3. 將修改 commit 並 push 到 `main`。部署依序執行 Pages 設定查核、`pnpm install --frozen-lockfile`、`check`、`test`、`build`，只上傳並發布 `dist/`。
+4. 若切換 Pages 來源時修改已經推送，開啟 [Deploy to GitHub Pages](https://github.com/CervelloMyrtenaster/yoasobi-guide/actions/workflows/deploy.yml) → **Run workflow** → 選擇 `main`。不要重跑舊 commit 的失敗紀錄，舊紀錄仍使用舊版 workflow。
+5. `build` 與 `deploy` 皆成功後，確認首頁、歌曲詳細頁與 CSS 都可由目標網址開啟。PR 只做驗證，不發布。
+
+部署權限限定於各 job：`build` 需要 `contents: read` 與 `pages: read`，供 checkout 與 `actions/configure-pages` 查詢；`deploy` 需要 `pages: write` 與 `id-token: write`，供 `actions/deploy-pages` 發布。不要為了解決 404 將整個 repository 的 workflow token 改成所有權限可寫。
+
+`public/.nojekyll` 會複製至 `dist/.nojekyll`，標示建置產物不使用 Jekyll；它不能取代上述 Pages 來源設定，也不能讓 repository 根目錄的 Astro 原始碼直接變成網站。
+
+### 部署錯誤排查
+
+| 訊息 | 原因與處理 |
+| --- | --- |
+| `actions/configure-pages@v5` 的 `HttpError: Not Found` / `Get Pages site failed` | 這兩則通常是同一個查詢失敗。確認 Pages 已啟用、Source 是 GitHub Actions，並使用已補上 `build.permissions.pages: read` 的最新 workflow。 |
+| `pages build and deployment` → `Build with Jekyll` | GitHub 的舊版分支發布流程仍在處理原始碼。將 Pages Source 切換成 GitHub Actions，再執行本站的 `Deploy to GitHub Pages`。歷史失敗紀錄會保留，無需刪除。 |
+| `GitHub Pages source is 'legacy'` | 本站 workflow 主動阻止錯誤的發布來源；依錯誤中的 Settings 連結切換為 GitHub Actions。 |
+
+不使用 `enablement: true` 搭配預設 `GITHUB_TOKEN`：`configure-pages` 官方說明此功能需要另外具有管理權限的 token，而且不會替已存在的 Pages 站點切換發布來源。一般部署只需一次正確的 Pages 設定，無需新增 PAT 或 secret。參考 [GitHub 發布來源文件](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) 與 [configure-pages 的 enablement 權限說明](https://github.com/actions/configure-pages/blob/v5/action.yml)。
 
 若 repository 名稱或 owner 改變，更新 `astro.config.mjs`。站內連結統一使用 `src/lib/paths.ts`，勿硬編碼 `/songs/`。若使用自訂網域，需要另外更新 site、base 與 Pages 網域設定。
 
