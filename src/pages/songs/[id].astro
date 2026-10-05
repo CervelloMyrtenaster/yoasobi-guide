@@ -4,6 +4,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SourceList from '../../components/SourceList.astro';
 import YouTubeEmbed from '../../components/YouTubeEmbed.astro';
 import JapaneseLearningLink from '../../components/JapaneseLearningLink.astro';
+import LyricsLearning from '../../components/LyricsLearning.astro';
+import { songLyrics } from '../../data/lyrics-learning';
 import LiveStats from '../../components/LiveStats.astro';
 import LiveClips from '../../components/LiveClips.astro';
 import SongAchievements from '../../components/SongAchievements.astro';
@@ -16,6 +18,7 @@ import { songKinds } from '../../lib/songs';
 export async function getStaticPaths() { const { songs } = await loadContent(); return songs.map(song => ({ params: { id: song.id }, props: { song } })); }
 const { song } = Astro.props; const { Content } = await render(song); const { releases, concerts, songs, songResearch } = await loadContent(); const d = song.data;
 const research=songResearch.find(r=>r.data.songId===song.id);
+for(const id of Object.keys(songLyrics))if(!songs.some(s=>s.id===id))throw new Error(`學習檔找不到歌曲：${id}`);
 const original = d.versionOf ? songs.find(s=>s.id===d.versionOf) : undefined;
 const versions = songs.filter(s=>s.data.versionOf === (d.versionOf??song.id) && s.id!==song.id);
 const albumSongs = [...new Map(releases.filter(r=>d.releaseIds.includes(r.id)).flatMap(r=>{const index=r.data.tracks.findIndex(t=>t.songId===song.id);return r.data.tracks.filter((_,i)=>Math.abs(i-index)<=2&&i!==index).map(t=>songs.find(s=>s.id===t.songId));}).filter(s=>s && s.data.kind!=='interlude').map(s=>[s!.id,s!])).values()].slice(0,4);
@@ -45,7 +48,7 @@ const setlists = concerts.filter(c=>c.data.setlist.some(t=>t.songId===song.id)).
       <Content/>
       {research&&<SongResearch research={research}/>}
       {d.achievements.length>0 && <SongAchievements achievements={d.achievements}/>}
-      {d.kind!=='interlude' && <div id="learning">{d.language==='en' && original ? <section class="callout"><h2>唱歌學日語：回到日文原曲</h2><p>本頁是英文演唱。請從日文原曲的對應學習入口繼續。</p><a class="button" href={path(`songs/${original.id}/`)}>閱讀〈{original.data.titleJa}〉與日語學習 →</a></section> : <JapaneseLearningLink link={d.japaneseLearning}/>}</div>}
+      {d.kind!=='interlude' && <div id="learning">{d.language==='en' && original ? <section class="callout"><h2>唱歌學日語：回到日文原曲</h2><p>本頁是英文演唱。請從日文原曲的對應學習入口繼續。</p><a class="button" href={path(`songs/${original.id}/`)} >閱讀〈{original.data.titleJa}〉與日語學習 →</a></section> : <><LyricsLearning document={songLyrics[song.id]}/><JapaneseLearningLink link={d.japaneseLearning}/></>}</div>}
       {liveVideos.length>0 && <LiveClips videos={liveVideos}/>}
       <div id="live-stats"><LiveStats concerts={concerts.map(c => c.data)} songId={song.id} releasedOn={d.releaseDate}/>{setlists.length>0 && <section><h3>出現在這些已刊載歌單</h3><ul>{setlists.map(c=><li><a href={path(`live/${c.id}/`)}>{c.data.date} · {c.data.title}</a>{c.data.date<d.releaseDate && '（早於正式音源發行）'}</li>)}</ul></section>}</div>
       <SongJourney song={song}/>

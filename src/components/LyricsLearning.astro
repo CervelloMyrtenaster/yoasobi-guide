@@ -1,0 +1,107 @@
+---
+import { originalPractice } from '../data/lyrics-learning';
+import type { LyricsDocument } from '../lib/lyrics';
+import { defaultLearningPreferences } from '../lib/learning-preferences';
+interface Props { document?: LyricsDocument }
+const { document } = Astro.props;
+const entries=document?.lines??[originalPractice];
+const noteGroups=document?[{id:'vocabulary',title:'單字筆記',notes:document.vocabulary},{id:'grammar',title:'文法筆記',notes:document.grammar}]:[];
+const notesById=new Map(noteGroups.flatMap(group=>group.notes).map(note=>[note.id,note]));
+const layers=[['furigana','振假名'],['kana','全假名'],['romaji','羅馬拼音'],['translation','中文翻譯']] as const;
+---
+<section class="lyrics-learning" data-lyrics-learning data-furigana data-translation>
+  <h2>歌詞與日語學習</h2>
+  {document ? <p class="muted">{entries.length} 句逐行對照。先聽日文，再勾選需要的輔助閱讀；單字與文法可按行展開。讀音與譯文依提供的逐行學習檔，不同演唱版本請分開閱讀。</p> : <p class="muted">這首歌尚未提供逐行學習檔。先用本站原創句試試閱讀層次，再由下方 marumaru 入口練習這首歌。</p>}
+  {document&&<nav aria-label="日語學習段落"><a href="#learning-readings">逐行閱讀 ↓</a>{noteGroups.filter(group=>group.notes.length).map(group=><a href={`#learning-${group.id}`}>{group.title} ↓</a>)}<a href="#learning-source">資料來源 ↓</a></nav>}
+  <p class="reading-help" hidden data-reading-help>日文一直顯示；勾選所需輔助，選擇會保留至其他歌曲。<button type="button" data-japanese-only>只讀日文</button></p>
+  <div class="reading-toolbar" hidden data-reading-toolbar><fieldset class="reading-controls" data-reading-controls>
+    <legend>顯示輔助閱讀（可複選）</legend>
+    {layers.map(([key,label])=><label><input type="checkbox" value={key} checked={defaultLearningPreferences[key]} data-reading-toggle/>{label}</label>)}
+  </fieldset></div>
+  <div id="learning-readings">{entries.map((line,index)=><div class="learning-line" id={`learning-${line.id??'practice'}`}>
+    {line.id&&<a class="line-number" href={`#learning-${line.id}`} aria-label={`第 ${index+1} 句`}>{line.id}</a>}
+    <p class="japanese-text" lang="ja">{line.segments.map(part=>part.reading?<ruby>{part.text}<rp>（</rp><rt>{part.reading}</rt><rp>）</rp></ruby>:part.text)}</p>
+    <details data-reading-layer="kana"><summary>全假名</summary><p lang="ja">{line.kana}</p></details>
+    <details data-reading-layer="romaji"><summary>羅馬拼音（Hepburn）</summary><p lang="ja-Latn">{line.romaji}</p></details>
+    <details data-reading-layer="translation" open><summary>中文翻譯</summary><p lang="zh-Hant">{line.translation}</p></details>
+    {Boolean(line.vocabularyIds?.length||line.grammarIds?.length)&&<details class="line-notes"><summary>這一句的單字與文法</summary><ul>{[...line.vocabularyIds??[],...line.grammarIds??[]].map(id=><li><a href={`#learning-${id}`}>{notesById.get(id)?.title} →</a></li>)}</ul></details>}
+    {line.attribution&&<small class="muted">{line.attribution}</small>}
+  </div>)}</div>
+  {document&&<>
+    {noteGroups.filter(group=>group.notes.length).map(({id,title,notes})=><details class="learning-notes" id={`learning-${id}`}><summary>{title}（{notes.length} 項）</summary><dl>{notes.map(note=><div id={`learning-${note.id}`}><dt><span lang="ja">{note.title}</span></dt><dd>{note.description}<p class="note-links">出現句：{[...new Set(note.occurrences.match(/L\d+/g)??[])].map(id=><a href={`#learning-${id}`} aria-label={`返回第 ${Number(id.slice(1))} 句`}>{id}</a>)}</p></dd></div>)}</dl></details>)}
+    <details class="learning-source" id="learning-source"><summary>學習資料來源與整理範圍</summary><p>{document.attribution}</p>{document.processedOn&&<p>資料處理日期：<time datetime={document.processedOn}>{document.processedOn}</time></p>}<p>{document.reviewScope}</p><p>本頁保留提供檔案的行序、重複段落與語言表示，未依其他版本補寫內容。</p></details>
+  </>}
+</section>
+<style>
+  .lyrics-learning{border-block:1px solid var(--line);padding-block:20px;overflow-anchor:none}
+  .reading-help{font-size:13px;color:var(--muted)}
+  .reading-help button{display:inline-block;min-height:44px;margin-left:8px;padding:8px;background:none;color:var(--ink);border:0;text-decoration:underline;text-underline-offset:5px;cursor:pointer}
+  .reading-toolbar{position:sticky;top:0;z-index:2;border-bottom:1px solid var(--line);background:var(--paper);padding:8px 0;margin:12px 0}
+  .reading-controls{min-inline-size:0;border:0;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 14px}
+  .reading-controls legend{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+  .reading-controls label{display:flex;align-items:center;gap:6px;min-height:44px;cursor:pointer;font-size:14px}
+  .reading-controls input{width:18px;height:18px;accent-color:var(--red)}
+  .learning-line{position:relative;padding:16px 0 16px 44px;overflow-wrap:anywhere}
+  .line-number{position:absolute;left:0;top:16px;display:flex;align-items:center;color:var(--muted);font-size:11px;min-height:44px;min-width:44px}
+  .lyrics-learning [id]{scroll-margin-top:112px}
+  .learning-notes dl>div{padding-block:16px;border-bottom:1px solid var(--line)}
+  .learning-notes dt{font-weight:650}.learning-notes dd{margin-left:0;white-space:pre-line}
+  .note-links{display:flex;gap:8px;flex-wrap:wrap}.note-links a{min-height:44px;padding-block:8px}
+  .japanese-text{font-size:20px;line-height:1.85;margin:0}
+  ruby{ruby-position:over}rt{font-size:.55em}
+  [data-lyrics-learning][data-enhanced]:not([data-furigana]) rt{display:none}
+  [data-lyrics-learning][data-enhanced]:not([data-furigana]) .japanese-text{line-height:1.65}
+  [data-enhanced] [data-reading-layer] summary{display:none}
+  [data-enhanced] [data-reading-layer] p{margin:6px 0 0;font-size:15px;line-height:1.8}
+  [data-enhanced]:not([data-kana]) [data-reading-layer="kana"],
+  [data-enhanced]:not([data-romaji]) [data-reading-layer="romaji"],
+  [data-enhanced]:not([data-translation]) [data-reading-layer="translation"]{display:none}
+  [data-enhanced] [data-reading-layer="romaji"]{color:var(--muted)}
+  .line-notes{margin-top:4px;font-size:13px;color:var(--muted)}
+  .line-notes ul{color:var(--ink)}
+  @media(min-width:720px){.reading-controls{display:flex;flex-wrap:wrap}.lyrics-learning [id]{scroll-margin-top:76px}}
+  @supports(padding:env(safe-area-inset-top)){.reading-toolbar{padding-top:max(8px,env(safe-area-inset-top))}}
+</style>
+<script>
+  import { learningLayers, loadLearningPreferences, saveLearningPreferences } from '../lib/learning-preferences';
+  for(const section of document.querySelectorAll<HTMLElement>('[data-lyrics-learning]')){
+    const controls=section.querySelector<HTMLFieldSetElement>('[data-reading-controls]');
+    if(!controls)continue;
+    section.dataset.enhanced='';
+    section.querySelector<HTMLElement>('[data-reading-toolbar]')?.removeAttribute('hidden');
+    const help=section.querySelector<HTMLElement>('[data-reading-help]');
+    if(help)help.hidden=false;
+    const toggles=Array.from(controls.querySelectorAll<HTMLInputElement>('[data-reading-toggle]'));
+    const lines=Array.from(section.querySelectorAll<HTMLElement>('.learning-line'));
+    const preferences=loadLearningPreferences(()=>localStorage);
+    const apply=()=>{
+      for(const key of learningLayers){
+        section.toggleAttribute(`data-${key}`,preferences[key]);
+        const control=toggles.find(control=>control.value===key);
+        if(control)control.checked=preferences[key];
+      }
+    };
+    for(const layer of section.querySelectorAll<HTMLDetailsElement>('[data-reading-layer]'))layer.open=true;
+    apply();
+    const updateReading=()=>{
+      // Keep the current line in view when earlier lines change height.
+      const edge=controls.getBoundingClientRect().bottom;
+      const anchor=lines.find(line=>{const rect=line.getBoundingClientRect();return rect.top>=edge&&rect.top<innerHeight;})??lines.find(line=>{const rect=line.getBoundingClientRect();return rect.bottom>edge&&rect.top<innerHeight;});
+      const top=anchor?.getBoundingClientRect().top;
+      apply();
+      if(anchor&&top!==undefined)requestAnimationFrame(()=>{
+        const delta=anchor.getBoundingClientRect().top-top;
+        window.scrollBy({top:delta,behavior:'instant'});
+      });
+      saveLearningPreferences(()=>localStorage,preferences);
+    };
+    controls.addEventListener('change',()=>{
+      for(const key of learningLayers)preferences[key]=toggles.find(control=>control.value===key)?.checked??preferences[key];
+      updateReading();
+    });
+    section.querySelector<HTMLButtonElement>('[data-japanese-only]')?.addEventListener('click',()=>{
+      for(const key of learningLayers)preferences[key]=false;
+      updateReading();
+    });
+  }
+</script>

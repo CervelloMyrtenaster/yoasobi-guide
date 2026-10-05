@@ -32,17 +32,19 @@ const countries=[...new Set(sample.map(c=>c.country))];const tours=[...new Set(s
 <h2>如何讀這些數字？</h2><p>全部樣本描述整份收藏；發行後樣本排除音源尚未發行的時期。同曲同場最多計一次，發行前的現場仍在全部樣本中保留。零次或少次只適用這些歌單，無法據此認定「從未演過」或全世界最少演的曲目。</p><p>巡演／活動系列數讓你看見分母中有多少同一企劃的連續場次。棚內影片不混入專場；英文版也不繼承日文原曲的出現次數。</p><a href={path('sources/')}>查核與統計口徑 →</a>
 </article></BaseLayout>
 <script>
+ import {normalizeSearch} from '../../lib/search';
  import { includedSamples, liveStats, type LiveSample, type LiveScope } from '../../lib/live-stats';
  import { path } from '../../lib/paths';import { withContext } from '../../lib/navigation';
  const root=document.querySelector<HTMLElement>('[data-live-statistics]');
  if(root){const samples:LiveSample[]=JSON.parse(root.dataset.samples!);const form=root.querySelector<HTMLFormElement>('form')!;const rows=[...root.querySelectorAll<HTMLElement>('[data-song-row]')];const names=['q','type','region','country','tour','fromDate','toDate','language'];
  const field=(name:string)=>form.elements.namedItem(name) as HTMLInputElement|HTMLSelectElement;
+ const searchable=new Map(rows.map(row=>[row,normalizeSearch(row.dataset.title!)]));
  const restore=()=>{const params=new URLSearchParams(location.search);for(const name of names)field(name).value=params.get(name)??(name==='language'?'ja':'');};
  const update=(save=true)=>{const scope:LiveScope={eventType:field('type').value as LiveScope['eventType'],region:field('region').value as LiveScope['region'],country:field('country').value,tourId:field('tour').value,from:field('fromDate').value,to:field('toDate').value};const invalid=Boolean(scope.from&&scope.to&&scope.from>scope.to);root.querySelector<HTMLElement>('[data-range-error]')!.hidden=!invalid;
  const selected=invalid?[]:includedSamples(samples,scope);const dates=selected.map(c=>c.date).sort();root.querySelector('[data-sample-summary]')!.textContent=`${selected.length} 場 · ${new Set(selected.map(c=>c.tourId??c.id)).size} 個巡演／活動系列${dates.length?` · ${dates[0]} 至 ${dates.at(-1)}`:' · 尚無符合樣本'}`;
  for(const item of root.querySelectorAll<HTMLElement>('[data-sample-id]'))item.hidden=!selected.some(c=>c.id===item.dataset.sampleId);
- const counts=new Map<HTMLElement,number>();const needle=field('q').value.normalize('NFKC').toLowerCase();
- for(const row of rows){const all=liveStats(selected,row.dataset.songId!);const after=liveStats(selected,row.dataset.songId!,{releasedOn:row.dataset.release});counts.set(row,all.appearances);row.querySelector('[data-all]')!.textContent=`${all.appearances}／${all.total}`;row.querySelector('[data-after]')!.textContent=after.total?`${after.appearances}／${after.total}`:'尚無樣本';row.querySelector('[data-observation]')!.textContent=!all.total?'此範圍無歌單':!all.appearances?'此樣本未列；不代表從未演出':all.unspecified?'已刊載；演唱長度未全確認':'依來源區分演唱形式';row.hidden=Boolean(field('language').value&&row.dataset.language!==field('language').value)||!row.dataset.title!.normalize('NFKC').toLowerCase().includes(needle);}
+ const counts=new Map<HTMLElement,number>();const needle=normalizeSearch(field('q').value);
+ for(const row of rows){const all=liveStats(selected,row.dataset.songId!);const after=liveStats(selected,row.dataset.songId!,{releasedOn:row.dataset.release});counts.set(row,all.appearances);row.querySelector('[data-all]')!.textContent=`${all.appearances}／${all.total}`;row.querySelector('[data-after]')!.textContent=after.total?`${after.appearances}／${after.total}`:'尚無樣本';row.querySelector('[data-observation]')!.textContent=!all.total?'此範圍無歌單':!all.appearances?'此樣本未列；不代表從未演出':all.unspecified?'已刊載；演唱長度未全確認':'依來源區分演唱形式';row.hidden=Boolean(field('language').value&&row.dataset.language!==field('language').value)||!searchable.get(row)!.includes(needle);}
  rows.sort((a,b)=>counts.get(b)!-counts.get(a)!||a.dataset.release!.localeCompare(b.dataset.release!)).forEach(row=>row.parentElement!.append(row));root.querySelector<HTMLElement>('[data-no-rows]')!.hidden=rows.some(r=>!r.hidden);
  const url=new URL(location.href);if(save){for(const name of names){if(field(name).value)url.searchParams.set(name,field(name).value);else url.searchParams.delete(name);}history.replaceState(null,'',url);}
  for(const row of rows)row.querySelector<HTMLAnchorElement>('a')!.href=withContext(path(`songs/${row.dataset.songId}/`),url.pathname+url.search+`#song-${row.dataset.songId}`);

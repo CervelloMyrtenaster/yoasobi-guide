@@ -1,10 +1,10 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { achievementLabels as labels } from '../lib/songs';
 interface Props { achievements: CollectionEntry<'songs'>['data']['achievements'] }
 const { achievements } = Astro.props;
-const labels = { chart: '榜單／成績', award: '獲獎', nomination: '提名', certification:'認證' };
 ---
 <section id="achievements"><h2>商業成績與獎項</h2>
-  <p class="muted">以下是已核對的歷史資料；日期標示其依據。不同機構的累計、週榜、年榜與獎項不合併成同一數字。</p>
-  <details class="clip-details"><summary>{achievements.length} 筆已核對的成績、認證與獎項</summary><ul class="evidence-list">{[...achievements].sort((a,b)=>a.date.localeCompare(b.date)).map(item=><li><span class="eyebrow">{labels[item.type]}</span><h3>{item.title}</h3><p class="muted">{item.dateBasis}：<time datetime={item.date}>{item.date}</time></p>{item.institution&&<p class="muted">{item.institution} · {item.metric}</p>}<p>{item.description}</p><a href={item.source.url} target="_blank" rel="noopener noreferrer">{item.source.title} ↗<span class="sr-only">（另開分頁）</span></a><p class="muted">{item.source.scope}</p></li>)}</ul></details>
+  <p class="muted">各筆紀錄附有來源與日期依據，方便分別查看榜單、串流累計、認證及獎項。</p>
+  <details class="clip-details"><summary>{achievements.length} 筆已核對的成績、認證與獎項</summary><ul class="evidence-list">{[...achievements].sort((a,b)=>a.date.localeCompare(b.date)).map(item=><li><span class="eyebrow">{labels[item.type]}</span><h3>{item.title}</h3><p class="muted">{item.dateBasis}：<time datetime={item.date}>{item.date}</time></p>{(item.institution||item.metric)&&<p class="muted">{[item.institution,item.metric].filter(Boolean).join(' · ')}</p>}<p>{item.description}</p><a href={item.source.url} target="_blank" rel="noopener noreferrer">{item.source.title} ↗<span class="sr-only">（另開分頁）</span></a>{item.source.scope!==item.description&&<p class="muted">{item.source.scope}</p>}</li>)}</ul></details>
 </section>

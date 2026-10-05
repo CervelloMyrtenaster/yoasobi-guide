@@ -3,6 +3,7 @@ import '../styles/global.css';
 import '../styles/song.css';
 import { path } from '../lib/paths';
 import catalogMetadata from '../content/catalog-metadata.json';
+import BackToTop from '../components/BackToTop.astro';
 interface Props { title: string; description?: string; noindex?: boolean }
 const { title, description = '從故事、歌曲與現場，開始認識 YOASOBI。', noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
@@ -18,6 +19,7 @@ const links = [['start/', '開始入門'], ['about/', '認識 YOASOBI'], ['histo
     <header class="site-header"><a class="brand" href={path()}>YOASOBI<span>入門指南 / 繁體中文</span></a><nav class="primary-nav" aria-label="主要導覽">{links.map(([href,label]) => <a href={path(href)} aria-current={Astro.url.pathname.startsWith(path(href)) ? 'page' : undefined}>{label}</a>)}</nav></header>
     <main id="main"><slot/></main>
     <footer><a class="brand" href={path()}>YOASOBI GUIDE</a><p>從一首歌，走進一個故事。<br/>非官方繁體中文入門網站 · 資料查核 {catalogMetadata.asOf}</p><nav aria-label="延伸閱讀"><a href={path('deep-listening/')}>深度聆聽</a><a href={path('explore/')}>作品關係</a><a href={path('records/')}>成績與獎項</a><a href={path('japanese-learning/')}>唱歌學日語</a><a href={path('sources/')}>資料與編輯原則 ↗</a></nav></footer>
+    <BackToTop/>
   </body>
 </html>
 <script>

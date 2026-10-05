@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-05",
+  "files": 38,
+  "lines": 1600,
+  "vocabulary": 2167,
+  "grammar": 556,
+  "allSourceTextPreserved": true,
+  "records": [
+    {
+      "songId": "ano-yume-ballade",
+      "lines": 28,
+      "vocabulary": 68,
+      "grammar": 10
+    },
+    {
+      "songId": "yoru-ni-kakeru",
+      "lines": 48,
+      "vocabulary": 69,
+      "grammar": 21
+    },
+    {
+      "songId": "ano-yume-wo-nazotte",
+      "lines": 31,
+      "vocabulary": 72,
+      "grammar": 10
+    },
+    {
+      "songId": "halzion",
+      "lines": 36,
+      "vocabulary": 63,
+      "grammar": 16
+    },
+    {
+      "songId": "tabun",
+      "lines": 41,
+      "vocabulary": 52,
+      "grammar": 15
+    },
+    {
+      "songId": "gunjo",
+      "lines": 38,
+      "vocabulary": 77,
+      "grammar": 15
+    },
+    {
+      "songId": "haruka",
+      "lines": 35,
+      "vocabulary": 44,
+      "grammar": 13
+    },
+    {
+      "songId": "encore",
+      "lines": 43,
+      "vocabulary": 66,
+      "grammar": 13
+    },
+    {
+      "songId": "kaibutsu",
+      "lines": 40,
+      "vocabulary": 50,
+      "grammar": 19
+    },
+    {
+      "songId": "yasashii-suisei",
+      "lines": 34,
+      "vocabulary": 58,
+      "grammar": 7
+    },
+    {
+      "songId": "mou-sukoshi-dake",
+      "lines": 34,
+      "vocabulary": 58,
+      "grammar": 14
+    },
+    {
+      "songId": "sangenshoku",
+      "lines": 42,
+      "vocabulary": 68,
+      "grammar": 18
+    },
+    {
+      "songId": "love-letter",
+      "lines": 56,
+      "vocabulary": 65,
+      "grammar": 23
+    },
+    {
+      "songId": "taisho-roman",
+      "lines": 38,
+      "vocabulary": 52,
+      "grammar": 16
+    },
+    {
+      "songId": "tsubame",
+      "lines": 26,
+      "vocabulary": 51,
+      "grammar": 18
+    },
+    {
+      "songId": "moshimo-inochi-ga-egaketara",
+      "lines": 47,
+      "vocabulary": 80,
+      "grammar": 22
+    },
+    {
+      "songId": "mister",
+      "lines": 21,
+      "vocabulary": 56,
+      "grammar": 14
+    },
+    {
+      "songId": "sukida",
+      "lines": 26,
+      "vocabulary": 40,
+      "grammar": 17
+    },
+    {
+      "songId": "shukufuku",
+      "lines": 38,
+      "vocabulary": 56,
+      "grammar": 10
+    },
+    {
+      "songId": "umi-no-manimani",
+      "lines": 56,
+      "vocabulary": 69,
+      "grammar": 16
+    },
+    {
+      "songId": "adventure",
+      "lines": 46,
+      "vocabulary": 59,
+      "grammar": 9
+    },
+    {
+      "songId": "seventeen",
+      "lines": 38,
+      "vocabulary": 39,
+      "grammar": 13
+    },
+    {
+      "songId": "idol",
+      "lines": 52,
+      "vocabulary": 59,
+      "grammar": 17
+    },
+    {
+      "songId": "yuusha",
+      "lines": 37,
+      "vocabulary": 62,
+      "grammar": 15
+    },
+    {
+      "songId": "biri-biri",
+      "lines": 54,
+      "vocabulary": 51,
+      "grammar": 8
+    },
+    {
+      "songId": "chuo-freeway",
+      "lines": 26,
+      "vocabulary": 29,
+      "grammar": 9
+    },
+    {
+      "songId": "heart-beat",
+      "lines": 43,
+      "vocabulary": 59,
+      "grammar": 19
+    },
+    {
+      "songId": "undead",
+      "lines": 71,
+      "vocabulary": 52,
+      "grammar": 10
+    },
+    {
+      "songId": "butai-ni-tatte",
+      "lines": 46,
+      "vocabulary": 59,
+      "grammar": 13
+    },
+    {
+      "songId": "monotone",
+      "lines": 41,
+      "vocabulary": 59,
+      "grammar": 17
+    },
+    {
+      "songId": "new-me",
+      "lines": 52,
+      "vocabulary": 45,
+      "grammar": 10
+    },
+    {
+      "songId": "players",
+      "lines": 42,
+      "vocabulary": 48,
+      "grammar": 12
+    },
+    {
+      "songId": "watch-me",
+      "lines": 43,
+      "vocabulary": 52,
+      "grammar": 21
+    },
+    {
+      "songId": "gekijo",
+      "lines": 43,
+      "vocabulary": 53,
+      "grammar": 12
+    },
+    {
+      "songId": "kaishin-no-ichigeki",
+      "lines": 39,
+      "vocabulary": 43,
+      "grammar": 13
+    },
+    {
+      "songId": "adrena",
+      "lines": 48,
+      "vocabulary": 54,
+      "grammar": 16
+    },
+    {
+      "songId": "baby",
+      "lines": 49,
+      "vocabulary": 63,
+      "grammar": 19
+    },
+    {
+      "songId": "orion",
+      "lines": 72,
+      "vocabulary": 67,
+      "grammar": 16
+    }
+  ]
+}

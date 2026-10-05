@@ -32,7 +32,7 @@ const next=listeningPaths.filter(p=>p.data.prerequisites.includes(route.id));
  if(list){
    const key=`yoasobi-listen-v1:${list.dataset.pathId}`;
    let saved:string[]=[];let available=true;
-   try{saved=JSON.parse(localStorage.getItem(key)??'[]');if(!Array.isArray(saved))saved=[];localStorage.setItem(key,JSON.stringify(saved));}catch{available=false;}
+   try{const value:unknown=JSON.parse(localStorage.getItem(key)??'[]');saved=Array.isArray(value)?value.filter((item:unknown):item is string=>typeof item==='string'):[];localStorage.setItem(key,JSON.stringify(saved));}catch{available=false;}
    if(available){
      const checks=[...list.querySelectorAll<HTMLInputElement>('[data-progress-check]')];
      const controls=document.querySelector<HTMLElement>('[data-progress-controls]')!;controls.hidden=false;

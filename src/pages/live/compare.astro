@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';import {loadContent} fro
 const {concerts,songs,liveGuide}=await loadContent();const samples=concerts.filter(c=>c.data.eventStatus==='completed'&&c.data.setlistStatus==='complete').sort((a,b)=>b.data.date.localeCompare(a.data.date));
 const initial=liveGuide.comparisons.find(c=>c.id===liveGuide.defaultComparison)!;
 const left=samples.find(c=>c.id===initial.leftId)!.data,right=samples.find(c=>c.id===initial.rightId)!.data;const comparison=compareSetlists(left,right);
-const client=samples.map(c=>({id:c.id,title:c.data.title,date:c.data.date,country:c.data.country,eventType:c.data.eventType,setlist:c.data.setlist}));
+const client=samples.map(c=>({id:c.id,title:c.data.title,date:c.data.date,setlist:c.data.setlist}));
 ---
 <BaseLayout title="比較兩場歌單：選曲、順序與安可" description="把不同年代、巡演、音樂祭與海外場次放在一起，查看共同曲目、單場曲目與曲序變化。">
 <div class="page-head"><a class="eyebrow" href={path('live/stats/')}>← LIVE 樣本統計</a><h1>兩場之間，哪些歌留下了？</h1><p class="lead">從選曲、開場與安可認識演出的結構；不同場次的資料各保留來源。</p></div>
@@ -17,9 +17,10 @@ const client=samples.map(c=>({id:c.id,title:c.data.title,date:c.data.date,countr
 <p class="callout">這裡比較已收錄的歷史樣本，不推定下一場曲序。編曲、節選與演唱長度需另讀各場來源，不能只由曲名或位置判斷。</p>
 </article></BaseLayout>
 <script>
- import {path} from '../../lib/paths';import {withContext} from '../../lib/navigation';import {compareSetlists} from '../../lib/setlist-comparison';import type {LiveSample} from '../../lib/live-stats';
+ import {path} from '../../lib/paths';import {withContext} from '../../lib/navigation';import {compareSetlists} from '../../lib/setlist-comparison';import type {Concert} from '../../schemas/content';
+ type ComparisonConcert=Pick<Concert,'id'|'title'|'date'|'setlist'>;
  const root=document.querySelector<HTMLElement>('[data-setlist-compare]');if(root){
- const concerts:(LiveSample&{title:string})[]=JSON.parse(root.dataset.concerts!);const songs:{id:string;title:string}[]=JSON.parse(root.dataset.songs!);const form=root.querySelector<HTMLFormElement>('form')!;const left=form.elements.namedItem('left') as HTMLSelectElement,right=form.elements.namedItem('right') as HTMLSelectElement;
+ const concerts:ComparisonConcert[]=JSON.parse(root.dataset.concerts!);const songs:{id:string;title:string}[]=JSON.parse(root.dataset.songs!);const form=root.querySelector<HTMLFormElement>('form')!;const left=form.elements.namedItem('left') as HTMLSelectElement,right=form.elements.namedItem('right') as HTMLSelectElement;
  const restore=()=>{const params=new URLSearchParams(location.search);for(const [name,select] of [['left',left],['right',right]] as const){const id=params.get(name);if(concerts.some(c=>c.id===id))select.value=id!;}};
  const update=(save=true)=>{const a=concerts.find(c=>c.id===left.value)!,b=concerts.find(c=>c.id===right.value)!;const rows=compareSetlists(a,b);const url=new URL(location.href);url.searchParams.set('left',a.id);url.searchParams.set('right',b.id);if(save)history.replaceState(null,'',url);
  root.querySelector('[data-compare-summary]')!.textContent=`共同 ${rows.filter(r=>r.left.length&&r.right.length).length} 首；左側獨有 ${rows.filter(r=>!r.right.length).length} 首；右側獨有 ${rows.filter(r=>!r.left.length).length} 首。`;
