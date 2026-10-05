@@ -2,7 +2,7 @@
   "id": "yuusha",
   "songId": "yuusha",
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "notes": [
     {
       "area": "creation",
@@ -30,6 +30,30 @@
           "title": "YOASOBI 官方製作與發行公告",
           "url": "https://www.yoasobi-music.jp/news/580760",
           "scope": "MV 製作方式與視覺說明，不以點閱數推定銷量。"
+        }
+      ]
+    },
+    {
+      "area": "reception",
+      "title": "杉浦美恵：放回 THE BOOK 3 的曲序讀（2023-10-03）",
+      "text": "杉浦美恵的 THE BOOK 3 評論注意〈勇者〉經間奏接到〈祝福〉的敘事連結。這是作者對 EP 曲序的解讀；可從發行頁依序聽，與單獨播放〈勇者〉比較，不當成動畫觀眾的共同評價。",
+      "sources": [
+        {
+          "title": "杉浦美恵：THE BOOK 3 新譜評論（2023-10-03）",
+          "url": "https://rockinon.com/disc/detail/207567",
+          "scope": "具名 EP 評論，原刊 ROCKIN’ON JAPAN 2023 年 11 月號；不是大眾共識或單曲獲獎。"
+        }
+      ]
+    },
+    {
+      "area": "creation",
+      "title": "〈勇者〉的歌名是在完成時才定下來",
+      "text": "Ayase 在訪談中回憶，早期較有力的候選是「キャラバン」，其次是「ファンファーレ」。編曲過程讓他重新注意欣梅爾與故事核心，完成時才改名為「勇者」。歌名不是創作從頭到尾不變的出發點。",
+      "sources": [
+        {
+          "title": "ミューズクリップ第 1222 號：YOASOBI 訪談",
+          "url": "https://www.rcd.co.jp/article/7889/",
+          "scope": "Ayase 談〈勇者〉命名過程；來源以刊期標示，未推算發布日。"
         }
       ]
     }

@@ -24,7 +24,7 @@ test('武道館報告中的穿插曲不遺漏，兩日 WANDARA 的 acoustic 與�
 test('音樂祭與專場分開，未區分長度不產生完整率，發行後樣本排除舊年份',()=>{
   const solo=liveStats(concerts,'idol',{eventType:'solo'});
   const festival=liveStats(concerts,'idol',{eventType:'festival'});
-  assert.equal(solo.total,10);assert.equal(festival.total,2);
+  assert.equal(solo.total,10);assert.equal(festival.total,5);
   assert.equal(solo.rate,null);assert.equal(festival.rate,null);
   assert.equal(liveStats(concerts,'idol',{eventType:'solo',releasedOn:song('idol').releaseDate}).total,9);
   assert.equal(liveStats(concerts,'orion',{eventType:'solo',releasedOn:song('orion').releaseDate}).total,0);

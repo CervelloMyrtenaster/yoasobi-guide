@@ -1,0 +1,104 @@
+{
+  "id": "lollapalooza-2024-08-03",
+  "status": "published",
+  "updatedAt": "2026-10-05",
+  "title": "Lollapalooza 2024",
+  "date": "2024-08-03",
+  "country": "美國",
+  "city": "Chicago",
+  "venue": "Grant Park／BACARDI STAGE",
+  "eventType": "festival",
+  "eventStatus": "completed",
+  "setlistStatus": "complete",
+  "setlist": [
+    {
+      "position": 1,
+      "songId": "yoru-ni-kakeru",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 2,
+      "songId": "shukufuku",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 3,
+      "songId": "seventeen",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 4,
+      "songId": "mister",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 5,
+      "songId": "biri-biri",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 6,
+      "songId": "sukida",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 7,
+      "songId": "tabun",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 8,
+      "songId": "moshimo-inochi-ga-egaketara",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 9,
+      "songId": "yasashii-suisei",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 10,
+      "songId": "yuusha",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 11,
+      "songId": "idol",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 12,
+      "songId": "kaibutsu",
+      "section": "main",
+      "performance": "listed"
+    },
+    {
+      "position": 13,
+      "songId": "gunjo",
+      "section": "main",
+      "performance": "listed"
+    }
+  ],
+  "verifiedAt": "2026-10-05",
+  "notes": [
+    "完整是指來源刊載的曲序；未據此推定每曲演唱長度、未剪輯影像或未刊出的安可。"
+  ],
+  "sources": [
+    {
+      "title": "Billboard JAPAN：Lollapalooza 2024 演出報導",
+      "url": "https://www.billboard-japan.com/d_news/detail/140294/2",
+      "scope": "當地 2024-08-03 演出、BACARDI STAGE 與刊載的 13 首曲序。"
+    }
+  ]
+}

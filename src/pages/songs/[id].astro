@@ -43,7 +43,7 @@ const setlists = concerts.filter(c=>c.data.setlist.some(t=>t.songId===song.id)).
   {d.dateNotes && <p class="muted">日期說明：{d.dateNotes}</p>}
   <nav class="song-toc" aria-label="歌曲頁段落"><a href="#song-notes">閱讀背景 ↓</a>{research&&<a href="#song-research">作品研究 ↓</a>}{d.achievements.length>0 && <a href="#achievements">成績與獎項 ↓</a>}{d.kind!=='interlude' && <a href="#learning">日語學習 ↓</a>}{liveVideos.length>0 && <a href="#live-videos">現場影片 ↓</a>}<a href="#live-stats">LIVE 資料 ↓</a><a href="#song-journey">作品歷程 ↓</a><a href="#related">相關作品 ↓</a></nav>
   <div class="song-layout">
-    <aside>{primaryVideos.map(v => <YouTubeEmbed id={v.youtubeId} title={v.title} kind={v.kind} externalOnly={v.externalOnly} restrictionNote={v.restrictionNote}/>)}{!primaryVideos.length && <p class="callout">{liveVideos.length?'本曲的官方演唱片段在下方現場區，可由段落導覽直接前往。':'本曲尚未確認可嵌入的官方影片。可由下方來源的官方作品入口繼續聆聽。'}</p>}</aside>
+    <aside id="song-player">{primaryVideos.map(v => <YouTubeEmbed id={v.youtubeId} title={v.title} kind={v.kind} externalOnly={v.externalOnly} restrictionNote={v.restrictionNote}/>)}{!primaryVideos.length && <p class="callout">{liveVideos.length?'本曲的官方演唱片段在下方現場區，可由段落導覽直接前往。':'本曲尚未確認可嵌入的官方影片。可由下方來源的官方作品入口繼續聆聽。'}</p>}</aside>
     <article class="prose" id="song-notes">
       <Content/>
       {research&&<SongResearch research={research}/>}

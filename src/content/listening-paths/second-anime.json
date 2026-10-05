@@ -1,0 +1,50 @@
+{
+  "status": "published",
+  "updatedAt": "2026-10-05",
+  "sources": [
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "作品與原作入口；次序及練習由本站編輯安排。"
+    }
+  ],
+  "id": "second-anime",
+  "title": "喜歡動畫：從一部作品走向另一部",
+  "summary": "比較片頭、片尾與不同故事視角。",
+  "purpose": "beginner",
+  "order": 10,
+  "minutes": 35,
+  "prerequisites": [
+    "first-listen"
+  ],
+  "selectionNotes": [
+    "第一輪後依興趣選一條即可，不需全部完成；這是編輯策展，不是難度、人氣或常演排行。"
+  ],
+  "songs": [
+    {
+      "songId": "yasashii-suisei",
+      "reason": "先讀原作作者，與〈怪物〉比較同一動畫的另一個情緒。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "yuusha",
+      "reason": "辨認回望的敘事，再看創作者命名訪談。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "undead",
+      "reason": "辨認合作動畫與小說的關係，不只記住動畫名稱。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "monotone",
+      "reason": "從電視動畫換到電影，聽人際距離如何被表達。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "adrena",
+      "reason": "認識較新的片頭曲，再找同作品的〈BABY〉。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    }
+  ]
+}

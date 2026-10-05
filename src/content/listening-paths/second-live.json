@@ -1,0 +1,50 @@
+{
+  "status": "published",
+  "updatedAt": "2026-10-05",
+  "sources": [
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "作品與原作入口；次序及練習由本站編輯安排。"
+    }
+  ],
+  "id": "second-live",
+  "title": "喜歡現場：從個人走向合唱",
+  "summary": "先看影片，再用完整歌單理解一首在整場的位置。",
+  "purpose": "beginner",
+  "order": 12,
+  "minutes": 35,
+  "prerequisites": [
+    "first-listen"
+  ],
+  "selectionNotes": [
+    "第一輪後依興趣選一條即可，不需全部完成；這是編輯策展，不是難度、人氣或常演排行。"
+  ],
+  "songs": [
+    {
+      "songId": "gunjo",
+      "reason": "找主唱與合唱交接的時刻，不必追整首快速歌詞。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "tsubame",
+      "reason": "比較合唱角色與〈群青〉，先核對合作企劃。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "heart-beat",
+      "reason": "從 18 祭背景理解參與者的聲音。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "mister",
+      "reason": "在 2024 海外音樂祭歌單找它的位置，感受精簡時段的選擇。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "ano-yume-wo-nazotte",
+      "reason": "從 2026 音樂祭刊載歌單再回到歌曲及其他版本。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    }
+  ]
+}

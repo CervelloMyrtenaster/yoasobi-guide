@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-04",
+  "asOf": "2026-10-05",
   "status": "research_inventory_with_open_gaps",
   "scope": "YOASOBI組合；個人單獨作品不默認列為組合作品。",
   "verificationPolicy": "verified=true表示本筆描述及指定核對範圍有正文支持；過去的事前公告保持listed_past，不能計入實際演出。",
@@ -2065,6 +2065,33 @@
       "language": "ja",
       "kind": "secondary",
       "accessedAt": "2026-10-04"
+    },
+    "persona-lollapalooza-2024-08-03": {
+      "id": "persona-lollapalooza-2024-08-03",
+      "title": "Billboard JAPAN：Lollapalooza 2024 演出報導",
+      "url": "https://www.billboard-japan.com/d_news/detail/140294/2",
+      "publisher": "Billboard JAPAN",
+      "language": "ja",
+      "kind": "secondary",
+      "accessedAt": "2026-10-05"
+    },
+    "persona-central-echoes-baa-2026-04-04": {
+      "id": "persona-central-echoes-baa-2026-04-04",
+      "title": "THE FIRST TIMES：CENTRAL 2026／Echoes Baa 報導",
+      "url": "https://www.thefirsttimes.jp/report/0000789645/",
+      "publisher": "THE FIRST TIMES",
+      "language": "ja",
+      "kind": "secondary",
+      "accessedAt": "2026-10-05"
+    },
+    "persona-lollapalooza-2026-08-02": {
+      "id": "persona-lollapalooza-2026-08-02",
+      "title": "BARKS：Lollapalooza 2026 演出報導",
+      "url": "https://barks.jp/news/1081382/",
+      "publisher": "BARKS",
+      "language": "ja",
+      "kind": "secondary",
+      "accessedAt": "2026-10-05"
     }
   },
   "records": [
@@ -5288,18 +5315,26 @@
       "year": 2024,
       "location": null,
       "venue": "Chicago Grant Park",
-      "description": "官方演出清單所列場次。",
+      "description": "事後報導已核對演出，完整刊載 13 首曲序；可連到本站歌單與歌曲歷程。",
       "sources": [
-        "live-52605"
+        "live-52605",
+        "persona-lollapalooza-2024-08-03"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule",
-      "status": "listed_past",
+      "status": "performed",
       "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
       "parentEvent": "52605",
       "sourceLocation": "その他",
-      "marketLabel": null
+      "marketLabel": null,
+      "sourceScopes": {
+        "persona-lollapalooza-2024-08-03": "當地 2024-08-03 演出、BACARDI STAGE 與刊載的 13 首曲序。"
+      },
+      "setlistIds": [
+        "lollapalooza-2024-08-03"
+      ],
+      "reviewedAt": "2026-10-05"
     },
     {
       "id": "history-0257",
@@ -7601,15 +7636,23 @@
       "year": 2026,
       "location": "横浜",
       "venue": "横浜赤レンガ倉庫 赤レンガパーク特設会場",
-      "description": "事後演出報告核對日期及會場；不使用周邊販售日期推定出演。",
+      "description": "事後報導已核對演出，完整刊載 10 首曲序；可連到本站歌單與歌曲歷程。",
       "sources": [
-        "central-2026-report"
+        "central-2026-report",
+        "persona-central-echoes-baa-2026-04-04"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "activity",
       "status": "performed",
-      "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+      "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
+      "sourceScopes": {
+        "persona-central-echoes-baa-2026-04-04": "YOASOBI 段落標示 2026-04-04、横浜會場及 10 首曲序；不使用其他藝人的演出日。"
+      },
+      "setlistIds": [
+        "central-echoes-baa-2026-04-04"
+      ],
+      "reviewedAt": "2026-10-05"
     },
     {
       "id": "history-0132",
@@ -7807,11 +7850,12 @@
       "year": 2026,
       "location": "Chicago, USA",
       "venue": "Grant Park",
-      "description": "北美巡演行程中的 Lollapalooza 音樂祭出演；巡演群組保留關聯，不計作單獨演唱會。",
+      "description": "事後報導已核對演出，完整刊載 12 首曲序；可連到本站歌單與歌曲歷程。",
       "sources": [
         "live-55188",
         "livenation-2026",
-        "news-586855"
+        "news-586855",
+        "persona-lollapalooza-2026-08-02"
       ],
       "verified": true,
       "datePrecision": "day",
@@ -7822,7 +7866,13 @@
       "sourceLocation": "その他",
       "marketLabel": null,
       "isFestival": true,
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "sourceScopes": {
+        "persona-lollapalooza-2026-08-02": "當地 2026-08-02、Grant Park／BUD LIGHT STAGE 與刊載的 12 首曲序。"
+      },
+      "setlistIds": [
+        "lollapalooza-2026-08-02"
+      ]
     },
     {
       "id": "history-0126",

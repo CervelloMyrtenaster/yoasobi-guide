@@ -1,0 +1,70 @@
+{
+  "status": "published",
+  "updatedAt": "2026-10-05",
+  "sources": [
+    {
+      "title": "THE FIRST TIMES：CENTRAL 2026／Echoes Baa 報導",
+      "url": "https://www.thefirsttimes.jp/report/0000789645/",
+      "scope": "YOASOBI 段落標示 2026-04-04、横浜會場及 10 首曲序；不使用其他藝人的演出日。"
+    },
+    {
+      "title": "BARKS：Lollapalooza 2026 演出報導",
+      "url": "https://barks.jp/news/1081382/",
+      "scope": "當地 2026-08-02、Grant Park／BUD LIGHT STAGE 與刊載的 12 首曲序。"
+    }
+  ],
+  "id": "concert-recent-festivals",
+  "title": "已有五首基礎，再補近期音樂祭",
+  "summary": "補 2026 年横浜與 Chicago 刊載歌單中的新作和轉折曲。適合已完成五首路線的人；不預測你的下一場。",
+  "purpose": "concert",
+  "order": 4,
+  "minutes": 40,
+  "prerequisites": [
+    "concert-first-five"
+  ],
+  "evidenceConcertIds": [
+    "central-echoes-baa-2026-04-04",
+    "lollapalooza-2026-08-02"
+  ],
+  "selectionNotes": [
+    "以兩份 2026 完整刊載歌單選曲，不與專場分母混算。",
+    "〈UNDEAD〉、〈PLAYERS〉、〈アドレナ〉與〈勇者〉兩場皆列；〈たぶん〉、〈オリオン〉及〈あの夢をなぞって〉見於 Chicago。兩場不能代表全年。"
+  ],
+  "songs": [
+    {
+      "songId": "undead",
+      "reason": "兩份 2026 音樂祭刊載歌單都有本曲。",
+      "goal": "先讀小說與動畫的合作關係，把快速段落拆小；第一輪只求認出副歌。"
+    },
+    {
+      "songId": "players",
+      "reason": "兩份 2026 音樂祭刊載歌單都有本曲。",
+      "goal": "從遊戲回憶投稿的企劃開始聽，再與小說改編曲比較；現場先跟上旋律。"
+    },
+    {
+      "songId": "adrena",
+      "reason": "兩份 2026 音樂祭刊載歌單都有本曲。",
+      "goal": "把片頭曲與同動畫的〈BABY〉片尾曲分開；記住這首的前奏與副歌。"
+    },
+    {
+      "songId": "yuusha",
+      "reason": "兩份 2026 音樂祭刊載歌單都有本曲。",
+      "goal": "先想題名的「勇者」指向誰，再看 Ayase 命名訪談；辨認副歌時也記住故事視角。"
+    },
+    {
+      "songId": "tabun",
+      "reason": "2026 Chicago 刊載歌單有本曲，補足另一種現場步調。",
+      "goal": "先熟悉較慢的旋律與換氣，別只準備高速段。"
+    },
+    {
+      "songId": "orion",
+      "reason": "2026 Chicago 刊載歌單有本曲，補足另一種現場步調。",
+      "goal": "看遊戲合作背景，先認出新曲；一場列曲不等於常演。"
+    },
+    {
+      "songId": "ano-yume-wo-nazotte",
+      "reason": "2026 Chicago 刊載歌單有本曲，補足另一種現場步調。",
+      "goal": "比較原曲與 Ballade 版，回到本場報導分辨版本證據。"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 ---
 {
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "titleJa": "ミスター",
   "titleRomaji": "Misutā",
   "titleZh": {
@@ -82,7 +82,36 @@
     "umi-no-manimani",
     "seventeen"
   ],
-  "achievements": []
+  "achievements": [
+    {
+      "type": "chart",
+      "date": "2026-09-08",
+      "dateBasis": "來源清單更新日；不是首次突破日",
+      "title": "日本串流累計突破 1 億次",
+      "description": "Billboard JAPAN 的累計清單收錄本曲達此門檻。這筆資料記錄清單快照，不表示當日才達成。",
+      "institution": "Billboard JAPAN",
+      "metric": "日本串流累計 1 億次門檻",
+      "source": {
+        "title": "Billboard JAPAN：串流累計突破 1 億次歌曲清單",
+        "url": "https://www.billboard-japan.com/special/detail/5087/",
+        "scope": "2026-09-08 清單更新日快照，非首次突破日期；不等同 RIAJ 認證。"
+      }
+    },
+    {
+      "type": "certification",
+      "date": "2023-08",
+      "dateBasis": "RIAJ 認證月份；不補月份內的日",
+      "title": "RIAJ 串流 Gold／金 認證",
+      "description": "這是當期官方認證紀錄；不表示目前最高等級，也不與 Billboard 累計清單合併計算。",
+      "institution": "日本レコード協会（RIAJ）",
+      "metric": "串流 Gold／金",
+      "source": {
+        "title": "RIAJ：2023 年 8 月度串流認證明細",
+        "url": "https://prtimes.jp/a/?f=d10908-512-96ad7aed29e42882228247e96e0ef401.pdf",
+        "scope": "官方公告附件第 2 頁 Gold 清單中的〈ミスター〉；認證月份為 2023-08。"
+      }
+    }
+  ]
 }
 ---
 

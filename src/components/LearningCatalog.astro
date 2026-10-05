@@ -5,7 +5,7 @@ import { path } from '../lib/paths';
 const { songs } = await loadContent();
 const covered=songs.filter(song=>songLyrics[song.id]);
 ---
-<section aria-labelledby="learning-catalog-title">
+<section id="learning-catalog" aria-labelledby="learning-catalog-title">
   <h2 id="learning-catalog-title">可在本站逐行練習的作品</h2>
   <p>{covered.length} 首可在本站逐行閱讀，搭配振假名、全假名、羅馬拼音與中文翻譯。點選歌名進入學習區；其他作品可由外部學習連結繼續探索。</p>
   <ul class="learning-catalog">{covered.map(song=><li><a href={path(`songs/${song.id}/#learning`)}><span lang="ja">{song.data.titleJa}</span><small>{song.data.titleZh.text} · {songLyrics[song.id]!.lines.length} 句</small></a></li>)}</ul>
