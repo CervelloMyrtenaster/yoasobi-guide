@@ -2,7 +2,7 @@
   "id": "taisho-roman",
   "songId": "taisho-roman",
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "notes": [
     {
       "area": "creation",
@@ -89,7 +89,7 @@
   "gaps": [
     {
       "area": "charts",
-      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+      "note": "已收錄 2026-09-08 串流累計清單快照；首次突破日、逐週排名與其他榜單仍待逐項核對。"
     },
     {
       "area": "awards",
@@ -97,7 +97,7 @@
     },
     {
       "area": "certification",
-      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+      "note": "已有一筆官方歷史串流認證；後續升級與下載認證仍待逐項核對，不將當期等級當成最新等級。"
     }
   ],
   "sources": [

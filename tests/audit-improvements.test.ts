@@ -14,9 +14,9 @@ test('video date extraction preserves explicit single days and never selects par
  for(const title of ['2025.2.22-23','2025.02.22–23','2025','2025.2','2025.02.30','no date'])assert.equal(videoDate(title),undefined,title);
 });
 test('overseas/series filters keep honest denominators and zero appearances',()=>{
- const abroad=includedSamples(concerts,{region:'overseas'});assert.equal(abroad.length,4);assert.deepEqual(new Set(abroad.map(c=>c.country)),new Set(['韓國','新加坡','英國','美國']));
+ const abroad=includedSamples(concerts,{region:'overseas'});assert.equal(abroad.length,6);assert.deepEqual(new Set(abroad.map(c=>c.country)),new Set(['韓國','新加坡','英國','美國']));
  assert.equal(includedSamples(concerts,{tourId:'pop-out-2024'}).length,1);assert.equal(includedSamples(concerts,{country:'英國',eventType:'festival'}).length,0);
- const zero=liveStats(abroad,'orion');assert.equal(zero.appearances,0);assert.equal(zero.total,4);assert.equal(liveStats(abroad,'orion',{releasedOn:songs.get('orion')!.releaseDate}).total,0);
+ const zero=liveStats(abroad,'orion');assert.equal(zero.appearances,1);assert.equal(zero.total,6);assert.equal(liveStats(abroad,'orion',{releasedOn:songs.get('orion')!.releaseDate}).total,1);
 });
 test('two-day comparison retains first-day cover and reversed acoustic sequence',()=>{
  const guide=json('src/content/live-guide.json');const initial=guide.comparisons.find((c:{id:string})=>c.id===guide.defaultComparison)!;

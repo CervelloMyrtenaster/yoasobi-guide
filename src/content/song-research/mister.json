@@ -2,7 +2,7 @@
   "id": "mister",
   "songId": "mister",
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "notes": [
     {
       "area": "creation",
@@ -42,6 +42,18 @@
           "title": "dotMP：ミスター製作紀錄",
           "url": "https://dotmp.jp/work/87766",
           "scope": "製作職務與署名；頁面日期不當作 MV 公開日。"
+        }
+      ]
+    },
+    {
+      "area": "reception",
+      "title": "杉浦美恵：放回 THE BOOK 3 的曲序讀（2023-10-03）",
+      "text": "杉浦美恵在 THE BOOK 3 評論中把直木賞作家合作曲群放進整張 EP 的短篇集結構。〈ミスター〉是其中一首，這段評論不能拆成它的單獨評分；可沿 EP 曲序閱讀，而不只停在單曲頁。",
+      "sources": [
+        {
+          "title": "杉浦美恵：THE BOOK 3 新譜評論（2023-10-03）",
+          "url": "https://rockinon.com/disc/detail/207567",
+          "scope": "具名 EP 評論，原刊 ROCKIN’ON JAPAN 2023 年 11 月號；不是大眾共識或單曲獲獎。"
         }
       ]
     }
@@ -91,7 +103,7 @@
   "gaps": [
     {
       "area": "charts",
-      "note": "尚未收入可逐曲核對的榜單紀錄；不代表未上榜。"
+      "note": "已收錄 2026-09-08 串流累計清單快照；首次突破日、逐週排名與其他榜單仍待逐項核對。"
     },
     {
       "area": "awards",
@@ -99,7 +111,7 @@
     },
     {
       "area": "certification",
-      "note": "尚未逐曲確認認證種類與月份；不能從播放數自行換算認證。"
+      "note": "已有一筆官方歷史串流認證；後續升級與下載認證仍待逐項核對，不將當期等級當成最新等級。"
     }
   ],
   "sources": [

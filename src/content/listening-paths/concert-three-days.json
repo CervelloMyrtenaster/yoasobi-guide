@@ -2,9 +2,9 @@
   "id": "concert-three-days",
   "status": "published",
   "purpose": "concert",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "title": "分 3 天：從代表曲到近期作品",
-  "summary": "前兩條路線之外再新增九首。每天約 30–60 分鐘：補較少遇到的作品、比較場次，再認識 2026 新作；新作並非已有演出證據。",
+  "summary": "前兩條路線之外再新增九首。每天約 30–60 分鐘：補敘事作品、比較場次，再認識 2026 新作。",
   "days": 3,
   "order": 3,
   "prerequisites": [
@@ -12,12 +12,14 @@
   ],
   "selectionNotes": [
     "第 1 天補專場氣氛與較少見的敘事，第 2 天看海外與不同規模的選曲，第 3 天認識 2026 新作。",
-    "2026 三首僅由發行與合作資料選入。現有完整歌單樣本最新至 2025-11-30，不據此聲稱近期巡演一定演出。"
+    "〈アドレナ〉與〈オリオン〉已有 2026 音樂祭刊載證據；〈BABY〉仍只依作品背景選入。少量樣本不等於近期必演清單。"
   ],
   "evidenceConcertIds": [
     "pop-out-haneda-2024-01-26",
     "chogenjitsu-singapore-2025-02-23",
-    "wandara-okinawa-2025-11-30"
+    "wandara-okinawa-2025-11-30",
+    "central-echoes-baa-2026-04-04",
+    "lollapalooza-2026-08-02"
   ],
   "songs": [
     {
@@ -59,7 +61,7 @@
     {
       "songId": "adrena",
       "reason": "改編自津山冬的《Magical》，作為動畫《花ざかりの君たちへ》片頭曲。",
-      "goal": "認識新作、原作與 MV；本路線不主張已有常演紀錄。",
+      "goal": "兩份 2026 音樂祭歌單都有本曲；先熟悉片頭曲，本路線不主張下一場必演。",
       "day": 3
     },
     {
@@ -71,7 +73,7 @@
     {
       "songId": "orion",
       "reason": "為《Overwatch》合作製作，以 E. C. Myers 的《The Fall of a Sparrow》為原作，由 Blizzard 監修。",
-      "goal": "認識新作、原作與 MV；本路線不主張已有常演紀錄。",
+      "goal": "2026 Chicago 歌單已列本曲；理解遊戲合作與副歌，不主張單一樣本已能代表常演。",
       "day": 3
     }
   ],
@@ -255,6 +257,16 @@
       "title": "YOASOBI「オリオン / Orion」 from TBS系 『CDTVライブ！ライブ！』 @ TOYOTA ARENA TOKYO",
       "url": "https://www.youtube.com/watch?v=67dqkyZXwd4",
       "scope": "2026-10-04 核對官方發布者與影片標題；未標日期不自行補日期，不據片段推定完整歌單。"
+    },
+    {
+      "title": "THE FIRST TIMES：CENTRAL 2026／Echoes Baa 報導",
+      "url": "https://www.thefirsttimes.jp/report/0000789645/",
+      "scope": "YOASOBI 段落標示 2026-04-04、横浜會場及 10 首曲序；不使用其他藝人的演出日。"
+    },
+    {
+      "title": "BARKS：Lollapalooza 2026 演出報導",
+      "url": "https://barks.jp/news/1081382/",
+      "scope": "當地 2026-08-02、Grant Park／BUD LIGHT STAGE 與刊載的 12 首曲序。"
     }
   ]
 }

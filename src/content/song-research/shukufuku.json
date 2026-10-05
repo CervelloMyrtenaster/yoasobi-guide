@@ -2,7 +2,7 @@
   "id": "shukufuku",
   "songId": "shukufuku",
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "notes": [
     {
       "area": "creation",
@@ -30,6 +30,18 @@
           "title": "鋼彈官方：ゆりかごの星",
           "url": "https://gundam-official.com/witch-from-mercury/music/novel/",
           "scope": "原作署名、敘事者與故事前提；比較方法是本站閱讀建議。"
+        }
+      ]
+    },
+    {
+      "area": "reception",
+      "title": "杉浦美恵：放回 THE BOOK 3 的曲序讀（2023-10-03）",
+      "text": "杉浦美恵以〈勇者〉到〈祝福〉的曲序讀出不同主人公之間的連結。評論對象是 THE BOOK 3 整張 EP；這不是單曲評分，也不是動畫觀眾的共識。",
+      "sources": [
+        {
+          "title": "杉浦美恵：THE BOOK 3 新譜評論（2023-10-03）",
+          "url": "https://rockinon.com/disc/detail/207567",
+          "scope": "具名 EP 評論，原刊 ROCKIN’ON JAPAN 2023 年 11 月號；不是大眾共識或單曲獲獎。"
         }
       ]
     }

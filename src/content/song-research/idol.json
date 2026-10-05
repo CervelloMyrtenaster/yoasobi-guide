@@ -2,7 +2,7 @@
   "id": "idol",
   "songId": "idol",
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "notes": [
     {
       "area": "creation",
@@ -42,6 +42,30 @@
           "title": "YOASOBI 官方製作與發行公告",
           "url": "https://www.yoasobi-music.jp/news/551361",
           "scope": "MV 製作公司；末句為本站閱讀方法。"
+        }
+      ]
+    },
+    {
+      "area": "reception",
+      "title": "杉浦美恵：放回 THE BOOK 3 的曲序讀（2023-10-03）",
+      "text": "杉浦美恵的 THE BOOK 3 評論將〈アイドル〉前的間奏視為轉換。由這個讀法，可以比較單曲播放與 EP 連續播放的不同；這是作者對整張 EP 的看法，不是單曲獲獎紀錄。",
+      "sources": [
+        {
+          "title": "杉浦美恵：THE BOOK 3 新譜評論（2023-10-03）",
+          "url": "https://rockinon.com/disc/detail/207567",
+          "scope": "具名 EP 評論，原刊 ROCKIN’ON JAPAN 2023 年 11 月號；不是大眾共識或單曲獲獎。"
+        }
+      ]
+    },
+    {
+      "area": "reception",
+      "title": "小町碧音：偶像與 VOCALOID 的相遇（2023-05-03）",
+      "text": "Real Sound 的小町碧音從 VOCALOID 文化、數位聲響與 ikura 的角色化聲線分析〈アイドル〉的傳播。這是發行初期的評論者解讀；不等同 Ayase 的創作動機，也不是用後來的榜單證明當時所有聽眾都如此理解。",
+      "sources": [
+        {
+          "title": "小町碧音：〈アイドル〉與網路文化（2023-05-03）",
+          "url": "https://realsound.jp/2023/05/post-1317976.html",
+          "scope": "具名音樂評論；區分作者解讀與創作者自述。"
         }
       ]
     }

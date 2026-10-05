@@ -21,6 +21,20 @@
       "leftId": "head-in-the-clouds-la-2023-08-06",
       "rightId": "denko-sekka-saitama-2023-06-04",
       "description": "比較海外音樂祭與電光石火的刊載歌單。保留各自場景與來源，不從曲數推定演唱長度。"
+    },
+    {
+      "id": "lollapalooza-two-years",
+      "title": "Lollapalooza：2024 → 2026",
+      "leftId": "lollapalooza-2024-08-03",
+      "rightId": "lollapalooza-2026-08-02",
+      "description": "同一音樂祭、不同年份與舞台；比較新作加入與開場變化，不把差異歸因於單一因素。"
+    },
+    {
+      "id": "festivals-2026",
+      "title": "2026：横浜與 Chicago",
+      "leftId": "central-echoes-baa-2026-04-04",
+      "rightId": "lollapalooza-2026-08-02",
+      "description": "同年兩場音樂祭的刊載曲序；不要將共同曲目解讀成下一場保證。"
     }
   ]
 }

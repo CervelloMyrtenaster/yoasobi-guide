@@ -2,7 +2,7 @@
   "id": "biri-biri",
   "songId": "biri-biri",
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "notes": [
     {
       "area": "creation",
@@ -18,6 +18,18 @@
           "title": "YOASOBI 官方 SONGS / NOVELS",
           "url": "https://www.yoasobi-music.jp/songs",
           "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    },
+    {
+      "area": "creation",
+      "title": "不是每首合作曲都要傳達人生道理",
+      "text": "2024-01-11 刊出的中文專訪中，Ayase 以對寶可夢的熱愛說明〈Biri-Biri〉的創作。讀這首時，可以先看角色、遊戲與玩心，不必預設每首歌都有同一種人生訊息。後一句是本站閱讀建議。",
+      "sources": [
+        {
+          "title": "聯合文學雜誌專訪（琅琅悅讀，2024-01-11）",
+          "url": "https://reading.udn.com/read/story/7009/7695591",
+          "scope": "Ayase 對 Biri-Biri 的說明與專訪中的文學閱讀；訪談、作者評論分開辨識。"
         }
       ]
     }

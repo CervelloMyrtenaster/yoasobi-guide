@@ -1,7 +1,7 @@
 ---
 {
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "titleJa": "ツバメ",
   "titleRomaji": "Tsubame",
   "titleZh": {
@@ -101,7 +101,22 @@
     "mou-sukoshi-dake",
     "gunjo"
   ],
-  "achievements": []
+  "achievements": [
+    {
+      "type": "chart",
+      "date": "2026-09-08",
+      "dateBasis": "來源清單更新日；不是首次突破日",
+      "title": "日本串流累計突破 1 億次",
+      "description": "Billboard JAPAN 的累計清單收錄本曲達此門檻。這筆資料記錄清單快照，不表示當日才達成。",
+      "institution": "Billboard JAPAN",
+      "metric": "日本串流累計 1 億次門檻",
+      "source": {
+        "title": "Billboard JAPAN：串流累計突破 1 億次歌曲清單",
+        "url": "https://www.billboard-japan.com/special/detail/5087/",
+        "scope": "2026-09-08 清單更新日快照，非首次突破日期；不等同 RIAJ 認證。"
+      }
+    }
+  ]
 }
 ---
 

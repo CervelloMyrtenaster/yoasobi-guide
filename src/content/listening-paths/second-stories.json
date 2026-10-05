@@ -1,0 +1,45 @@
+{
+  "status": "published",
+  "updatedAt": "2026-10-05",
+  "sources": [
+    {
+      "title": "YOASOBI 官方 SONGS / NOVELS",
+      "url": "https://www.yoasobi-music.jp/songs",
+      "scope": "作品與原作入口；次序及練習由本站編輯安排。"
+    }
+  ],
+  "id": "second-stories",
+  "title": "喜歡故事：四種「第一次」",
+  "summary": "按原作作者與敘事視角讀《はじめての》。",
+  "purpose": "beginner",
+  "order": 11,
+  "minutes": 35,
+  "prerequisites": [
+    "first-listen"
+  ],
+  "selectionNotes": [
+    "第一輪後依興趣選一條即可，不需全部完成；這是編輯策展，不是難度、人氣或常演排行。"
+  ],
+  "songs": [
+    {
+      "songId": "mister",
+      "reason": "先把機器人的書信視角與一般情歌分開。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "sukida",
+      "reason": "看森繪都的故事如何從日常情緒出發。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "umi-no-manimani",
+      "reason": "讀辻村深月的原作入口，再聽離家與夜海。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    },
+    {
+      "songId": "seventeen",
+      "reason": "對照宮部美幸的原作，說出與其他三首的差異。",
+      "goal": "聽完後用一句話說出這首與前一首的差別，再選一項來源繼續讀。"
+    }
+  ]
+}
