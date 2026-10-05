@@ -44,13 +44,13 @@ const memberships = new Map(entries.map(e=>[e.id,tours.filter(t=>t.id===e.id||t.
 </section>)}
 </div>
 <script>
+  import { normalizeSearch as normalize } from '../lib/search';
   document.querySelectorAll<HTMLElement>('[data-archive]').forEach(archive => {
     const form = archive.querySelector<HTMLFormElement>('form')!;
     const query = form.querySelector<HTMLInputElement>('[name=q]')!;
     const facets = ['type','year','status','place','tour'].flatMap(name=>{const input=form.querySelector<HTMLSelectElement>(`[name=${name}]`);return input?[input]:[];});
     const cards = [...archive.querySelectorAll<HTMLElement>('[data-archive-item]')];
     const sections = [...archive.querySelectorAll<HTMLElement>('[data-year-section]')];
-    const normalize = (value: string) => value.normalize('NFKC').toLowerCase();
     const searchable = new Map(cards.map(card => [card, normalize(card.dataset.search ?? '')]));
     const restore = () => {
       const params = new URLSearchParams(location.search);

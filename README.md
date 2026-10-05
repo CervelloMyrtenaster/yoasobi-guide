@@ -31,7 +31,7 @@ pnpm preview
 
 檔名作為穩定 ASCII ID（JSON 的 id 必須和檔名相同）。未完成內容設 `status: draft`。正式建置不顯示草稿。
 
-歌曲不保存歌詞、逐行拼音、詞彙或語法。歌名 Romaji 保留。選填 `japaneseLearning: { url, verifiedAt }`，網址必須是已查核的 marumaru `/japanese-song/play-...` 歌曲頁。缺少對應連結時顯示一般查找入口，不能用一般入口假裝是歌曲連結。
+逐行學習檔存於 `lyrics/*.txt`，由 `src/lib/lyrics.ts` 在建置時解析、驗證，再由共用 `LyricsLearning.astro` 呈現；歌詞與讀音不放進歌曲 frontmatter，也不在 UI 硬編碼。選填 `japaneseLearning: { url, verifiedAt }` 保留外部學習入口，網址必須是已查核的 marumaru `/japanese-song/play-...` 歌曲頁。缺少對應連結時顯示一般查找入口，不能用一般入口假裝是歌曲連結。
 
 影片可設 `externalOnly: true` 與 `restrictionNote`，用於已確認無法嵌入的官方影片，直接提供 YouTube 外連；其他影片維持點擊才載入播放器。
 

@@ -1,4 +1,6 @@
 ---
+import type { Song } from '../schemas/content';
+interface Props { link?: Song['japaneseLearning'] }
 const { link } = Astro.props;
 ---
 <section class="callout"><span class="eyebrow">LEARN WITH MUSIC</span><h2>唱歌學日語</h2>{link ? <><p>想透過這首歌學習日語？前往 marumaru 查看歌曲學習內容。</p><a class="button" href={link.url} target="_blank" rel="noopener noreferrer">前往這首歌的 marumaru 頁面 ↗<span class="sr-only">（另開分頁）</span></a><p class="muted">外部網站 · 連結確認日期：{link.verifiedAt}</p></> : <><p>這首歌的學習連結尚待確認。</p><a href="https://www.marumaru-x.com/japanese-song" target="_blank" rel="noopener noreferrer">前往 marumaru 查找歌曲 ↗<span class="sr-only">（另開分頁）</span></a></>}</section>

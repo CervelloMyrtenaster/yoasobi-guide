@@ -4,6 +4,6 @@ import { path } from '../lib/paths';
 interface Props { song: CollectionEntry<'songs'>; index?: number }
 const { song, index = 1 } = Astro.props;
 ---
-<article class="song-card" data-song-card data-search={[song.data.titleJa,song.data.titleRomaji,song.data.titleZh.text,...song.data.aliases].join(' ').toLowerCase()}>
+<article class="song-card">
   <a href={path(`songs/${song.id}/`)}><div class="cover" aria-hidden="true"><span>{String(index).padStart(2,'0')}</span><b>物語<br/>から<br/>音楽へ。</b><small>YOASOBI / SONG NOTES</small></div><div class="card-body"><span class="eyebrow">{song.data.releaseDate.slice(0,4)} · {song.data.tags.join(' / ')}</span><h3 lang="ja">{song.data.titleJa}</h3><p class="romaji">{song.data.titleRomaji}</p><p>{song.data.titleZh.text}</p><p class="muted">{song.data.summary}</p><span class="text-link">閱讀歌曲介紹 ↗</span></div></a>
 </article>

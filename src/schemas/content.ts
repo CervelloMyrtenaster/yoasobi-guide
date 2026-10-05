@@ -21,6 +21,7 @@ export const songSchema = z.object({
     verifiedAt: date,
   }).optional(),
 }).strict();
+export type Song = z.infer<typeof songSchema>;
 export const articleSchema = z.object({ ...common, title: z.string(), summary: z.string(), order: z.number().default(0) });
 export const releaseSchema = z.object({ ...common, id, title: z.string(), kind: z.enum(['album', 'ep', 'single']), date: isoDate, summary: z.string().optional(), listeningNotes: z.array(z.string()).default([]), tracklistComplete: z.boolean().default(false), tracks: z.array(z.object({ songId: id, position: z.number().int().positive() })) });
 export const milestoneSchema = z.object({ ...common, id, date: isoDate, title: z.string(), summary: z.string(), kind: z.enum(['formation', 'release', 'live']), songIds: z.array(id).default([]) });

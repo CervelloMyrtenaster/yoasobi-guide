@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';import {loadContent} from '../lib/content';import {path} from '../lib/paths';import {withContext} from '../lib/navigation';
 const {songs}=await loadContent();const records=songs.flatMap(s=>s.data.achievements.map((a,index)=>({...a,song:s,id:`record-${s.id}-${index}`}))).sort((a,b)=>a.date.localeCompare(b.date));
-const labels={chart:'榜單／成績',award:'獲獎',nomination:'提名',certification:'認證'};
+import {achievementLabels as labels} from '../lib/songs';
 const institutions=[...new Set(records.flatMap(r=>r.institution?[r.institution]:[]))].sort();
 ---
 <BaseLayout title="成績、認證與獎項歷程" description="逐曲查閱有來源的 Billboard、ORICON、RIAJ、JASRAC 與 MTV 紀錄，保留榜單付日、認證年月與公告日期的差異。">
@@ -11,11 +11,13 @@ const institutions=[...new Set(records.flatMap(r=>r.institution?[r.institution]:
 <ol class="evidence-list">{records.map(r=><li id={r.id} data-record-item data-type={r.type} data-institution={r.institution} data-year={r.date.slice(0,4)} data-search={[r.song.data.titleJa,r.title,r.institution,r.metric,r.description].filter(Boolean).join(' ')}><span class="eyebrow">{labels[r.type]}</span><h2><a href={withContext(path(`songs/${r.song.id}/`)+'#achievements',path('records/')+`#${r.id}`)} lang={r.song.data.language==='ja'?'ja':'en'}>{r.song.data.titleJa}</a> · {r.title}</h2><p class="muted">{r.dateBasis}：<time datetime={r.date}>{r.date}</time>{r.institution&&` · ${r.institution}`}</p><p>{r.description}</p><details><summary>來源與統計範圍</summary><p><a href={r.source.url} target="_blank" rel="noopener noreferrer">{r.source.title} ↗<span class="sr-only">（另開分頁）</span></a></p><p>{r.source.scope}</p></details></li>)}</ol>
 <p class="empty" hidden data-record-empty>沒有符合的紀錄，試試其他名稱或清除篩選。</p><p><a href={path('history/')}>放回完整歷史時間軸 →</a></p></article></BaseLayout>
 <script>
+ import {normalizeSearch} from '../lib/search';
  import {withContext} from '../lib/navigation';
  const root=document.querySelector<HTMLElement>('[data-records]');if(root){const form=root.querySelector<HTMLFormElement>('form')!;const items=[...root.querySelectorAll<HTMLElement>('[data-record-item]')];const fields=['q','type','year','institution'];const field=(n:string)=>form.elements.namedItem(n) as HTMLInputElement|HTMLSelectElement;
  const restore=()=>{const p=new URLSearchParams(location.search);fields.forEach(n=>field(n).value=p.get(n)??'');};
- const filter=(save=true)=>{const needle=field('q').value.normalize('NFKC').toLowerCase();const url=new URL(location.href);if(save){fields.forEach(n=>field(n).value?url.searchParams.set(n,field(n).value):url.searchParams.delete(n));history.replaceState(null,'',url);}
- for(const item of items){item.hidden=!item.dataset.search!.normalize('NFKC').toLowerCase().includes(needle)||(!!field('type').value&&item.dataset.type!==field('type').value)||(!!field('year').value&&item.dataset.year!==field('year').value);item.hidden ||= !!field('institution').value&&item.dataset.institution!==field('institution').value;const link=item.querySelector<HTMLAnchorElement>('h2 a')!;const destination=new URL(link.href);link.href=withContext(destination.pathname+'#achievements',url.pathname+url.search+`#${item.id}`);}
+ const searchable=new Map(items.map(item=>[item,normalizeSearch(item.dataset.search!)]));
+ const filter=(save=true)=>{const needle=normalizeSearch(field('q').value);const url=new URL(location.href);if(save){fields.forEach(n=>field(n).value?url.searchParams.set(n,field(n).value):url.searchParams.delete(n));history.replaceState(null,'',url);}
+ for(const item of items){item.hidden=!searchable.get(item)!.includes(needle)||(!!field('type').value&&item.dataset.type!==field('type').value)||(!!field('year').value&&item.dataset.year!==field('year').value);item.hidden ||= !!field('institution').value&&item.dataset.institution!==field('institution').value;const link=item.querySelector<HTMLAnchorElement>('h2 a')!;const destination=new URL(link.href);link.href=withContext(destination.pathname+'#achievements',url.pathname+url.search+`#${item.id}`);}
  const count=items.filter(i=>!i.hidden).length;root.querySelector('[data-record-count]')!.textContent=`找到 ${count} 項（共 ${items.length} 項）`;root.querySelector<HTMLElement>('[data-record-empty]')!.hidden=count>0;};
  form.hidden=false;form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',()=>filter());form.addEventListener('change',()=>filter());form.querySelector('[data-clear]')!.addEventListener('click',()=>{form.reset();filter();});window.addEventListener('popstate',()=>{restore();filter(false);});restore();filter(false);}
 </script>

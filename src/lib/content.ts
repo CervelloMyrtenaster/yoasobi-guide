@@ -1,17 +1,19 @@
 import { getCollection } from 'astro:content';
 import liveGuideData from '../content/live-guide.json';
 import {liveGuideSchema} from '../schemas/content';
+import {assertAcyclicReferences, assertBidirectionalReferences} from './references';
 export async function loadContent() {
   const [songs, members, guides, releases, concerts, milestones, listeningPaths, songResearch] = await Promise.all([
     getCollection('songs', e => e.data.status === 'published'), getCollection('members', e => e.data.status === 'published'), getCollection('guides', e => e.data.status === 'published'), getCollection('releases', e => e.data.status === 'published'), getCollection('concerts', e => e.data.status === 'published'), getCollection('milestones', e => e.data.status === 'published'), getCollection('listeningPaths', e => e.data.status === 'published'),
     getCollection('songResearch', e => e.data.status === 'published'),
   ]);
-  const songIds = new Set(songs.map(s => s.id)); const releaseIds = new Set(releases.map(r => r.id));
+  const songIds = new Set(songs.map(s => s.id));
   for (const entry of [...releases, ...concerts, ...milestones, ...listeningPaths]) if (entry.id !== entry.data.id) throw new Error(`檔名與資料 ID 不一致：${entry.id}`);
   const checkSong = (id: string) => { if (!songIds.has(id)) throw new Error(`找不到已發布歌曲：${id}`); };
-  for (const s of songs) { if (s.data.versionOf) checkSong(s.data.versionOf); s.data.relatedSongIds.forEach(checkSong); for (const id of s.data.releaseIds) if (!releaseIds.has(id)) throw new Error(`找不到發行作品：${id}`); }
+  for (const s of songs) { if (s.data.versionOf) checkSong(s.data.versionOf); s.data.relatedSongIds.forEach(checkSong); }
+  assertBidirectionalReferences(new Map(songs.map(s=>[s.id,s.data.releaseIds])),new Map(releases.map(r=>[r.id,r.data.tracks.map(t=>t.songId)])),'歌曲與發行作品');
+  assertAcyclicReferences(new Map(songs.map(s=>[s.id,s.data.versionOf?[s.data.versionOf]:[]])),'歌曲版本');
   for (const r of releases) {
-    for (const t of r.data.tracks) checkSong(t.songId);
     if(new Set(r.data.tracks.map(t=>t.position)).size!==r.data.tracks.length) throw new Error(`發行曲序重複：${r.id}`);
     if(r.data.tracklistComplete && r.data.tracks.some((t,i)=>t.position!==i+1)) throw new Error(`完整曲序不連續：${r.id}`);
   }
@@ -55,5 +57,6 @@ export async function loadContent() {
       }
     }
   }
+  assertAcyclicReferences(new Map(listeningPaths.map(p=>[p.id,p.data.prerequisites])),'聆聽路線');
   return { songs: songs.sort((a,b) => a.data.releaseDate.localeCompare(b.data.releaseDate)), members, guides, releases, concerts, milestones, listeningPaths, songResearch, liveGuide };
 }

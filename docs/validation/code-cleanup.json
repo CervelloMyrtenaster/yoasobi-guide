@@ -1,0 +1,97 @@
+{
+  "baselineCommit": "f812ace",
+  "protectedFilesUnchanged": 209,
+  "routesUnchanged": 423,
+  "semanticHTMLUnchanged": 423,
+  "browserCasesUnchanged": 39,
+  "screenshotFilesIdentical": 38,
+  "screenshotFilesCompared": 39,
+  "before": {
+    "externalJavaScriptFiles": 9,
+    "externalJavaScriptBytes": 10928,
+    "externalJavaScriptGzipBytes": 5760,
+    "uniqueInlineJavaScriptBytes": 5176,
+    "cssBytes": 13242,
+    "perPage": {
+      "index.html": {
+        "inlineBytes": 0,
+        "externalFiles": 3,
+        "totalJavaScriptBytes": 1321
+      },
+      "songs/index.html": {
+        "inlineBytes": 1703,
+        "externalFiles": 3,
+        "totalJavaScriptBytes": 3024
+      },
+      "history/index.html": {
+        "inlineBytes": 2096,
+        "externalFiles": 3,
+        "totalJavaScriptBytes": 3417
+      },
+      "records/index.html": {
+        "inlineBytes": 0,
+        "externalFiles": 4,
+        "totalJavaScriptBytes": 2708
+      },
+      "live/stats/index.html": {
+        "inlineBytes": 0,
+        "externalFiles": 4,
+        "totalJavaScriptBytes": 4956
+      },
+      "live/videos/index.html": {
+        "inlineBytes": 434,
+        "externalFiles": 4,
+        "totalJavaScriptBytes": 3020
+      },
+      "listen/concert-first-five/index.html": {
+        "inlineBytes": 943,
+        "externalFiles": 3,
+        "totalJavaScriptBytes": 2264
+      }
+    }
+  },
+  "after": {
+    "externalJavaScriptFiles": 12,
+    "externalJavaScriptBytes": 14908,
+    "externalJavaScriptGzipBytes": 7720,
+    "uniqueInlineJavaScriptBytes": 1410,
+    "cssBytes": 12861,
+    "perPage": {
+      "index.html": {
+        "inlineBytes": 0,
+        "externalFiles": 3,
+        "totalJavaScriptBytes": 1321
+      },
+      "songs/index.html": {
+        "inlineBytes": 0,
+        "externalFiles": 5,
+        "totalJavaScriptBytes": 3162
+      },
+      "history/index.html": {
+        "inlineBytes": 0,
+        "externalFiles": 5,
+        "totalJavaScriptBytes": 3573
+      },
+      "records/index.html": {
+        "inlineBytes": 0,
+        "externalFiles": 5,
+        "totalJavaScriptBytes": 2874
+      },
+      "live/stats/index.html": {
+        "inlineBytes": 0,
+        "externalFiles": 5,
+        "totalJavaScriptBytes": 5127
+      },
+      "live/videos/index.html": {
+        "inlineBytes": 434,
+        "externalFiles": 5,
+        "totalJavaScriptBytes": 3186
+      },
+      "listen/concert-first-five/index.html": {
+        "inlineBytes": 976,
+        "externalFiles": 3,
+        "totalJavaScriptBytes": 2297
+      }
+    }
+  }
+}

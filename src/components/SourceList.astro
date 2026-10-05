@@ -1,6 +1,6 @@
 ---
 import type { z } from 'astro/zod';
-import { source } from '../schemas/content';
+import type { source } from '../schemas/content';
 interface Props { sources: z.infer<typeof source>[]; updatedAt?: string }
 const { sources, updatedAt } = Astro.props;
 ---

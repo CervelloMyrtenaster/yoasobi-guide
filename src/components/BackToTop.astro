@@ -1,0 +1,21 @@
+<button class="back-to-top" type="button" aria-label="回到頁面頂端" hidden data-back-to-top>
+  <span aria-hidden="true">↑</span><span class="sr-only">回到頁面頂端</span>
+</button>
+<style>
+  .back-to-top{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));z-index:5;display:grid;place-items:center;width:48px;height:48px;border:1px solid var(--line);background:var(--ink);color:var(--paper);font-size:24px;cursor:pointer}
+  .back-to-top:hover{background:var(--red)}
+</style>
+<script>
+  const button=document.querySelector<HTMLButtonElement>('[data-back-to-top]');
+  const header=document.querySelector<HTMLElement>('.site-header');
+  if(button&&header){
+    const observer=new IntersectionObserver(([entry])=>{button.hidden=entry.isIntersecting||entry.boundingClientRect.bottom>0;});
+    observer.observe(header);
+    button.addEventListener('click',()=>{
+      // Move focus before hiding the button so keyboard users can continue from the top.
+      const brand=header.querySelector<HTMLAnchorElement>('.brand');
+      brand?.focus({preventScroll:true});
+      window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+    });
+  }
+</script>

@@ -30,18 +30,19 @@ const kinds = [...new Set(songs.map(s=>s.data.kind))];
   </section>)}
 </div>
 <script>
+  import { normalizeSongSearch as normalize } from '../lib/search';
   const catalog=document.querySelector<HTMLElement>('[data-song-catalog]');
   if(catalog){
     const form=catalog.querySelector<HTMLFormElement>('form')!;
     const controls=['q','language','kind','year'].map(name=>form.elements.namedItem(name) as HTMLInputElement|HTMLSelectElement);
     const rows=[...catalog.querySelectorAll<HTMLElement>('[data-song-item]')];
     const sections=[...catalog.querySelectorAll<HTMLElement>('[data-song-year]')];
-    const normalize=(value:string)=>value.normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase();
     const texts=new Map(rows.map(row=>[row,normalize(row.dataset.search??'')]));
     const restore=()=>{const params=new URLSearchParams(location.search);controls.forEach(c=>c.value=params.get(c.name)??'');};
     const filter=(update=true)=>{
       const [q,language,kind,year]=controls.map(c=>c.value.trim());
-      rows.forEach(row=>row.hidden=!texts.get(row)?.includes(normalize(q))||!!language&&row.dataset.language!==language||!!kind&&row.dataset.kind!==kind||!!year&&row.closest<HTMLElement>('[data-song-year]')?.dataset.songYear!==year);
+      const needle=normalize(q);
+      rows.forEach(row=>row.hidden=!texts.get(row)?.includes(needle)||!!language&&row.dataset.language!==language||!!kind&&row.dataset.kind!==kind||!!year&&row.closest<HTMLElement>('[data-song-year]')?.dataset.songYear!==year);
       sections.forEach(section=>{section.hidden=!section.querySelector('[data-song-item]:not([hidden])');catalog.querySelector<HTMLElement>(`[data-song-year-link="${section.dataset.songYear}"]`)!.hidden=section.hidden;});
       const count=rows.filter(r=>!r.hidden).length;
       catalog.querySelector('[data-song-results]')!.textContent=`找到 ${count} 篇作品介紹（共 ${rows.length} 篇）`;
