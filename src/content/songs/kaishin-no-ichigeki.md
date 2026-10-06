@@ -62,7 +62,11 @@
     }
   ],
   "dateNotes": "",
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/0yXPq30NX877h69S8vFF39",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

@@ -92,7 +92,11 @@
   "relatedSongIds": [
     "watch-me"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/7MCzzZbr1oF7COzi7Qi3y8",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

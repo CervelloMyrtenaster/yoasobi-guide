@@ -17,7 +17,7 @@ const layers=[['furigana','振假名'],['kana','全假名'],['romaji','羅馬拼
   <div class="reading-toolbar" hidden data-reading-toolbar><fieldset class="reading-controls" data-reading-controls>
     <legend>顯示輔助閱讀（可複選）</legend>
     {layers.map(([key,label])=><label><input type="checkbox" value={key} checked={defaultLearningPreferences[key]} data-reading-toggle/>{label}</label>)}
-  </fieldset></div>
+  </fieldset><label class="reading-size">學習字級 <select data-reading-size><option value="standard">標準</option><option value="large">大</option><option value="extra-large">特大</option></select></label></div>
   <div id="learning-readings">{entries.map((line,index)=><div class="learning-line" id={`learning-${line.id??'practice'}`}>
     {line.id&&<a class="line-number" href={`#learning-${line.id}`} aria-label={`第 ${index+1} 句`}>{line.id}</a>}
     <p class="japanese-text" lang="ja">{line.segments.map(part=>part.reading?<ruby>{part.text}<rp>（</rp><rt>{part.reading}</rt><rp>）</rp></ruby>:part.text)}</p>
@@ -42,29 +42,35 @@ const layers=[['furigana','振假名'],['kana','全假名'],['romaji','羅馬拼
   .reading-controls legend{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
   .reading-controls label{display:flex;align-items:center;gap:6px;min-height:44px;cursor:pointer;font-size:14px}
   .reading-controls input{width:18px;height:18px;accent-color:var(--red)}
+  .reading-size{display:flex;align-items:center;gap:8px;min-height:44px;font-size:14px}
+  .reading-size select{font:inherit;min-height:44px;padding:6px 10px;background:var(--panel);color:var(--ink);border:1px solid var(--line)}
+  .lyrics-learning{--japanese-size:1.25rem;--reading-size:.9375rem}
+  .lyrics-learning[data-reading-size="large"]{--japanese-size:1.5rem;--reading-size:1.125rem}
+  .lyrics-learning[data-reading-size="extra-large"]{--japanese-size:1.75rem;--reading-size:1.3125rem}
   .learning-line{position:relative;padding:16px 0 16px 44px;overflow-wrap:anywhere}
   .line-number{position:absolute;left:0;top:16px;display:flex;align-items:center;color:var(--muted);font-size:11px;min-height:44px;min-width:44px}
-  .lyrics-learning [id]{scroll-margin-top:112px}
+  .lyrics-learning [id]{scroll-margin-top:160px}
   .learning-notes dl>div{padding-block:16px;border-bottom:1px solid var(--line)}
   .learning-notes dt{font-weight:650}.learning-notes dd{margin-left:0;white-space:pre-line}
   .note-links{display:flex;gap:8px;flex-wrap:wrap}.note-links a{min-height:44px;padding-block:8px}
-  .japanese-text{font-size:20px;line-height:1.85;margin:0}
+  .japanese-text{font-size:var(--japanese-size);line-height:1.85;margin:0}
   ruby{ruby-position:over}rt{font-size:.55em}
   [data-lyrics-learning][data-enhanced]:not([data-furigana]) rt{display:none}
   [data-lyrics-learning][data-enhanced]:not([data-furigana]) .japanese-text{line-height:1.65}
   [data-enhanced] [data-reading-layer] summary{display:none}
-  [data-enhanced] [data-reading-layer] p{margin:6px 0 0;font-size:15px;line-height:1.8}
+  [data-enhanced] [data-reading-layer] p{margin:6px 0 0;font-size:var(--reading-size);line-height:1.8}
   [data-enhanced]:not([data-kana]) [data-reading-layer="kana"],
   [data-enhanced]:not([data-romaji]) [data-reading-layer="romaji"],
   [data-enhanced]:not([data-translation]) [data-reading-layer="translation"]{display:none}
   [data-enhanced] [data-reading-layer="romaji"]{color:var(--muted)}
   .line-notes{margin-top:4px;font-size:13px;color:var(--muted)}
   .line-notes ul{color:var(--ink)}
-  @media(min-width:720px){.reading-controls{display:flex;flex-wrap:wrap}.lyrics-learning [id]{scroll-margin-top:76px}}
+  @media(min-width:720px){.reading-toolbar{display:flex;gap:8px 20px;align-items:center;flex-wrap:wrap}.reading-controls{display:flex;flex-wrap:wrap}.lyrics-learning [id]{scroll-margin-top:120px}}
   @supports(padding:env(safe-area-inset-top)){.reading-toolbar{padding-top:max(8px,env(safe-area-inset-top))}}
 </style>
 <script>
   import { learningLayers, loadLearningPreferences, saveLearningPreferences } from '../lib/learning-preferences';
+  import { learningSizeKey, parseLearningSize, readDisplayPreference, writeDisplayPreference } from '../lib/display-preferences';
   for(const section of document.querySelectorAll<HTMLElement>('[data-lyrics-learning]')){
     const controls=section.querySelector<HTMLFieldSetElement>('[data-reading-controls]');
     if(!controls)continue;
@@ -75,7 +81,11 @@ const layers=[['furigana','振假名'],['kana','全假名'],['romaji','羅馬拼
     const toggles=Array.from(controls.querySelectorAll<HTMLInputElement>('[data-reading-toggle]'));
     const lines=Array.from(section.querySelectorAll<HTMLElement>('.learning-line'));
     const preferences=loadLearningPreferences(()=>localStorage);
+    const sizeControl=section.querySelector<HTMLSelectElement>('[data-reading-size]');
+    let size=parseLearningSize(readDisplayPreference(()=>localStorage,learningSizeKey));
     const apply=()=>{
+      section.dataset.readingSize=size;
+      if(sizeControl)sizeControl.value=size;
       for(const key of learningLayers){
         section.toggleAttribute(`data-${key}`,preferences[key]);
         const control=toggles.find(control=>control.value===key);
@@ -86,7 +96,7 @@ const layers=[['furigana','振假名'],['kana','全假名'],['romaji','羅馬拼
     apply();
     const updateReading=()=>{
       // Keep the current line in view when earlier lines change height.
-      const edge=controls.getBoundingClientRect().bottom;
+      const edge=section.querySelector<HTMLElement>('[data-reading-toolbar]')?.getBoundingClientRect().bottom??controls.getBoundingClientRect().bottom;
       const anchor=lines.find(line=>{const rect=line.getBoundingClientRect();return rect.top>=edge&&rect.top<innerHeight;})??lines.find(line=>{const rect=line.getBoundingClientRect();return rect.bottom>edge&&rect.top<innerHeight;});
       const top=anchor?.getBoundingClientRect().top;
       apply();
@@ -99,6 +109,11 @@ const layers=[['furigana','振假名'],['kana','全假名'],['romaji','羅馬拼
     controls.addEventListener('change',()=>{
       for(const key of learningLayers)preferences[key]=toggles.find(control=>control.value===key)?.checked??preferences[key];
       updateReading();
+    });
+    sizeControl?.addEventListener('change',()=>{
+      size=parseLearningSize(sizeControl.value);
+      updateReading();
+      writeDisplayPreference(()=>localStorage,learningSizeKey,size);
     });
     section.querySelector<HTMLButtonElement>('[data-japanese-only]')?.addEventListener('click',()=>{
       for(const key of learningLayers)preferences[key]=false;

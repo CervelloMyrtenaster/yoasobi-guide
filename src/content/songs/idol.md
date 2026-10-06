@@ -265,7 +265,11 @@
         "scope": "認證種類、月份、門檻與公告說明；保留年月精度。"
       }
     }
-  ]
+  ],
+  "spotify": {
+    "url": "https://open.spotify.com/track/1hAloWiinXLPQUJxrJReb1",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

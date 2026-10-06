@@ -95,7 +95,11 @@
     "orion",
     "adventure"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/582epFEaznKZ7oru9UwfPz",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

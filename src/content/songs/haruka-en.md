@@ -93,7 +93,11 @@
   "relatedSongIds": [
     "haruka"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/0jFon5RVg19KlwNVnXVX0s",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

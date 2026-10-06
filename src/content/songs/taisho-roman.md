@@ -108,7 +108,11 @@
         "scope": "正文 Platinum 清單中的〈大正浪漫〉；公告日 2023-09-27，認證月份為 2023-08。"
       }
     }
-  ]
+  ],
+  "spotify": {
+    "url": "https://open.spotify.com/track/0dSPApaBoWn6SA4GKWq9QK",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

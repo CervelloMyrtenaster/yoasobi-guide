@@ -88,7 +88,11 @@
     "watch-me",
     "butai-ni-tatte"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/6opptJmdOo9CLXs2zEaPK6",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

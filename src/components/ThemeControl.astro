@@ -1,0 +1,31 @@
+<label class="theme-control" hidden data-theme-control>外觀
+  <select aria-label="網站外觀" data-theme-select>
+    <option value="system">跟隨系統</option>
+    <option value="light">淺色</option>
+    <option value="dark">深色</option>
+  </select>
+</label>
+<style>
+  .theme-control{display:flex;align-items:center;gap:8px;margin-left:auto;font-size:13px;min-height:44px;order:1}
+  select{font:inherit;min-height:44px;max-width:100%;padding:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+  @media(min-width:1024px){.theme-control{order:0}}
+</style>
+<script>
+  import { parseTheme, readDisplayPreference, writeDisplayPreference, themeKey } from '../lib/display-preferences';
+  const select=document.querySelector<HTMLSelectElement>('[data-theme-select]');
+  if(select){
+    select.value=parseTheme(readDisplayPreference(()=>localStorage,themeKey));
+    select.closest<HTMLElement>('[data-theme-control]')?.removeAttribute('hidden');
+    select.addEventListener('change',()=>{
+      const theme=parseTheme(select.value);
+      document.documentElement.dataset.theme=theme;
+      writeDisplayPreference(()=>localStorage,themeKey,theme);
+    });
+    window.addEventListener('storage',event=>{
+      if(event.key!==themeKey&&event.key!==null)return;
+      const theme=parseTheme(readDisplayPreference(()=>localStorage,themeKey));
+      select.value=theme;
+      document.documentElement.dataset.theme=theme;
+    });
+  }
+</script>

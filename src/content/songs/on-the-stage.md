@@ -92,7 +92,11 @@
   "relatedSongIds": [
     "butai-ni-tatte"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/6nGNPI0WfDs9958n7i0c5X",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

@@ -82,7 +82,11 @@
     "undead",
     "mou-sukoshi-dake"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/3cHIeZTJe2QSvypOSDZsom",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

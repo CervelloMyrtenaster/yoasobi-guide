@@ -122,7 +122,11 @@
         "scope": "正文 Platinum 清單中的〈セブンティーン〉；公告日 2025-04-28，認證月份為 2025-03。"
       }
     }
-  ]
+  ],
+  "spotify": {
+    "url": "https://open.spotify.com/track/62q2gPY4OnQCGnw7T4JWg1",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

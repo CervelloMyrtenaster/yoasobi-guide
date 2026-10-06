@@ -101,7 +101,11 @@
   "relatedSongIds": [
     "gunjo"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/4lFyU6v8LfzALJps4KZzKy",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

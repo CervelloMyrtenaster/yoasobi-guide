@@ -114,7 +114,11 @@
     "undead",
     "butai-ni-tatte"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/1wqT6wA3RRyo0DVajcpy7F",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

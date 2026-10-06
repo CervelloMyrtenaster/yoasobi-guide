@@ -97,7 +97,11 @@
   "relatedSongIds": [
     "yoru-ni-kakeru"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/2vwzbB62VEfzCARNu9Nrrm",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

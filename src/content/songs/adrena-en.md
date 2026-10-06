@@ -91,7 +91,11 @@
   "relatedSongIds": [
     "adrena"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/4sI0LiGHJV7Gj7Tw8DsJZF",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

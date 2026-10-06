@@ -48,7 +48,11 @@
       "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
     }
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/1lfK0hVEKdq0k4fFCZvQge",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

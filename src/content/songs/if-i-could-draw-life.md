@@ -87,7 +87,11 @@
   "relatedSongIds": [
     "moshimo-inochi-ga-egaketara"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/5ASNsnnOvreLu9FtvA3jpR",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

@@ -92,7 +92,11 @@
   "relatedSongIds": [
     "adventure"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/1Gh9LJf99CIpcr0z8hMIOf",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 
