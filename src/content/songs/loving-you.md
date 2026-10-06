@@ -92,7 +92,11 @@
   "relatedSongIds": [
     "sukida"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/7nN7TkxDGH8DeXs2Vy67nv",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

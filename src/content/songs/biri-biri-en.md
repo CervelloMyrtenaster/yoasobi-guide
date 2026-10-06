@@ -93,7 +93,11 @@
   "relatedSongIds": [
     "biri-biri"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/6f8RGfNa1cSk7I04vfFEQp",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

@@ -81,7 +81,11 @@
     }
   ],
   "versionOf": "orion",
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/5MdUpG1aJWdYnO9VBRydjh",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

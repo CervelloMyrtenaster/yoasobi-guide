@@ -89,7 +89,11 @@
     "url": "https://www.marumaru-x.com/japanese-song/play-wzrv42y4r3",
     "verifiedAt": "2026-10-04"
   },
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/7ydiBXSeyMcdDdvXM89VLE",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

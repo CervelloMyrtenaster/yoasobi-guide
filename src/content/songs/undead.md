@@ -133,7 +133,11 @@
       },
       "institution": "Billboard JAPAN"
     }
-  ]
+  ],
+  "spotify": {
+    "url": "https://open.spotify.com/track/35xfPPSPHG42a8MSoHBymZ",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

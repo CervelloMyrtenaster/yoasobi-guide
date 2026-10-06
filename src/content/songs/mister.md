@@ -111,7 +111,11 @@
         "scope": "官方公告附件第 2 頁 Gold 清單中的〈ミスター〉；認證月份為 2023-08。"
       }
     }
-  ]
+  ],
+  "spotify": {
+    "url": "https://open.spotify.com/track/08c3tqCZN3PQcLA5VNkXt9",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

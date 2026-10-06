@@ -98,7 +98,11 @@
   "relatedSongIds": [
     "love-letter"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/325iR7dCw6hNekr48puGdG",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

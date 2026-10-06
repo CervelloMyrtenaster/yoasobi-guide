@@ -89,7 +89,11 @@
   "relatedSongIds": [
     "yasashii-suisei"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/7LrT6Lpn0hOQ58pbBP6D2M",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

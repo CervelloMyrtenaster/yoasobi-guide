@@ -1,0 +1,4444 @@
+{
+  "date": "2026-10-06",
+  "baseline": [
+    {
+      "h1": "從一個故事，開始聽見 YOASOBI。",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 390
+    },
+    {
+      "h1": "從你已經聽過的那一首開始",
+      "overflow": false,
+      "url": "/yoasobi-guide/start/",
+      "width": 390
+    },
+    {
+      "h1": "YOASOBI：把故事變成可以聽見的世界",
+      "overflow": false,
+      "url": "/yoasobi-guide/about/",
+      "width": 390
+    },
+    {
+      "h1": "一首歌，一個世界。",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/",
+      "width": 390
+    },
+    {
+      "h1": "アイドル",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390
+    },
+    {
+      "h1": "將故事，收藏成冊。",
+      "overflow": false,
+      "url": "/yoasobi-guide/releases/",
+      "width": 390
+    },
+    {
+      "h1": "沿著時間，聽見故事。",
+      "overflow": false,
+      "url": "/yoasobi-guide/history/",
+      "width": 390
+    },
+    {
+      "h1": "故事，走進現場。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/",
+      "width": 390
+    },
+    {
+      "h1": "先會認出，再一起唱。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/prepare/",
+      "width": 390
+    },
+    {
+      "h1": "用一首歌，練一小段日語",
+      "overflow": false,
+      "url": "/yoasobi-guide/japanese-learning/",
+      "width": 390
+    },
+    {
+      "h1": "從一個故事，開始聽見 YOASOBI。",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 768
+    },
+    {
+      "h1": "從你已經聽過的那一首開始",
+      "overflow": false,
+      "url": "/yoasobi-guide/start/",
+      "width": 768
+    },
+    {
+      "h1": "YOASOBI：把故事變成可以聽見的世界",
+      "overflow": false,
+      "url": "/yoasobi-guide/about/",
+      "width": 768
+    },
+    {
+      "h1": "一首歌，一個世界。",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/",
+      "width": 768
+    },
+    {
+      "h1": "アイドル",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768
+    },
+    {
+      "h1": "將故事，收藏成冊。",
+      "overflow": false,
+      "url": "/yoasobi-guide/releases/",
+      "width": 768
+    },
+    {
+      "h1": "沿著時間，聽見故事。",
+      "overflow": false,
+      "url": "/yoasobi-guide/history/",
+      "width": 768
+    },
+    {
+      "h1": "故事，走進現場。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/",
+      "width": 768
+    },
+    {
+      "h1": "先會認出，再一起唱。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/prepare/",
+      "width": 768
+    },
+    {
+      "h1": "用一首歌，練一小段日語",
+      "overflow": false,
+      "url": "/yoasobi-guide/japanese-learning/",
+      "width": 768
+    },
+    {
+      "h1": "從一個故事，開始聽見 YOASOBI。",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 1440
+    },
+    {
+      "h1": "從你已經聽過的那一首開始",
+      "overflow": false,
+      "url": "/yoasobi-guide/start/",
+      "width": 1440
+    },
+    {
+      "h1": "YOASOBI：把故事變成可以聽見的世界",
+      "overflow": false,
+      "url": "/yoasobi-guide/about/",
+      "width": 1440
+    },
+    {
+      "h1": "一首歌，一個世界。",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/",
+      "width": 1440
+    },
+    {
+      "h1": "アイドル",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440
+    },
+    {
+      "h1": "將故事，收藏成冊。",
+      "overflow": false,
+      "url": "/yoasobi-guide/releases/",
+      "width": 1440
+    },
+    {
+      "h1": "沿著時間，聽見故事。",
+      "overflow": false,
+      "url": "/yoasobi-guide/history/",
+      "width": 1440
+    },
+    {
+      "h1": "故事，走進現場。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/",
+      "width": 1440
+    },
+    {
+      "h1": "先會認出，再一起唱。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/prepare/",
+      "width": 1440
+    },
+    {
+      "h1": "用一首歌，練一小段日語",
+      "overflow": false,
+      "url": "/yoasobi-guide/japanese-learning/",
+      "width": 1440
+    }
+  ],
+  "pages": [
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "從一個故事，開始聽見 YOASOBI。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "從你已經聽過的那一首開始",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/start/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "YOASOBI：把故事變成可以聽見的世界",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/about/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "一首歌，一個世界。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/songs/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "アイドル",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "將故事，收藏成冊。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/releases/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "沿著時間，聽見故事。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/history/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "故事，走進現場。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/live/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "先會認出，再一起唱。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/live/prepare/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "用一首歌，練一小段日語",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/japanese-learning/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "從一個故事，開始聽見 YOASOBI。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "從你已經聽過的那一首開始",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/start/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "YOASOBI：把故事變成可以聽見的世界",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/about/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "一首歌，一個世界。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/songs/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "アイドル",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "將故事，收藏成冊。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/releases/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "沿著時間，聽見故事。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/history/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "故事，走進現場。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/live/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "先會認出，再一起唱。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/live/prepare/",
+      "width": 390
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "用一首歌，練一小段日語",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/japanese-learning/",
+      "width": 390
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "從一個故事，開始聽見 YOASOBI。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "從你已經聽過的那一首開始",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/start/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "YOASOBI：把故事變成可以聽見的世界",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/about/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "一首歌，一個世界。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/songs/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "アイドル",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "將故事，收藏成冊。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/releases/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "沿著時間，聽見故事。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/history/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "故事，走進現場。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/live/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "先會認出，再一起唱。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/live/prepare/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "用一首歌，練一小段日語",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/japanese-learning/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "從一個故事，開始聽見 YOASOBI。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "從你已經聽過的那一首開始",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/start/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "YOASOBI：把故事變成可以聽見的世界",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/about/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "一首歌，一個世界。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/songs/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "アイドル",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "將故事，收藏成冊。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/releases/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "沿著時間，聽見故事。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/history/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "故事，走進現場。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/live/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "先會認出，再一起唱。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/live/prepare/",
+      "width": 768
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "用一首歌，練一小段日語",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/japanese-learning/",
+      "width": 768
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "從一個故事，開始聽見 YOASOBI。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "從你已經聽過的那一首開始",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/start/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "YOASOBI：把故事變成可以聽見的世界",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/about/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "一首歌，一個世界。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/songs/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "アイドル",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "將故事，收藏成冊。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/releases/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "沿著時間，聽見故事。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/history/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "故事，走進現場。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/live/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "先會認出，再一起唱。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/live/prepare/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(247, 245, 239)",
+      "h1": "用一首歌，練一小段日語",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "light",
+      "url": "/yoasobi-guide/japanese-learning/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "從一個故事，開始聽見 YOASOBI。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "從你已經聽過的那一首開始",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/start/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "YOASOBI：把故事變成可以聽見的世界",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/about/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "一首歌，一個世界。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/songs/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "アイドル",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "將故事，收藏成冊。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/releases/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "沿著時間，聽見故事。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/history/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "故事，走進現場。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/live/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "先會認出，再一起唱。",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/live/prepare/",
+      "width": 1440
+    },
+    {
+      "background": "rgb(24, 27, 29)",
+      "h1": "用一首歌，練一小段日語",
+      "missingImages": [],
+      "overflow": false,
+      "theme": "dark",
+      "url": "/yoasobi-guide/japanese-learning/",
+      "width": 1440
+    }
+  ],
+  "reading": [
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 149,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 390,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 768,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "light",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "15px",
+      "controlsFit": true,
+      "japaneseSize": "20px",
+      "overflow": false,
+      "size": "standard",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "18px",
+      "controlsFit": true,
+      "japaneseSize": "24px",
+      "overflow": false,
+      "size": "large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "all"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "default"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "romaji"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "japanese"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "kana"
+    },
+    {
+      "auxiliarySize": "21px",
+      "controlsFit": true,
+      "japaneseSize": "28px",
+      "overflow": false,
+      "size": "extra-large",
+      "states": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "theme": "dark",
+      "toolbarHeight": 61,
+      "url": "/yoasobi-guide/songs/kaibutsu/",
+      "width": 1440,
+      "combination": "all"
+    }
+  ],
+  "extra": [
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 320
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 320
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 320
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 320
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 375
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 375
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 375
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 375
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 430
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 430
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 430
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 430
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 1024
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1024
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 1024
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1024
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 1280
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1280
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 1280
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1280
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 1920
+    },
+    {
+      "mode": "light",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1920
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/",
+      "width": 1920
+    },
+    {
+      "mode": "dark",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 1920
+    },
+    {
+      "height": 390,
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol/",
+      "width": 844
+    }
+  ],
+  "deep": [
+    {
+      "h1": "Ayase",
+      "overflow": false,
+      "url": "/yoasobi-guide/members/ayase/",
+      "width": 390
+    },
+    {
+      "h1": "ikura／幾田莉拉",
+      "overflow": false,
+      "url": "/yoasobi-guide/members/ikura/",
+      "width": 390
+    },
+    {
+      "h1": "THE BOOK 3",
+      "overflow": false,
+      "url": "/yoasobi-guide/releases/the-book-3/",
+      "width": 390
+    },
+    {
+      "h1": "兩場之間，哪些歌留下了？",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/compare/",
+      "width": 390
+    },
+    {
+      "h1": "從歌單，認識現場的選曲。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/stats/",
+      "width": 390
+    },
+    {
+      "h1": "從一段現場，再認識一首歌。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/videos/",
+      "width": 390
+    },
+    {
+      "h1": "成績，放回它的時間與範圍。",
+      "overflow": false,
+      "url": "/yoasobi-guide/records/",
+      "width": 390
+    },
+    {
+      "h1": "同一個作者，會帶來哪些不同的聲音？",
+      "overflow": false,
+      "url": "/yoasobi-guide/explore/",
+      "width": 390
+    },
+    {
+      "h1": "Idol",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol-en/",
+      "width": 390
+    },
+    {
+      "h1": "あの夢をなぞって (Ballade Ver.)",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/ano-yume-ballade/",
+      "width": 390
+    },
+    {
+      "h1": "Epilogue",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/epilogue/",
+      "width": 390
+    },
+    {
+      "h1": "這段故事，尚未找到。",
+      "overflow": false,
+      "url": "/yoasobi-guide/404.html",
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "stage": "footer",
+      "url": "/yoasobi-guide/",
+      "width": 390
+    },
+    {
+      "h1": "Ayase",
+      "overflow": false,
+      "url": "/yoasobi-guide/members/ayase/",
+      "width": 768
+    },
+    {
+      "h1": "ikura／幾田莉拉",
+      "overflow": false,
+      "url": "/yoasobi-guide/members/ikura/",
+      "width": 768
+    },
+    {
+      "h1": "THE BOOK 3",
+      "overflow": false,
+      "url": "/yoasobi-guide/releases/the-book-3/",
+      "width": 768
+    },
+    {
+      "h1": "兩場之間，哪些歌留下了？",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/compare/",
+      "width": 768
+    },
+    {
+      "h1": "從歌單，認識現場的選曲。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/stats/",
+      "width": 768
+    },
+    {
+      "h1": "從一段現場，再認識一首歌。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/videos/",
+      "width": 768
+    },
+    {
+      "h1": "成績，放回它的時間與範圍。",
+      "overflow": false,
+      "url": "/yoasobi-guide/records/",
+      "width": 768
+    },
+    {
+      "h1": "同一個作者，會帶來哪些不同的聲音？",
+      "overflow": false,
+      "url": "/yoasobi-guide/explore/",
+      "width": 768
+    },
+    {
+      "h1": "Idol",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol-en/",
+      "width": 768
+    },
+    {
+      "h1": "あの夢をなぞって (Ballade Ver.)",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/ano-yume-ballade/",
+      "width": 768
+    },
+    {
+      "h1": "Epilogue",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/epilogue/",
+      "width": 768
+    },
+    {
+      "h1": "這段故事，尚未找到。",
+      "overflow": false,
+      "url": "/yoasobi-guide/404.html",
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "stage": "footer",
+      "url": "/yoasobi-guide/",
+      "width": 768
+    },
+    {
+      "h1": "Ayase",
+      "overflow": false,
+      "url": "/yoasobi-guide/members/ayase/",
+      "width": 1440
+    },
+    {
+      "h1": "ikura／幾田莉拉",
+      "overflow": false,
+      "url": "/yoasobi-guide/members/ikura/",
+      "width": 1440
+    },
+    {
+      "h1": "THE BOOK 3",
+      "overflow": false,
+      "url": "/yoasobi-guide/releases/the-book-3/",
+      "width": 1440
+    },
+    {
+      "h1": "兩場之間，哪些歌留下了？",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/compare/",
+      "width": 1440
+    },
+    {
+      "h1": "從歌單，認識現場的選曲。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/stats/",
+      "width": 1440
+    },
+    {
+      "h1": "從一段現場，再認識一首歌。",
+      "overflow": false,
+      "url": "/yoasobi-guide/live/videos/",
+      "width": 1440
+    },
+    {
+      "h1": "成績，放回它的時間與範圍。",
+      "overflow": false,
+      "url": "/yoasobi-guide/records/",
+      "width": 1440
+    },
+    {
+      "h1": "同一個作者，會帶來哪些不同的聲音？",
+      "overflow": false,
+      "url": "/yoasobi-guide/explore/",
+      "width": 1440
+    },
+    {
+      "h1": "Idol",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/idol-en/",
+      "width": 1440
+    },
+    {
+      "h1": "あの夢をなぞって (Ballade Ver.)",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/ano-yume-ballade/",
+      "width": 1440
+    },
+    {
+      "h1": "Epilogue",
+      "overflow": false,
+      "url": "/yoasobi-guide/songs/epilogue/",
+      "width": 1440
+    },
+    {
+      "h1": "這段故事，尚未找到。",
+      "overflow": false,
+      "url": "/yoasobi-guide/404.html",
+      "width": 1440
+    },
+    {
+      "overflow": false,
+      "stage": "footer",
+      "url": "/yoasobi-guide/",
+      "width": 1440
+    }
+  ],
+  "persistence": [
+    {
+      "size": "large",
+      "stage": "japanese-only",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "size": "large",
+      "spotify": "https://open.spotify.com/track/2vjY3jGKElvqXoaGNEuYef",
+      "stage": "another-song",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark"
+    },
+    {
+      "size": "large",
+      "stage": "reload",
+      "states": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "theme": "dark"
+    },
+    {
+      "colorScheme": "light",
+      "darkSystem": false,
+      "preference": "system",
+      "stage": "system"
+    },
+    {
+      "active": "A",
+      "focusOutline": "solid",
+      "stage": "keyboard"
+    }
+  ],
+  "anchor": {
+    "before": {
+      "id": "learning-L001",
+      "toolbarBottom": 149,
+      "top": 160.453125
+    },
+    "after": {
+      "top": 160.453125
+    },
+    "delta": 0,
+    "overlap": false,
+    "size": "28px"
+  },
+  "contrast": [
+    {
+      "accent": 5.28,
+      "ink": "#23272b",
+      "muted": 5.37,
+      "panel": "#fffdf8",
+      "paper": "#f7f5ef",
+      "theme": "light",
+      "text": 13.79,
+      "mutedPanel": 5.76,
+      "accentPanel": 5.66
+    },
+    {
+      "accent": 7.28,
+      "ink": "#f0eee7",
+      "muted": 8.91,
+      "panel": "#222629",
+      "paper": "#181b1d",
+      "theme": "dark",
+      "text": 14.91,
+      "mutedPanel": 7.85,
+      "accentPanel": 6.41
+    }
+  ],
+  "originalSongRecordsPreserved": 79,
+  "visualReview": "代表截圖與聯絡表人工檢視；幾何與控制狀態檢查合計 304 組，不代表 304 張皆逐像素人工比較。",
+  "browser": "Codex in-app browser (Chromium)",
+  "artifacts": "C:/Users/erica/.codex/visualizations/2026/10/03/01a102a6-b88e-77f3-b87b-168c51f5435b/features-regression/"
+}

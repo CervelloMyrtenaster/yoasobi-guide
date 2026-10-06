@@ -88,7 +88,11 @@
     "sukida",
     "seventeen"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/7Fe2z1doVotACIjPuO0wQI",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

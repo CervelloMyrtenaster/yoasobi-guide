@@ -96,7 +96,11 @@
   "relatedSongIds": [
     "sangenshoku"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/0IFzGaPDtSVAs4t7eKbUBl",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

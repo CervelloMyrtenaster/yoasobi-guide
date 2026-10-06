@@ -97,7 +97,11 @@
   "relatedSongIds": [
     "tsubame"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/6oexafIxFkZaEEcfJCsx4y",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

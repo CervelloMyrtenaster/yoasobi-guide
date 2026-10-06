@@ -91,7 +91,11 @@
   "relatedSongIds": [
     "players"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/0zsPR5FPw60WXokejB9UI8",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

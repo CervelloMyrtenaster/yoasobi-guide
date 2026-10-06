@@ -92,7 +92,11 @@
   "relatedSongIds": [
     "ano-yume-wo-nazotte"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/4L9Iuupn2JTSCHSn8uVdD6",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

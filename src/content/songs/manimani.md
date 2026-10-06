@@ -86,7 +86,11 @@
   "relatedSongIds": [
     "umi-no-manimani"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/0JXxrmM7bHmpwHczGTjCUm",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

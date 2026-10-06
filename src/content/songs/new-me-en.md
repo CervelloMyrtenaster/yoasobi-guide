@@ -92,7 +92,11 @@
   "relatedSongIds": [
     "new-me"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/7AWkMUqKn6ud8O6Tz8YWnD",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

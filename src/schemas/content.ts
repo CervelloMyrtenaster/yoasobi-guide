@@ -15,6 +15,10 @@ export const songSchema = z.object({
   relatedSongIds: z.array(id).default([]),
   achievements: z.array(z.object({ type: z.enum(['chart','award','nomination','certification']), date: isoDate, dateBasis: z.string(), title: z.string(), description: z.string(), institution: z.string().optional(), metric: z.string().optional(), source })).default([]),
   sourceWorks: relationship, tieIns: relationship, tags: z.array(z.string()),
+  spotify: z.object({
+    url: z.url().refine(value => { const url=new URL(value); return url.protocol==='https:'&&url.hostname==='open.spotify.com'&&/^\/track\/[A-Za-z0-9]{22}$/.test(url.pathname)&&!url.search&&!url.hash; }, '請填入 Spotify 曲目詳細頁網址'),
+    verifiedAt: date,
+  }).optional(),
   videos: z.array(z.object({ youtubeId: z.string().regex(/^[A-Za-z0-9_-]{11}$/), title: z.string(), kind: z.enum(['mv', 'live', 'audio']), sourceUrl: z.url(), externalOnly: z.boolean().default(false), restrictionNote: z.string().optional(), performedOn: isoDate.optional(), publishedOn: isoDate.optional(), concertId: id.optional(), scene: z.enum(['concert','festival','tv','studio','online','other']).optional(), contextNote: z.string().optional() })),
   japaneseLearning: z.object({
     url: z.url().refine(v => { const u = new URL(v); return u.protocol === 'https:' && u.hostname === 'www.marumaru-x.com' && /^\/japanese-song\/play-[a-z0-9]+$/.test(u.pathname) && !u.search && !u.hash; }, '請填入 marumaru 歌曲詳細頁網址'),

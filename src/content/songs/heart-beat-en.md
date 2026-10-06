@@ -84,7 +84,11 @@
   "relatedSongIds": [
     "heart-beat"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/2eKl0Rfd8LkU896lqkvBp1",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

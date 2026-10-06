@@ -83,7 +83,11 @@
   "relatedSongIds": [
     "taisho-roman"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/6Kh3obD8LG4yeXxQDhr6Vr",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

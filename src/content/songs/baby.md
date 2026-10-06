@@ -89,7 +89,11 @@
     "sukida",
     "haruka"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/2ttGkjkGwazKjDqjYholti",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

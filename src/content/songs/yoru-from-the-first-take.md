@@ -80,7 +80,11 @@
     }
   ],
   "versionOf": "yoru-ni-kakeru",
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/2qJnXUokBc5b38TAEOGnUx",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

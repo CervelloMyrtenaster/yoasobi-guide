@@ -93,7 +93,11 @@
   "relatedSongIds": [
     "idol"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/6hBPSAsflvq3VVl3O34FfW",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

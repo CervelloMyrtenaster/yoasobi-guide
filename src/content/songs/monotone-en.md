@@ -97,7 +97,11 @@
   "relatedSongIds": [
     "monotone"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/4hqaYZL1vi0FBOUfoi1DLg",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

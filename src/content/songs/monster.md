@@ -100,7 +100,11 @@
   "relatedSongIds": [
     "kaibutsu"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/6MWSM29PKOAyGPl2Xtnt1j",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

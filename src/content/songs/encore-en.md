@@ -87,7 +87,11 @@
   "relatedSongIds": [
     "encore"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/0O0RP8iesLTKxhlEY4MKX6",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

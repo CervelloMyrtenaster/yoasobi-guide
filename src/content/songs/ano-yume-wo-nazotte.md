@@ -149,7 +149,11 @@
         "scope": "正文註 8 明列各曲累計一億次的榜單付日；它不是 RIAJ 認證或全球播放量。"
       }
     }
-  ]
+  ],
+  "spotify": {
+    "url": "https://open.spotify.com/track/5ptl2PXkiSth54HCuGO7vN",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

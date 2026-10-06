@@ -82,7 +82,11 @@
     "adrena",
     "baby"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/1douWS9eNpp1Mi93zvuEOR",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

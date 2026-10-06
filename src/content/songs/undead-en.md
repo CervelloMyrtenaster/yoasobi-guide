@@ -98,7 +98,11 @@
   "relatedSongIds": [
     "undead"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/1hXpctb0HC0z28ackYxYVH",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

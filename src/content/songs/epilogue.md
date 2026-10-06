@@ -53,7 +53,11 @@
       "scope": "YOASOBI - Topic 官方音源與曲名；2026-10-04 核對。"
     }
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/25o1M3Jse81xusDV6WhvC5",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

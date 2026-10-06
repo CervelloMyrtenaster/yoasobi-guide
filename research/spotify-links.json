@@ -1,0 +1,713 @@
+[
+  {
+    "songId": "tsubame",
+    "title": "ツバメ (feat. ミドリーズ)",
+    "artists": "YOASOBI, Midories",
+    "album": "THE BOOK 2",
+    "url": "https://open.spotify.com/track/24SMQ3rO4edaTk9ySaMTqI",
+    "source": "https://open.spotify.com/embed/album/5uStDUB4nlmItpz2AYlFtd",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "sangenshoku",
+    "title": "三原色",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 2",
+    "url": "https://open.spotify.com/track/2F9iSs6DypVQu26t5uaeFM",
+    "source": "https://open.spotify.com/embed/album/5uStDUB4nlmItpz2AYlFtd",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "taisho-roman",
+    "title": "Romance",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 2",
+    "url": "https://open.spotify.com/track/0dSPApaBoWn6SA4GKWq9QK",
+    "source": "https://open.spotify.com/embed/album/5uStDUB4nlmItpz2AYlFtd",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "mou-sukoshi-dake",
+    "title": "もう少しだけ",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 2",
+    "url": "https://open.spotify.com/track/7zUgvDcQgn1TPEQHOsQo6y",
+    "source": "https://open.spotify.com/embed/album/5uStDUB4nlmItpz2AYlFtd",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "yasashii-suisei",
+    "title": "優しい彗星",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 2",
+    "url": "https://open.spotify.com/track/5MUb136to9lnJLfIy5FZKI",
+    "source": "https://open.spotify.com/embed/album/5uStDUB4nlmItpz2AYlFtd",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "kaibutsu",
+    "title": "怪物",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 2",
+    "url": "https://open.spotify.com/track/2vjY3jGKElvqXoaGNEuYef",
+    "source": "https://open.spotify.com/embed/album/5uStDUB4nlmItpz2AYlFtd",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "moshimo-inochi-ga-egaketara",
+    "title": "もしも命が描けたら",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 2",
+    "url": "https://open.spotify.com/track/5WYTSyhKonzQZ3hu14LNr6",
+    "source": "https://open.spotify.com/embed/album/5uStDUB4nlmItpz2AYlFtd",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "love-letter",
+    "title": "ラブレター",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 2",
+    "url": "https://open.spotify.com/track/0EzChFKeHX8U5jxerTIBLh",
+    "source": "https://open.spotify.com/embed/album/5uStDUB4nlmItpz2AYlFtd",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "yuusha",
+    "title": "勇者",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/0YTM7bCx451c6LQbkddy4Q",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "interlude-awakening",
+    "title": "Interlude \"Awakening\"",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/3wT58LylGS5wfXLBWRsMaZ",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "shukufuku",
+    "title": "祝福",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/1VoTe7qVyqyMNLgZpQeugO",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "umi-no-manimani",
+    "title": "海のまにまに",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/7Fe2z1doVotACIjPuO0wQI",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "mister",
+    "title": "ミスター",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/08c3tqCZN3PQcLA5VNkXt9",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "interlude-worship",
+    "title": "Interlude \"Worship\"",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/3UyBvmAK2MjkCpuJtYzQ40",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "idol",
+    "title": "アイドル",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/1hAloWiinXLPQUJxrJReb1",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "seventeen",
+    "title": "セブンティーン",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/62q2gPY4OnQCGnw7T4JWg1",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "adventure",
+    "title": "アドベンチャー",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/5stUI9U3VGp2j4sbqJEiVI",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "sukida",
+    "title": "好きだ",
+    "artists": "YOASOBI",
+    "album": "THE BOOK 3",
+    "url": "https://open.spotify.com/track/5m2m2FUgFbIGQkl9sEoBi4",
+    "source": "https://open.spotify.com/embed/album/68w73FF3dYC6C3RWdcV0Yl",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "orion",
+    "title": "オリオン",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/6VpeCZDyuFJD3HW5bwEc8Z",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "adrena",
+    "title": "アドレナ",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/6opptJmdOo9CLXs2zEaPK6",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "undead",
+    "title": "UNDEAD",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/35xfPPSPHG42a8MSoHBymZ",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "players",
+    "title": "PLAYERS",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/582epFEaznKZ7oru9UwfPz",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "monotone",
+    "title": "モノトーン",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/542yNA3qqRGoy9tZExXUgu",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "baby",
+    "title": "BABY",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/2ttGkjkGwazKjDqjYholti",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "watch-me",
+    "title": "Watch me!",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/1douWS9eNpp1Mi93zvuEOR",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "biri-biri",
+    "title": "Biri-Biri",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/4Vv69hqzDLWl5RDIfnqsUb",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "new-me",
+    "title": "New me",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/3cHIeZTJe2QSvypOSDZsom",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "heart-beat",
+    "title": "HEART BEAT",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/5go4ivfbVkTXig50OVJrQM",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "butai-ni-tatte",
+    "title": "舞台に立って",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/4MwBh6LPH5Xhi6wKInwOIT",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "gekijo",
+    "title": "劇上",
+    "artists": "YOASOBI",
+    "album": "THE BOOK for,",
+    "url": "https://open.spotify.com/track/1wqT6wA3RRyo0DVajcpy7F",
+    "source": "https://open.spotify.com/embed/album/6wBkzKouHawAr9e7lLxZLA",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "into-the-night",
+    "title": "Into The Night",
+    "artists": "YOASOBI",
+    "album": "E-SIDE",
+    "url": "https://open.spotify.com/track/2vwzbB62VEfzCARNu9Nrrm",
+    "source": "https://open.spotify.com/embed/album/2Il38p3xyKeLHM5tHa4b6R",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "havent",
+    "title": "Haven't",
+    "artists": "YOASOBI",
+    "album": "E-SIDE",
+    "url": "https://open.spotify.com/track/33ALvsldNGJduk3Bqr7VjS",
+    "source": "https://open.spotify.com/embed/album/2Il38p3xyKeLHM5tHa4b6R",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "monster",
+    "title": "Monster",
+    "artists": "YOASOBI",
+    "album": "E-SIDE",
+    "url": "https://open.spotify.com/track/6MWSM29PKOAyGPl2Xtnt1j",
+    "source": "https://open.spotify.com/embed/album/2Il38p3xyKeLHM5tHa4b6R",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "comet",
+    "title": "Comet",
+    "artists": "YOASOBI",
+    "album": "E-SIDE",
+    "url": "https://open.spotify.com/track/7LrT6Lpn0hOQ58pbBP6D2M",
+    "source": "https://open.spotify.com/embed/album/2Il38p3xyKeLHM5tHa4b6R",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "rgb",
+    "title": "RGB",
+    "artists": "YOASOBI",
+    "album": "E-SIDE",
+    "url": "https://open.spotify.com/track/0IFzGaPDtSVAs4t7eKbUBl",
+    "source": "https://open.spotify.com/embed/album/2Il38p3xyKeLHM5tHa4b6R",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "encore-en",
+    "title": "Encore",
+    "artists": "YOASOBI",
+    "album": "E-SIDE",
+    "url": "https://open.spotify.com/track/0O0RP8iesLTKxhlEY4MKX6",
+    "source": "https://open.spotify.com/embed/album/2Il38p3xyKeLHM5tHa4b6R",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "blue",
+    "title": "Blue",
+    "artists": "YOASOBI",
+    "album": "E-SIDE",
+    "url": "https://open.spotify.com/track/4lFyU6v8LfzALJps4KZzKy",
+    "source": "https://open.spotify.com/embed/album/2Il38p3xyKeLHM5tHa4b6R",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "tracing-a-dream",
+    "title": "Tracing A Dream",
+    "artists": "YOASOBI",
+    "album": "E-SIDE",
+    "url": "https://open.spotify.com/track/4L9Iuupn2JTSCHSn8uVdD6",
+    "source": "https://open.spotify.com/embed/album/2Il38p3xyKeLHM5tHa4b6R",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "biri-biri-en",
+    "title": "Biri-Biri - English Version",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 3",
+    "url": "https://open.spotify.com/track/6f8RGfNa1cSk7I04vfFEQp",
+    "source": "https://open.spotify.com/embed/album/2HBkR5qNDKoo1EDrCaSy0U",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "idol-en",
+    "title": "Idol",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 3",
+    "url": "https://open.spotify.com/track/6hBPSAsflvq3VVl3O34FfW",
+    "source": "https://open.spotify.com/embed/album/2HBkR5qNDKoo1EDrCaSy0U",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "mister-en",
+    "title": "Mister",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 3",
+    "url": "https://open.spotify.com/track/6sHinRfFGZcxeTTdCvxgCG",
+    "source": "https://open.spotify.com/embed/album/2HBkR5qNDKoo1EDrCaSy0U",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "manimani",
+    "title": "manimani",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 3",
+    "url": "https://open.spotify.com/track/0JXxrmM7bHmpwHczGTjCUm",
+    "source": "https://open.spotify.com/embed/album/2HBkR5qNDKoo1EDrCaSy0U",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "the-brave",
+    "title": "The Brave",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 3",
+    "url": "https://open.spotify.com/track/4idatWI87uECptpg5EYMPp",
+    "source": "https://open.spotify.com/embed/album/2HBkR5qNDKoo1EDrCaSy0U",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "seventeen-en",
+    "title": "Seventeen",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 3",
+    "url": "https://open.spotify.com/track/2yAB3u40MOFRNuUzdl0but",
+    "source": "https://open.spotify.com/embed/album/2HBkR5qNDKoo1EDrCaSy0U",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "loving-you",
+    "title": "Loving You",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 3",
+    "url": "https://open.spotify.com/track/7nN7TkxDGH8DeXs2Vy67nv",
+    "source": "https://open.spotify.com/embed/album/2HBkR5qNDKoo1EDrCaSy0U",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "adventure-en",
+    "title": "Adventure",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 3",
+    "url": "https://open.spotify.com/track/1Gh9LJf99CIpcr0z8hMIOf",
+    "source": "https://open.spotify.com/embed/album/2HBkR5qNDKoo1EDrCaSy0U",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "epilogue",
+    "title": "Epilogue",
+    "artists": "YOASOBI",
+    "album": "THE BOOK",
+    "url": "https://open.spotify.com/track/25o1M3Jse81xusDV6WhvC5",
+    "source": "https://open.spotify.com/embed/album/1xhO0GSoezdPJcSuNe1ySv",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "encore",
+    "title": "アンコール",
+    "artists": "YOASOBI",
+    "album": "THE BOOK",
+    "url": "https://open.spotify.com/track/465JzFiajJO59sUrDFsxdC",
+    "source": "https://open.spotify.com/embed/album/1xhO0GSoezdPJcSuNe1ySv",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "halzion",
+    "title": "ハルジオン",
+    "artists": "YOASOBI",
+    "album": "THE BOOK",
+    "url": "https://open.spotify.com/track/08YwAPnX8sygJUXG9rvhDv",
+    "source": "https://open.spotify.com/embed/album/1xhO0GSoezdPJcSuNe1ySv",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "ano-yume-wo-nazotte",
+    "title": "あの夢をなぞって",
+    "artists": "YOASOBI",
+    "album": "THE BOOK",
+    "url": "https://open.spotify.com/track/5ptl2PXkiSth54HCuGO7vN",
+    "source": "https://open.spotify.com/embed/album/1xhO0GSoezdPJcSuNe1ySv",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "tabun",
+    "title": "たぶん",
+    "artists": "YOASOBI",
+    "album": "THE BOOK",
+    "url": "https://open.spotify.com/track/398dL22bDbKbAmiOnPaq7o",
+    "source": "https://open.spotify.com/embed/album/1xhO0GSoezdPJcSuNe1ySv",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "gunjo",
+    "title": "群青",
+    "artists": "YOASOBI",
+    "album": "THE BOOK",
+    "url": "https://open.spotify.com/track/1zd35Y44Blc1CwwVbW3Qnk",
+    "source": "https://open.spotify.com/embed/album/1xhO0GSoezdPJcSuNe1ySv",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "haruka",
+    "title": "ハルカ",
+    "artists": "YOASOBI",
+    "album": "THE BOOK",
+    "url": "https://open.spotify.com/track/5D9MPWdY2hjSeTIGE5n5kv",
+    "source": "https://open.spotify.com/embed/album/1xhO0GSoezdPJcSuNe1ySv",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "yoru-ni-kakeru",
+    "title": "夜に駆ける",
+    "artists": "YOASOBI",
+    "album": "THE BOOK",
+    "url": "https://open.spotify.com/track/6MCjmGYlw6mQVWRFVgBRvB",
+    "source": "https://open.spotify.com/embed/album/1xhO0GSoezdPJcSuNe1ySv",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "prologue",
+    "title": "Prologue",
+    "artists": "YOASOBI",
+    "album": "THE BOOK",
+    "url": "https://open.spotify.com/track/1lfK0hVEKdq0k4fFCZvQge",
+    "source": "https://open.spotify.com/embed/album/1xhO0GSoezdPJcSuNe1ySv",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "the-blessing",
+    "title": "The Blessing",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 2",
+    "url": "https://open.spotify.com/track/4KFvsGchCp4c7zphBlPxz3",
+    "source": "https://open.spotify.com/embed/album/0ojhCKa6vLf8p81CNJ7ctO",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "if-i-could-draw-life",
+    "title": "If I Could Draw Life",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 2",
+    "url": "https://open.spotify.com/track/5ASNsnnOvreLu9FtvA3jpR",
+    "source": "https://open.spotify.com/embed/album/0ojhCKa6vLf8p81CNJ7ctO",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "romance",
+    "title": "Romance",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 2",
+    "url": "https://open.spotify.com/track/6Kh3obD8LG4yeXxQDhr6Vr",
+    "source": "https://open.spotify.com/embed/album/0ojhCKa6vLf8p81CNJ7ctO",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "the-swallow",
+    "title": "The Swallow (feat. Midories)",
+    "artists": "YOASOBI, midories",
+    "album": "E-SIDE 2",
+    "url": "https://open.spotify.com/track/6oexafIxFkZaEEcfJCsx4y",
+    "source": "https://open.spotify.com/embed/album/0ojhCKa6vLf8p81CNJ7ctO",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "halzion-en",
+    "title": "Halzion",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 2",
+    "url": "https://open.spotify.com/track/6YgWUfKPwZJigKBbSDwu7e",
+    "source": "https://open.spotify.com/embed/album/0ojhCKa6vLf8p81CNJ7ctO",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "just-a-little-step",
+    "title": "Just a Little Step",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 2",
+    "url": "https://open.spotify.com/track/3UCbRuJbsnEZeGLXefqeow",
+    "source": "https://open.spotify.com/embed/album/0ojhCKa6vLf8p81CNJ7ctO",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "haruka-en",
+    "title": "Haruka",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 2",
+    "url": "https://open.spotify.com/track/0jFon5RVg19KlwNVnXVX0s",
+    "source": "https://open.spotify.com/embed/album/0ojhCKa6vLf8p81CNJ7ctO",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "love-letter-en",
+    "title": "Love Letter",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 2",
+    "url": "https://open.spotify.com/track/325iR7dCw6hNekr48puGdG",
+    "source": "https://open.spotify.com/embed/album/0ojhCKa6vLf8p81CNJ7ctO",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "adrena-en",
+    "title": "ADRENA",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 4",
+    "url": "https://open.spotify.com/track/4sI0LiGHJV7Gj7Tw8DsJZF",
+    "source": "https://open.spotify.com/embed/album/2uJ9eFPa3ehM06NSh5IcFm",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "undead-en",
+    "title": "UNDEAD - English Version",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 4",
+    "url": "https://open.spotify.com/track/1hXpctb0HC0z28ackYxYVH",
+    "source": "https://open.spotify.com/embed/album/2uJ9eFPa3ehM06NSh5IcFm",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "watch-me-en",
+    "title": "Watch me! - English Version",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 4",
+    "url": "https://open.spotify.com/track/7MCzzZbr1oF7COzi7Qi3y8",
+    "source": "https://open.spotify.com/embed/album/2uJ9eFPa3ehM06NSh5IcFm",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "baby-en",
+    "title": "BABY - English Version",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 4",
+    "url": "https://open.spotify.com/track/0U6XBIQEyaAkgSTz9XCxVr",
+    "source": "https://open.spotify.com/embed/album/2uJ9eFPa3ehM06NSh5IcFm",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "new-me-en",
+    "title": "New me - English Version",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 4",
+    "url": "https://open.spotify.com/track/7AWkMUqKn6ud8O6Tz8YWnD",
+    "source": "https://open.spotify.com/embed/album/2uJ9eFPa3ehM06NSh5IcFm",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "monotone-en",
+    "title": "Monotone",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 4",
+    "url": "https://open.spotify.com/track/4hqaYZL1vi0FBOUfoi1DLg",
+    "source": "https://open.spotify.com/embed/album/2uJ9eFPa3ehM06NSh5IcFm",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "on-the-stage",
+    "title": "On the Stage",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 4",
+    "url": "https://open.spotify.com/track/6nGNPI0WfDs9958n7i0c5X",
+    "source": "https://open.spotify.com/embed/album/2uJ9eFPa3ehM06NSh5IcFm",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "players-en",
+    "title": "PLAYERS - English Version",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 4",
+    "url": "https://open.spotify.com/track/0zsPR5FPw60WXokejB9UI8",
+    "source": "https://open.spotify.com/embed/album/2uJ9eFPa3ehM06NSh5IcFm",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "heart-beat-en",
+    "title": "HEART BEAT - English Version",
+    "artists": "YOASOBI",
+    "album": "E-SIDE 4",
+    "url": "https://open.spotify.com/track/2eKl0Rfd8LkU896lqkvBp1",
+    "source": "https://open.spotify.com/embed/album/2uJ9eFPa3ehM06NSh5IcFm",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "kaishin-no-ichigeki",
+    "title": "会心の一撃",
+    "artists": "YOASOBI",
+    "url": "https://open.spotify.com/track/0yXPq30NX877h69S8vFF39",
+    "source": "https://open.spotify.com/embed/track/0yXPq30NX877h69S8vFF39",
+    "discovery": "https://open.spotify.com/embed/playlist/4vX1wK2pmL7S1FRbHgYaMk",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "the-noise",
+    "title": "the NOISE (Contains a Samples of 夜に駆ける)",
+    "artists": "LE SSERAFIM, YOASOBI",
+    "url": "https://open.spotify.com/track/1uB20TujpjHQZpFRxsbnI7",
+    "source": "https://open.spotify.com/embed/track/1uB20TujpjHQZpFRxsbnI7",
+    "discovery": "https://open.spotify.com/embed/playlist/4vX1wK2pmL7S1FRbHgYaMk",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "chuo-freeway",
+    "title": "中央フリーウェイ",
+    "artists": "YOASOBI, Yumi Matsutoya",
+    "url": "https://open.spotify.com/track/1w3BXhVl88xDJOcrNh5sQH",
+    "source": "https://open.spotify.com/embed/track/1w3BXhVl88xDJOcrNh5sQH",
+    "discovery": "https://open.spotify.com/embed/playlist/37i9dQZF1DXdY5tVYFPWb2",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "yoru-from-the-first-take",
+    "title": "夜に駆ける - From THE FIRST TAKE",
+    "artists": "YOASOBI",
+    "url": "https://open.spotify.com/track/2qJnXUokBc5b38TAEOGnUx",
+    "source": "https://open.spotify.com/embed/track/2qJnXUokBc5b38TAEOGnUx",
+    "discovery": "https://open.spotify.com/embed/album/1PfkKnSqxKNZhJoFJNlHQX",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "orion-psyqui-remix",
+    "title": "オリオン - PSYQUI Remix",
+    "artists": "YOASOBI, PSYQUI",
+    "url": "https://open.spotify.com/track/5MdUpG1aJWdYnO9VBRydjh",
+    "source": "https://open.spotify.com/embed/track/5MdUpG1aJWdYnO9VBRydjh",
+    "discovery": "https://open.spotify.com/embed/playlist/46qdwICWg8Ud2s87cBirXV",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "orion-en",
+    "title": "Orion - English Version",
+    "artists": "YOASOBI",
+    "url": "https://open.spotify.com/track/5nVvEjOznzdCKxI3n3K6Hh",
+    "source": "https://open.spotify.com/embed/track/5nVvEjOznzdCKxI3n3K6Hh",
+    "discovery": "https://open.spotify.com/embed/album/2ZBozfFpgOH5rVVXk7BKXO",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "ano-yume-ballade",
+    "title": "あの夢をなぞって - Ballade Ver.",
+    "artists": "YOASOBI",
+    "url": "https://open.spotify.com/track/7ydiBXSeyMcdDdvXM89VLE",
+    "source": "https://open.spotify.com/embed/track/7ydiBXSeyMcdDdvXM89VLE",
+    "discovery": "https://open.spotify.com/embed/playlist/5ahDZE5ZylKamSr1qsPPHa",
+    "verifiedAt": "2026-10-06"
+  }
+]

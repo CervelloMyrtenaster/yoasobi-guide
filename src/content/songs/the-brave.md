@@ -93,7 +93,11 @@
   "relatedSongIds": [
     "yuusha"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/4idatWI87uECptpg5EYMPp",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

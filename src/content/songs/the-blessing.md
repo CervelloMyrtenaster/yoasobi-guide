@@ -97,7 +97,11 @@
   "relatedSongIds": [
     "shukufuku"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/4KFvsGchCp4c7zphBlPxz3",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

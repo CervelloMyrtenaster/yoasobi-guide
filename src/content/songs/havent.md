@@ -83,7 +83,11 @@
   "relatedSongIds": [
     "tabun"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/33ALvsldNGJduk3Bqr7VjS",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

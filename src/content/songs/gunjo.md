@@ -164,7 +164,11 @@
         "scope": "九億次里程碑、公開日與集計期間；已讀 Sony Music 同一官方新聞正文。"
       }
     }
-  ]
+  ],
+  "spotify": {
+    "url": "https://open.spotify.com/track/1zd35Y44Blc1CwwVbW3Qnk",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

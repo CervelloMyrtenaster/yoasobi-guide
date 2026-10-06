@@ -1,0 +1,7 @@
+---
+import type { Song } from '../schemas/content';
+interface Props { spotify?: Song['spotify'] }
+const { spotify } = Astro.props;
+---
+{spotify&&<p class="spotify-link"><a href={spotify.url} target="_blank" rel="noopener noreferrer">在 Spotify 聆聽 ↗<span class="sr-only">（另開分頁）</span></a></p>}
+<style>.spotify-link{margin-block:16px}.spotify-link a{display:inline-block;min-height:44px;padding-block:8px;font-size:14px;font-weight:650}</style>

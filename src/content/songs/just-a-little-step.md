@@ -90,7 +90,11 @@
   "relatedSongIds": [
     "mou-sukoshi-dake"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/3UCbRuJbsnEZeGLXefqeow",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

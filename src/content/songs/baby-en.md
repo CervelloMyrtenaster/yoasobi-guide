@@ -91,7 +91,11 @@
   "relatedSongIds": [
     "baby"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/0U6XBIQEyaAkgSTz9XCxVr",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

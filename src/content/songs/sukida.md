@@ -109,7 +109,11 @@
     "umi-no-manimani",
     "seventeen"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/5m2m2FUgFbIGQkl9sEoBi4",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

@@ -81,7 +81,11 @@
   "relatedSongIds": [
     "seventeen"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/2yAB3u40MOFRNuUzdl0but",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

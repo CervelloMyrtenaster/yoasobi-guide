@@ -58,7 +58,11 @@
       "scope": "間奏在完整專輯中的銜接作用，屬評論者解讀。"
     }
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/3wT58LylGS5wfXLBWRsMaZ",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

@@ -101,7 +101,11 @@
     "players",
     "orion-psyqui-remix"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/6VpeCZDyuFJD3HW5bwEc8Z",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

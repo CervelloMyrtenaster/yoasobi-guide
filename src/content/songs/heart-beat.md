@@ -94,7 +94,11 @@
     "tsubame",
     "butai-ni-tatte"
   ],
-  "achievements": []
+  "achievements": [],
+  "spotify": {
+    "url": "https://open.spotify.com/track/5go4ivfbVkTXig50OVJrQM",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 

@@ -102,7 +102,11 @@
         "scope": "2026-09-08 清單更新日快照，非首次突破日期；不等同 RIAJ 認證。"
       }
     }
-  ]
+  ],
+  "spotify": {
+    "url": "https://open.spotify.com/track/4MwBh6LPH5Xhi6wKInwOIT",
+    "verifiedAt": "2026-10-06"
+  }
 }
 ---
 
