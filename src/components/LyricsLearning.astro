@@ -12,7 +12,7 @@ const layers=[['furigana','振假名'],['kana','全假名'],['romaji','羅馬拼
 <section class="lyrics-learning" data-lyrics-learning data-furigana data-translation>
   <h2>歌詞與日語學習</h2>
   {document ? <p class="muted">{entries.length} 句逐行對照。先聽日文，再勾選需要的輔助閱讀；單字與文法可按行展開。讀音與譯文依提供的逐行學習檔，不同演唱版本請分開閱讀。</p> : <p class="muted">這首歌尚未提供逐行學習檔。先用本站原創句試試閱讀層次，再由下方 marumaru 入口練習這首歌。</p>}
-  {document&&<nav aria-label="日語學習段落"><a href="#song-player">回到 MV ↑</a><a href="#learning-readings">逐行閱讀 ↓</a>{noteGroups.filter(group=>group.notes.length).map(group=><a href={`#learning-${group.id}`}>{group.title} ↓</a>)}<a href="#learning-source">資料來源 ↓</a></nav>}
+  {document&&<nav aria-label="日語學習段落"><a href="#song-player">回到 MV ↑</a><a href="#learning-readings">逐行閱讀 ↓</a>{noteGroups.filter(group=>group.notes.length).map(group=><a href={`#learning-${group.id}`}>{group.title} ↓</a>)}</nav>}
   <p class="reading-help" hidden data-reading-help>日文一直顯示；勾選所需輔助，選擇會保留至其他歌曲。<button type="button" data-japanese-only>只讀日文</button></p>
   <div class="reading-toolbar" hidden data-reading-toolbar><fieldset class="reading-controls" data-reading-controls>
     <legend>顯示輔助閱讀（可複選）</legend>
@@ -30,7 +30,6 @@ const layers=[['furigana','振假名'],['kana','全假名'],['romaji','羅馬拼
   {document&&<>
     <p class="reading-help">單字筆記可能並列完整詞條與原句實際出現的形式，例如「居る」與「居（い）」。先對照原句，再看前後句；讀音標在片段上，不代表完整詞只有該讀音。中文翻譯也可能承接下一句，不宜逐行當成逐字翻譯。</p>
     {noteGroups.filter(group=>group.notes.length).map(({id,title,notes})=><details class="learning-notes" id={`learning-${id}`}><summary>{title}（{notes.length} 項）</summary><dl>{notes.map(note=><div id={`learning-${note.id}`}><dt><span lang="ja">{note.title}</span></dt><dd>{note.description}<p class="note-links">出現句：{[...new Set(note.occurrences.match(/L\d+/g)??[])].map(id=><a href={`#learning-${id}`} aria-label={`返回第 ${Number(id.slice(1))} 句`}>{id}</a>)}</p></dd></div>)}</dl></details>)}
-    <details class="learning-source" id="learning-source"><summary>學習資料來源與整理範圍</summary><p>{document.attribution}</p>{document.processedOn&&<p>資料處理日期：<time datetime={document.processedOn}>{document.processedOn}</time></p>}<p>{document.reviewScope}</p><p>本頁保留提供檔案的行序、重複段落與語言表示，未依其他版本補寫內容。</p></details>
   </>}
 </section>
 <style>
