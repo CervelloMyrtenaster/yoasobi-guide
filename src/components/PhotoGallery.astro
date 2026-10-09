@@ -1,0 +1,38 @@
+---
+import PhotoFigure from './PhotoFigure.astro';
+import { path } from '../lib/paths';
+import type { PhotoStory } from '../data/photos';
+
+interface Props {
+  title: string;
+  stories?: readonly PhotoStory[];
+  collapsible?: boolean;
+  id?: string;
+}
+const { title, stories = [], collapsible = false, id } = Astro.props;
+const Container = collapsible ? 'details' : 'section';
+---
+
+{stories.length > 0 && <Container id={id} class:list={['photo-gallery', { 'clip-details': collapsible }]}>
+  {collapsible ? <summary>{title} · {stories.length} 張影像</summary> : <h2>{title}</h2>}
+  <div class="photo-grid">
+    {stories.map(story => <div class="photo-story">
+      {story.title && <h3>{story.title}</h3>}
+      <PhotoFigure photo={story.photo} width={stories.length === 1 && story.photo.image.width > story.photo.image.height ? 640 : 360} loading="lazy" />
+      {story.historyId && <p class="photo-related"><a href={path(`history/${story.historyId}/`)}>{story.linkLabel ?? '閱讀本場演出紀錄 →'}</a></p>}
+    </div>)}
+  </div>
+</Container>}
+
+<style>
+  .photo-gallery { max-width: 780px; margin-block: 32px; }
+  .photo-grid { display: grid; gap: 32px; padding-block: 8px; }
+  .photo-story { min-width: 0; }
+  .photo-story h3 { font-size: 20px; margin: 8px 0 16px; }
+  .photo-related { margin: 16px 0 0; font-size: 14px; }
+  .photo-related a { display: inline-block; min-height: 44px; padding-block: 8px; }
+  @media (min-width: 720px) {
+    .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .photo-grid > :only-child { grid-column: 1 / -1; }
+  }
+</style>

@@ -2,7 +2,7 @@
   "id": "heart-beat",
   "songId": "heart-beat",
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-09",
   "notes": [
     {
       "area": "creation",
@@ -20,9 +20,64 @@
           "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
         }
       ]
+    },
+    {
+      "area": "creation",
+      "title": "千人的聲音也留在正式錄音裡",
+      "text": "發行方記錄，18祭 活動當天千名參與者的合唱、拍手與踏步聲都錄進了歌曲，ぷらそにか 成員也參與合唱，合唱編曲由田中雪子負責。聽到的集體聲音，包含那一天參與者實際留下的聲音。",
+      "sources": [
+        {
+          "title": "The Orchard Japan：HEART BEAT 錄音與 MV 製作（2023-12-26）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000845.000055377.html",
+          "scope": "已讀發行方正文，核對千人合唱、拍手與踏步錄音、合唱編曲及 MV 導演；不據此推測活動錄影日期。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "牧野惇用黑光人偶劇呈現心音",
+      "text": "官方發行公告指出，MV 由也曾執導〈群青〉的牧野惇製作，以黑光人偶劇呈現人物與自己相處、掙扎並尋找方向的過程。本站建議對照兩支 MV，觀察同一位導演如何用不同人物與畫面，回應個人與群體的聲音。",
+      "sources": [
+        {
+          "title": "The Orchard Japan：HEART BEAT 錄音與 MV 製作（2023-12-26）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000845.000055377.html",
+          "scope": "已讀發行方正文，核對千人合唱、拍手與踏步錄音、合唱編曲及 MV 導演；不據此推測活動錄影日期。"
+        }
+      ]
     }
   ],
-  "credits": [],
+  "credits": [
+    {
+      "role": "合唱編曲",
+      "name": "田中雪子",
+      "scope": "〈HEART BEAT〉正式發行錄音。",
+      "source": {
+        "title": "The Orchard Japan：HEART BEAT 錄音與 MV 製作（2023-12-26）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000845.000055377.html",
+        "scope": "已讀發行方正文，核對千人合唱、拍手與踏步錄音、合唱編曲及 MV 導演；不據此推測活動錄影日期。"
+      }
+    },
+    {
+      "role": "合唱參與",
+      "name": "18祭 參與者、ぷらそにか 成員",
+      "scope": "公告明列活動當日千人錄音及另有ぷらそにか參與。",
+      "source": {
+        "title": "The Orchard Japan：HEART BEAT 錄音與 MV 製作（2023-12-26）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000845.000055377.html",
+        "scope": "已讀發行方正文，核對千人合唱、拍手與踏步錄音、合唱編曲及 MV 導演；不據此推測活動錄影日期。"
+      }
+    },
+    {
+      "role": "MV 導演",
+      "name": "牧野惇",
+      "scope": "〈HEART BEAT〉官方 MV。",
+      "source": {
+        "title": "The Orchard Japan：HEART BEAT 錄音與 MV 製作（2023-12-26）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000845.000055377.html",
+        "scope": "已讀發行方正文，核對千人合唱、拍手與踏步錄音、合唱編曲及 MV 導演；不據此推測活動錄影日期。"
+      }
+    }
+  ],
   "gaps": [
     {
       "area": "mv",

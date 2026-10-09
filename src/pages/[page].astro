@@ -4,7 +4,8 @@ import ArticleLayout from '../layouts/ArticleLayout.astro';
 import { loadContent } from '../lib/content';
 import { path } from '../lib/paths';
 import LearningCatalog from '../components/LearningCatalog.astro';
+import { photos } from '../data/photos';
 export async function getStaticPaths() { const { guides } = await loadContent(); return guides.map(entry => ({ params: { page: entry.id }, props: { entry } })); }
 const { entry } = Astro.props; const { Content } = await render(entry);
 ---
-<ArticleLayout entry={entry}><Content/>{entry.id==='japanese-learning'&&<LearningCatalog/>}{['start','about'].includes(entry.id) && <div class="route-grid compact"><a class="route-card" href={path('members/ayase/')}><h3>Ayase ↗</h3><p>音樂創作</p></a><a class="route-card" href={path('members/ikura/')}><h3>ikura ↗</h3><p>主唱</p></a><a class="route-card" href={path('history/')}><h3>歷史時間軸 ↗</h3><p>重要里程碑</p></a></div>}</ArticleLayout>
+<ArticleLayout entry={entry} photo={entry.id === 'about' ? photos.yoasobi : undefined}><Content/>{entry.id==='japanese-learning'&&<LearningCatalog/>}{['start','about'].includes(entry.id) && <div class="route-grid compact"><a class="route-card" href={path('members/ayase/')}><h3>Ayase ↗</h3><p>音樂創作</p></a><a class="route-card" href={path('members/ikura/')}><h3>ikura ↗</h3><p>主唱</p></a><a class="route-card" href={path('history/')}><h3>歷史時間軸 ↗</h3><p>重要里程碑</p></a></div>}</ArticleLayout>

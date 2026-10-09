@@ -54,5 +54,16 @@
     "author": "ZOZOTOWN",
     "channel": "https://www.youtube.com/@zozotown_official",
     "verifiedAt": "2026-10-04"
+  },
+  {
+    "id": "vpz9ejxPj0Q",
+    "title": "【18祭】YOASOBI『HEART BEAT』| 18Fes | NHK",
+    "author": "NHK",
+    "channel": "https://www.youtube.com/@NHK",
+    "url": "https://www.youtube.com/watch?v=vpz9ejxPj0Q",
+    "publishedOn": "2025-09-30",
+    "verifiedAt": "2026-10-09",
+    "verificationMethod": "Browser: verified publisher, expanded publication date and regional restriction message; no transcript or recording date available.",
+    "availability": "2026-10-09 Taiwan: uploader has not made this video available in this country/region."
   }
 ]

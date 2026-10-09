@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-09",
   "status": "research_inventory_with_open_gaps",
   "scope": "YOASOBI組合；個人單獨作品不默認列為組合作品。",
   "verificationPolicy": "verified=true表示本筆描述及指定核對範圍有正文支持；過去的事前公告保持listed_past，不能計入實際演出。",
@@ -2092,6 +2092,205 @@
       "language": "ja",
       "kind": "secondary",
       "accessedAt": "2026-10-05"
+    },
+    "cna-20231204-taiwan-interview": {
+      "id": "cna-20231204-taiwan-interview",
+      "title": "中央社：YOASOBI吃驚台灣專場16萬人搶 願挑戰大巨蛋開唱",
+      "url": "https://www.cna.com.tw/news/amov/202312040261.aspx",
+      "publisher": "中央通訊社",
+      "language": "zh-Hant",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "cna-20240121-zepp": {
+      "id": "cna-20240121-zepp",
+      "title": "中央社：YOASOBI熱唱80分鐘無冷場 嗨喊「多謝」承諾再來",
+      "url": "https://www.cna.com.tw/news/amov/202401210171.aspx",
+      "publisher": "中央通訊社",
+      "language": "zh-Hant",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "cna-20240412-white-house": {
+      "id": "cna-20240412-white-house",
+      "title": "中央社：美日菲領袖會談關注台海 岸田文雄：台灣安定很重要",
+      "url": "https://www.cna.com.tw/news/aopl/202404120345.aspx",
+      "publisher": "中央通訊社",
+      "language": "zh-Hant",
+      "kind": "secondary",
+      "accessedAt": "2026-10-09"
+    },
+    "cna-20250208-taipei": {
+      "id": "cna-20250208-taipei",
+      "title": "中央社：YOASOBI小巨蛋開唱2天吸引2.4萬人 感動用音樂聯繫台灣歌迷",
+      "url": "https://www.cna.com.tw/news/amov/202502080252.aspx",
+      "publisher": "中央通訊社",
+      "language": "zh-Hant",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "cna-20250209-taipei": {
+      "id": "cna-20250209-taipei",
+      "title": "中央社：YOASOBI小巨蛋喊「不想結束」 想再唱更大場地",
+      "url": "https://www.cna.com.tw/news/amov/202502090200.aspx",
+      "publisher": "中央通訊社",
+      "language": "zh-Hant",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "cna-20250210-interview": {
+      "id": "cna-20250210-interview",
+      "title": "中央社：YOASOBI盼唱進大巨蛋 主唱ikura許願逛台灣夜市",
+      "url": "https://www.cna.com.tw/news/amov/202502100165.aspx",
+      "publisher": "中央通訊社",
+      "language": "zh-Hant",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "cna-20260831-dome": {
+      "id": "cna-20260831-dome",
+      "title": "中央社：YOASOBI前進台北大巨蛋　2027年1月連唱兩天",
+      "url": "https://www.cna.com.tw/news/amov/202608310240.aspx",
+      "publisher": "中央通訊社",
+      "language": "zh-Hant",
+      "kind": "secondary",
+      "accessedAt": "2026-10-09"
+    },
+    "white-house-20240410-guests": {
+      "id": "white-house-20240410-guests",
+      "title": "白宮：2024-04-10 國宴預期賓客名單",
+      "url": "https://www.presidency.ucsb.edu/documents/white-house-press-release-white-house-releases-state-dinner-guest-list-3",
+      "publisher": "The White House（The American Presidency Project 存檔）",
+      "language": "en",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "fuji-20220304-creation": {
+      "id": "fuji-20220304-creation",
+      "title": "富士電視台／めざましmedia：直木賞合作與〈ミスター〉製作訪談（2022-03-04）",
+      "url": "https://mezamashi.media/articles/-/17620",
+      "publisher": "富士電視台／めざましmedia",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "fuji-20220304-performance": {
+      "id": "fuji-20220304-performance",
+      "title": "富士電視台／めざましmedia：初次表演與紅白回顧訪談（2022-03-04）",
+      "url": "https://mezamashi.media/articles/-/17621",
+      "publisher": "富士電視台／めざましmedia",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "asahi-20260528-overwatch": {
+      "id": "asahi-20260528-overwatch",
+      "title": "朝日電視台：Overwatch 合作發表會與〈オリオン〉製作（2026-05-28）",
+      "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900191650.html",
+      "publisher": "朝日電視台",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "asahi-20250523-maj": {
+      "id": "asahi-20250523-maj",
+      "title": "朝日電視台：〈アイドル〉獲 Top Global Hit from Japan（2025-05-23）",
+      "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900025539.html",
+      "publisher": "朝日電視台",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "asahi-20260606-ep": {
+      "id": "asahi-20260606-ep",
+      "title": "朝日電視台：THE BOOK for, 曲目公布與成員回應（2026-06-06）",
+      "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900192332.html",
+      "publisher": "朝日電視台",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "nhk-20250930-heartbeat": {
+      "id": "nhk-20250930-heartbeat",
+      "title": "NHK 官方：【18祭】YOASOBI『HEART BEAT』",
+      "url": "https://www.youtube.com/watch?v=vpz9ejxPj0Q",
+      "publisher": "NHK",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "tbs-20200816-interview": {
+      "id": "tbs-20200816-interview",
+      "title": "TBS NEWS DIG：Nスタ YOASOBI 未剪輯訪談",
+      "url": "https://www.youtube.com/watch?v=vqsK-bdAoqU",
+      "publisher": "TBS NEWS DIG Powered by JNN",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "maj-2025-winners": {
+      "id": "maj-2025-winners",
+      "title": "MUSIC AWARDS JAPAN 2025 官方得獎名單",
+      "url": "https://www.musicawardsjapan.com/2025/awards/",
+      "publisher": "MUSIC AWARDS JAPAN",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-09"
+    },
+    "kadcul-20210401-kohaku": {
+      "id": "kadcul-20210401-kohaku",
+      "title": "角川武藏野博物館：本棚劇場與紅白回顧（2021-04-01）",
+      "url": "https://kadcul.com/director/matsuoka/no_07",
+      "publisher": "角川武蔵野ミュージアム",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-09",
+      "publishedAt": "2021-04-01",
+      "retrieval": "已讀來源正文；非搜尋摘要"
+    },
+    "oricon-20201223-kohaku": {
+      "id": "oricon-20201223-kohaku",
+      "title": "ORICON：第71回紅白首次出場公告（2020-12-23）",
+      "url": "https://www.oricon.co.jp/news/2176838/full/",
+      "publisher": "ORICON NEWS",
+      "language": "ja",
+      "kind": "secondary",
+      "accessedAt": "2026-10-09",
+      "publishedAt": "2020-12-23",
+      "retrieval": "已讀來源正文；非搜尋摘要"
+    },
+    "encount-20211231-kohaku": {
+      "id": "encount-20211231-kohaku",
+      "title": "ENCOUNT：第72回紅白實際演出報導（2021-12-31）",
+      "url": "https://encount.press/archives/262220/",
+      "publisher": "ENCOUNT",
+      "language": "ja",
+      "kind": "secondary",
+      "accessedAt": "2026-10-09",
+      "publishedAt": "2021-12-31",
+      "retrieval": "已讀來源正文；非搜尋摘要"
+    },
+    "oricon-20231231-kohaku-performance": {
+      "id": "oricon-20231231-kohaku-performance",
+      "title": "ORICON：第74回紅白〈アイドル〉與合作舞台（2023-12-31）",
+      "url": "https://www.oricon.co.jp/news/2309103/full/",
+      "publisher": "ORICON NEWS",
+      "language": "ja",
+      "kind": "secondary",
+      "accessedAt": "2026-10-09",
+      "publishedAt": "2023-12-31",
+      "retrieval": "已讀來源正文；非搜尋摘要"
+    },
+    "oricon-20231231-kohaku-lineup": {
+      "id": "oricon-20231231-kohaku-lineup",
+      "title": "ORICON：第74回紅白節目曲序公告（2023-12-31）",
+      "url": "https://www.oricon.co.jp/news/2309018/full/",
+      "publisher": "ORICON NEWS",
+      "language": "ja",
+      "kind": "secondary",
+      "accessedAt": "2026-10-09",
+      "publishedAt": "2023-12-31",
+      "retrieval": "已讀來源正文；非搜尋摘要"
     }
   },
   "records": [
@@ -2299,25 +2498,29 @@
     },
     {
       "id": "history-0291",
-      "title": "第71回 NHK 紅白歌合戰",
+      "title": "第71回 NHK 紅白歌合戰：首次出場",
       "type": "broadcast_performance",
-      "date": null,
+      "date": "2020-12-31",
       "year": 2020,
-      "location": null,
-      "venue": null,
-      "description": "官方profile確認曾出演，但需補当日節目或事後報導以核對日期及場館。",
+      "location": "日本，埼玉縣所澤市",
+      "venue": "角川武藏野博物館・本棚劇場",
+      "description": "YOASOBI 首次出場紅白，以〈夜に駆ける〉從本棚劇場演出，支援樂手共同參與。演出地點由場館官方回顧核對，與節目主會場分開。",
       "sources": [
-        "wiki-ja",
-        "wiki-en-discography",
-        "wiki-en-live",
-        "wiki-zh"
+        "kadcul-20210401-kohaku",
+        "oricon-20201223-kohaku",
+        "fuji-20220304-performance"
       ],
-      "verified": false,
-      "datePrecision": "unknown",
-      "dateBasis": "unverified_candidate",
-      "status": "unverified",
-      "verificationScope": "候選資料，尚未完成來源正文及日期／場館核對；不得公開為確定史實。",
-      "candidateDate": "2020-12-31"
+      "verified": true,
+      "datePrecision": "day",
+      "dateBasis": "場館官方 2021-04-01 回顧明載「去年大晦日」的實際演出，對應 2020-12-31。",
+      "status": "performed",
+      "verificationScope": "核對第71回、首次出場、演出日期、曲目及實際遠端場館；不是演唱會或完整節目歌單。",
+      "verifiedAt": "2026-10-09",
+      "sourceScopes": {
+        "kadcul-20210401-kohaku": "場館官方事後回顧明載去年大晦日、本棚劇場與〈夜に駆ける〉；2021-04-01 是刊登日，演出日為 2020-12-31。",
+        "oricon-20201223-kohaku": "已讀公告正文，支持第71回、紅組與首次電視表演的公告；實際演出另以場館官方回顧核對。",
+        "fuji-20220304-performance": "成員在 2022 年訪談中回顧 2020、2021 紅白及演出心情；不單獨支持月日、曲目或場館。"
+      }
     },
     {
       "id": "history-0009",
@@ -2848,22 +3051,27 @@
     },
     {
       "id": "history-0292",
-      "title": "第72回 NHK 紅白歌合戰",
+      "title": "第72回 NHK 紅白歌合戰：群青與ツバメ特別企劃",
       "type": "broadcast_performance",
-      "date": null,
+      "date": "2021-12-31",
       "year": 2021,
-      "location": null,
-      "venue": null,
-      "description": "已核對官方出場預告，待事後節目紀錄。",
+      "location": "日本，東京",
+      "venue": "東京國際論壇",
+      "description": "第二次出場演唱〈群青〉，舞台結合舞者與管弦樂。另以 YOASOBI with ミドリーズ 參與特別企劃，演唱〈ツバメ〉；兩段屬同屆參與，不增加團體出場次數。",
       "sources": [
-        "news-535248"
+        "encount-20211231-kohaku",
+        "fuji-20220304-performance"
       ],
-      "verified": false,
-      "datePrecision": "unknown",
-      "dateBasis": "unverified_candidate",
-      "status": "unverified",
-      "verificationScope": "候選資料，尚未完成來源正文及日期／場館核對；不得公開為確定史實。",
-      "candidateDate": "2021-12-31"
+      "verified": true,
+      "datePrecision": "day",
+      "dateBasis": "2021-12-31 當晚事後報導明載當日實際演出。",
+      "status": "performed",
+      "verificationScope": "核對第72回、第二次出場、日期、節目場館與兩首實際演唱；不推定個別舞台區域、曲序或完整歌單。",
+      "verifiedAt": "2026-10-09",
+      "sourceScopes": {
+        "encount-20211231-kohaku": "當晚正文確認第二次出場、東京國際論壇、〈群青〉及特別企劃〈ツバメ〉；未細分各舞台區域，不推定 Hall A 或完整曲序。",
+        "fuji-20220304-performance": "成員在 2022 年訪談中回顧 2020、2021 紅白及演出心情；不單獨支持月日、曲目或場館。"
+      }
     },
     {
       "id": "history-0026",
@@ -4365,20 +4573,26 @@
       "type": "festival",
       "date": "2023-12-03",
       "year": 2023,
-      "location": null,
+      "location": "台北",
       "venue": "華山1914文化創意產業園區",
-      "description": "官方演出清單所列場次。",
+      "description": "YOASOBI 在台北簡單生活節首次於台灣演出。中央社 2023-12-04 聯訪回顧前一天的舞台，兩人談到觀眾的合唱與應援。",
       "sources": [
-        "live-51264"
+        "live-51264",
+        "cna-20231204-taiwan-interview"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "status": "performed",
+      "verificationScope": "官方來源支持日期與場館；中央社事後正文支持實際演出及本筆列出的舞台細節。未據零散曲目建立完整歌單或常演率。",
       "parentEvent": "51264",
       "sourceLocation": "その他",
-      "marketLabel": null
+      "marketLabel": null,
+      "verifiedAt": "2026-10-09",
+      "sourceScopes": {
+        "live-51264": "官方日程支持排定日期與場館；事後演出另採中央社報導。",
+        "cna-20231204-taiwan-interview": "2023-12-04 聯訪正文回顧前一天簡單生活節演出，支持實際演出與觀眾互動；採訪日不是演出日。"
+      }
     },
     {
       "id": "history-0046",
@@ -4488,22 +4702,27 @@
     },
     {
       "id": "history-0293",
-      "title": "第74回 NHK 紅白歌合戰",
+      "title": "第74回 NHK 紅白歌合戰：アイドル合作舞台",
       "type": "broadcast_performance",
-      "date": null,
+      "date": "2023-12-31",
       "year": 2023,
-      "location": null,
-      "venue": null,
-      "description": "需核對正式節目紀錄及合作名單。",
+      "location": "日本，東京澀谷",
+      "venue": "NHK Hall",
+      "description": "第三次出場紅白，演唱〈アイドル〉。舞台集結多組日韓藝人、橋本環奈、アバンギャルディ及 REAL AKIBA BOYZ 參與舞蹈合作，背景呈現《我推的孩子》動畫影像。",
       "sources": [
-        "news-579128"
+        "oricon-20231231-kohaku-performance",
+        "oricon-20231231-kohaku-lineup"
       ],
-      "verified": false,
-      "datePrecision": "unknown",
-      "dateBasis": "unverified_candidate",
-      "status": "unverified",
-      "verificationScope": "候選資料，尚未完成來源正文及日期／場館核對；不得公開為確定史實。",
-      "candidateDate": "2023-12-31"
+      "verified": true,
+      "datePrecision": "day",
+      "dateBasis": "2023-12-31 23:17 事後報導明載當日完成的演出。",
+      "status": "performed",
+      "verificationScope": "核對第74回、第三次出場、日期、曲目、場館及合作舞台；以事後報導確認實際參與，曲序公告只支持出場次數。",
+      "sourceScopes": {
+        "oricon-20231231-kohaku-performance": "23:17 事後報導確認當日實際演唱、東京澀谷 NHK Hall 與舞蹈合作名單；未據此新增完整歌單或影片。",
+        "oricon-20231231-kohaku-lineup": "演出前曲序表明列 YOASOBI（3），支持第三次出場的編號；不能單獨證明完成演出，也不將トリ前寫成大トリ。"
+      },
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "history-0219",
@@ -4574,20 +4793,26 @@
       "type": "tour_show",
       "date": "2024-01-21",
       "year": 2024,
-      "location": null,
+      "location": "新北",
       "venue": "Zepp New Taipei",
-      "description": "官方演出清單所列場次。",
+      "description": "亞洲巡演來到 Zepp New Taipei。中央社當晚報導記載約 80 分鐘、17 首歌的演出：〈夜に駆ける〉開場，〈Biri-Biri〉有寶可夢角色伴舞，〈アイドル〉則出現在安可。",
       "sources": [
-        "live-51349"
+        "live-51349",
+        "cna-20240121-zepp"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "status": "performed",
+      "verificationScope": "官方來源支持日期與場館；中央社事後正文支持實際演出及本筆列出的舞台細節。未據零散曲目建立完整歌單或常演率。",
       "parentEvent": "51349",
       "sourceLocation": "その他",
-      "marketLabel": "TAIPEI"
+      "marketLabel": "TAIPEI",
+      "verifiedAt": "2026-10-09",
+      "sourceScopes": {
+        "live-51349": "官方日程支持排定日期與場館；事後演出另採中央社報導。",
+        "cna-20240121-zepp": "2024-01-21 事後現場報導支持實際演出、時長、曲數及部分曲目位置；正文未列完整 17 首曲序。"
+      }
     },
     {
       "id": "history-0204",
@@ -5896,20 +6121,26 @@
       "type": "tour_show",
       "date": "2025-02-08",
       "year": 2025,
-      "location": null,
+      "location": "台北",
       "venue": "TAIPEI ARENA",
-      "description": "官方演出清單所列場次。",
+      "description": "YOASOBI 首度登上台北小巨蛋，展開「超現実」巡演的台北首晚。中央社記者記錄〈群青〉、〈アイドル〉與〈勇者〉等曲目，〈夜に駆ける〉作為安可收尾；兩人也以中文向歌迷問好。",
       "sources": [
-        "live-52766"
+        "live-52766",
+        "cna-20250208-taipei"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "status": "performed",
+      "verificationScope": "官方來源支持日期與場館；中央社事後正文支持實際演出及本筆列出的舞台細節。未據零散曲目建立完整歌單或常演率。",
       "parentEvent": "52766",
       "sourceLocation": "その他",
-      "marketLabel": "TAIPEI"
+      "marketLabel": "TAIPEI",
+      "verifiedAt": "2026-10-09",
+      "sourceScopes": {
+        "live-52766": "官方日程支持排定日期與場館；事後演出另採中央社報導。",
+        "cna-20250208-taipei": "2025-02-08 首晚事後報導支持實際演出與列名曲目；未提供完整歌單，文中觀眾人數為兩天合計，不視為首晚人數或票房。"
+      }
     },
     {
       "id": "history-0185",
@@ -5917,20 +6148,26 @@
       "type": "tour_show",
       "date": "2025-02-09",
       "year": 2025,
-      "location": null,
+      "location": "台北",
       "venue": "TAIPEI ARENA",
-      "description": "官方演出清單所列場次。",
+      "description": "「超現実」台北第二晚以〈セブンティーン〉與〈祝福〉開場。中央社記錄主秀中的〈アイドル〉、ikura 的自彈自唱安可，以及〈夜に駆ける〉壓軸；手機燈海也成了這次演出的共同記憶。",
       "sources": [
-        "live-52766"
+        "live-52766",
+        "cna-20250209-taipei"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule",
-      "status": "listed_past",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "status": "performed",
+      "verificationScope": "官方來源支持日期與場館；中央社事後正文支持實際演出及本筆列出的舞台細節。未據零散曲目建立完整歌單或常演率。",
       "parentEvent": "52766",
       "sourceLocation": "その他",
-      "marketLabel": "TAIPEI"
+      "marketLabel": "TAIPEI",
+      "verifiedAt": "2026-10-09",
+      "sourceScopes": {
+        "live-52766": "官方日程支持排定日期與場館；事後演出另採中央社報導。",
+        "cna-20250209-taipei": "2025-02-09 次晚事後報導支持實際演出與所述舞台細節；正文與圖說未列完整曲序，Haven’t 的版本與曲序不據此補入演出統計。"
+      }
     },
     {
       "id": "history-0182",
@@ -7704,13 +7941,18 @@
       "description": "第四張日語 EP，12首曲目；官方稱 THE BOOK 系列完結作。",
       "sources": [
         "news-584407",
-        "orchard-1811"
+        "orchard-1811",
+        "asahi-20260606-ep"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "activity",
       "status": "released",
-      "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+      "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
+      "sourceScopes": {
+        "asahi-20260606-ep": "已讀曲目報導及 Ayase 對作品篇幅的說明；分類仍採官方 EP，發行日不是報導刊登日。"
+      },
+      "verifiedAt": "2026-10-09"
     },
     {
       "id": "history-0074",
@@ -8439,18 +8681,24 @@
       "year": 2027,
       "location": "台北（官方市場名稱）",
       "venue": "台北ドーム",
-      "description": "官方演出清單所列場次。",
+      "description": "「超惑星 SUPER PLANET」亞洲巡演預定於台北大巨蛋舉行。中央社 2026-08-31 報導同時公告 2027-01-09、2027-01-10 兩晚；截至本筆查核日，兩場仍為未來預定。",
       "sources": [
-        "live-55797"
+        "live-55797",
+        "cna-20260831-dome"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule",
       "status": "scheduled",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "verificationScope": "官方日程與中央社公告支持排定日期及場館；截至 2026-10-09 尚未演出，不列為事後紀錄。",
       "parentEvent": "55797",
       "sourceLocation": "その他",
-      "marketLabel": "TAIPEI"
+      "marketLabel": "TAIPEI",
+      "verifiedAt": "2026-10-09",
+      "sourceScopes": {
+        "live-55797": "官方排定日期與場館。",
+        "cna-20260831-dome": "2026-08-31 引用新聞稿的演出公告，支持兩晚日期與台北大巨蛋；不作實際演出或當下售票階段的證據。"
+      }
     },
     {
       "id": "history-0112",
@@ -8460,18 +8708,24 @@
       "year": 2027,
       "location": "台北（官方市場名稱）",
       "venue": "台北ドーム",
-      "description": "官方演出清單所列場次。",
+      "description": "「超惑星 SUPER PLANET」亞洲巡演預定於台北大巨蛋舉行。中央社 2026-08-31 報導同時公告 2027-01-09、2027-01-10 兩晚；截至本筆查核日，兩場仍為未來預定。",
       "sources": [
-        "live-55797"
+        "live-55797",
+        "cna-20260831-dome"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule",
       "status": "scheduled",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "verificationScope": "官方日程與中央社公告支持排定日期及場館；截至 2026-10-09 尚未演出，不列為事後紀錄。",
       "parentEvent": "55797",
       "sourceLocation": "その他",
-      "marketLabel": "TAIPEI"
+      "marketLabel": "TAIPEI",
+      "verifiedAt": "2026-10-09",
+      "sourceScopes": {
+        "live-55797": "官方排定日期與場館。",
+        "cna-20260831-dome": "2026-08-31 引用新聞稿的演出公告，支持兩晚日期與台北大巨蛋；不作實際演出或當下售票階段的證據。"
+      }
     },
     {
       "id": "history-0110",
@@ -8493,6 +8747,74 @@
       "parentEvent": "55798",
       "sourceLocation": "その他",
       "marketLabel": null
+    },
+    {
+      "id": "history-0306",
+      "title": "Ayase 與 ikura 出席白宮國宴",
+      "type": "milestone",
+      "date": "2024-04-10",
+      "year": 2024,
+      "datePrecision": "day",
+      "location": "美國・華盛頓特區",
+      "venue": "白宮",
+      "description": "Ayase 與幾田莉拉（ikura）受邀出席美國為日本首相岸田文雄舉行的白宮國宴。白宮當日名單列出兩人的姓名，中央社 2024-04-12 的事後報導則記載 YOASOBI 參與晚宴。這次活動以賓客身份出席，本站未將它列為音樂演出。",
+      "sources": [
+        "white-house-20240410-guests",
+        "cna-20240412-white-house"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-09",
+      "status": "documented",
+      "dateBasis": "official_document",
+      "verificationScope": "白宮公文核對活動日期及預期賓客姓名，中央社事後正文支持出席；不由受邀或赴宴推定有音樂表演。",
+      "sourceScopes": {
+        "white-house-20240410-guests": "2024-04-10 公文列出預期賓客 Ayase、Ikuta Lilas，支持日期與邀請；名單本身不單獨證明實際到場。",
+        "cna-20240412-white-house": "2024-04-12 事後正文中的 YOASOBI 國宴段落支持參與晚宴；新聞刊登日不是赴宴日。"
+      }
+    },
+    {
+      "id": "history-0307",
+      "title": "Overwatch × YOASOBI 合作與新季節發表會",
+      "type": "talk_event",
+      "date": "2026-05-28",
+      "year": 2026,
+      "datePrecision": "day",
+      "location": "東京（報導僅稱都內）",
+      "venue": null,
+      "description": "YOASOBI 出席 Overwatch 合作發表會，說明〈オリオン〉以源氏造訪東京的短篇為素材，並談到近未來聲響與 J-pop 的結合。",
+      "sources": [
+        "asahi-20260528-overwatch"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-09",
+      "status": "documented",
+      "dateBasis": "事後報導明載的發表會日期",
+      "verificationScope": "正文確認出席、活動日期與都內地點；未提供具體場館或演出曲目，不視為演唱會。"
+    },
+    {
+      "id": "history-0308",
+      "title": "〈アイドル〉獲 MUSIC AWARDS JAPAN：Top Global Hit from Japan",
+      "type": "award",
+      "date": "2025-05-22",
+      "year": 2025,
+      "datePrecision": "day",
+      "location": null,
+      "venue": null,
+      "description": "〈アイドル〉獲 Top Global Hit from Japan。主辦方得獎名單列出作品與 YOASOBI，朝日電視台翌日報導確認頒獎日期。",
+      "sources": [
+        "maj-2025-winners",
+        "asahi-20250523-maj"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-09",
+      "status": "documented",
+      "dateBasis": "朝日電視台事後報導明載的前一晚得獎日",
+      "verificationScope": "核對特定部門、作品、藝人與得獎日；不據此推定當晚演出歌曲或其他獎項。",
+      "sourceScopes": {
+        "maj-2025-winners": "核對 Top Global Hit from Japan 的得獎作品與藝人；得獎日期另以朝日電視台事後報導支持。",
+        "asahi-20250523-maj": "事後報導記錄 2025-05-22 晚間得獎；刊登日與事件日分開，不以側欄或 ENTRY CATEGORY 推定其他獎項。"
+      }
     }
-  ]
+  ],
+  "baselineVerifiedAt": "2026-10-05"
 }

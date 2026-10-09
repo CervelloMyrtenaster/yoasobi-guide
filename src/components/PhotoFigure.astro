@@ -1,0 +1,44 @@
+---
+import { Image } from 'astro:assets';
+import type { EditorialPhoto } from '../data/photos';
+
+interface Props { photo: EditorialPhoto; width?: 280 | 360 | 640; loading?: 'eager' | 'lazy' }
+const { photo, width = 280, loading = 'eager' } = Astro.props;
+const widths = [...new Set([width, width * 2, width * 3].map(value => Math.min(value, photo.image.width)))];
+---
+
+<figure class="editorial-photo" style={`--photo-width: ${width}px`}>
+  <Image
+    src={photo.image}
+    alt={photo.alt}
+    width={width}
+    widths={widths}
+    sizes={`(max-width: ${width + 47}px) calc(100vw - 48px), ${width}px`}
+    format="webp"
+    quality={80}
+    loading={loading}
+    decoding="async"
+  />
+  <figcaption>
+    <p>{photo.caption}</p>
+    <p class="photo-credit">
+      {photo.creditLabel}：{photo.author} ·
+      <a href={photo.sourceUrl} target="_blank" rel="noopener noreferrer">來源 ↗<span class="sr-only">（另開分頁）</span></a> ·
+      <a href={photo.license.url} target="_blank" rel="noopener noreferrer">{photo.license.name} ↗<span class="sr-only">（另開分頁）</span></a>
+    </p>
+    <p class="photo-changes">{photo.changes}</p>
+    {photo.contextNote && <p class="photo-context">{photo.contextNote}</p>}
+    {photo.contextSources && <p class="photo-context">{photo.contextSources.map((source, index) => <>{index > 0 && ' · '}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗<span class="sr-only">（另開分頁）</span></a></>)}</p>}
+  </figcaption>
+</figure>
+
+<style>
+  .editorial-photo { width: 100%; max-width: var(--photo-width, 280px); margin: 0; }
+  .editorial-photo img { display: block; width: 100%; height: auto; }
+  figcaption { margin-top: 12px; font-size: 13px; line-height: 1.7; color: var(--muted); overflow-wrap: anywhere; }
+  figcaption p { margin: 0; }
+  .photo-credit { margin-top: 8px; }
+  .photo-credit a, .photo-context a { display: inline-block; padding-block: 6px; }
+  .photo-changes { margin-top: 4px; }
+  .photo-context { margin-top: 8px; }
+</style>

@@ -1,8 +1,28 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import SourceList from '../components/SourceList.astro';
+import PhotoFigure from '../components/PhotoFigure.astro';
 import type { CollectionEntry } from 'astro:content';
-interface Props { entry: CollectionEntry<'guides' | 'members'> }
-const { entry } = Astro.props;
+import type { EditorialPhoto } from '../data/photos';
+interface Props { entry: CollectionEntry<'guides' | 'members'>; photo?: EditorialPhoto }
+const { entry, photo } = Astro.props;
 ---
-<BaseLayout title={entry.data.title} description={entry.data.summary}><div class="page-head"><span class="eyebrow">THE STORY / YOASOBI GUIDE</span><h1>{entry.data.title}</h1><p class="lead">{entry.data.summary}</p></div><article class="prose"><slot/><SourceList sources={entry.data.sources} updatedAt={entry.data.updatedAt}/></article></BaseLayout>
+<BaseLayout title={entry.data.title} description={entry.data.summary}>
+  <div class:list={['page-head', { 'with-photo': photo }]}>
+    <div>
+      <span class="eyebrow">THE STORY / YOASOBI GUIDE</span>
+      <h1>{entry.data.title}</h1>
+      <p class="lead">{entry.data.summary}</p>
+    </div>
+    {photo && <PhotoFigure photo={photo} />}
+  </div>
+  <article class="prose"><slot/><SourceList sources={entry.data.sources} updatedAt={entry.data.updatedAt}/></article>
+</BaseLayout>
+
+<style>
+  .with-photo { display: grid; gap: 24px; }
+  .with-photo > div { min-width: 0; }
+  @media (min-width: 720px) {
+    .with-photo { grid-template-columns: minmax(0, 1fr) 280px; align-items: center; gap: 40px; }
+  }
+</style>

@@ -1,7 +1,7 @@
 ---
 {
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-09",
   "title": "YOASOBI：把故事變成可以聽見的世界",
   "summary": "Ayase 的創作與 ikura 的歌聲相遇，從短篇小說走向動畫、遊戲、舞台與共同演唱。",
   "order": 0,
@@ -40,6 +40,11 @@
       "title": "WANDARA 完走報導",
       "url": "https://www.thefirsttimes.jp/report/0000727549/",
       "scope": "2025 hall 巡演的形式與演出回顧。"
+    },
+    {
+      "title": "TBS NEWS DIG：Nスタ YOASOBI 未剪輯訪談",
+      "url": "https://www.youtube.com/watch?v=vqsK-bdAoqU",
+      "scope": "官方已驗證頻道與影片說明：2020-08-13 播出，2020-08-16 公開；章節時間採官方說明，不把題目當成受訪回答。"
     }
   ]
 }
@@ -54,6 +59,8 @@ YOASOBI 是由創作者 Ayase 與主唱 ikura 組成的日本音樂組合，於 
 ## 兩名成員怎麼一起工作？
 
 [Ayase](../members/ayase/)負責主要詞曲與編曲，[ikura](../members/ikura/)負責演唱。Sony 的初期訪談記錄了團隊如何找到兩人，以及反覆製作 demo、調整人聲的過程。小說是創作起點，旋律、節奏與演唱則把故事改寫成另一種作品。
+
+想直接聽兩人說話，可以看 [TBS「Nスタ」的初期未剪輯訪談](https://www.youtube.com/watch?v=vqsK-bdAoqU)。影片說明標明 2020-08-13 播出、2020-08-16 公開；官方章節把[兩人製作歌曲時是否有分歧（7:30）](https://www.youtube.com/watch?v=vqsK-bdAoqU&t=450s)與[小說改編的困難（17:15）](https://www.youtube.com/watch?v=vqsK-bdAoqU&t=1035s)分開列出。先挑一題聽，再回歌曲頁讀原作，比一次看完所有介紹更容易抓住自己的問題。
 
 ## 「小說原作」有好幾種關係
 

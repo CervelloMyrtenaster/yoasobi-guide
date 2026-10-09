@@ -2,7 +2,7 @@
   "id": "orion",
   "songId": "orion",
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-09",
   "notes": [
     {
       "area": "creation",
@@ -18,6 +18,18 @@
           "title": "YOASOBI 官方 SONGS / NOVELS",
           "url": "https://www.yoasobi-music.jp/songs",
           "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+        }
+      ]
+    },
+    {
+      "area": "creation",
+      "title": "近未來聲響裡的東京與 J-pop",
+      "text": "2026-05-28 的 Overwatch 合作發表會上，Ayase 說明〈オリオン〉採近未來的聲響，同時保留 J-pop 的表達；報導也提到琴的聲音呼應東京地圖。可以聽電子聲響與這些音色如何相遇，再回到源氏的短篇故事。這裡的琴音描述不代表已確認真人演奏者或取樣來源。",
+      "sources": [
+        {
+          "title": "朝日電視台：Overwatch 合作發表會與〈オリオン〉製作（2026-05-28）",
+          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900191650.html",
+          "scope": "正文記錄東京發表會、琴音與 Ayase 的製作說明；合作開始日不是歌曲發行日，未提供具體場館或樂器演奏者。"
         }
       ]
     }
@@ -51,6 +63,11 @@
       "title": "YOASOBI 官方 SONGS / NOVELS",
       "url": "https://www.yoasobi-music.jp/songs",
       "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    },
+    {
+      "title": "朝日電視台：Overwatch 合作發表會與〈オリオン〉製作（2026-05-28）",
+      "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900191650.html",
+      "scope": "正文記錄東京發表會、琴音與 Ayase 的製作說明；合作開始日不是歌曲發行日，未提供具體場館或樂器演奏者。"
     }
   ]
 }

@@ -2,7 +2,8 @@
 import { render } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import { loadContent } from '../../lib/content';
+import { memberPhotos } from '../../data/photos';
 export async function getStaticPaths() { const { members } = await loadContent(); return members.map(entry => ({ params: { id: entry.id }, props: { entry } })); }
 const { entry } = Astro.props; const { Content } = await render(entry);
 ---
-<ArticleLayout entry={entry}><Content/></ArticleLayout>
+<ArticleLayout entry={entry} photo={memberPhotos[entry.id]}><Content/></ArticleLayout>

@@ -2,7 +2,7 @@
   "id": "mister",
   "songId": "mister",
   "status": "published",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-09",
   "notes": [
     {
       "area": "creation",
@@ -54,6 +54,30 @@
           "title": "杉浦美恵：THE BOOK 3 新譜評論（2023-10-03）",
           "url": "https://rockinon.com/disc/detail/207567",
           "scope": "具名 EP 評論，原刊 ROCKIN’ON JAPAN 2023 年 11 月號；不是大眾共識或單曲獲獎。"
+        }
+      ]
+    },
+    {
+      "area": "creation",
+      "title": "Ayase 如何讓近未來帶一點懷舊感",
+      "text": "Ayase 在 2022 年的めざまし訪談裡說，小說讓他想到略微褪色、又帶近未來感的世界。於是他把八、九〇年代 city pop 的氣氛，與當時自己喜歡的新聲響混在一起。回聽〈ミスター〉，可以留意這份既熟悉又陌生的感覺；這是他的創作自述，不只是本站對曲風的分類。",
+      "sources": [
+        {
+          "title": "富士電視台／めざましmedia：直木賞合作與〈ミスター〉製作訪談（2022-03-04）",
+          "url": "https://mezamashi.media/articles/-/17620",
+          "scope": "已讀訪談正文：當時企劃的聲響構思與作者對談順序；不推為所有後續作品的固定流程。"
+        }
+      ]
+    },
+    {
+      "area": "creation",
+      "title": "完成歌曲後，才與島本理生交換想法",
+      "text": "同一篇訪談中，Ayase 說這次企劃在歌曲完成前沒有與原作者聯絡；ikura 則回憶，完成後的對談讓她更理解小說的描寫。歌曲因此也保留音樂人初讀故事時的想像，而不是逐項照作者口頭指示製作。",
+      "sources": [
+        {
+          "title": "富士電視台／めざましmedia：直木賞合作與〈ミスター〉製作訪談（2022-03-04）",
+          "url": "https://mezamashi.media/articles/-/17620",
+          "scope": "已讀訪談正文：當時企劃的聲響構思與作者對談順序；不推為所有後續作品的固定流程。"
         }
       ]
     }
@@ -134,6 +158,11 @@
       "title": "dotMP：ミスター製作紀錄",
       "url": "https://dotmp.jp/work/87766",
       "scope": "製作職務與署名；頁面日期不當作 MV 公開日。"
+    },
+    {
+      "title": "富士電視台／めざましmedia：直木賞合作與〈ミスター〉製作訪談（2022-03-04）",
+      "url": "https://mezamashi.media/articles/-/17620",
+      "scope": "已讀訪談正文：當時企劃的聲響構思與作者對談順序；不推為所有後續作品的固定流程。"
     }
   ]
 }

@@ -20,7 +20,9 @@ const records = research.records.filter(r => r.verified === true).map(r => {
   return {
     id:r.id, title:r.title, type:r.type, date:r.date, year:r.year, datePrecision:r.datePrecision,
     ...(r.endDate ? {endDate:r.endDate} : {}), location:r.location, venue:r.venue,
-    description:r.description, sources, verified:true, verifiedAt:research.asOf,
+    description:r.description, sources, verified:true,
+    // A partial research update must not redate every previously verified record.
+    verifiedAt:r.verifiedAt ?? research.baselineVerifiedAt ?? research.asOf,
     status:r.status, dateBasis:r.dateBasis, verificationScope:r.verificationScope,
     conflictNotes:linked.map(id => conflicts[id].replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')),
     showIds:r.showIds ?? [],
