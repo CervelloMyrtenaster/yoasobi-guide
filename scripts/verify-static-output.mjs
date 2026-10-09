@@ -16,6 +16,12 @@ const titles=new Map();
 for(const file of html){
  const page=read(file),route=file.replace(/index\.html$/,'');
  const pageURL=new URL(base+route,origin);
+ // Removed editorial panels must not reappear on any generated song page.
+ if(/^songs\/[^/]+\/index\.html$/.test(file)){
+  for(const label of ['題名與日語練習','資料覆蓋與待查項目','學習資料來源與整理範圍']){
+   if(page.includes(label))failures.push({file,reason:'removed song section reappeared',label});
+  }
+ }
  const title=page.match(/<title>([^<]+)<\/title>/)?.[1];
  if(!title)failures.push({file,reason:'missing title'});
  if(titles.has(title))failures.push({file,reason:'duplicate title',other:titles.get(title)});titles.set(title,file);
