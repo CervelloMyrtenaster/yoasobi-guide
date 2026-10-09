@@ -1,7 +1,7 @@
 ---
 {
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-09",
   "titleJa": "オリオン",
   "titleRomaji": "Orion",
   "titleZh": {
@@ -20,7 +20,8 @@
   "language": "ja",
   "kind": "original",
   "historyIds": [
-    "history-0074"
+    "history-0074",
+    "history-0307"
   ],
   "releaseIds": [
     "the-book-for"
@@ -90,6 +91,11 @@
       "title": "YOASOBI「オリオン / Orion」 from TBS系 『CDTVライブ！ライブ！』 @ TOYOTA ARENA TOKYO",
       "url": "https://www.youtube.com/watch?v=67dqkyZXwd4",
       "scope": "2026-10-04 核對官方發布者與影片標題；未標日期不自行補日期，不據片段推定完整歌單。"
+    },
+    {
+      "title": "朝日電視台：Overwatch 合作發表會與〈オリオン〉製作（2026-05-28）",
+      "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900191650.html",
+      "scope": "正文記錄東京發表會、琴音與 Ayase 的製作說明；合作開始日不是歌曲發行日，未提供具體場館或樂器演奏者。"
     }
   ],
   "japaneseLearning": {
@@ -111,17 +117,15 @@
 
 ## 創作背景與故事入口
 
-〈オリオン〉與 Blizzard《Overwatch／鬥陣特攻》合作，原作為 E. C. Myers《地に堕ちた雀／The Fall of a Sparrow》，由遊戲團隊監修。官方合作為歌曲提供以東京為舞台的新故事，而不是只在既有歌曲上附上遊戲名稱。
+〈オリオン〉連結 Overwatch 世界，原作是 E. C. Myers 的《地に堕ちた雀 / The Fall of a Sparrow》，焦點放在源氏。這次不是單純拿遊戲人物當封面：官方另提供短篇作為 YOASOBI 的創作入口，使歌曲能從人物經歷回到遊戲世界。[官方作品介紹](https://www.yoasobi-music.jp/news/583766)
 
-閱讀時可以分清小說的新事件、遊戲既有世界觀與歌曲保留的情感；不熟遊戲的人先由官方短篇進入，會比先背角色名更容易建立脈絡。同名英文版與 PSYQUI Remix 則是不同語言或編曲版本，不新增一個完全不同的原作。
+TV 朝日的報導收錄 Ayase 的創作說明。他把日本、東京這些場景與遊戲的未來感放在一起構想聲音；這層背景也讓作品與同樣連結遊戲的〈Biri-Biri〉不同，一首回到源氏的故事，另一首聚焦寶可夢對手間的關係。[TV 朝日：Overwatch 合作與 Ayase 創作說明](https://news.tv-asahi.co.jp/news_geinou/articles/900191650.html)
 
 ## 音樂特色：本站聆聽解析
 
-以下為本站編輯的聆聽與閱讀引導；具名訪談或評論另附來源。
+Ayase 在報導中提到未來感的聲音與 J-POP 的結合，也說到琴的聲響。這是具名的編曲線索，可以連回作品的日本場景；來源未確認琴聲由誰演奏或如何取樣，本站不另補製作人員。[TV 朝日：Overwatch 合作與 Ayase 創作說明](https://news.tv-asahi.co.jp/news_geinou/articles/900191650.html)
 
-先聽主唱與節奏如何建立向前的動能，再觀察較開闊的旋律段落是否讓故事的距离感改變。題名的星空意象不等於整首必須是安靜抒情；可把聲音與閱讀感受放在一起比較。
-
-官方 CDTV 片段提供真實樂隊演出的入口；Remix 則適合比較哪些元素仍能讓你辨認同一首歌，哪些節奏與聲音空間已被改寫。不要把重新編曲當成原版的商業成績。
+另外有[PSYQUI Remix](../orion-psyqui-remix/)與[英文版](../orion-en/)。前者重做編曲，後者改換演唱語言；從日文原曲開始，再分別比較聲音與語言，能看清楚三個版本與同一篇原作的關係。
 
 ## 題名與日語練習
 

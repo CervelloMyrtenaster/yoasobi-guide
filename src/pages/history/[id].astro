@@ -4,6 +4,8 @@ import SourceList from '../../components/SourceList.astro';
 import { loadHistory, historyTypes, historyStatuses, liveTypes, releaseTypes } from '../../lib/history';
 import { path } from '../../lib/paths';
 import { loadContent } from '../../lib/content';
+import PhotoGallery from '../../components/PhotoGallery.astro';
+import { historyPhotos } from '../../data/photos';
 export async function getStaticPaths() {
   return (await loadHistory()).map(entry=>({params:{id:entry.id},props:{entry}}));
 }
@@ -30,6 +32,7 @@ const archiveLabel = archive === 'live/' ? 'LIVE 演出' : archive === 'releases
     {setlists.length>0 && <section class="callout"><h2>已刊載歌單</h2>{setlists.map(c=><p><a href={path(`live/${c.id}/`)}>閱讀本場 {c.data.setlist.length} 首曲序與歌曲介紹 →</a></p>)}</section>}
     {relatedSongs.length>0 && <section class="callout"><h2>閱讀歌曲介紹</h2>{relatedSongs.map(song=><p><a href={path(`songs/${song.id}/`)}>{song.data.titleJa}：原作、聆聽筆記與官方播放入口 →</a></p>)}</section>}
     {shows.length>0 && <section><h2>已收錄場次</h2><p>巡演與場次分開保存；巡演本身不另外計算為一場演出。</p><ul>{shows.map(show=><li><time datetime={show.data.date}>{show.data.date}</time> · <a href={path(`history/${show.id}/`)}>{show.data.venue ?? show.data.title}</a> · {historyStatuses[show.data.status]}</li>)}</ul></section>}
+    <PhotoGallery title={liveTypes.has(data.type) ? '現場影像' : '活動影像'} stories={historyPhotos[entry.id]}/>
     <section><h2>查核範圍</h2><p>{data.verificationScope}</p>{data.dateBasis==='official_anniversary_inference' && <p>成立年份依官方周年敘述回推；來源並非成立當日公告。</p>}</section>
     {data.conflictNotes.length>0 && <section class="callout"><h2>來源差異與處理</h2><ul>{data.conflictNotes.map(note=><li>{note}</li>)}</ul></section>}
     <SourceList sources={data.sources} updatedAt={data.verifiedAt}/>

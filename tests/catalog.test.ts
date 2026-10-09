@@ -43,3 +43,25 @@ test('新刊載歌單區分本篇安可，不推定完整演唱',()=>{
   const record=read('src/content/history/verified.json').find((r:any)=>r.id==='history-0195');
   assert.deepEqual(record.setlistIds,[c.id]);assert.equal(record.date,c.date);assert.deepEqual(record.showIds,[]);
 });
+
+test('NHK regional video keeps its verified publisher and upload date separate from performance data',()=>{
+  const video=songs.find(s=>s.id==='heart-beat')!.data.videos.find(v=>v.youtubeId==='vpz9ejxPj0Q')!;
+  assert.equal(video.kind,'live');
+  assert.equal(video.scene,'tv');
+  assert.equal(video.publishedOn,'2025-09-30');
+  assert.equal(video.performedOn,undefined);
+  assert.equal(video.concertId,undefined);
+  assert.equal(video.externalOnly,true);
+  assert.match(video.restrictionNote!,/台灣.*地區限制/);
+  const provenance=read('research/catalog/extra-videos.json').find((v:{id:string})=>v.id===video.youtubeId);
+  assert.equal(provenance.author,'NHK');
+  assert.equal(provenance.verifiedAt,'2026-10-09');
+});
+
+test('Kohaku history links both 2021 songs and keeps a private clip out of playable media',()=>{
+  for(const [id,historyId] of [
+    ['yoru-ni-kakeru','history-0291'],['gunjo','history-0292'],
+    ['tsubame','history-0292'],['idol','history-0293'],
+  ])assert.ok(songs.find(s=>s.id===id)!.data.historyIds.includes(historyId),`${id}: missing reciprocal history link`);
+  assert.ok(!songs.some(s=>s.data.videos.some(v=>v.youtubeId==='mCy4QQfoZqE')),'private NHK clip must not appear as a playable performance');
+});

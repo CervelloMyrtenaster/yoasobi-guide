@@ -2,7 +2,7 @@
   "id": "idol",
   "songId": "idol",
   "status": "published",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-09",
   "notes": [
     {
       "area": "creation",
@@ -68,6 +68,40 @@
           "scope": "具名音樂評論；區分作者解讀與創作者自述。"
         }
       ]
+    },
+    {
+      "area": "reception",
+      "title": "2025 年：日本歌曲走向世界的獎項紀錄",
+      "text": "朝日電視台在 2025-05-23 的事後報導中記錄，〈アイドル〉前一晚獲 MUSIC AWARDS JAPAN 的 Top Global Hit from Japan，表彰在世界受到歡迎的日本歌曲。主辦方得獎名單亦列出這首作品；這是特定部門的肯定，與一般的年度歌曲獎應分開閱讀。",
+      "sources": [
+        {
+          "title": "朝日電視台：〈アイドル〉獲 Top Global Hit from Japan（2025-05-23）",
+          "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900025539.html",
+          "scope": "事後報導記錄 2025-05-22 晚間得獎；刊登日與事件日分開，不以側欄或 ENTRY CATEGORY 推定其他獎項。"
+        },
+        {
+          "title": "MUSIC AWARDS JAPAN 2025 官方得獎名單",
+          "url": "https://www.musicawardsjapan.com/2025/awards/",
+          "scope": "核對 Top Global Hit from Japan 的得獎作品與藝人；得獎日期另以朝日電視台事後報導支持。"
+        }
+      ]
+    },
+    {
+      "area": "reception",
+      "title": "紅白精華也曾讓海外觀眾看見舞台",
+      "text": "Mynavi 在 2024-03-09 刊出的 NHK MUSIC 編輯長訪談，記錄〈アイドル〉紅白精華當時已有 1,128 萬次觀看，約四分之一來自海外。這提供了歌曲如何經由電視片段繼續被傳播的線索；數字是當時的快照，不能當成目前累計。2026-10-09 查核該影片候選連結時已顯示私人，本站因此保留這段傳播紀錄，不嵌入失效播放器。",
+      "sources": [
+        {
+          "title": "Mynavi：NHK MUSIC 編輯長談紅白影片（2024-03-09）",
+          "url": "https://news.mynavi.jp/article/20240309-nhkmusic/2",
+          "scope": "已讀具名訪談，支持 NHK 曾公開〈アイドル〉紅白 live cut；觀看次數及海外比例為刊登時快照，不當作目前成績。"
+        },
+        {
+          "title": "紅白〈アイドル〉影片候選：目前為私人影片",
+          "url": "https://www.youtube.com/watch?v=mCy4QQfoZqE",
+          "scope": "2026-10-09 瀏覽器顯示「私人影片」。原發布內容另以 NHK 編輯長訪談支持；此連結是可用性查核證據，不是可觀看入口。"
+        }
+      ]
     }
   ],
   "credits": [
@@ -103,6 +137,26 @@
       "title": "YOASOBI 官方 SONGS / NOVELS",
       "url": "https://www.yoasobi-music.jp/songs",
       "scope": "歌曲、原作署名與作品入口；2026-10-04 核對八頁日文作品。"
+    },
+    {
+      "title": "朝日電視台：〈アイドル〉獲 Top Global Hit from Japan（2025-05-23）",
+      "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900025539.html",
+      "scope": "事後報導記錄 2025-05-22 晚間得獎；刊登日與事件日分開，不以側欄或 ENTRY CATEGORY 推定其他獎項。"
+    },
+    {
+      "title": "MUSIC AWARDS JAPAN 2025 官方得獎名單",
+      "url": "https://www.musicawardsjapan.com/2025/awards/",
+      "scope": "核對 Top Global Hit from Japan 的得獎作品與藝人；得獎日期另以朝日電視台事後報導支持。"
+    },
+    {
+      "title": "Mynavi：NHK MUSIC 編輯長談紅白影片（2024-03-09）",
+      "url": "https://news.mynavi.jp/article/20240309-nhkmusic/2",
+      "scope": "已讀具名訪談，支持 NHK 曾公開〈アイドル〉紅白 live cut；觀看次數及海外比例為刊登時快照，不當作目前成績。"
+    },
+    {
+      "title": "紅白〈アイドル〉影片候選：目前為私人影片",
+      "url": "https://www.youtube.com/watch?v=mCy4QQfoZqE",
+      "scope": "2026-10-09 瀏覽器顯示「私人影片」。原發布內容另以 NHK 編輯長訪談支持；此連結是可用性查核證據，不是可觀看入口。"
     }
   ]
 }

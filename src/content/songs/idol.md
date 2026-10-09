@@ -1,7 +1,7 @@
 ---
 {
   "status": "published",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-09",
   "titleJa": "アイドル",
   "titleRomaji": "Aidoru",
   "titleZh": {
@@ -21,7 +21,12 @@
   "kind": "original",
   "historyIds": [
     "history-0037",
-    "history-0107"
+    "history-0107",
+    "history-0216",
+    "history-0184",
+    "history-0185",
+    "history-0308",
+    "history-0293"
   ],
   "releaseIds": [
     "the-book-3"
@@ -121,6 +126,61 @@
       "title": "YOASOBI「アイドル」from『劇場版YOASOBI 5th ANNIVERSARY DOME LIVE 2024 \"超現実\"』",
       "url": "https://www.youtube.com/watch?v=IvMFMA89Yi8",
       "scope": "2026-10-04 核對官方發布者與影片標題；未標日期不自行補日期，不據片段推定完整歌單。"
+    },
+    {
+      "title": "中央社：YOASOBI熱唱80分鐘無冷場 嗨喊「多謝」承諾再來",
+      "url": "https://www.cna.com.tw/news/amov/202401210171.aspx",
+      "scope": "2024-01-21 現場報導所述曲目位置與舞台畫面；未提供完整曲序。"
+    },
+    {
+      "title": "中央社：YOASOBI小巨蛋開唱2天吸引2.4萬人 感動用音樂聯繫台灣歌迷",
+      "url": "https://www.cna.com.tw/news/amov/202502080252.aspx",
+      "scope": "2025-02-08 台北小巨蛋首晚的列名曲目與安可收尾；不據此計算常演率。"
+    },
+    {
+      "title": "中央社：YOASOBI小巨蛋喊「不想結束」 想再唱更大場地",
+      "url": "https://www.cna.com.tw/news/amov/202502090200.aspx",
+      "scope": "2025-02-09 台北小巨蛋次晚的主秀與安可敘述；未提供完整曲序。"
+    },
+    {
+      "title": "朝日電視台：〈アイドル〉獲 Top Global Hit from Japan（2025-05-23）",
+      "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900025539.html",
+      "scope": "事後報導記錄 2025-05-22 晚間得獎；刊登日與事件日分開，不以側欄或 ENTRY CATEGORY 推定其他獎項。"
+    },
+    {
+      "title": "MUSIC AWARDS JAPAN 2025 官方得獎名單",
+      "url": "https://www.musicawardsjapan.com/2025/awards/",
+      "scope": "核對 Top Global Hit from Japan 的得獎作品與藝人；得獎日期另以朝日電視台事後報導支持。"
+    },
+    {
+      "title": "ORICON：第74回紅白〈アイドル〉與合作舞台（2023-12-31）",
+      "url": "https://www.oricon.co.jp/news/2309103/full/",
+      "scope": "23:17 事後報導確認當日實際演唱、東京澀谷 NHK Hall 與舞蹈合作名單；未據此新增完整歌單或影片。"
+    },
+    {
+      "title": "ORICON：第74回紅白節目曲序公告（2023-12-31）",
+      "url": "https://www.oricon.co.jp/news/2309018/full/",
+      "scope": "演出前曲序表明列 YOASOBI（3），支持第三次出場的編號；不能單獨證明完成演出，也不將トリ前寫成大トリ。"
+    },
+    {
+      "title": "Mynavi：NHK MUSIC 編輯長談紅白影片（2024-03-09）",
+      "url": "https://news.mynavi.jp/article/20240309-nhkmusic/2",
+      "scope": "已讀具名訪談，支持 NHK 曾公開〈アイドル〉紅白 live cut；觀看次數及海外比例為刊登時快照，不當作目前成績。"
+    },
+    {
+      "title": "紅白〈アイドル〉影片候選：目前為私人影片",
+      "url": "https://www.youtube.com/watch?v=mCy4QQfoZqE",
+      "scope": "2026-10-09 瀏覽器顯示「私人影片」。原發布內容另以 NHK 編輯長訪談支持；此連結是可用性查核證據，不是可觀看入口。"
+    },
+    {
+      "title": "赤坂アカ《45510》",
+      "url": "https://youngjump.jp/oshinoko/novel_45510/",
+      "scope": "2026-10-09 閱讀背景補強：原作情節、具名創作說明或製作署名；正文中的本站解讀與來源陳述分開表達。"
+    },
+    {
+      "title": "Billboard JAPAN：〈アイドル〉與「はじめての」訪談",
+      "url": "https://www.billboard-japan.com/special/detail/3968",
+      "scope": "2026-10-09 閱讀背景補強：原作情節、具名創作說明或製作署名；正文中的本站解讀與來源陳述分開表達。"
     }
   ],
   "japaneseLearning": {
@@ -264,6 +324,19 @@
         "url": "https://prtimes.jp/main/html/rd/p/000000535.000010908.html",
         "scope": "認證種類、月份、門檻與公告說明；保留年月精度。"
       }
+    },
+    {
+      "type": "award",
+      "date": "2025-05-22",
+      "dateBasis": "朝日電視台事後報導明載的得獎事件日",
+      "title": "MUSIC AWARDS JAPAN：Top Global Hit from Japan",
+      "institution": "MUSIC AWARDS JAPAN",
+      "description": "〈アイドル〉獲表彰全球傳播的日本歌曲部門。作品與藝人經主辦方得獎名單核對，2025-05-23 的朝日報導記錄前一晚頒獎；不是新聞刊登日，也不等同 Song of the Year。",
+      "source": {
+        "title": "朝日電視台：〈アイドル〉獲 Top Global Hit from Japan（2025-05-23）",
+        "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900025539.html",
+        "scope": "事後報導記錄 2025-05-22 晚間得獎；刊登日與事件日分開，不以側欄或 ENTRY CATEGORY 推定其他獎項。"
+      }
     }
   ],
   "spotify": {
@@ -275,21 +348,29 @@
 
 ## 創作背景與故事入口
 
-〈アイドル〉是《【推しの子】／我推的孩子》第一季片頭曲，直接歌曲原作為赤坂アカ《45510》。短篇從 B 小町其他成員的視角回望星野愛，讓「偶像本人」與「他人希望她成為的樣子」之間的距離變得可見。它補充角色的一面，並非把動畫劇情逐幕唱出來。
+赤坂アカ的《45510》從 B 小町前成員回看星野愛的網路影像開始。敘事者一面迷戀愛的完美，一面不願接受她也可能有脆弱、難看與需要他人的部分。數字題名與愛留下的文字入口相連，故事讓讀者透過他人的妒意與執著，接近那個難以被理解的偶像。[赤坂アカ《45510》](https://youngjump.jp/oshinoko/novel_45510/)
 
-歌中可以聽到崇拜、嫉妒、表演與私密情感交錯。理解時先區分是誰在說話、對谁說話，再談真實與謊言；不必把整首所有語氣都當成星野愛的一段獨白。小說與動畫涉及角色命運，想避開劇情可先從聲音入門。
+這首並不是收到《【我推的孩子】》委託後才從零開始。Ayase 在讀漫畫時便寫了示範曲，原先構想是 Vocaloid 作品；接到動畫企劃後，才依原作與新短篇重新整理歌詞。歌曲前段的外界評價與後段愛的發言，也因此不是單一人物從頭到尾的自白。[Billboard JAPAN：〈アイドル〉與「はじめての」訪談](https://www.billboard-japan.com/special/detail/3968)
 
 ## 音樂特色：本站聆聽解析
 
-以下為本站編輯的聆聽與閱讀引導；具名訪談或評論另附來源。
+ikura 在訪談中談到偶像式唱腔與較陰暗的 rap 之間的切換。Ayase 則提到觀看 Rich Brian 在 Head in the Clouds Jakarta 的演出後，受到低頻震動啟發，將 808 低音的感受帶進本曲。[Billboard JAPAN：〈アイドル〉與「はじめての」訪談](https://www.billboard-japan.com/special/detail/3968)
 
-可愛感的旋律、較具壓迫感的節奏、人聲語氣的切換，讓歌曲像在不同舞台面孔之間快速轉場。跟唱前先畫出段落，不要一開始就追最快的部分；對辨認現場曲目來說，開頭與副歌已很有用。
-
-音樂評論者小町碧音在 Real Sound 的分析，將段落與數位音色的變換連到 Ayase 的 VOCALOID 經驗，也關注 ikura 的角色化唱法。這是具名評論者的解讀，不是團隊對成功原因的唯一結論。可回聽驗證哪些轉換最影響你對偶像形象的理解。
+本站將這些轉換理解為歌曲的敘事手段：可愛的旋律、尖銳的說唱與重低音，分別讓舞台上的形象、旁人的敵意與內在壓力佔據聲音。它不是只在副歌前增加音量，而是不斷更換發言的位置。
 
 ## 題名與日語練習
 
 「アイドル」是 idol 的外來語。中文「偶像」既可能指藝人也可能指崇拜對象，閱讀時要看說話者站在哪一邊；英文版同樣有自己的押韻與發音安排，不宜當成逐字教材。
+
+## 在台灣現場的不同位置
+
+[2024-01-21 Zepp New Taipei](../../history/history-0216/)的安可唱起〈アイドル〉時，中央社報導記錄舞台背景搭配星野愛的影像，讓動畫與歌曲在現場相遇。到了 2025 年台北小巨蛋，中央社[首晚報導](../../history/history-0184/)再次列出這首歌；[第二晚](../../history/history-0185/)則記錄它出現在主秀，最後由〈夜に駆ける〉收尾。同一首熱門曲可以擔任不同角色，認識這些場次，也能提醒自己別把過往安可安排當作下一場的保證。
+
+## 紅白把「偶像」搬進同一個舞台
+
+[2023-12-31 第74回紅白](../../history/history-0293/)是 YOASOBI 第三次出場，也是〈アイドル〉在日本音樂節目首次表演。ORICON 的事後報導列出 ano、櫻坂46、JO1、Stray Kids、SEVENTEEN、NiziU、NewJeans、乃木坂46、BE:FIRST、MISAMO、LE SSERAFIM，另有橋本環奈、アバンギャルディ及 REAL AKIBA BOYZ 參與舞蹈合作。台上不同的偶像形象，與背景《我推的孩子》的影像相遇，提供了 MV 之外的觀看方式。
+
+NHK 曾公開這段演出的官方精華，但 2026-10-09 查核時已設為私人影片，目前無法觀看。想看仍有官方入口的現場版本，可展開本頁的 [2024「超現實」片段](#live-videos)；那是巨蛋演出，不是紅白錄影。
 
 ## 讀完原作再想一想
 

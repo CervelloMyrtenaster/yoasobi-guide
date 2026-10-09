@@ -4,6 +4,8 @@ import SourceList from '../../components/SourceList.astro';
 import { loadContent } from '../../lib/content';
 import { path } from '../../lib/paths';
 import {withContext} from '../../lib/navigation';
+import PhotoGallery from '../../components/PhotoGallery.astro';
+import { concertPhotos } from '../../data/photos';
 export async function getStaticPaths(){const {concerts}=await loadContent();return concerts.map(concert=>({params:{id:concert.id},props:{concert}}));}
 const {concert}=Astro.props;
 const {songs}=await loadContent();const d=concert.data;
@@ -17,6 +19,7 @@ const names={full:'完整演唱',excerpt:'節選',medley:'組曲',listed:'未區
     {(['main','encore'] as const).filter(section=>d.setlist.some(t=>t.section===section)).map(section=><section><h2>{section==='main'?'本篇':'安可'}</h2><ol class="release-tracklist" start={section==='main'?1:d.setlist.filter(t=>t.section==='main').length+1}>{d.setlist.filter(t=>t.section===section).map(t=>{const s=songs.find(s=>s.id===t.songId)!;return <li id={`song-${s.id}`}><a lang={s.data.language==='ja'?'ja':undefined} href={withContext(path(`songs/${s.id}/`),path(`live/${concert.id}/`)+`#song-${s.id}`)}>{s.data.titleJa}</a><p class="muted">{s.data.titleZh.text} · {names[t.performance]}{s.data.releaseDate>d.date && ' · 早於正式音源發行的演出'}</p></li>;})}</ol></section>)}
     <p><a href={path('live/compare/')+`?left=${concert.id}`}>與另一場歌單比較 →</a></p>
     <p><a href={path('live/prepare/')}>回到不同時間的演唱會惡補路線 →</a></p>
+    <PhotoGallery title="現場影像" stories={concertPhotos[concert.id]}/>
     <SourceList sources={d.sources} updatedAt={d.verifiedAt}/>
   </article>
 </BaseLayout>
