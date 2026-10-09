@@ -7,5 +7,4 @@ const labels={creation:'創作背景',narrative:'敘事構思',mv:'MV 製作',re
 <section id="song-research"><h2>作品研究與製作紀錄</h2><p class="muted">展開閱讀訪談、原作與 MV 製作資料。每項附有來源，並註明哪些是本站的閱讀建議。</p>
 {research.data.notes.map(note=><details class="clip-details"><summary>{labels[note.area]} · {note.title}</summary><p>{note.text}</p><ul class="claim-sources">{note.sources.map(s=><li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.title} ↗<span class="sr-only">（另開分頁）</span></a><br/><small>{s.scope}</small></li>)}</ul></details>)}
 {research.data.credits.length>0&&<details class="clip-details"><summary>已核對的製作職務</summary><dl class="metadata">{research.data.credits.map(c=><><dt>{c.role}</dt><dd>{c.name}<br/><small>{c.scope} <a href={c.source.url} target="_blank" rel="noopener noreferrer">製作來源 ↗<span class="sr-only">（另開分頁）</span></a></small></dd></>)}</dl></details>}
-{research.data.gaps.length>0&&<details class="clip-details"><summary>資料覆蓋與待查項目</summary><p>以下資料尚待補查。未列出某項成績或獎項，表示本頁尚未確認，並非作品沒有相關紀錄。</p><ul>{research.data.gaps.map(g=><li>{g.note}</li>)}</ul></details>}
 </section>
