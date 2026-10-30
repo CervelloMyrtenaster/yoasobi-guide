@@ -1,0 +1,23 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {songSchema,releaseSchema,historySchema} from '../src/schemas/content';
+import {parseLyricsDocument,songIdForLyrics} from '../src/lib/lyrics';
+const json=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
+test('Sakihokore connects its release, first airing, MV, learning and recording evidence',()=>{
+ const raw=readFileSync('src/content/songs/sakihokore.md','utf8');
+ const song=songSchema.parse(JSON.parse(raw.match(/^---\r?\n([\s\S]*?)\r?\n---/)![1]));
+ const release=releaseSchema.parse(json('src/content/releases/sakihokore.json'));
+ const history=json('src/content/history/verified.json').map((r:unknown)=>historySchema.parse(r));
+ assert.equal(song.releaseDate,'2026-10-14');
+ assert.equal(history.find((r:ReturnType<typeof historySchema.parse>)=>r.id==='history-0077')!.date,'2026-09-28');
+ assert.equal(release.date,song.releaseDate);
+ assert.deepEqual(release.tracks,[{songId:'sakihokore',position:1}]);
+ assert.equal(song.videos[0].publishedOn,song.releaseDate);
+ const learning=parseLyricsDocument(readFileSync('lyrics/039_咲き誇れ.txt','utf8'));
+ assert.equal(songIdForLyrics(learning.catalogKey),'sakihokore');
+ assert.ok(learning.lines.length>0);
+ assert.ok(song.sources.some(s=>s.url.endsWith('/news/586978')));
+ for(const id of ['history-0311','history-0312'])assert.equal(history.find((r:ReturnType<typeof historySchema.parse>)=>r.id===id)!.status,'scheduled');
+ assert.equal(history.find((r:ReturnType<typeof historySchema.parse>)=>r.id==='history-0078')!.date,'2026');
+});
