@@ -709,5 +709,14 @@
     "source": "https://open.spotify.com/embed/track/7ydiBXSeyMcdDdvXM89VLE",
     "discovery": "https://open.spotify.com/embed/playlist/5ahDZE5ZylKamSr1qsPPHa",
     "verifiedAt": "2026-10-06"
+  },
+  {
+    "songId": "sakihokore",
+    "title": "咲き誇れ",
+    "artists": "YOASOBI",
+    "album": "咲き誇れ",
+    "url": "https://open.spotify.com/track/2t5C9K8bQMCHXG0zdXRI12",
+    "source": "https://open.spotify.com/embed/track/2t5C9K8bQMCHXG0zdXRI12",
+    "verifiedAt": "2026-10-30"
   }
 ]

@@ -1,7 +1,7 @@
 ---
 {
   "status": "published",
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-30",
   "titleJa": "海のまにまに",
   "titleRomaji": "Umi no Manimani",
   "titleZh": {
@@ -50,6 +50,16 @@
       "title": "YOASOBI「海のまにまに」Official Music Video",
       "kind": "mv",
       "sourceUrl": "https://www.youtube.com/watch?v=7G0ovtPqHnI"
+    },
+    {
+      "youtubeId": "TK7OUrjPIQo",
+      "title": "YOASOBI「海のまにまに」 from 『YOASOBI 5th ANNIVERSARY DOME LIVE 2024 \"超現実\"』 2024.11.10 @ 東京ドーム",
+      "kind": "live",
+      "sourceUrl": "https://www.youtube.com/watch?v=TK7OUrjPIQo",
+      "performedOn": "2024-11-10",
+      "publishedOn": "2026-10-29",
+      "scene": "concert",
+      "concertId": "chogenjitsu-tokyo-2024-11-10"
     }
   ],
   "sources": [
@@ -87,6 +97,11 @@
       "title": "CGWORLD：〈海のまにまに〉MV 製作訪談",
       "url": "https://cgworld.jp/flashnews/Umi-no-manimani.html",
       "scope": "2026-10-09 閱讀背景補強：原作情節、具名創作說明或製作署名；正文中的本站解讀與來源陳述分開表達。"
+    },
+    {
+      "title": "アジアドーム＆スタジアムツアー「超惑星」開催記念！ 初の東京ドーム公演「超現実」のライブ音源を11/4(水)配信リリース！ さらに、書籍『はじめての』文庫発売を記念し、プロジェクト発の4曲のライブ映像を4日間連続公開！",
+      "url": "https://www.yoasobi-music.jp/news/588092",
+      "scope": "2026-10-30 核對 Sony Music 官方新聞正文；發行、預告及影片公開日分開記錄。"
     }
   ],
   "japaneseLearning": {

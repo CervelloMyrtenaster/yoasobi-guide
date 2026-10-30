@@ -22,7 +22,7 @@ export interface LyricsDocument {
 }
 
 const layerNames=['日文原文','振假名／Furigana','全假名讀音','改良式赫本羅馬字','繁體中文逐行翻譯'] as const;
-const keyAliases: Record<string,string>={'ano-yume-o-nazotte':'ano-yume-wo-nazotte','mo-sukoshi-dake':'mou-sukoshi-dake',yusha:'yuusha'};
+const keyAliases: Record<string,string>={'saki-hokore':'sakihokore','ano-yume-o-nazotte':'ano-yume-wo-nazotte','mo-sukoshi-dake':'mou-sukoshi-dake',yusha:'yuusha'};
 // Older supplied files identify the version by an exact title instead of catalog_key.
 const legacyTitles: Readonly<Record<string,string|undefined>>={'あの夢をなぞって (Ballade Ver.)':'ano-yume-ballade'};
 export function songIdForLyrics(key: string) { return keyAliases[key]??key; }

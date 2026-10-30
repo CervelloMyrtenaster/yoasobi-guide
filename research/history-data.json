@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-30",
   "status": "research_inventory_with_open_gaps",
   "scope": "YOASOBI組合；個人單獨作品不默認列為組合作品。",
   "verificationPolicy": "verified=true表示本筆描述及指定核對範圍有正文支持；過去的事前公告保持listed_past，不能計入實際演出。",
@@ -2291,6 +2291,69 @@
       "accessedAt": "2026-10-09",
       "publishedAt": "2023-12-31",
       "retrieval": "已讀來源正文；非搜尋摘要"
+    },
+    "news-586978": {
+      "id": "news-586978",
+      "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」、10/14(水)配信リリース決定＆ジャケット写真公開",
+      "url": "https://www.yoasobi-music.jp/news/586978",
+      "publisher": "YOASOBI / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-30"
+    },
+    "news-587530": {
+      "id": "news-587530",
+      "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」 本日配信リリース＆20時にMusic Videoが公開！",
+      "url": "https://www.yoasobi-music.jp/news/587530",
+      "publisher": "YOASOBI / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-30"
+    },
+    "news-588092": {
+      "id": "news-588092",
+      "title": "アジアドーム＆スタジアムツアー「超惑星」開催記念！ 初の東京ドーム公演「超現実」のライブ音源を11/4(水)配信リリース！ さらに、書籍『はじめての』文庫発売を記念し、プロジェクト発の4曲のライブ映像を4日間連続公開！",
+      "url": "https://www.yoasobi-music.jp/news/588092",
+      "publisher": "YOASOBI / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-30"
+    },
+    "news-587546": {
+      "id": "news-587546",
+      "title": "Spotify日本上陸10周年記念、Premiumトップリスナー限定ライブ「Spotify On Stage Tokyo 2026 -10th Anniversary Special- with YOASOBI」12/19(土)開催決定！",
+      "url": "https://www.yoasobi-music.jp/news/587546",
+      "publisher": "YOASOBI / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-30"
+    },
+    "news-587841": {
+      "id": "news-587841",
+      "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “超惑星” ツアー開催を記念し、全国の様々な企業とコラボレーションする企画“てくてくYOASOBI”が始動！",
+      "url": "https://www.yoasobi-music.jp/news/587841",
+      "publisher": "YOASOBI / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-30"
+    },
+    "news-588079": {
+      "id": "news-588079",
+      "title": "『YOASOBI ARENA TOUR 2023 “電光石火”』より「アイドル」ライブ映像がYouTube再生数1億回を突破！",
+      "url": "https://www.yoasobi-music.jp/news/588079",
+      "publisher": "YOASOBI / Sony Music",
+      "language": "ja",
+      "kind": "primary",
+      "accessedAt": "2026-10-30"
+    },
+    "livedoor-superplanet-20261025": {
+      "id": "livedoor-superplanet-20261025",
+      "title": "Livedoor：超惑星大阪開幕事後報導",
+      "url": "https://news.livedoor.com/article/detail/32651643/",
+      "publisher": "ライブドアニュース",
+      "language": "ja",
+      "kind": "media",
+      "accessedAt": "2026-10-30"
     }
   },
   "records": [
@@ -8381,15 +8444,17 @@
       "year": 2026,
       "location": null,
       "venue": null,
-      "description": "NHK晨間劇首集08:00首播主題曲；目前所讀正文沒有數位配信日期，不建立單曲發行日。",
+      "description": "NHK《ブラッサム》於 2026-09-28 首播主題曲。完整單曲於 2026-10-14 配信，首播不等於發行日。",
       "sources": [
-        "news-587191"
+        "news-587191",
+        "news-587530"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "first_airing",
       "status": "documented",
-      "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+      "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
+      "verifiedAt": "2026-10-30"
     },
     {
       "id": "history-0099",
@@ -8435,18 +8500,21 @@
       "year": 2026,
       "location": "大阪府",
       "venue": "京セラドーム大阪",
-      "description": "官方演出清單所列場次。",
+      "description": "官方 2026-10-29 事後公告確認「超惑星」於 10/24、10/25 京セラドーム大阪開幕；本筆不提供完整歌單。 首日報導記錄〈KILLA〉首次演出，以及〈咲き誇れ〉首次樂團演出。",
       "sources": [
-        "live-54776"
+        "live-54776",
+        "news-588079",
+        "livedoor-superplanet-20261025"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule",
-      "status": "scheduled",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "status": "performed",
+      "verificationScope": "官方事後說明支持兩晚開幕，不自公告推定逐場曲序。",
       "parentEvent": "54776",
       "sourceLocation": "大阪府",
-      "marketLabel": null
+      "marketLabel": null,
+      "verifiedAt": "2026-10-30"
     },
     {
       "id": "history-0276",
@@ -8456,16 +8524,17 @@
       "year": 2026,
       "location": null,
       "venue": null,
-      "description": "已取得13筆逐場日程；本筆僅為巡演群組，不重複計算場次。",
+      "description": "2026-10-24、10-25 大阪場已開幕，後續日本及亞洲場次仍依各場日程標示；巡演群組不重複計算場次。",
       "sources": [
         "live-55798",
         "live-55797",
-        "live-54776"
+        "live-54776",
+        "news-588079"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule_range",
-      "status": "scheduled",
+      "status": "documented",
       "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
       "endDate": "2027-02-20",
       "showIds": [
@@ -8482,7 +8551,8 @@
         "history-0120",
         "history-0121",
         "history-0122"
-      ]
+      ],
+      "verifiedAt": "2026-10-30"
     },
     {
       "id": "history-0114",
@@ -8492,18 +8562,20 @@
       "year": 2026,
       "location": "大阪府",
       "venue": "京セラドーム大阪",
-      "description": "官方演出清單所列場次。",
+      "description": "官方 2026-10-29 事後公告確認「超惑星」於 10/24、10/25 京セラドーム大阪開幕；本筆不提供完整歌單。",
       "sources": [
-        "live-54776"
+        "live-54776",
+        "news-588079"
       ],
       "verified": true,
       "datePrecision": "day",
       "dateBasis": "official_schedule",
-      "status": "scheduled",
-      "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+      "status": "performed",
+      "verificationScope": "官方事後說明支持兩晚開幕，不自公告推定逐場曲序。",
       "parentEvent": "54776",
       "sourceLocation": "大阪府",
-      "marketLabel": null
+      "marketLabel": null,
+      "verifiedAt": "2026-10-30"
     },
     {
       "id": "history-0115",
@@ -8814,6 +8886,139 @@
         "maj-2025-winners": "核對 Top Global Hit from Japan 的得獎作品與藝人；得獎日期另以朝日電視台事後報導支持。",
         "asahi-20250523-maj": "事後報導記錄 2025-05-22 晚間得獎；刊登日與事件日分開，不以側欄或 ENTRY CATEGORY 推定其他獎項。"
       }
+    },
+    {
+      "id": "history-0309",
+      "title": "咲き誇れ",
+      "type": "digital_single",
+      "date": "2026-10-14",
+      "year": 2026,
+      "datePrecision": "day",
+      "location": null,
+      "venue": null,
+      "description": "《ブラッサム》主題曲正式配信；原作為綿矢りさ《桜（はな）の命は不滅なり》。",
+      "sources": [
+        "news-587530"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-30",
+      "status": "released",
+      "dateBasis": "來源正文明載；公告日與事件日分開",
+      "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+    },
+    {
+      "id": "history-0310",
+      "title": "咲き誇れ Official Music Video 公開",
+      "type": "mv",
+      "date": "2026-10-14",
+      "year": 2026,
+      "datePrecision": "day",
+      "location": null,
+      "venue": null,
+      "description": "藍にいな參與的全動畫 MV 於日本時間 20:00 公開。",
+      "sources": [
+        "news-587530"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-30",
+      "status": "documented",
+      "dateBasis": "來源正文明載；公告日與事件日分開",
+      "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+    },
+    {
+      "id": "history-0311",
+      "title": "超現實 at TOKYO DOME 現場音源發行預告",
+      "type": "release_announcement",
+      "date": "2026-11-04",
+      "year": 2026,
+      "datePrecision": "day",
+      "location": null,
+      "venue": null,
+      "description": "2026-10-29 公告預定配信 2024-11-10 東京巨蛋 Day2 現場音源；截至 2026-10-30 尚未發行。",
+      "sources": [
+        "news-588092"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-30",
+      "status": "scheduled",
+      "dateBasis": "來源正文明載；公告日與事件日分開",
+      "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+    },
+    {
+      "id": "history-0312",
+      "title": "Spotify On Stage Tokyo 2026 -10th Anniversary Special- with YOASOBI",
+      "type": "special_performance",
+      "date": "2026-12-19",
+      "year": 2026,
+      "datePrecision": "day",
+      "location": "日本・東京都",
+      "venue": "東京ガーデンシアター",
+      "description": "Spotify 日本十周年邀請制演出；只記錄官方預定資訊，未建立歌單。",
+      "sources": [
+        "news-587546"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-30",
+      "status": "scheduled",
+      "dateBasis": "來源正文明載；公告日與事件日分開",
+      "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+    },
+    {
+      "id": "history-0313",
+      "title": "「はじめての」四首現場影片連續公開企劃",
+      "type": "milestone",
+      "date": "2026-10-29",
+      "year": 2026,
+      "datePrecision": "day",
+      "location": null,
+      "venue": null,
+      "description": "官方宣布 10/29 至 11/1 連續公開〈海のまにまに〉、〈セブンティーン〉、〈好きだ〉、〈ミスター〉現場影片；10/31 與 11/1 仍屬預告，不當作已公開。",
+      "sources": [
+        "news-588092"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-30",
+      "status": "documented",
+      "dateBasis": "來源正文明載；公告日與事件日分開",
+      "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+    },
+    {
+      "id": "history-0314",
+      "title": "電光石火〈アイドル〉現場影片突破一億觀看",
+      "type": "milestone",
+      "date": "2026-10-29",
+      "year": 2026,
+      "datePrecision": "day",
+      "location": null,
+      "venue": null,
+      "description": "官方於本日公告 2023-06-04 埼玉現場影片突破一億觀看；這是影片觀看里程碑，不是歌曲串流認證。",
+      "sources": [
+        "news-588079"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-30",
+      "status": "documented",
+      "dateBasis": "來源正文明載；公告日與事件日分開",
+      "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+    },
+    {
+      "id": "history-0315",
+      "title": "「てくてくYOASOBI」地方企業合作企劃",
+      "type": "brand_collaboration",
+      "date": "2026-10-27",
+      "year": 2026,
+      "datePrecision": "day",
+      "location": null,
+      "venue": null,
+      "description": "配合「超惑星」巡演與日本各地企業合作，包含大阪月化粧與愛知おにぎりせんべい等商品。",
+      "sources": [
+        "news-587841"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-30",
+      "status": "documented",
+      "dateBasis": "來源正文明載；公告日與事件日分開",
+      "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
     }
   ],
   "baselineVerifiedAt": "2026-10-05"

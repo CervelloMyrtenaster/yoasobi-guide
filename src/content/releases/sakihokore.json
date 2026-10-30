@@ -1,0 +1,23 @@
+{
+  "id": "sakihokore",
+  "status": "published",
+  "updatedAt": "2026-10-30",
+  "title": "咲き誇れ",
+  "kind": "single",
+  "date": "2026-10-14",
+  "summary": "《ブラッサム》主題曲正式配信；電視首播與完整音源發行分別記錄。",
+  "tracklistComplete": true,
+  "tracks": [
+    {
+      "songId": "sakihokore",
+      "position": 1
+    }
+  ],
+  "sources": [
+    {
+      "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」 本日配信リリース＆20時にMusic Videoが公開！",
+      "url": "https://www.yoasobi-music.jp/news/587530",
+      "scope": "2026-10-30 核對 Sony Music 官方新聞正文；發行、預告及影片公開日分開記錄。"
+    }
+  ]
+}

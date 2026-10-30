@@ -1,0 +1,92 @@
+{
+  "id": "sakihokore",
+  "songId": "sakihokore",
+  "status": "published",
+  "updatedAt": "2026-10-30",
+  "sources": [
+    {
+      "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」、10/14(水)配信リリース決定＆ジャケット写真公開",
+      "url": "https://www.yoasobi-music.jp/news/586978",
+      "scope": "2026-10-30 核對 Sony Music 官方新聞正文；發行、預告及影片公開日分開記錄。"
+    },
+    {
+      "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」 本日配信リリース＆20時にMusic Videoが公開！",
+      "url": "https://www.yoasobi-music.jp/news/587530",
+      "scope": "2026-10-30 核對 Sony Music 官方新聞正文；發行、預告及影片公開日分開記錄。"
+    },
+    {
+      "title": "The Orchard Japan：咲き誇れ MV 公開與製作團隊",
+      "url": "https://prtimes.jp/main/html/rd/p/000001955.000055377.html",
+      "scope": "MV 已公開；藍にいな、刈谷暢秀及團體說明。"
+    }
+  ],
+  "notes": [
+    {
+      "area": "creation",
+      "title": "宇野千代、電視劇與短篇的三層關係",
+      "text": "電視劇以宇野千代為原型；綿矢りさ的短篇是歌曲直接原作。Ayase 實際走訪岩國故居與相關地點後創作。",
+      "sources": [
+        {
+          "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」 本日配信リリース＆20時にMusic Videoが公開！",
+          "url": "https://www.yoasobi-music.jp/news/587530",
+          "scope": "2026-10-30 核對 Sony Music 官方新聞正文；發行、預告及影片公開日分開記錄。"
+        }
+      ]
+    },
+    {
+      "area": "mv",
+      "title": "兩種動畫製作經驗的合作",
+      "text": "藍にいな擔任總監督，刈谷暢秀擔任導演；後者說明將個人創作方式與多人商業動畫體制相連，並指出水彩背景的細節。",
+      "sources": [
+        {
+          "title": "The Orchard Japan：咲き誇れ MV 公開與製作團隊",
+          "url": "https://prtimes.jp/main/html/rd/p/000001955.000055377.html",
+          "scope": "MV 已公開；藍にいな、刈谷暢秀及團體說明。"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "管弦樂編曲",
+      "name": "波立裕矢",
+      "scope": "〈咲き誇れ〉錄音製作",
+      "source": {
+        "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」、10/14(水)配信リリース決定＆ジャケット写真公開",
+        "url": "https://www.yoasobi-music.jp/news/586978",
+        "scope": "2026-10-30 核對 Sony Music 官方新聞正文；發行、預告及影片公開日分開記錄。"
+      }
+    },
+    {
+      "role": "管弦樂演奏",
+      "name": "Ensemble FOVE",
+      "scope": "〈咲き誇れ〉錄音製作",
+      "source": {
+        "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」、10/14(水)配信リリース決定＆ジャケット写真公開",
+        "url": "https://www.yoasobi-music.jp/news/586978",
+        "scope": "2026-10-30 核對 Sony Music 官方新聞正文；發行、預告及影片公開日分開記錄。"
+      }
+    },
+    {
+      "role": "管弦樂錄音指導",
+      "name": "坂東祐大",
+      "scope": "〈咲き誇れ〉錄音製作",
+      "source": {
+        "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」、10/14(水)配信リリース決定＆ジャケット写真公開",
+        "url": "https://www.yoasobi-music.jp/news/586978",
+        "scope": "2026-10-30 核對 Sony Music 官方新聞正文；發行、預告及影片公開日分開記錄。"
+      }
+    },
+    {
+      "role": "合唱、拍手、踏步",
+      "name": "ぷらそにか 現役與歷屆成員",
+      "scope": "〈咲き誇れ〉錄音製作",
+      "source": {
+        "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」、10/14(水)配信リリース決定＆ジャケット写真公開",
+        "url": "https://www.yoasobi-music.jp/news/586978",
+        "scope": "2026-10-30 核對 Sony Music 官方新聞正文；發行、預告及影片公開日分開記錄。"
+      }
+    }
+  ],
+  "gaps": []
+}

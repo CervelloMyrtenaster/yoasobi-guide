@@ -11,13 +11,13 @@ const releases=readdirSync('src/content/releases').filter(f=>f.endsWith('.json')
 test('已發行配信作品皆可從歷史連到有介紹內容的歌曲頁',()=>{
   const history=read('src/content/history/verified.json');
   const required=history.filter((r:any)=>r.type==='digital_single'&&r.status==='released');
-  assert.equal(required.length,54);
+  assert.equal(required.length,55);
   for(const h of required){const related=songs.filter(s=>s.data.historyIds.includes(h.id));assert.ok(related.length,`缺少 ${h.title} (${h.id})`);for(const s of related)assert.match(s.body,/## 音樂特色/);}
-  assert.equal(songs.filter(s=>s.data.kind==='original'&&s.data.language==='ja').length,35);
+  assert.equal(songs.filter(s=>s.data.kind==='original'&&s.data.language==='ja').length,36);
   assert.equal(songs.filter(s=>s.data.kind==='english').length,34);
 });
 test('完整 EP 曲序無缺頁，雙向收錄引用一致，版本指向原曲',()=>{
-  assert.equal(releases.length,9);
+  assert.equal(releases.length,10);
   for(const r of releases){assert.equal(r.tracklistComplete,true);assert.deepEqual(r.tracks.map(t=>t.position),r.tracks.map((_,i)=>i+1));assert.equal(new Set(r.tracks.map(t=>t.songId)).size,r.tracks.length);for(const t of r.tracks){const s=songs.find(s=>s.id===t.songId);assert.ok(s,`${r.id}/${t.songId}`);assert.ok(s.data.releaseIds.includes(r.id));}}
   for(const s of songs){for(const id of s.data.releaseIds)assert.ok(releases.find(r=>r.id===id)?.tracks.some(t=>t.songId===s.id));if(s.data.versionOf){const o=songs.find(t=>t.id===s.data.versionOf);assert.ok(o);assert.notEqual(s.id,o.id);assert.equal(o.data.kind,'original');}}
 });

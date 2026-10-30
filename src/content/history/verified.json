@@ -8055,16 +8055,21 @@
     "datePrecision": "day",
     "location": null,
     "venue": null,
-    "description": "NHK晨間劇首集08:00首播主題曲；目前所讀正文沒有數位配信日期，不建立單曲發行日。",
+    "description": "NHK《ブラッサム》於 2026-09-28 首播主題曲。完整單曲於 2026-10-14 配信，首播不等於發行日。",
     "sources": [
       {
         "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」　9/28(月)あさ8時初回放送にて初オンエア \r\n綿矢りさ書き下ろしの原作小説「桜（はな）の命は不滅なり」も同日あさ7時に公開決定！",
         "url": "https://www.yoasobi-music.jp/news/587191",
         "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+      },
+      {
+        "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」 本日配信リリース＆20時にMusic Videoが公開！",
+        "url": "https://www.yoasobi-music.jp/news/587530",
+        "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
       }
     ],
     "verified": true,
-    "verifiedAt": "2026-10-05",
+    "verifiedAt": "2026-10-30",
     "status": "documented",
     "dateBasis": "first_airing",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
@@ -8133,19 +8138,29 @@
     "datePrecision": "day",
     "location": "大阪府",
     "venue": "京セラドーム大阪",
-    "description": "官方演出清單所列場次。",
+    "description": "官方 2026-10-29 事後公告確認「超惑星」於 10/24、10/25 京セラドーム大阪開幕；本筆不提供完整歌單。 首日報導記錄〈KILLA〉首次演出，以及〈咲き誇れ〉首次樂團演出。",
     "sources": [
       {
         "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “超惑星”",
         "url": "https://www.yoasobi-music.jp/live/54776",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "官方事後說明支持兩晚開幕，不自公告推定逐場曲序。"
+      },
+      {
+        "title": "『YOASOBI ARENA TOUR 2023 “電光石火”』より「アイドル」ライブ映像がYouTube再生数1億回を突破！",
+        "url": "https://www.yoasobi-music.jp/news/588079",
+        "scope": "官方事後說明支持兩晚開幕，不自公告推定逐場曲序。"
+      },
+      {
+        "title": "Livedoor：超惑星大阪開幕事後報導",
+        "url": "https://news.livedoor.com/article/detail/32651643/",
+        "scope": "官方事後說明支持兩晚開幕，不自公告推定逐場曲序。"
       }
     ],
     "verified": true,
-    "verifiedAt": "2026-10-05",
-    "status": "scheduled",
+    "verifiedAt": "2026-10-30",
+    "status": "performed",
     "dateBasis": "official_schedule",
-    "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+    "verificationScope": "官方事後說明支持兩晚開幕，不自公告推定逐場曲序。",
     "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
@@ -8160,7 +8175,7 @@
     "endDate": "2027-02-20",
     "location": null,
     "venue": null,
-    "description": "已取得13筆逐場日程；本筆僅為巡演群組，不重複計算場次。",
+    "description": "2026-10-24、10-25 大阪場已開幕，後續日本及亞洲場次仍依各場日程標示；巡演群組不重複計算場次。",
     "sources": [
       {
         "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 超惑星 “SUPER PLANET” IN SINGAPORE",
@@ -8176,11 +8191,16 @@
         "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “超惑星”",
         "url": "https://www.yoasobi-music.jp/live/54776",
         "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
+      },
+      {
+        "title": "『YOASOBI ARENA TOUR 2023 “電光石火”』より「アイドル」ライブ映像がYouTube再生数1億回を突破！",
+        "url": "https://www.yoasobi-music.jp/news/588079",
+        "scope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。"
       }
     ],
     "verified": true,
-    "verifiedAt": "2026-10-05",
-    "status": "scheduled",
+    "verifiedAt": "2026-10-30",
+    "status": "documented",
     "dateBasis": "official_schedule_range",
     "verificationScope": "已核對來源正文中的本筆事實；不保證資料庫已窮盡所有活動。",
     "conflictNotes": [],
@@ -8210,19 +8230,24 @@
     "datePrecision": "day",
     "location": "大阪府",
     "venue": "京セラドーム大阪",
-    "description": "官方演出清單所列場次。",
+    "description": "官方 2026-10-29 事後公告確認「超惑星」於 10/24、10/25 京セラドーム大阪開幕；本筆不提供完整歌單。",
     "sources": [
       {
         "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “超惑星”",
         "url": "https://www.yoasobi-music.jp/live/54776",
-        "scope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。"
+        "scope": "官方事後說明支持兩晚開幕，不自公告推定逐場曲序。"
+      },
+      {
+        "title": "『YOASOBI ARENA TOUR 2023 “電光石火”』より「アイドル」ライブ映像がYouTube再生数1億回を突破！",
+        "url": "https://www.yoasobi-music.jp/news/588079",
+        "scope": "官方事後說明支持兩晚開幕，不自公告推定逐場曲序。"
       }
     ],
     "verified": true,
-    "verifiedAt": "2026-10-05",
-    "status": "scheduled",
+    "verifiedAt": "2026-10-30",
+    "status": "performed",
     "dateBasis": "official_schedule",
-    "verificationScope": "已核對官方排定日期與場館；listed_past 未逐場取得事後演出證明。",
+    "verificationScope": "官方事後說明支持兩晚開幕，不自公告推定逐場曲序。",
     "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
@@ -8607,6 +8632,188 @@
     "status": "documented",
     "dateBasis": "朝日電視台事後報導明載的前一晚得獎日",
     "verificationScope": "核對特定部門、作品、藝人與得獎日；不據此推定當晚演出歌曲或其他獎項。",
+    "conflictNotes": [],
+    "showIds": [],
+    "setlistIds": []
+  },
+  {
+    "id": "history-0309",
+    "title": "咲き誇れ",
+    "type": "digital_single",
+    "date": "2026-10-14",
+    "year": 2026,
+    "datePrecision": "day",
+    "location": null,
+    "venue": null,
+    "description": "《ブラッサム》主題曲正式配信；原作為綿矢りさ《桜（はな）の命は不滅なり》。",
+    "sources": [
+      {
+        "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」 本日配信リリース＆20時にMusic Videoが公開！",
+        "url": "https://www.yoasobi-music.jp/news/587530",
+        "scope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+      }
+    ],
+    "verified": true,
+    "verifiedAt": "2026-10-30",
+    "status": "released",
+    "dateBasis": "來源正文明載；公告日與事件日分開",
+    "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。",
+    "conflictNotes": [],
+    "showIds": [],
+    "setlistIds": []
+  },
+  {
+    "id": "history-0310",
+    "title": "咲き誇れ Official Music Video 公開",
+    "type": "mv",
+    "date": "2026-10-14",
+    "year": 2026,
+    "datePrecision": "day",
+    "location": null,
+    "venue": null,
+    "description": "藍にいな參與的全動畫 MV 於日本時間 20:00 公開。",
+    "sources": [
+      {
+        "title": "連続テレビ小説『ブラッサム』主題歌「咲き誇れ」 本日配信リリース＆20時にMusic Videoが公開！",
+        "url": "https://www.yoasobi-music.jp/news/587530",
+        "scope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+      }
+    ],
+    "verified": true,
+    "verifiedAt": "2026-10-30",
+    "status": "documented",
+    "dateBasis": "來源正文明載；公告日與事件日分開",
+    "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。",
+    "conflictNotes": [],
+    "showIds": [],
+    "setlistIds": []
+  },
+  {
+    "id": "history-0311",
+    "title": "超現實 at TOKYO DOME 現場音源發行預告",
+    "type": "release_announcement",
+    "date": "2026-11-04",
+    "year": 2026,
+    "datePrecision": "day",
+    "location": null,
+    "venue": null,
+    "description": "2026-10-29 公告預定配信 2024-11-10 東京巨蛋 Day2 現場音源；截至 2026-10-30 尚未發行。",
+    "sources": [
+      {
+        "title": "アジアドーム＆スタジアムツアー「超惑星」開催記念！ 初の東京ドーム公演「超現実」のライブ音源を11/4(水)配信リリース！ さらに、書籍『はじめての』文庫発売を記念し、プロジェクト発の4曲のライブ映像を4日間連続公開！",
+        "url": "https://www.yoasobi-music.jp/news/588092",
+        "scope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+      }
+    ],
+    "verified": true,
+    "verifiedAt": "2026-10-30",
+    "status": "scheduled",
+    "dateBasis": "來源正文明載；公告日與事件日分開",
+    "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。",
+    "conflictNotes": [],
+    "showIds": [],
+    "setlistIds": []
+  },
+  {
+    "id": "history-0312",
+    "title": "Spotify On Stage Tokyo 2026 -10th Anniversary Special- with YOASOBI",
+    "type": "special_performance",
+    "date": "2026-12-19",
+    "year": 2026,
+    "datePrecision": "day",
+    "location": "日本・東京都",
+    "venue": "東京ガーデンシアター",
+    "description": "Spotify 日本十周年邀請制演出；只記錄官方預定資訊，未建立歌單。",
+    "sources": [
+      {
+        "title": "Spotify日本上陸10周年記念、Premiumトップリスナー限定ライブ「Spotify On Stage Tokyo 2026 -10th Anniversary Special- with YOASOBI」12/19(土)開催決定！",
+        "url": "https://www.yoasobi-music.jp/news/587546",
+        "scope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+      }
+    ],
+    "verified": true,
+    "verifiedAt": "2026-10-30",
+    "status": "scheduled",
+    "dateBasis": "來源正文明載；公告日與事件日分開",
+    "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。",
+    "conflictNotes": [],
+    "showIds": [],
+    "setlistIds": []
+  },
+  {
+    "id": "history-0313",
+    "title": "「はじめての」四首現場影片連續公開企劃",
+    "type": "milestone",
+    "date": "2026-10-29",
+    "year": 2026,
+    "datePrecision": "day",
+    "location": null,
+    "venue": null,
+    "description": "官方宣布 10/29 至 11/1 連續公開〈海のまにまに〉、〈セブンティーン〉、〈好きだ〉、〈ミスター〉現場影片；10/31 與 11/1 仍屬預告，不當作已公開。",
+    "sources": [
+      {
+        "title": "アジアドーム＆スタジアムツアー「超惑星」開催記念！ 初の東京ドーム公演「超現実」のライブ音源を11/4(水)配信リリース！ さらに、書籍『はじめての』文庫発売を記念し、プロジェクト発の4曲のライブ映像を4日間連続公開！",
+        "url": "https://www.yoasobi-music.jp/news/588092",
+        "scope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+      }
+    ],
+    "verified": true,
+    "verifiedAt": "2026-10-30",
+    "status": "documented",
+    "dateBasis": "來源正文明載；公告日與事件日分開",
+    "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。",
+    "conflictNotes": [],
+    "showIds": [],
+    "setlistIds": []
+  },
+  {
+    "id": "history-0314",
+    "title": "電光石火〈アイドル〉現場影片突破一億觀看",
+    "type": "milestone",
+    "date": "2026-10-29",
+    "year": 2026,
+    "datePrecision": "day",
+    "location": null,
+    "venue": null,
+    "description": "官方於本日公告 2023-06-04 埼玉現場影片突破一億觀看；這是影片觀看里程碑，不是歌曲串流認證。",
+    "sources": [
+      {
+        "title": "『YOASOBI ARENA TOUR 2023 “電光石火”』より「アイドル」ライブ映像がYouTube再生数1億回を突破！",
+        "url": "https://www.yoasobi-music.jp/news/588079",
+        "scope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+      }
+    ],
+    "verified": true,
+    "verifiedAt": "2026-10-30",
+    "status": "documented",
+    "dateBasis": "來源正文明載；公告日與事件日分開",
+    "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。",
+    "conflictNotes": [],
+    "showIds": [],
+    "setlistIds": []
+  },
+  {
+    "id": "history-0315",
+    "title": "「てくてくYOASOBI」地方企業合作企劃",
+    "type": "brand_collaboration",
+    "date": "2026-10-27",
+    "year": 2026,
+    "datePrecision": "day",
+    "location": null,
+    "venue": null,
+    "description": "配合「超惑星」巡演與日本各地企業合作，包含大阪月化粧與愛知おにぎりせんべい等商品。",
+    "sources": [
+      {
+        "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “超惑星” ツアー開催を記念し、全国の様々な企業とコラボレーションする企画“てくてくYOASOBI”が始動！",
+        "url": "https://www.yoasobi-music.jp/news/587841",
+        "scope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。"
+      }
+    ],
+    "verified": true,
+    "verifiedAt": "2026-10-30",
+    "status": "documented",
+    "dateBasis": "來源正文明載；公告日與事件日分開",
+    "verificationScope": "僅核對本筆描述，不推定未刊載的歌單、成績或作品。",
     "conflictNotes": [],
     "showIds": [],
     "setlistIds": []
